@@ -1,0 +1,167 @@
+{
+  "id": "BTB-120",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Questions are welcome. Private case files, children's details, and demands to judge another person are not needed here.",
+  "rendered_text": "Questions are welcome. Private case files, children's details, and demands to judge another person are not needed here.",
+  "copy": {
+    "x": 92,
+    "y": 498.9375,
+    "width": 896,
+    "height": 352.125,
+    "right": 988,
+    "bottom": 851.0625
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 4,
+  "lines": [
+    {
+      "y": 504.9375,
+      "x": 92,
+      "right": 912.5,
+      "bottom": 579.9375
+    },
+    {
+      "y": 592.96875,
+      "x": 92,
+      "right": 803.125,
+      "bottom": 667.96875
+    },
+    {
+      "y": 681,
+      "x": 92,
+      "right": 891.21875,
+      "bottom": 756
+    },
+    {
+      "y": 769.03125,
+      "x": 92,
+      "right": 825.75,
+      "bottom": 844.03125
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 498.9375,
+      "width": 896,
+      "height": 352.125,
+      "right": 988,
+      "bottom": 851.0625,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 733.75,
+  "last_line_words": 5,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 119
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-120/04.png",
+  "editable": "posts/BTB-120/editable/04.html",
+  "png_sha256": "d2516dc6b556e71858ce5a99a3cd1c478e1bb4ee201f76fa51def35961326b86",
+  "html_sha256": "69183d267962580912c5371ff66f2b4221800cedb1c40c5825276296b40cc0a3",
+  "render_key": "69183d267962580912c5371ff66f2b4221800cedb1c40c5825276296b40cc0a3:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

@@ -1,0 +1,37 @@
+{
+  "rendering_defects": [],
+  "rendering_defect_count": 0,
+  "brand_status": "provisional_wordmark",
+  "approval_gates": [
+    {
+      "gate": "original_approved_logo",
+      "applies_to": "all 180",
+      "status": "MISSING",
+      "detail": "No approved binary exists in selected project; permitted plain-text review fallback used."
+    },
+    {
+      "gate": "owner_editorial_approval",
+      "applies_to": "all 180",
+      "status": "PENDING"
+    },
+    {
+      "gate": "founder_attestation",
+      "status": "PENDING",
+      "post_ids": [
+        "BTB-014",
+        "BTB-030",
+        "BTB-044",
+        "BTB-060",
+        "BTB-074",
+        "BTB-090",
+        "BTB-104",
+        "BTB-120",
+        "BTB-134",
+        "BTB-150",
+        "BTB-164",
+        "BTB-180"
+      ]
+    }
+  ],
+  "font_gate": "RESOLVED: exact OFL runtime fonts loaded; binaries excluded from deliverables"
+}

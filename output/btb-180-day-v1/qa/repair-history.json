@@ -1,0 +1,26 @@
+{
+  "status": "RESOLVED",
+  "entries": [
+    {
+      "id": "BTB-001",
+      "slide": 3,
+      "finding": "Initial geometry assertion counted invisible trailing whitespace beyond the text region.",
+      "repair": "Measure visible characters for clipping; exact DOM copy still includes original spaces.",
+      "final_check": "PASS"
+    },
+    {
+      "id": "BTB-049",
+      "slide": 1,
+      "finding": "Earlier batch deliberately stopped for checkpoint resume and faster local loading.",
+      "repair": "Resumed and verified final output.",
+      "final_check": "PASS"
+    },
+    {
+      "id": "BTB-011",
+      "slide": 6,
+      "finding": "One-word last line in early sample typography.",
+      "repair": "Balanced line wrapping within original font bounds; canonical text unchanged.",
+      "final_check": "PASS"
+    }
+  ]
+}

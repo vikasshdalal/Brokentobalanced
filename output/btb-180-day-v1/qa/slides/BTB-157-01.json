@@ -1,0 +1,161 @@
+{
+  "id": "BTB-157",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Being capable does not mean every load is reasonable.",
+  "rendered_text": "Being capable does not mean every load is reasonable.",
+  "copy": {
+    "x": 92,
+    "y": 512.6875,
+    "width": 896,
+    "height": 314.625,
+    "right": 988,
+    "bottom": 827.3125
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 780,
+    "right": 988,
+    "bottom": 1060
+  },
+  "line_count": 3,
+  "lines": [
+    {
+      "y": 502.6875,
+      "x": 92,
+      "right": 854.078125,
+      "bottom": 625.6875
+    },
+    {
+      "y": 607.5625,
+      "x": 92,
+      "right": 707.890625,
+      "bottom": 730.5625
+    },
+    {
+      "y": 712.4375,
+      "x": 92,
+      "right": 828.390625,
+      "bottom": 835.4375
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 512.6875,
+      "width": 896,
+      "height": 314.625,
+      "right": 988,
+      "bottom": 827.3125,
+      "font_size": 92,
+      "font_family": "\"Playfair Display\", serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 92,
+  "font_family": "\"Playfair Display\", serif",
+  "last_line_width": 736.390625,
+  "last_line_words": 3,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Playfair Display",
+      "postScriptName": "PlayfairDisplayRoman-Medium",
+      "isCustomFont": true,
+      "glyphCount": 53
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-157/01.png",
+  "editable": "posts/BTB-157/editable/01.html",
+  "png_sha256": "6517574a3354e82bee85f2122246a731a65ca9ddc5ec4721f28554ca2651c393",
+  "html_sha256": "2beeb888e7ca7076478c05d97050468baa7f2baf4fcb8dfd5c15fb230ad4dc61",
+  "render_key": "2beeb888e7ca7076478c05d97050468baa7f2baf4fcb8dfd5c15fb230ad4dc61:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

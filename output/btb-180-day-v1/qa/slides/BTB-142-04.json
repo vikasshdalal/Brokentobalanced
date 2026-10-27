@@ -32,25 +32,25 @@
     {
       "y": 549.796875,
       "x": 92,
-      "right": 940.984375,
+      "right": 831.078125,
       "bottom": 624.796875
     },
     {
       "y": 636.59375,
       "x": 92,
-      "right": 906.203125,
+      "right": 828.953125,
       "bottom": 711.59375
     },
     {
       "y": 723.390625,
       "x": 92,
-      "right": 736.53125,
+      "right": 856.734375,
       "bottom": 798.390625
     },
     {
       "y": 810.1875,
       "x": 92,
-      "right": 656.703125,
+      "right": 723.671875,
       "bottom": 885.1875
     }
   ],
@@ -121,9 +121,28 @@
       "background": "rgb(245, 245, 245)"
     }
   ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
   "font_size": 62,
   "font_family": "Inter, sans-serif",
-  "last_line_width": 564.703125,
+  "last_line_width": 631.671875,
+  "last_line_words": 3,
   "errors": [],
   "platform_fonts": [
     {
@@ -147,8 +166,8 @@
   ],
   "png": "posts/BTB-142/04.png",
   "editable": "posts/BTB-142/editable/04.html",
-  "png_sha256": "5e83577c6052598979dca5d2c1921adeaf634b2b3fbfed97fb2b3e0548d3ea38",
-  "html_sha256": "84f270847b4822e8e4c8a0d98ddd6fa6c016488a8103cacdfa4486629d039921",
-  "render_key": "84f270847b4822e8e4c8a0d98ddd6fa6c016488a8103cacdfa4486629d039921:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:ab26f6ecba9b1c4bb81b1ac1e98dbc76a2362a2716cfab25bf7289c2e1769614",
+  "png_sha256": "e45a120c7ded552b2d6157cdb3c9769a84f7886b92ebf1503ec322c23ef6a756",
+  "html_sha256": "c0a043dc7c3ed40774f9eb7568626942e9eea99b1a7cfc32bb990f58c0d72dc4",
+  "render_key": "c0a043dc7c3ed40774f9eb7568626942e9eea99b1a7cfc32bb990f58c0d72dc4:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
   "attempts": 1
 }

@@ -1,0 +1,181 @@
+{
+  "id": "BTB-064",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Where safe, try: “When plans change, I would appreciate a message so I can adjust my evening.”",
+  "rendered_text": "Where safe, try: “When plans change, I would appreciate a message so I can adjust my evening.”",
+  "copy": {
+    "x": 124,
+    "y": 511.34375,
+    "width": 864,
+    "height": 327.3125,
+    "right": 988,
+    "bottom": 838.65625
+  },
+  "region": {
+    "x": 124,
+    "y": 280,
+    "width": 864,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 4,
+  "lines": [
+    {
+      "y": 514.34375,
+      "x": 124,
+      "right": 733.3125,
+      "bottom": 589.34375
+    },
+    {
+      "y": 596.171875,
+      "x": 124,
+      "right": 707.28125,
+      "bottom": 671.171875
+    },
+    {
+      "y": 678,
+      "x": 124,
+      "right": 801.140625,
+      "bottom": 753
+    },
+    {
+      "y": 759.828125,
+      "x": 124,
+      "right": 792.625,
+      "bottom": 834.828125
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "copy",
+      "x": 124,
+      "y": 511.34375,
+      "width": 864,
+      "height": 327.3125,
+      "right": 988,
+      "bottom": 838.65625,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    },
+    {
+      "x": 92,
+      "y": 438,
+      "width": 3,
+      "height": 474,
+      "right": 95,
+      "bottom": 912
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 668.625,
+  "last_line_words": 5,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 17
+    },
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght2580000",
+      "isCustomFont": true,
+      "glyphCount": 77
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-064/03.png",
+  "editable": "posts/BTB-064/editable/03.html",
+  "png_sha256": "3fd80298906951f5129d5f6e4e1144e25bf573479166377a1210e46c3d3d4f0f",
+  "html_sha256": "8e570ad3f58a70f802a24b39fde0ce421361f356f66ac66b6bf45488ca4f878a",
+  "render_key": "8e570ad3f58a70f802a24b39fde0ce421361f356f66ac66b6bf45488ca4f878a:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

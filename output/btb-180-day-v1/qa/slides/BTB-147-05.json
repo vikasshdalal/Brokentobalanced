@@ -32,13 +32,13 @@
     {
       "y": 637.078125,
       "x": 92,
-      "right": 937.171875,
+      "right": 810.9375,
       "bottom": 712.078125
     },
     {
       "y": 718.90625,
       "x": 92,
-      "right": 741.859375,
+      "right": 868.078125,
       "bottom": 793.90625
     }
   ],
@@ -109,9 +109,28 @@
       "background": "rgb(245, 245, 245)"
     }
   ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
   "font_size": 62,
   "font_family": "Inter, sans-serif",
-  "last_line_width": 649.859375,
+  "last_line_width": 776.078125,
+  "last_line_words": 6,
   "errors": [],
   "platform_fonts": [
     {
@@ -135,8 +154,8 @@
   ],
   "png": "posts/BTB-147/05.png",
   "editable": "posts/BTB-147/editable/05.html",
-  "png_sha256": "d83148fa9f86a3ec0bf779b04243ff59938c7f36f58435f08736b96d98bb8913",
-  "html_sha256": "c1db616f77609e95c5aa3d340c9f7e99bd6cf8f2a9d96ad38c6c4549d53bceb3",
-  "render_key": "c1db616f77609e95c5aa3d340c9f7e99bd6cf8f2a9d96ad38c6c4549d53bceb3:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:ab26f6ecba9b1c4bb81b1ac1e98dbc76a2362a2716cfab25bf7289c2e1769614",
+  "png_sha256": "e5babe4afcfea8706310065d5871d74d0ef647b57df7f84887357b2b71c8a211",
+  "html_sha256": "55361f1817ad9904b48355fb32b92a1c10dd032917605dd11430c20170442248",
+  "render_key": "55361f1817ad9904b48355fb32b92a1c10dd032917605dd11430c20170442248:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
   "attempts": 1
 }

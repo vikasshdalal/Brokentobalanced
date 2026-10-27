@@ -1,0 +1,155 @@
+{
+  "id": "BTB-150",
+  "slide": 6,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Follow for a rebuild that can be real without being perfect.",
+  "rendered_text": "Follow for a rebuild that can be real without being perfect.",
+  "copy": {
+    "x": 92,
+    "y": 586.96875,
+    "width": 896,
+    "height": 176.0625,
+    "right": 988,
+    "bottom": 763.03125
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 2,
+  "lines": [
+    {
+      "y": 592.96875,
+      "x": 92,
+      "right": 807.671875,
+      "bottom": 667.96875
+    },
+    {
+      "y": 681,
+      "x": 92,
+      "right": 851.21875,
+      "bottom": 756
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 586.96875,
+      "width": 896,
+      "height": 176.0625,
+      "right": 988,
+      "bottom": 763.03125,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 759.21875,
+  "last_line_words": 5,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 60
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-150/06.png",
+  "editable": "posts/BTB-150/editable/06.html",
+  "png_sha256": "cb9c33fb704d17743f95134768e86e2f18d34bcc4b11ca2dc10dd9f2f1229b60",
+  "html_sha256": "489756b76dbdb2fe96806399f54b3ad1cac22ae33f2b58470ce8df1dcc92b4c4",
+  "render_key": "489756b76dbdb2fe96806399f54b3ad1cac22ae33f2b58470ce8df1dcc92b4c4:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

@@ -1,0 +1,85 @@
+{
+  "id": "BTB-136",
+  "day": 136,
+  "planned_date": "2027-03-12",
+  "timezone": "America/Toronto",
+  "date_status": "Editorial slot only; not scheduled",
+  "layout": "contrast",
+  "visual_brief": "Use typographic contrast between two ideas; never add words, diagnostic badges or red/green verdict symbols; single reading column.",
+  "primary_cta": "share",
+  "input_copy_sha256": "a54b2f3205888566232a21a2ccaf47d065fd5d342c5b16288950744fc024ff9b",
+  "renderer_version": "btb-html-1.0.0",
+  "renderer_sha256": "63c2b2e7c5f687dbe7417a39926201929d6b4b08d8a6aefe45bf3596d6203afc",
+  "config_sha256": "27b452de0cd8cee9ade2d9243976084b2cd35f47364192f3b3ee4372a37a880a",
+  "brand_status": "provisional_wordmark",
+  "original_logo": null,
+  "font_status": "exact_runtime_fonts_loaded",
+  "approval_gates": [
+    "original_approved_logo",
+    "owner_editorial_approval"
+  ],
+  "founder_attestation_required": false,
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "production_status": "REVIEW_RENDERED",
+  "qa_status": "PASS",
+  "caption": "posts/BTB-136/caption.txt",
+  "caption_sha256": "e014d29134084193bf076fb74859cb4c19c1f780a0b4a0f7abf30b6049053357",
+  "alt_text": "posts/BTB-136/alt-text.json",
+  "alt_text_sha256": "6029b6cde0be9417cbca85689e64206a5bb7b120fa5dcf9ef2c9f150460c0bd5",
+  "slides": [
+    {
+      "number": 1,
+      "png": "posts/BTB-136/01.png",
+      "editable": "posts/BTB-136/editable/01.html",
+      "png_sha256": "18492eae7ad701c08a0498ca7a44d84fe9f26a9494807e03329002b4e4302b2a",
+      "html_sha256": "7ced46b80007bd4de7112d569cb16fa1bc6a30fc267972ce82120186e1dbfe08",
+      "render_key": "7ced46b80007bd4de7112d569cb16fa1bc6a30fc267972ce82120186e1dbfe08:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 2,
+      "png": "posts/BTB-136/02.png",
+      "editable": "posts/BTB-136/editable/02.html",
+      "png_sha256": "61351dc8571bfa0f1e923835acacc695391e8c7d56c49545e5a3490745bed77c",
+      "html_sha256": "cd4909cd7800944c5a535ead682f4b1838667a444109ce3b88012c359fa1a7e8",
+      "render_key": "cd4909cd7800944c5a535ead682f4b1838667a444109ce3b88012c359fa1a7e8:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 3,
+      "png": "posts/BTB-136/03.png",
+      "editable": "posts/BTB-136/editable/03.html",
+      "png_sha256": "8cc00f2a7fe4c7b0e22ad5ff72559754da07da4dfe18d781d91a27330b7015a2",
+      "html_sha256": "d23cdea83820bfdf628e0f56700c41ad54cdede604146cba2ae96df1989f1482",
+      "render_key": "d23cdea83820bfdf628e0f56700c41ad54cdede604146cba2ae96df1989f1482:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 4,
+      "png": "posts/BTB-136/04.png",
+      "editable": "posts/BTB-136/editable/04.html",
+      "png_sha256": "eb16c2239f3c15e60fe6600e9ab1dc304ee8fb6f29230187f72e5b12667dd4c5",
+      "html_sha256": "f2aa2584227e518549ad28bc80fa38be476d20a47d418310654b468099ac189f",
+      "render_key": "f2aa2584227e518549ad28bc80fa38be476d20a47d418310654b468099ac189f:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 5,
+      "png": "posts/BTB-136/05.png",
+      "editable": "posts/BTB-136/editable/05.html",
+      "png_sha256": "2c7a5ebf3c116ca630d4bf9076f5a8dfe3c21e3c3d9f24ac5607671fecfd3be0",
+      "html_sha256": "79b5d580472e3d1e740152401c46230871e2ffed90126e9d39ae2d19a587c2e4",
+      "render_key": "79b5d580472e3d1e740152401c46230871e2ffed90126e9d39ae2d19a587c2e4:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 6,
+      "png": "posts/BTB-136/06.png",
+      "editable": "posts/BTB-136/editable/06.html",
+      "png_sha256": "024bdd045931289b5dd9e6b12726d82a9d74d6bb74a1d9a177a8dd41aade4eb1",
+      "html_sha256": "0575f39a4fd0d536a3f2db4f2f397c2540da2a192f96841548afbc80d1944bb5",
+      "render_key": "0575f39a4fd0d536a3f2db4f2f397c2540da2a192f96841548afbc80d1944bb5:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+      "qa_status": "PASS"
+    }
+  ]
+}

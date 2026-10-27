@@ -1,0 +1,437 @@
+{
+  "status": "PASS",
+  "method": "Independent fresh Chromium rerender from saved editable HTML; exact PNG SHA-256 comparison",
+  "renderer_version": "btb-html-1.0.0",
+  "verifier_sha256": "6539867f8784eeae466a099997cb766ea85fb03793c18478c7190754d63bb884",
+  "styles_sha256": "d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "target_count": 13,
+  "exact_match_count": 13,
+  "results": [
+    {
+      "id": "BTB-001",
+      "slide": 1,
+      "reason": "editorial cover",
+      "png": "posts/BTB-001/01.png",
+      "html": "posts/BTB-001/editable/01.html",
+      "original_sha256": "5a1853bcf034a752cf2ec673889f25cee97b84ad570b45c572112712f012c6c1",
+      "rerender_sha256": "5a1853bcf034a752cf2ec673889f25cee97b84ad570b45c572112712f012c6c1",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 53
+        }
+      ]
+    },
+    {
+      "id": "BTB-001",
+      "slide": 3,
+      "reason": "editorial body",
+      "png": "posts/BTB-001/03.png",
+      "html": "posts/BTB-001/editable/03.html",
+      "original_sha256": "a3887b50450f3c32a9aaf8b696ab0d2978f69d3761509e835cc3a42b6a407a6e",
+      "rerender_sha256": "a3887b50450f3c32a9aaf8b696ab0d2978f69d3761509e835cc3a42b6a407a6e",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 103
+        }
+      ]
+    },
+    {
+      "id": "BTB-002",
+      "slide": 1,
+      "reason": "contrast cover",
+      "png": "posts/BTB-002/01.png",
+      "html": "posts/BTB-002/editable/01.html",
+      "original_sha256": "f6359cf8500c69bcb02ca9e51e7e79fc66c144db970a55c3e652cf08473a5435",
+      "rerender_sha256": "f6359cf8500c69bcb02ca9e51e7e79fc66c144db970a55c3e652cf08473a5435",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 55
+        }
+      ]
+    },
+    {
+      "id": "BTB-002",
+      "slide": 3,
+      "reason": "contrast body",
+      "png": "posts/BTB-002/03.png",
+      "html": "posts/BTB-002/editable/03.html",
+      "original_sha256": "969a5f5ce8366830f1e6700ef38a303e532626e61776471b9a62fb51ec660eab",
+      "rerender_sha256": "969a5f5ce8366830f1e6700ef38a303e532626e61776471b9a62fb51ec660eab",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 81
+        }
+      ]
+    },
+    {
+      "id": "BTB-003",
+      "slide": 1,
+      "reason": "script cover",
+      "png": "posts/BTB-003/01.png",
+      "html": "posts/BTB-003/editable/01.html",
+      "original_sha256": "7d062f29a902d00fe6c37d797582f994b9de532ff4c5cd6c8798331c31a48d00",
+      "rerender_sha256": "7d062f29a902d00fe6c37d797582f994b9de532ff4c5cd6c8798331c31a48d00",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 59
+        }
+      ]
+    },
+    {
+      "id": "BTB-003",
+      "slide": 5,
+      "reason": "script safety caveat",
+      "png": "posts/BTB-003/05.png",
+      "html": "posts/BTB-003/editable/05.html",
+      "original_sha256": "45bbdccde933d0483f6add385274311859e0f7a464b7e50851e1733e70d13d5a",
+      "rerender_sha256": "45bbdccde933d0483f6add385274311859e0f7a464b7e50851e1733e70d13d5a",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 146
+        }
+      ]
+    },
+    {
+      "id": "BTB-005",
+      "slide": 1,
+      "reason": "checklist cover",
+      "png": "posts/BTB-005/01.png",
+      "html": "posts/BTB-005/editable/01.html",
+      "original_sha256": "34fc6150f99a98da085888435fa04c343bf1b55d31f5a1d6cc1eb977abb5c185",
+      "rerender_sha256": "34fc6150f99a98da085888435fa04c343bf1b55d31f5a1d6cc1eb977abb5c185",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 47
+        }
+      ]
+    },
+    {
+      "id": "BTB-005",
+      "slide": 3,
+      "reason": "checklist body",
+      "png": "posts/BTB-005/03.png",
+      "html": "posts/BTB-005/editable/03.html",
+      "original_sha256": "1d7f6dfcfbffbf65f96a36630cb6dd1950cdcc9534d473d10f0b2e1139d1d601",
+      "rerender_sha256": "1d7f6dfcfbffbf65f96a36630cb6dd1950cdcc9534d473d10f0b2e1139d1d601",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 107
+        }
+      ]
+    },
+    {
+      "id": "BTB-014",
+      "slide": 1,
+      "reason": "letter cover",
+      "png": "posts/BTB-014/01.png",
+      "html": "posts/BTB-014/editable/01.html",
+      "original_sha256": "950500d51dfed9b66546b36728a191666c00baf07dfaba5257ceb89455a1c9ff",
+      "rerender_sha256": "950500d51dfed9b66546b36728a191666c00baf07dfaba5257ceb89455a1c9ff",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 49
+        }
+      ]
+    },
+    {
+      "id": "BTB-014",
+      "slide": 3,
+      "reason": "letter founder body",
+      "png": "posts/BTB-014/03.png",
+      "html": "posts/BTB-014/editable/03.html",
+      "original_sha256": "40a011bee76fe06144404d110fe37a5ca8a4ec6481ce04a65e498818317696da",
+      "rerender_sha256": "40a011bee76fe06144404d110fe37a5ca8a4ec6481ce04a65e498818317696da",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 68
+        }
+      ]
+    },
+    {
+      "id": "BTB-175",
+      "slide": 1,
+      "reason": "longest hook",
+      "png": "posts/BTB-175/01.png",
+      "html": "posts/BTB-175/editable/01.html",
+      "original_sha256": "285d120c31778b3c05084cf6a2301f598fae31bbfbfcdd91fdb3338bdab0a8fe",
+      "rerender_sha256": "285d120c31778b3c05084cf6a2301f598fae31bbfbfcdd91fdb3338bdab0a8fe",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 91
+        }
+      ]
+    },
+    {
+      "id": "BTB-142",
+      "slide": 4,
+      "reason": "longest body",
+      "png": "posts/BTB-142/04.png",
+      "html": "posts/BTB-142/editable/04.html",
+      "original_sha256": "e45a120c7ded552b2d6157cdb3c9769a84f7886b92ebf1503ec322c23ef6a756",
+      "rerender_sha256": "e45a120c7ded552b2d6157cdb3c9769a84f7886b92ebf1503ec322c23ef6a756",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 148
+        }
+      ]
+    },
+    {
+      "id": "BTB-011",
+      "slide": 6,
+      "reason": "repaired final-word wrap",
+      "png": "posts/BTB-011/06.png",
+      "html": "posts/BTB-011/editable/06.html",
+      "original_sha256": "649fab95366c54ddff7ca3e331ce48cec9baaa0dc5a4ea2b8e2b47ee16b5754d",
+      "rerender_sha256": "649fab95366c54ddff7ca3e331ce48cec9baaa0dc5a4ea2b8e2b47ee16b5754d",
+      "exact_match": true,
+      "fonts_verified": true,
+      "font_faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "platform_fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 76
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "network_scope": "Loopback server only; every other browser request aborted",
+  "exported_sources_or_images_modified": false,
+  "screenshot_options": {
+    "viewport": {
+      "width": 1080,
+      "height": 1350
+    },
+    "deviceScaleFactor": 1,
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "selector": ".slide",
+    "animations": "disabled",
+    "scale": "css"
+  },
+  "browser_flags": [
+    "--force-color-profile=srgb",
+    "--disable-lcd-text"
+  ],
+  "browser_version": "153.0.8010.12",
+  "browser_path": "/Users/vikasshdalal/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+  "node_version": "v24.19.0",
+  "blocked_external_requests": []
+}

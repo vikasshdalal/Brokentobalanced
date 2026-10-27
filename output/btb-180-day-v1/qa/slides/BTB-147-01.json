@@ -109,9 +109,28 @@
       "background": "rgb(26, 26, 26)"
     }
   ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
   "font_size": 92,
   "font_family": "\"Playfair Display\", serif",
   "last_line_width": 686.359375,
+  "last_line_words": 2,
   "errors": [],
   "platform_fonts": [
     {
@@ -137,6 +156,6 @@
   "editable": "posts/BTB-147/editable/01.html",
   "png_sha256": "70390e6e3561e82c686b14c0acb11215a77c662ab338cf4e050a462265399a3a",
   "html_sha256": "3226f3e1688d2ea28275c1e975d5d1ef214eef26afd6660c524ea2751e7cb75c",
-  "render_key": "3226f3e1688d2ea28275c1e975d5d1ef214eef26afd6660c524ea2751e7cb75c:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:ab26f6ecba9b1c4bb81b1ac1e98dbc76a2362a2716cfab25bf7289c2e1769614",
+  "render_key": "3226f3e1688d2ea28275c1e975d5d1ef214eef26afd6660c524ea2751e7cb75c:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
   "attempts": 1
 }

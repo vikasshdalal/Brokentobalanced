@@ -1,0 +1,167 @@
+{
+  "id": "BTB-158",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Leave tomorrow an instruction, not a pile of unfinished thoughts.",
+  "rendered_text": "Leave tomorrow an instruction, not a pile of unfinished thoughts.",
+  "copy": {
+    "x": 92,
+    "y": 412.40625,
+    "width": 896,
+    "height": 515.1875,
+    "right": 988,
+    "bottom": 927.59375
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 780,
+    "right": 988,
+    "bottom": 1060
+  },
+  "line_count": 4,
+  "lines": [
+    {
+      "y": 414.40625,
+      "x": 92,
+      "right": 748.515625,
+      "bottom": 537.40625
+    },
+    {
+      "y": 543.203125,
+      "x": 92,
+      "right": 681.109375,
+      "bottom": 666.203125
+    },
+    {
+      "y": 672,
+      "x": 92,
+      "right": 558.046875,
+      "bottom": 795
+    },
+    {
+      "y": 800.796875,
+      "x": 92,
+      "right": 923.796875,
+      "bottom": 923.796875
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 412.40625,
+      "width": 896,
+      "height": 515.1875,
+      "right": 988,
+      "bottom": 927.59375,
+      "font_size": 92,
+      "font_family": "\"Playfair Display\", serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 92,
+  "font_family": "\"Playfair Display\", serif",
+  "last_line_width": 831.796875,
+  "last_line_words": 2,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Playfair Display",
+      "postScriptName": "PlayfairDisplayRoman-Medium",
+      "isCustomFont": true,
+      "glyphCount": 65
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-158/01.png",
+  "editable": "posts/BTB-158/editable/01.html",
+  "png_sha256": "bfe40651224c5d68f9f2d6adbc5e7587ea4b98f2cb5d7a2b4b0e25b381cbd33f",
+  "html_sha256": "2e0eec66c38d651cfe28367bb3b549920a80e318fc5409804ea04b1ad7588507",
+  "render_key": "2e0eec66c38d651cfe28367bb3b549920a80e318fc5409804ea04b1ad7588507:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

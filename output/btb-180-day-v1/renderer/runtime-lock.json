@@ -34,8 +34,8 @@
   },
   "browser": "153.0.8010.12",
   "browser_path": "/Users/vikasshdalal/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell",
-  "renderer_sha256": "28c68dcdf09bc89f201379ce0be8f5c1f3cbce51c76ae35d6811ae5094b9c0c8",
-  "styles_sha256": "ab26f6ecba9b1c4bb81b1ac1e98dbc76a2362a2716cfab25bf7289c2e1769614",
+  "renderer_sha256": "63c2b2e7c5f687dbe7417a39926201929d6b4b08d8a6aefe45bf3596d6203afc",
+  "styles_sha256": "d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
   "fonts": {
     "headings": {
       "family": "playfairdisplay",

@@ -1,0 +1,2264 @@
+{
+  "package": "Broken to Balanced — 180 carousel REVIEW production",
+  "production_version": "1.0.0",
+  "prepared_local_date": "2026-10-27",
+  "timezone": "America/Toronto",
+  "input_file_sha256": "512d463c0300b15545baf11cf712896fab0380febecf1cb8e18982946876bcf0",
+  "renderer_version": "btb-html-1.0.0",
+  "counts": {
+    "posts": 180,
+    "carousel_pngs": 1080,
+    "editable_html_slides": 1080,
+    "captions": 180,
+    "alt_text_sets": 180,
+    "alt_texts": 1080,
+    "post_manifests": 180,
+    "review_post_pages": 180,
+    "cover_contact_sheets": 6,
+    "all_slide_contact_sheets": 18
+  },
+  "brand_status": "provisional_wordmark",
+  "font_status": "exact_Playfair_Display_and_Inter_loaded",
+  "production_status": "REVIEW_RENDERED",
+  "publishing_status": "UNPUBLISHED — OWNER APPROVAL REQUIRED",
+  "approval_gates": [
+    {
+      "gate": "original_approved_logo",
+      "applies_to": "all 180",
+      "status": "MISSING",
+      "detail": "No approved binary exists in selected project; permitted plain-text review fallback used."
+    },
+    {
+      "gate": "owner_editorial_approval",
+      "applies_to": "all 180",
+      "status": "PENDING"
+    },
+    {
+      "gate": "founder_attestation",
+      "status": "PENDING",
+      "post_ids": [
+        "BTB-014",
+        "BTB-030",
+        "BTB-044",
+        "BTB-060",
+        "BTB-074",
+        "BTB-090",
+        "BTB-104",
+        "BTB-120",
+        "BTB-134",
+        "BTB-150",
+        "BTB-164",
+        "BTB-180"
+      ]
+    }
+  ],
+  "qa_reports": [
+    "qa/content-validation.json",
+    "qa/text-integrity.json",
+    "qa/layout-geometry.json",
+    "qa/contrast-report.json",
+    "qa/font-report.json",
+    "qa/image-integrity.json",
+    "qa/review-interface.json",
+    "qa/manual-review.md",
+    "qa/blockers.json"
+  ],
+  "posts": [
+    {
+      "id": "BTB-001",
+      "day": 1,
+      "planned_date": "2026-10-28",
+      "input_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "manifest": "posts/BTB-001/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-002",
+      "day": 2,
+      "planned_date": "2026-10-29",
+      "input_copy_sha256": "e183f179da7318bd7acb957f0ab8e2c7f1730e0e73d37042c07a7b72d94dd2c5",
+      "manifest": "posts/BTB-002/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-003",
+      "day": 3,
+      "planned_date": "2026-10-30",
+      "input_copy_sha256": "c603b7b10f07f0fb4d62cb0f7bf8c69b639a41aeac4c09ffdd13c4ee6be0edb2",
+      "manifest": "posts/BTB-003/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-004",
+      "day": 4,
+      "planned_date": "2026-10-31",
+      "input_copy_sha256": "8781a49cfd333a719ed4a9b86eb76fb5f9871025bb92d441905dafef5071ad16",
+      "manifest": "posts/BTB-004/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-005",
+      "day": 5,
+      "planned_date": "2026-11-01",
+      "input_copy_sha256": "0b032911d0e21c7a18d336cc2a6aee71c4b8efafeb0d8c4a78c3d0125303c6bb",
+      "manifest": "posts/BTB-005/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-006",
+      "day": 6,
+      "planned_date": "2026-11-02",
+      "input_copy_sha256": "d590a427ede8539ed68dcd6160c030646fa2f9de5b4625e9049d0da83aead656",
+      "manifest": "posts/BTB-006/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-007",
+      "day": 7,
+      "planned_date": "2026-11-03",
+      "input_copy_sha256": "029b33a34e8f958bebbcbe54001181eb9adcfac8d31d3ced74d7b9cfe63da33c",
+      "manifest": "posts/BTB-007/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-008",
+      "day": 8,
+      "planned_date": "2026-11-04",
+      "input_copy_sha256": "3f837e6e9892308cc8f9d33106577a86433b8020549ef5f45aaba24d91538823",
+      "manifest": "posts/BTB-008/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-009",
+      "day": 9,
+      "planned_date": "2026-11-05",
+      "input_copy_sha256": "0cd2cb044afcfe41e4b94a9234f9c4e7f6601e8f36bfaac7ecdd79ec1fdfc9c1",
+      "manifest": "posts/BTB-009/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-010",
+      "day": 10,
+      "planned_date": "2026-11-06",
+      "input_copy_sha256": "90d7914417b07d99b174c2e70a65a26913a7a57853d6f330490e995249d02404",
+      "manifest": "posts/BTB-010/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-011",
+      "day": 11,
+      "planned_date": "2026-11-07",
+      "input_copy_sha256": "b4fba5f9c0b20ad82ddb9a5d7bb84ce51e243097e7a4b5a02fb30d869891b337",
+      "manifest": "posts/BTB-011/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-012",
+      "day": 12,
+      "planned_date": "2026-11-08",
+      "input_copy_sha256": "8f652a35c35fd223edfddeee636c49903f3087716bb81019bfd10f64b758c8ae",
+      "manifest": "posts/BTB-012/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-013",
+      "day": 13,
+      "planned_date": "2026-11-09",
+      "input_copy_sha256": "e92bc4e2531d641c515ae66d02f6bac802b633623ce927968f500cb7f089bedb",
+      "manifest": "posts/BTB-013/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-014",
+      "day": 14,
+      "planned_date": "2026-11-10",
+      "input_copy_sha256": "3621b33ad6e53a7cae482306e0e71ad1fc1dc0ed1327aaf9c758fa23029a89f9",
+      "manifest": "posts/BTB-014/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-015",
+      "day": 15,
+      "planned_date": "2026-11-11",
+      "input_copy_sha256": "90de846cb4f41e2cdcaf7090e96a67fa99c0dcfe61f361b5a788b93aa4e4a7a9",
+      "manifest": "posts/BTB-015/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-016",
+      "day": 16,
+      "planned_date": "2026-11-12",
+      "input_copy_sha256": "b768210ab62b1b03def1b82827dfa0e4357b8f3ffcc0ed32812507c0497ec4a0",
+      "manifest": "posts/BTB-016/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-017",
+      "day": 17,
+      "planned_date": "2026-11-13",
+      "input_copy_sha256": "9a31860562781f0cb6783928dd72787e1c1976c8d03907096ecc15e5f628a9a2",
+      "manifest": "posts/BTB-017/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-018",
+      "day": 18,
+      "planned_date": "2026-11-14",
+      "input_copy_sha256": "b2896cc0d5ba8dde99085b09f600785bafaf712d67c28cb5caddcca9a856811a",
+      "manifest": "posts/BTB-018/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-019",
+      "day": 19,
+      "planned_date": "2026-11-15",
+      "input_copy_sha256": "2834f895a6e67003244680a5188257576585d8441d2ae7c7f73011ff9823ff4b",
+      "manifest": "posts/BTB-019/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-020",
+      "day": 20,
+      "planned_date": "2026-11-16",
+      "input_copy_sha256": "b5741722f339cc9c86fcfb7d707092fd15fd561a889128cb71a74e3dc6dab2d9",
+      "manifest": "posts/BTB-020/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-021",
+      "day": 21,
+      "planned_date": "2026-11-17",
+      "input_copy_sha256": "d85c6e1f9ec9d3af756e0c9a9a4eac85dd7022052744567e56a298db2ea5f87d",
+      "manifest": "posts/BTB-021/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-022",
+      "day": 22,
+      "planned_date": "2026-11-18",
+      "input_copy_sha256": "ec3124716e73e2e555ed0489a794df35f8d63d10861401ec0c0787140adbe573",
+      "manifest": "posts/BTB-022/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-023",
+      "day": 23,
+      "planned_date": "2026-11-19",
+      "input_copy_sha256": "229a1600e3f14d4f646af5fd0c08c63c268d347d2efcf6efaeded7bdca57ab98",
+      "manifest": "posts/BTB-023/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-024",
+      "day": 24,
+      "planned_date": "2026-11-20",
+      "input_copy_sha256": "b431c2f5bbf9cf79e8653c32c55e1526d48fc671369159ba51d799199a68fbf4",
+      "manifest": "posts/BTB-024/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-025",
+      "day": 25,
+      "planned_date": "2026-11-21",
+      "input_copy_sha256": "e18e075a39b2aa0a800c101499fdd94a970bc27ae838bc481494383b94fab304",
+      "manifest": "posts/BTB-025/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-026",
+      "day": 26,
+      "planned_date": "2026-11-22",
+      "input_copy_sha256": "30f76832a96077cf058a3496c0c13d1a78cb2a1f03dd8e0d1f4b577e75bacba7",
+      "manifest": "posts/BTB-026/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-027",
+      "day": 27,
+      "planned_date": "2026-11-23",
+      "input_copy_sha256": "81b9204fd3940105d809ab07be525fd562226a9f53e32194aef21d72c3680805",
+      "manifest": "posts/BTB-027/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-028",
+      "day": 28,
+      "planned_date": "2026-11-24",
+      "input_copy_sha256": "7556ca648455c235350f8f6fb8d171eec115337e25c1dff43301190aab329a82",
+      "manifest": "posts/BTB-028/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-029",
+      "day": 29,
+      "planned_date": "2026-11-25",
+      "input_copy_sha256": "88e7d4e22f90e2972c157e4168ee6f73d58fd9685128f8687b6fd01d92d1e586",
+      "manifest": "posts/BTB-029/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-030",
+      "day": 30,
+      "planned_date": "2026-11-26",
+      "input_copy_sha256": "b83edf0ce073f4eaee29f805e5ce34e78fa21080aa5821585d90bfb9546701fd",
+      "manifest": "posts/BTB-030/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-031",
+      "day": 31,
+      "planned_date": "2026-11-27",
+      "input_copy_sha256": "7b07198f4d3ea17372c2e600a5309ad8afff50fc48c0043e0bc44035be24ed4d",
+      "manifest": "posts/BTB-031/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-032",
+      "day": 32,
+      "planned_date": "2026-11-28",
+      "input_copy_sha256": "e8d2a6dce7cf13fdb23292782bb342496048cf7b471bf326bb86ce09d3ea7191",
+      "manifest": "posts/BTB-032/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-033",
+      "day": 33,
+      "planned_date": "2026-11-29",
+      "input_copy_sha256": "7d310dd4d074289e485efc74d3cdfb3b2ea1a399963b07d53ae91750d4157c76",
+      "manifest": "posts/BTB-033/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-034",
+      "day": 34,
+      "planned_date": "2026-11-30",
+      "input_copy_sha256": "21481edb3b2b2ee652b9af0ea79ec814532516f71571d39e701dc6363e5aa8e7",
+      "manifest": "posts/BTB-034/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-035",
+      "day": 35,
+      "planned_date": "2026-12-01",
+      "input_copy_sha256": "66d89dc261da454b790a95c78d15316afb40613311793f75c48444220bef4c7e",
+      "manifest": "posts/BTB-035/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-036",
+      "day": 36,
+      "planned_date": "2026-12-02",
+      "input_copy_sha256": "cf35aa72da93aa8ea7433989aa5b75aaad21468381ea030a0596035b77d607cd",
+      "manifest": "posts/BTB-036/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-037",
+      "day": 37,
+      "planned_date": "2026-12-03",
+      "input_copy_sha256": "c3de04841ecb42dae46f3028ea6d13134166999c1a5f19898b5ef056e50a58e4",
+      "manifest": "posts/BTB-037/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-038",
+      "day": 38,
+      "planned_date": "2026-12-04",
+      "input_copy_sha256": "dc68c2bcb2b1c964821d4439643e0fac8f4cfdf7d94fd3c9e0baffb931745834",
+      "manifest": "posts/BTB-038/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-039",
+      "day": 39,
+      "planned_date": "2026-12-05",
+      "input_copy_sha256": "352526eb449af65abe5054fef09a21450f03f58e568a2ddd5e9a90419786a812",
+      "manifest": "posts/BTB-039/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-040",
+      "day": 40,
+      "planned_date": "2026-12-06",
+      "input_copy_sha256": "9b11b68002d326adc54d886bba28ed387a9d619028f8d6565e26de2a2722c0e7",
+      "manifest": "posts/BTB-040/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-041",
+      "day": 41,
+      "planned_date": "2026-12-07",
+      "input_copy_sha256": "d54a89208e66ac6c145d30930b52c336229c8c0b2180d2ab21bf4487158503b2",
+      "manifest": "posts/BTB-041/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-042",
+      "day": 42,
+      "planned_date": "2026-12-08",
+      "input_copy_sha256": "cc2e9fb78c30b8cc0fb1652ef80cdd1197f8e098791288e629bdd06f3d94f8c0",
+      "manifest": "posts/BTB-042/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-043",
+      "day": 43,
+      "planned_date": "2026-12-09",
+      "input_copy_sha256": "b7ef584e99bdebcdba478c501c9f25aac1769a83498b06b7acc2400694937d01",
+      "manifest": "posts/BTB-043/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-044",
+      "day": 44,
+      "planned_date": "2026-12-10",
+      "input_copy_sha256": "732974af7f63e88002a2f87e41cbcdb12f7066e5ce6b7858f1d8e5cb7b8c2ee1",
+      "manifest": "posts/BTB-044/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-045",
+      "day": 45,
+      "planned_date": "2026-12-11",
+      "input_copy_sha256": "f83f9eef813c861019fa8f52269c86f2e66376f46edc8c9077a9132ed169afd6",
+      "manifest": "posts/BTB-045/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-046",
+      "day": 46,
+      "planned_date": "2026-12-12",
+      "input_copy_sha256": "113860d43598a95b067a8d33a696deaf36a9ceb49e31526a04988fec7f840bd2",
+      "manifest": "posts/BTB-046/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-047",
+      "day": 47,
+      "planned_date": "2026-12-13",
+      "input_copy_sha256": "5773beac29495e5c3f7c152941045b62861bf4f7b048afe9cba95f9249f63998",
+      "manifest": "posts/BTB-047/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-048",
+      "day": 48,
+      "planned_date": "2026-12-14",
+      "input_copy_sha256": "8c82925fa5b4cd633dc5bfede78d1fa1f83c11e9a0d343dd9cc077bed917aa35",
+      "manifest": "posts/BTB-048/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-049",
+      "day": 49,
+      "planned_date": "2026-12-15",
+      "input_copy_sha256": "6e4c3301ca500e18205aa86679a8763e4241a59d4f8c324ccf5c02e117da3a17",
+      "manifest": "posts/BTB-049/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-050",
+      "day": 50,
+      "planned_date": "2026-12-16",
+      "input_copy_sha256": "efbfa4d1ce2e2122326f93f02b39bab5892258bf6eb18ed796ba306a09ae32c5",
+      "manifest": "posts/BTB-050/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-051",
+      "day": 51,
+      "planned_date": "2026-12-17",
+      "input_copy_sha256": "ada53c185f3c057e11830d7c2489195e0b19c54a56eae934696e95658d882ff9",
+      "manifest": "posts/BTB-051/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-052",
+      "day": 52,
+      "planned_date": "2026-12-18",
+      "input_copy_sha256": "2581748739acd883b4781ea405ab4cfc5cff71788cc101576a0fca5b7197557c",
+      "manifest": "posts/BTB-052/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-053",
+      "day": 53,
+      "planned_date": "2026-12-19",
+      "input_copy_sha256": "e9cda7520e9bde883b5e928f0916c7e90b5cd6288cc4c09abdfdbac818eb8f02",
+      "manifest": "posts/BTB-053/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-054",
+      "day": 54,
+      "planned_date": "2026-12-20",
+      "input_copy_sha256": "2203db419f1ad57bad0dc01cb6b1c1ccd5897f1a7b7a428eb52a305d08dc8923",
+      "manifest": "posts/BTB-054/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-055",
+      "day": 55,
+      "planned_date": "2026-12-21",
+      "input_copy_sha256": "ee9a943005a9864328332333a332e34f4e3ae12a1fe6abde2da93ba9cefff3ef",
+      "manifest": "posts/BTB-055/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-056",
+      "day": 56,
+      "planned_date": "2026-12-22",
+      "input_copy_sha256": "1d1d4fed60d54f56797d0bae224f572af66f7702e3be27954d4380289f42c302",
+      "manifest": "posts/BTB-056/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-057",
+      "day": 57,
+      "planned_date": "2026-12-23",
+      "input_copy_sha256": "04cf242d524c1c2df5cef1fd2a4bb106a2f40222f0d2d847027a0e569bbd98e8",
+      "manifest": "posts/BTB-057/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-058",
+      "day": 58,
+      "planned_date": "2026-12-24",
+      "input_copy_sha256": "5ac538a903989e3e2d8c089f8e06d55fc0f51a35cb9bc46c903d1f7ce9b19454",
+      "manifest": "posts/BTB-058/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-059",
+      "day": 59,
+      "planned_date": "2026-12-25",
+      "input_copy_sha256": "1fdef47ed420fcd1b75fcd6f95cb13506b8e7740b05a8c0c66c75f99725d6661",
+      "manifest": "posts/BTB-059/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-060",
+      "day": 60,
+      "planned_date": "2026-12-26",
+      "input_copy_sha256": "16b089c0e9f510ba242c22ae400cbae6ee4c13fb5e49ad780b5a912a3aec7475",
+      "manifest": "posts/BTB-060/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-061",
+      "day": 61,
+      "planned_date": "2026-12-27",
+      "input_copy_sha256": "5addd66235a6a0ecd6d026bb4d77c910c9a4e31fe46bc6d490ed646b3af8b849",
+      "manifest": "posts/BTB-061/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-062",
+      "day": 62,
+      "planned_date": "2026-12-28",
+      "input_copy_sha256": "06815cb3a53f95ee4e9374534a23df58f08f25457919073ee0147f4b60e7b5be",
+      "manifest": "posts/BTB-062/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-063",
+      "day": 63,
+      "planned_date": "2026-12-29",
+      "input_copy_sha256": "2d2ac9e1a14747335a9d678ad41619b0323d547b794eb05db1bc1f80b8faae16",
+      "manifest": "posts/BTB-063/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-064",
+      "day": 64,
+      "planned_date": "2026-12-30",
+      "input_copy_sha256": "d4be8d6f51713e6b2d3b5a6b463a0972f94a7d218ed2f37f3d7d5c4f9a52af42",
+      "manifest": "posts/BTB-064/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-065",
+      "day": 65,
+      "planned_date": "2026-12-31",
+      "input_copy_sha256": "7f5ce1cab51e654f7c77ab3c96873e31bfc37d4ed50a2b4a77b90570492d7064",
+      "manifest": "posts/BTB-065/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-066",
+      "day": 66,
+      "planned_date": "2027-01-01",
+      "input_copy_sha256": "97e9f3c24d5782807151212bcf049537fd0857909c70f21eeac599b32f2681a8",
+      "manifest": "posts/BTB-066/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-067",
+      "day": 67,
+      "planned_date": "2027-01-02",
+      "input_copy_sha256": "987fc50ef19103da8de0fcb404ced10746c2a0ed1aaed6a6d89c6a381725b75f",
+      "manifest": "posts/BTB-067/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-068",
+      "day": 68,
+      "planned_date": "2027-01-03",
+      "input_copy_sha256": "d47521b1112ffc6f28e735d4275cf8d2e2e242fd22853f605224f0b75347de80",
+      "manifest": "posts/BTB-068/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-069",
+      "day": 69,
+      "planned_date": "2027-01-04",
+      "input_copy_sha256": "8c26e7327e04b48f87de17bada1cfef3952d0ecef3bfe8870d8f76ff222960da",
+      "manifest": "posts/BTB-069/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-070",
+      "day": 70,
+      "planned_date": "2027-01-05",
+      "input_copy_sha256": "5a976177aedc1cad0aef07820278023e40a6bd6649aea37a797495046af568cd",
+      "manifest": "posts/BTB-070/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-071",
+      "day": 71,
+      "planned_date": "2027-01-06",
+      "input_copy_sha256": "ab61205ec99ef09b07564c839b4da4e417dc2edcda6099fb047cd719820f04dc",
+      "manifest": "posts/BTB-071/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-072",
+      "day": 72,
+      "planned_date": "2027-01-07",
+      "input_copy_sha256": "29c4cf017501391e8b856eb1ef51ca2acec597042183a4d657051fa00e903919",
+      "manifest": "posts/BTB-072/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-073",
+      "day": 73,
+      "planned_date": "2027-01-08",
+      "input_copy_sha256": "e7e94e4c496740f12275ffad0b23dcd76a9442d29aee7292b70d77072008a7b0",
+      "manifest": "posts/BTB-073/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-074",
+      "day": 74,
+      "planned_date": "2027-01-09",
+      "input_copy_sha256": "264a201545cb961811c602d4e0e91525701b93c59ae45b427aefdb0791379b27",
+      "manifest": "posts/BTB-074/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-075",
+      "day": 75,
+      "planned_date": "2027-01-10",
+      "input_copy_sha256": "dacc07f3f86890e74a8f1521ba926004531229f4d047950353a88b0a52f214de",
+      "manifest": "posts/BTB-075/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-076",
+      "day": 76,
+      "planned_date": "2027-01-11",
+      "input_copy_sha256": "0b40561233b0372b035b3944f53567a872ed2c62ece68ceb05ee557a6bec9275",
+      "manifest": "posts/BTB-076/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-077",
+      "day": 77,
+      "planned_date": "2027-01-12",
+      "input_copy_sha256": "6976be739c9087e8fe78e4160d2d79868e01671d4b5b05d9cf9b8248919f6565",
+      "manifest": "posts/BTB-077/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-078",
+      "day": 78,
+      "planned_date": "2027-01-13",
+      "input_copy_sha256": "6455f8cf2969b74ba8fb7cc575b21ac7ac5fe7cb5b7b5cabe7c7e44e0fa47dba",
+      "manifest": "posts/BTB-078/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-079",
+      "day": 79,
+      "planned_date": "2027-01-14",
+      "input_copy_sha256": "ee33ebad8255b8860ec92492312de564a7eef37af8ee37c9490ebba77a72952b",
+      "manifest": "posts/BTB-079/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-080",
+      "day": 80,
+      "planned_date": "2027-01-15",
+      "input_copy_sha256": "01b9616b7b9f0208602768e787bcf436fa3bc434e384fdf63473fa0784ae1e3f",
+      "manifest": "posts/BTB-080/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-081",
+      "day": 81,
+      "planned_date": "2027-01-16",
+      "input_copy_sha256": "b540f109e7350e31d3e98a8f38e1fc897c5143660eb8607b5b13788bcfac4ce0",
+      "manifest": "posts/BTB-081/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-082",
+      "day": 82,
+      "planned_date": "2027-01-17",
+      "input_copy_sha256": "b796dca1278cd231dc51f348f92aa82b26418381931f075b3281dec7bc6b933e",
+      "manifest": "posts/BTB-082/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-083",
+      "day": 83,
+      "planned_date": "2027-01-18",
+      "input_copy_sha256": "9f875775493c0ee5a6fab459ade94da74f51193486b84fafe456375b56707f73",
+      "manifest": "posts/BTB-083/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-084",
+      "day": 84,
+      "planned_date": "2027-01-19",
+      "input_copy_sha256": "dbee8cf370b213fa13c0e629aeb566847bcaa3ffb3b3258b2d5fb7694fedb70e",
+      "manifest": "posts/BTB-084/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-085",
+      "day": 85,
+      "planned_date": "2027-01-20",
+      "input_copy_sha256": "8f1b700f1b3ab65cb214e6d1546bd62d66e675287c45304fc26360cfb477693f",
+      "manifest": "posts/BTB-085/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-086",
+      "day": 86,
+      "planned_date": "2027-01-21",
+      "input_copy_sha256": "36577eab959c36e44887cc382f821e0941d86a935bc3debe7e54770169c527ae",
+      "manifest": "posts/BTB-086/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-087",
+      "day": 87,
+      "planned_date": "2027-01-22",
+      "input_copy_sha256": "848a05438c80846bfd1782de301f6fab34f6df3041564c1cc42280512f1b1806",
+      "manifest": "posts/BTB-087/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-088",
+      "day": 88,
+      "planned_date": "2027-01-23",
+      "input_copy_sha256": "d2550c5b692908e836587d219a2df7b2f845b7a6a0822f8e5164d33c0f984cf9",
+      "manifest": "posts/BTB-088/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-089",
+      "day": 89,
+      "planned_date": "2027-01-24",
+      "input_copy_sha256": "00bf6038d463371bdd7cd80f5b94faf9d6e22894061de02b2f73e3e4fd315d83",
+      "manifest": "posts/BTB-089/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-090",
+      "day": 90,
+      "planned_date": "2027-01-25",
+      "input_copy_sha256": "adbb6d92ae79b04138af4224f5772fd9ecb56a8c477e02e9e823c7bb5818e810",
+      "manifest": "posts/BTB-090/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-091",
+      "day": 91,
+      "planned_date": "2027-01-26",
+      "input_copy_sha256": "b5c6cfb324f8dc2d94fab8134918447077d86e06141e7299c3392b29a5a718ab",
+      "manifest": "posts/BTB-091/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-092",
+      "day": 92,
+      "planned_date": "2027-01-27",
+      "input_copy_sha256": "900e7510c05027a1211e6ec8fd90e4a6157d5c3bac896d9bf93ca430d76c8c4a",
+      "manifest": "posts/BTB-092/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-093",
+      "day": 93,
+      "planned_date": "2027-01-28",
+      "input_copy_sha256": "a729f972022e1a099ce0d1abdf5245ad0527f98f2f45a46615620696a987a9da",
+      "manifest": "posts/BTB-093/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-094",
+      "day": 94,
+      "planned_date": "2027-01-29",
+      "input_copy_sha256": "7ce6e70a1c46b414939e01a818dc19cb48f280c061375654a1371081a6145d93",
+      "manifest": "posts/BTB-094/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-095",
+      "day": 95,
+      "planned_date": "2027-01-30",
+      "input_copy_sha256": "279a3b9844771de7d688c65fb6facbf471bba69817b05fbf68918fe27f7282ba",
+      "manifest": "posts/BTB-095/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-096",
+      "day": 96,
+      "planned_date": "2027-01-31",
+      "input_copy_sha256": "7b12a42bf3f1beb81c51e6e911fc1c035868b9d788028cb95eb43d23435227c5",
+      "manifest": "posts/BTB-096/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-097",
+      "day": 97,
+      "planned_date": "2027-02-01",
+      "input_copy_sha256": "dce0d469033119056e5d0a4d6eab8f0fbd3f327c9cd88ac8bf25d8d372b6f248",
+      "manifest": "posts/BTB-097/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-098",
+      "day": 98,
+      "planned_date": "2027-02-02",
+      "input_copy_sha256": "f9852be46c99a7010afb1a08a71b2906fbfdbd8bf1c8bb7e0c07efe5499b8882",
+      "manifest": "posts/BTB-098/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-099",
+      "day": 99,
+      "planned_date": "2027-02-03",
+      "input_copy_sha256": "56b0eef030976258ed1965daaab9cc23e31b69fad318956ff650f3c9a93bfad1",
+      "manifest": "posts/BTB-099/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-100",
+      "day": 100,
+      "planned_date": "2027-02-04",
+      "input_copy_sha256": "1f337911753299bcc1682e3ad5044a195e08e0295da78efaa5cca46fa5c67133",
+      "manifest": "posts/BTB-100/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-101",
+      "day": 101,
+      "planned_date": "2027-02-05",
+      "input_copy_sha256": "cbab27f0e58651a444a6b99f868d97f66c143611280179043a31460cb3f3da6e",
+      "manifest": "posts/BTB-101/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-102",
+      "day": 102,
+      "planned_date": "2027-02-06",
+      "input_copy_sha256": "834306b25a4d4e695b2fe5f4f8fdf635ee8996dd65a9a98ab31320351241e369",
+      "manifest": "posts/BTB-102/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-103",
+      "day": 103,
+      "planned_date": "2027-02-07",
+      "input_copy_sha256": "97cacaf47b57712822c7651b5adeba1d158ade9213462194a0b10df4c6076f38",
+      "manifest": "posts/BTB-103/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-104",
+      "day": 104,
+      "planned_date": "2027-02-08",
+      "input_copy_sha256": "9e684f209c5631aa0a2047a8b757debe57dc426ec0df92bac07097b0c4f24d59",
+      "manifest": "posts/BTB-104/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-105",
+      "day": 105,
+      "planned_date": "2027-02-09",
+      "input_copy_sha256": "96262f5459e199c6e0c269ae17ebdff041fac025ae56fd8036a41da7aed74024",
+      "manifest": "posts/BTB-105/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-106",
+      "day": 106,
+      "planned_date": "2027-02-10",
+      "input_copy_sha256": "7e904543017d36c394e7a4264a8267b5a36e9a2e7a804946a523007a718e01de",
+      "manifest": "posts/BTB-106/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-107",
+      "day": 107,
+      "planned_date": "2027-02-11",
+      "input_copy_sha256": "01a2866a4aaac35fa502b062c51d76067e46e7fc8bb18fbbbb5edadeb8b33cc3",
+      "manifest": "posts/BTB-107/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-108",
+      "day": 108,
+      "planned_date": "2027-02-12",
+      "input_copy_sha256": "cf03c20c537206304995590ddf78732a3aa37ffff94944b69162cd1d7f59609b",
+      "manifest": "posts/BTB-108/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-109",
+      "day": 109,
+      "planned_date": "2027-02-13",
+      "input_copy_sha256": "8cd32df1b42c4e0979b9adcf6faecbb6c6f06ff26b111e6144f8913885f13549",
+      "manifest": "posts/BTB-109/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-110",
+      "day": 110,
+      "planned_date": "2027-02-14",
+      "input_copy_sha256": "283bb49d2e959fdbc163678a20479fe6d087daddaad2bb805f52e8634a2e4089",
+      "manifest": "posts/BTB-110/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-111",
+      "day": 111,
+      "planned_date": "2027-02-15",
+      "input_copy_sha256": "4a1dc6150161e0c8fb6b0ad32a5870eb719bc89797b281f2c5f81940bb18dcea",
+      "manifest": "posts/BTB-111/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-112",
+      "day": 112,
+      "planned_date": "2027-02-16",
+      "input_copy_sha256": "c02a25ca1b4375f8fca891f1536d442ff04be9f681843ca938c0df7d98ce2d52",
+      "manifest": "posts/BTB-112/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-113",
+      "day": 113,
+      "planned_date": "2027-02-17",
+      "input_copy_sha256": "7e1baf922c89cd8e973be9cd5c97fded2d7685a3acc12896fcc85fef43a20e2e",
+      "manifest": "posts/BTB-113/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-114",
+      "day": 114,
+      "planned_date": "2027-02-18",
+      "input_copy_sha256": "2015fe22d3484bbe215d2bcb8d0f0f3e86dc1499c8bd1cff01393ef78d5d934b",
+      "manifest": "posts/BTB-114/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-115",
+      "day": 115,
+      "planned_date": "2027-02-19",
+      "input_copy_sha256": "e942a6227eeb08ff371f010824526b6eebf3d57ceb1e7e23a5dc5c122781b669",
+      "manifest": "posts/BTB-115/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-116",
+      "day": 116,
+      "planned_date": "2027-02-20",
+      "input_copy_sha256": "48e67a6318703d5a236ab341c62eefaec63fe3ab1143d36526bde86b87b25810",
+      "manifest": "posts/BTB-116/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-117",
+      "day": 117,
+      "planned_date": "2027-02-21",
+      "input_copy_sha256": "1b8f56fbcb6e621f6ad28a0c7f2896cff836807727b5de161481c908d81db0bf",
+      "manifest": "posts/BTB-117/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-118",
+      "day": 118,
+      "planned_date": "2027-02-22",
+      "input_copy_sha256": "c7d79c57919e2d6c1036c4a1738836dc93b8d770d7a8277c246513b3bcbe21a8",
+      "manifest": "posts/BTB-118/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-119",
+      "day": 119,
+      "planned_date": "2027-02-23",
+      "input_copy_sha256": "f17edfca669977ff8da7db30c9a7b71c138ec05949048dac3946f5fc199d5a76",
+      "manifest": "posts/BTB-119/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-120",
+      "day": 120,
+      "planned_date": "2027-02-24",
+      "input_copy_sha256": "e7a3e9732d2aa862c352719a18a98cf986be24bc39dfb92a9ab40ca9d8eb7765",
+      "manifest": "posts/BTB-120/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-121",
+      "day": 121,
+      "planned_date": "2027-02-25",
+      "input_copy_sha256": "96a4190c04d42db4a6917b91979432ccb44ded84397a0be36974508dc74a64cd",
+      "manifest": "posts/BTB-121/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-122",
+      "day": 122,
+      "planned_date": "2027-02-26",
+      "input_copy_sha256": "330418d7da1e3ad2b2769fb71616c199dc77e5c8954f06c8d789e30a48fb5773",
+      "manifest": "posts/BTB-122/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-123",
+      "day": 123,
+      "planned_date": "2027-02-27",
+      "input_copy_sha256": "6eeb6cb19f70183159bc9fbe77669f4a5ee2a23f12f06cb20f51e06eba68fa6a",
+      "manifest": "posts/BTB-123/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-124",
+      "day": 124,
+      "planned_date": "2027-02-28",
+      "input_copy_sha256": "ed183972ba413f44474a0e778c60a72cbb03d9d3502010f4d4bf8b2928e5ce49",
+      "manifest": "posts/BTB-124/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-125",
+      "day": 125,
+      "planned_date": "2027-03-01",
+      "input_copy_sha256": "6f22a51ac1001b56792f48b14745e3bb96e3c7a16a7e4a89691b53624126c11c",
+      "manifest": "posts/BTB-125/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-126",
+      "day": 126,
+      "planned_date": "2027-03-02",
+      "input_copy_sha256": "cd352d9f6317584e3eb00c5c17a3c22ffa085d49bd2db53ebb9abec5e74bb2f9",
+      "manifest": "posts/BTB-126/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-127",
+      "day": 127,
+      "planned_date": "2027-03-03",
+      "input_copy_sha256": "5cdda9095590d059340fdd43612d497888c2a6dbf3283764b01006380889aad4",
+      "manifest": "posts/BTB-127/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-128",
+      "day": 128,
+      "planned_date": "2027-03-04",
+      "input_copy_sha256": "1323c818db97bce83fb643e00c936b392842907f359c9ce3014e35e5b3ab81f9",
+      "manifest": "posts/BTB-128/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-129",
+      "day": 129,
+      "planned_date": "2027-03-05",
+      "input_copy_sha256": "5e8bbea1d151e9d10daefc7b62c6ba1af3f13145ac56334473827ef59fcbe55e",
+      "manifest": "posts/BTB-129/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-130",
+      "day": 130,
+      "planned_date": "2027-03-06",
+      "input_copy_sha256": "9454648028737b54d3f518328a644667dbc0206d43b94f7b2f696c26541fe980",
+      "manifest": "posts/BTB-130/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-131",
+      "day": 131,
+      "planned_date": "2027-03-07",
+      "input_copy_sha256": "c9f30b7555c3f3d3e3e77d64ee8e0cd79b27583acdc693a45eca86a3319d3fb6",
+      "manifest": "posts/BTB-131/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-132",
+      "day": 132,
+      "planned_date": "2027-03-08",
+      "input_copy_sha256": "b9db4521a63faa535a2e866f315692672c278b6f242960fa2c84a862ab854dd1",
+      "manifest": "posts/BTB-132/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-133",
+      "day": 133,
+      "planned_date": "2027-03-09",
+      "input_copy_sha256": "ae6b50188cd35fd09409ac027c9aad36c3ce0d1ef4c97f20e155444dc3555d71",
+      "manifest": "posts/BTB-133/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-134",
+      "day": 134,
+      "planned_date": "2027-03-10",
+      "input_copy_sha256": "d9cd059c2ca7429d4a45e7c77d9209ed4ee5e6ff4347a3585f22a8f6fb3d711e",
+      "manifest": "posts/BTB-134/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-135",
+      "day": 135,
+      "planned_date": "2027-03-11",
+      "input_copy_sha256": "35d1d1db9161cab1e92092d5ac8a23ded8c0e1d54c5dfad4b8608450e7576346",
+      "manifest": "posts/BTB-135/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-136",
+      "day": 136,
+      "planned_date": "2027-03-12",
+      "input_copy_sha256": "a54b2f3205888566232a21a2ccaf47d065fd5d342c5b16288950744fc024ff9b",
+      "manifest": "posts/BTB-136/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-137",
+      "day": 137,
+      "planned_date": "2027-03-13",
+      "input_copy_sha256": "134878861475aca8b3e4d54e4d146a98fe072c4ff3108916d54d6a63eda5e4e2",
+      "manifest": "posts/BTB-137/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-138",
+      "day": 138,
+      "planned_date": "2027-03-14",
+      "input_copy_sha256": "11f464236447075e9cc0ad5c7d3a7b4ab959ee01fe9b6ee5054449dab8ecde21",
+      "manifest": "posts/BTB-138/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-139",
+      "day": 139,
+      "planned_date": "2027-03-15",
+      "input_copy_sha256": "3226b100d2fbab7251ebe39866e5c5ddf1ae16b4f1128b3a24f1f30ba23ae016",
+      "manifest": "posts/BTB-139/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-140",
+      "day": 140,
+      "planned_date": "2027-03-16",
+      "input_copy_sha256": "5b9b198efd6bbcb10829ae7441b89d1f67a6bfaf8e1b420517e6c212c169f3bd",
+      "manifest": "posts/BTB-140/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-141",
+      "day": 141,
+      "planned_date": "2027-03-17",
+      "input_copy_sha256": "259cc6bc3330ffe898e9fcb8b048ac0bf3bb52b693ed70e049976d9a0a925697",
+      "manifest": "posts/BTB-141/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-142",
+      "day": 142,
+      "planned_date": "2027-03-18",
+      "input_copy_sha256": "4f685cd177838a8d191e8ef365c6f8dd2fe719f715b71024f2c56575937fad3a",
+      "manifest": "posts/BTB-142/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-143",
+      "day": 143,
+      "planned_date": "2027-03-19",
+      "input_copy_sha256": "496a1743c9be7e4fc8f3524b691bece579492a9ad7d7677afe19855b3a704fbd",
+      "manifest": "posts/BTB-143/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-144",
+      "day": 144,
+      "planned_date": "2027-03-20",
+      "input_copy_sha256": "480a7336542c022e57f93d591095767b14dae2ecc29cac27c05808a343b4e328",
+      "manifest": "posts/BTB-144/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-145",
+      "day": 145,
+      "planned_date": "2027-03-21",
+      "input_copy_sha256": "2090deb6b76aeb5fdd168553600149f2699cdc345c92c2211306ff5c99186bac",
+      "manifest": "posts/BTB-145/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-146",
+      "day": 146,
+      "planned_date": "2027-03-22",
+      "input_copy_sha256": "1c360b5c5b4576b023267830d44a518a42e05179cc3244df21171313d8bf3ba3",
+      "manifest": "posts/BTB-146/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-147",
+      "day": 147,
+      "planned_date": "2027-03-23",
+      "input_copy_sha256": "02fc792a372aac4283d7c084a7617698c6b661581e290e38df1fcde4534a753d",
+      "manifest": "posts/BTB-147/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-148",
+      "day": 148,
+      "planned_date": "2027-03-24",
+      "input_copy_sha256": "1cc837e9b7f7f039566ba53a4279515431c5e1592b2abc29cc643296ee71b9f0",
+      "manifest": "posts/BTB-148/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-149",
+      "day": 149,
+      "planned_date": "2027-03-25",
+      "input_copy_sha256": "6b6792ffd1ca2e956cd7d1d8eda51f67fb90ecd7334be36f140c28aaa0b37cca",
+      "manifest": "posts/BTB-149/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-150",
+      "day": 150,
+      "planned_date": "2027-03-26",
+      "input_copy_sha256": "11825abb44c031e669836c97a0f2157c3261b5b929c0e06c785f70f689519c9e",
+      "manifest": "posts/BTB-150/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-151",
+      "day": 151,
+      "planned_date": "2027-03-27",
+      "input_copy_sha256": "7aec0e34a1f34443cbc60f5610ff928c3dcf536d0928539be32c03a2d929879e",
+      "manifest": "posts/BTB-151/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-152",
+      "day": 152,
+      "planned_date": "2027-03-28",
+      "input_copy_sha256": "03ef2c56aa6387c7535ab3bdcda1d939568a3179c6fcc8ef8461a0f2ce3394fc",
+      "manifest": "posts/BTB-152/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-153",
+      "day": 153,
+      "planned_date": "2027-03-29",
+      "input_copy_sha256": "929f07920c5558a8c8f4e46922c34eaf0b890fe3afc40e4929577ace0edf543a",
+      "manifest": "posts/BTB-153/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-154",
+      "day": 154,
+      "planned_date": "2027-03-30",
+      "input_copy_sha256": "7e7ee3a497c8194e4cefb186c54c5343433ded19a2885922f67a226e597a7f99",
+      "manifest": "posts/BTB-154/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-155",
+      "day": 155,
+      "planned_date": "2027-03-31",
+      "input_copy_sha256": "bbd91f827e96952b1c06b4ae3a141d3fc7dc57d37c4427ce2c4ba82b11ffc9f1",
+      "manifest": "posts/BTB-155/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-156",
+      "day": 156,
+      "planned_date": "2027-04-01",
+      "input_copy_sha256": "1c3a9f166ede4e78dd4390b290ac9d3ae1d57da20c94de2e019dd24855fa90ca",
+      "manifest": "posts/BTB-156/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-157",
+      "day": 157,
+      "planned_date": "2027-04-02",
+      "input_copy_sha256": "18a1e2c1f524e619534e1a6177321b61a79eaea8c1f5d655c8435b3b1992f18a",
+      "manifest": "posts/BTB-157/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-158",
+      "day": 158,
+      "planned_date": "2027-04-03",
+      "input_copy_sha256": "d4c91896ee2262f02b3e4fa34f0434374b08dda257727e2d40b776905520d3d9",
+      "manifest": "posts/BTB-158/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-159",
+      "day": 159,
+      "planned_date": "2027-04-04",
+      "input_copy_sha256": "3de88b42f95523b4e18dc51bb50c860ca1f07a17bf00455b3979cb3434e59d8c",
+      "manifest": "posts/BTB-159/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-160",
+      "day": 160,
+      "planned_date": "2027-04-05",
+      "input_copy_sha256": "195efb55876b2849406865c8936ea66b9d440e14157a4d8798a2652f81ffc1ac",
+      "manifest": "posts/BTB-160/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-161",
+      "day": 161,
+      "planned_date": "2027-04-06",
+      "input_copy_sha256": "05141cdd818014feacd1f5fde912e705177724202c0674a0554f3cfaf5d0ff17",
+      "manifest": "posts/BTB-161/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-162",
+      "day": 162,
+      "planned_date": "2027-04-07",
+      "input_copy_sha256": "8d88bf7c715c84b0e55c7a20e41deccc66c12a4d805332a1493f2659157fa876",
+      "manifest": "posts/BTB-162/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-163",
+      "day": 163,
+      "planned_date": "2027-04-08",
+      "input_copy_sha256": "f103cf33af6efb69c21b0b1f13205041d9bfa5b5445092fec6c3c4d0a3784268",
+      "manifest": "posts/BTB-163/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-164",
+      "day": 164,
+      "planned_date": "2027-04-09",
+      "input_copy_sha256": "e70529c141d6206437f5a6bdc8e007af8c7703abb1e7c1a2b662f144c48680d1",
+      "manifest": "posts/BTB-164/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    },
+    {
+      "id": "BTB-165",
+      "day": 165,
+      "planned_date": "2027-04-10",
+      "input_copy_sha256": "f0be02ce529ec4490c3cc1895f084f5dcc3064539f81e02269113d9ad2a5aecb",
+      "manifest": "posts/BTB-165/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-166",
+      "day": 166,
+      "planned_date": "2027-04-11",
+      "input_copy_sha256": "69c0cdb47cf2d9f4b533af85e5fe0be510951d24f53e7c6b9b4bac202668ee77",
+      "manifest": "posts/BTB-166/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-167",
+      "day": 167,
+      "planned_date": "2027-04-12",
+      "input_copy_sha256": "7facb9a5978b1daa8019bcb6186807734ecb6437440b1413b203f3a2013ac5b9",
+      "manifest": "posts/BTB-167/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-168",
+      "day": 168,
+      "planned_date": "2027-04-13",
+      "input_copy_sha256": "1a075bea430f7bd96523562a9d50e00937d79bfce7667e6481b9dcc8ed182faa",
+      "manifest": "posts/BTB-168/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-169",
+      "day": 169,
+      "planned_date": "2027-04-14",
+      "input_copy_sha256": "9cc85c521e7907ba29f3d57424a8752ffa972cdbde244e5a94a0f0e53deda7e1",
+      "manifest": "posts/BTB-169/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-170",
+      "day": 170,
+      "planned_date": "2027-04-15",
+      "input_copy_sha256": "aa547bee505ba1e252a94d9743f284d9b86f06bec6f62429f6574f0b85905225",
+      "manifest": "posts/BTB-170/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-171",
+      "day": 171,
+      "planned_date": "2027-04-16",
+      "input_copy_sha256": "d195efb7e2704ec0b2e85b9269ec8c9be960a15073043b1bb31b375438ad1c7d",
+      "manifest": "posts/BTB-171/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-172",
+      "day": 172,
+      "planned_date": "2027-04-17",
+      "input_copy_sha256": "9a4478776bc41de90d6e489c8206890e8a79677ea31c97dcf9b43337ae984788",
+      "manifest": "posts/BTB-172/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-173",
+      "day": 173,
+      "planned_date": "2027-04-18",
+      "input_copy_sha256": "b34a30346f05655c26f6ec821cbef65cc7697a56a713bf07e1bafbc2e0f0cf60",
+      "manifest": "posts/BTB-173/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-174",
+      "day": 174,
+      "planned_date": "2027-04-19",
+      "input_copy_sha256": "afc69e0e55a63a17eaafb7ba038886a0f672f8a866b0edeaaea3ed501a30707d",
+      "manifest": "posts/BTB-174/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-175",
+      "day": 175,
+      "planned_date": "2027-04-20",
+      "input_copy_sha256": "d59e96e93be878dddb02c1b4674656e55d274de880f16396c5a1a2edf8f75169",
+      "manifest": "posts/BTB-175/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-176",
+      "day": 176,
+      "planned_date": "2027-04-21",
+      "input_copy_sha256": "b6b473265ec5241d87575dd1a3491293e662c1672a98e19aa2bea28c24c9a3ee",
+      "manifest": "posts/BTB-176/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-177",
+      "day": 177,
+      "planned_date": "2027-04-22",
+      "input_copy_sha256": "bd67ac414ee3cc44eb9d081807b17f81cb1142e76898b5ab480e379f8e7d9011",
+      "manifest": "posts/BTB-177/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-178",
+      "day": 178,
+      "planned_date": "2027-04-23",
+      "input_copy_sha256": "3ea259bfed40aef0b181a7b28a46bdfba0def90fbae3d1b55b8c0d925826e9f9",
+      "manifest": "posts/BTB-178/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-179",
+      "day": 179,
+      "planned_date": "2027-04-24",
+      "input_copy_sha256": "f7a148b8bbacf4c5262d31c0e233f74cdc392ac870bfc57a9e34072229fa4757",
+      "manifest": "posts/BTB-179/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval"
+      ]
+    },
+    {
+      "id": "BTB-180",
+      "day": 180,
+      "planned_date": "2027-04-25",
+      "input_copy_sha256": "30f441a918557bf5acad3fb6dc0e584a024f401d1c1c64fe76dc7ce5c5bbef80",
+      "manifest": "posts/BTB-180/post-manifest.json",
+      "qa_status": "PASS",
+      "approval_gates": [
+        "original_approved_logo",
+        "owner_editorial_approval",
+        "founder_attestation"
+      ]
+    }
+  ],
+  "actions_performed": {
+    "publish": false,
+    "schedule": false,
+    "spend": false,
+    "messages": false,
+    "account_changes": false,
+    "external_uploads": false,
+    "deployment": false,
+    "private_folder_access": false
+  },
+  "delegation": [
+    {
+      "task": "content_audit",
+      "output": "qa/independent-content-audit.json"
+    },
+    {
+      "task": "asset_audit",
+      "output": "qa/independent-assets-audit.json"
+    },
+    {
+      "task": "visual_review",
+      "output": "qa/independent-visual-review.json"
+    }
+  ]
+}

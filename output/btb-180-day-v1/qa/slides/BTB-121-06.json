@@ -1,0 +1,161 @@
+{
+  "id": "BTB-121",
+  "slide": 6,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Share this with someone who feels they need permission to enjoy a life that changed.",
+  "rendered_text": "Share this with someone who feels they need permission to enjoy a life that changed.",
+  "copy": {
+    "x": 92,
+    "y": 552.25,
+    "width": 896,
+    "height": 245.484375,
+    "right": 988,
+    "bottom": 797.734375
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 3,
+  "lines": [
+    {
+      "y": 555.25,
+      "x": 92,
+      "right": 860.765625,
+      "bottom": 630.25
+    },
+    {
+      "y": 637.078125,
+      "x": 92,
+      "right": 788.484375,
+      "bottom": 712.078125
+    },
+    {
+      "y": 718.90625,
+      "x": 92,
+      "right": 805.15625,
+      "bottom": 793.90625
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 552.25,
+      "width": 896,
+      "height": 245.484375,
+      "right": 988,
+      "bottom": 797.734375,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 713.15625,
+  "last_line_words": 6,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 84
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-121/06.png",
+  "editable": "posts/BTB-121/editable/06.html",
+  "png_sha256": "ebc51bb22af5881555f1e474d1f4eabb4858b538eb61feded932f761b4e7e4c0",
+  "html_sha256": "58f4568a41f03a0ee407b6aecb232b3a7bfa424d8da79f08891b68196618f62e",
+  "render_key": "58f4568a41f03a0ee407b6aecb232b3a7bfa424d8da79f08891b68196618f62e:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

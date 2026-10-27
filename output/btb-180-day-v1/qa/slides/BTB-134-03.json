@@ -1,0 +1,173 @@
+{
+  "id": "BTB-134",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "This page will encourage action without pretending those constraints are excuses or that effort guarantees a particular outcome.",
+  "rendered_text": "This page will encourage action without pretending those constraints are excuses or that effort guarantees a particular outcome.",
+  "copy": {
+    "x": 92,
+    "y": 454.921875,
+    "width": 896,
+    "height": 440.15625,
+    "right": 988,
+    "bottom": 895.078125
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 5,
+  "lines": [
+    {
+      "y": 460.921875,
+      "x": 92,
+      "right": 739.65625,
+      "bottom": 535.921875
+    },
+    {
+      "y": 548.953125,
+      "x": 92,
+      "right": 756.96875,
+      "bottom": 623.953125
+    },
+    {
+      "y": 636.984375,
+      "x": 92,
+      "right": 863.453125,
+      "bottom": 711.984375
+    },
+    {
+      "y": 725.015625,
+      "x": 92,
+      "right": 719.515625,
+      "bottom": 800.015625
+    },
+    {
+      "y": 813.046875,
+      "x": 92,
+      "right": 640.8125,
+      "bottom": 888.046875
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 454.921875,
+      "width": 896,
+      "height": 440.15625,
+      "right": 988,
+      "bottom": 895.078125,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 548.8125,
+  "last_line_words": 3,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 128
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-134/03.png",
+  "editable": "posts/BTB-134/editable/03.html",
+  "png_sha256": "56ba0611a932277b1acb5bb43433a7e745c71c55bbef768a2be8468df0cf6917",
+  "html_sha256": "befb0896213f00e898c97c2d3ae531683008feb0c3aaed1e445423ee23815646",
+  "render_key": "befb0896213f00e898c97c2d3ae531683008feb0c3aaed1e445423ee23815646:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}

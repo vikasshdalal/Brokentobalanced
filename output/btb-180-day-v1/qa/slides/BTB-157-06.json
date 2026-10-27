@@ -1,0 +1,167 @@
+{
+  "id": "BTB-157",
+  "slide": 6,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Save this for a week when competence has become an excuse to expect everything from yourself.",
+  "rendered_text": "Save this for a week when competence has become an excuse to expect everything from yourself.",
+  "copy": {
+    "x": 92,
+    "y": 511.34375,
+    "width": 896,
+    "height": 327.3125,
+    "right": 988,
+    "bottom": 838.65625
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 4,
+  "lines": [
+    {
+      "y": 514.34375,
+      "x": 92,
+      "right": 771.65625,
+      "bottom": 589.34375
+    },
+    {
+      "y": 596.171875,
+      "x": 92,
+      "right": 758.828125,
+      "bottom": 671.171875
+    },
+    {
+      "y": 678,
+      "x": 92,
+      "right": 613.9375,
+      "bottom": 753
+    },
+    {
+      "y": 759.828125,
+      "x": 92,
+      "right": 733.265625,
+      "bottom": 834.828125
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 511.34375,
+      "width": 896,
+      "height": 327.3125,
+      "right": 988,
+      "bottom": 838.65625,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decorations": [
+    {
+      "x": 92,
+      "y": 193,
+      "width": 72,
+      "height": 4,
+      "right": 164,
+      "bottom": 197
+    },
+    {
+      "x": 92,
+      "y": 1164,
+      "width": 896,
+      "height": 1,
+      "right": 988,
+      "bottom": 1165
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 641.265625,
+  "last_line_words": 3,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 93
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-157/06.png",
+  "editable": "posts/BTB-157/editable/06.html",
+  "png_sha256": "bed7c06296eac10af4545aff1cfc06651aafcd3d9ff353370a37456aaf6a1846",
+  "html_sha256": "28fbfd7afd5b5b35c25ba8098fd9200be677e94f35e05335a00236465794f2b4",
+  "render_key": "28fbfd7afd5b5b35c25ba8098fd9200be677e94f35e05335a00236465794f2b4:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:d56a6e296d60dff91598f7f643e54ea497c9ccd7e20bf3175483ac1eb1e6bd77",
+  "attempts": 1
+}
