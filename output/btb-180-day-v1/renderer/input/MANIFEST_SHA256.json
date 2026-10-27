@@ -1,0 +1,86 @@
+{
+  "package": "Broken to Balanced — 180-day carousel content and production brief",
+  "prepared": "2026-10-27",
+  "files": [
+    {
+      "name": "AGENTS.md",
+      "bytes": 1006,
+      "sha256": "7c3bf02e9973f0578420191d5ac3c50b71beaa4beb45acc9b61a7b34bbf2c0b8"
+    },
+    {
+      "name": "BTB_180_Day_Content.json",
+      "bytes": 786813,
+      "sha256": "512d463c0300b15545baf11cf712896fab0380febecf1cb8e18982946876bcf0"
+    },
+    {
+      "name": "BTB_180_Day_Execution_Workbook.xlsx",
+      "bytes": 177477,
+      "sha256": "65d0eb51e5eefc00aa972e6ae422927a985c44298cee812e25b6073b45e59131"
+    },
+    {
+      "name": "BTB_180_Day_Reader.html",
+      "bytes": 549516,
+      "sha256": "9cf1e58c6fdf0fea6783c749b09ca75db69a99e13a8d76af8865c8af42bc8d25"
+    },
+    {
+      "name": "BTB_180_Day_Word_for_Word_Copy.md",
+      "bytes": 254912,
+      "sha256": "a7a8471020d06de542871151764d0bc1bd9c35b7f45f5eb75225b5ed7a1f2537"
+    },
+    {
+      "name": "BTB_Calendar.csv",
+      "bytes": 36300,
+      "sha256": "cbaf2fbc00ed987a1b0ac994b8dae0b0207588bac933b9a1efecc349c3b1b7e5"
+    },
+    {
+      "name": "Brand_Config.json",
+      "bytes": 2668,
+      "sha256": "724a9e1a3f15bf95bec1dc0108fcd0290fd8dc2a26e3204dd7e567c2d567ad89"
+    },
+    {
+      "name": "Codex_Visual_Production_Prompt.html",
+      "bytes": 26870,
+      "sha256": "e13fe31546de2e58afe9bec07d0946a04549f1a5f1ab932c9dd98e63f93a9165"
+    },
+    {
+      "name": "Codex_Visual_Production_Prompt.md",
+      "bytes": 20398,
+      "sha256": "bf7fb0907101838407c8aef30c6f3fbaec585f2040d8e9a92381e9fc7d70f637"
+    },
+    {
+      "name": "QA_Content_Report.json",
+      "bytes": 3639,
+      "sha256": "4dfbfd3dfcda428f763cb10e18d1f3133481953dd319abef30ed3215abfe4538"
+    },
+    {
+      "name": "QA_Summary.md",
+      "bytes": 2247,
+      "sha256": "6e8cac180e3e55d336e1371ed2d4af12d137be76fb834e001d4c1822d74ce46a"
+    },
+    {
+      "name": "README.md",
+      "bytes": 5409,
+      "sha256": "296fbf435ca6b17a29de07c8a2dfa65aa2299fb355253d9ee8e2f9a26803f9bc"
+    },
+    {
+      "name": "Source_and_Validation_Register.html",
+      "bytes": 14607,
+      "sha256": "cd55c3546be77cf04ed5fcf46b58871327b4dbc022c7dee5da13840275503d05"
+    },
+    {
+      "name": "Source_and_Validation_Register.md",
+      "bytes": 9186,
+      "sha256": "a2c542e903c9f301f1938081505b24bf3aac53b9e3572bf43b91ba9728fe5806"
+    },
+    {
+      "name": "Strategy_and_Editorial_Boundaries.html",
+      "bytes": 28206,
+      "sha256": "bdc3f953cda037dc43924498013332daa80402741e6cedf7f608454f9cd462e4"
+    },
+    {
+      "name": "Strategy_and_Editorial_Boundaries.md",
+      "bytes": 21944,
+      "sha256": "bc6a27a2d735f4f3df59777567abe90d2bca3d104efba2861d55e3b48ba20b69"
+    }
+  ]
+}

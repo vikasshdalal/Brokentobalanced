@@ -1,0 +1,959 @@
+{
+  "audit": "independent local asset/font audit",
+  "scope": "selected project assets and explicitly permitted system/plugin/runtime font directories; no private folders or network",
+  "project_asset_candidates": [],
+  "logo": {
+    "status": "missing_original_approved_asset",
+    "brand_status": "provisional_wordmark",
+    "permitted_review_name": "Broken to Balanced",
+    "replacement_logo_invented": false,
+    "evidence": "Initial project inventory contains package text, HTML, JSON, CSV, workbook and .git only; no image/vector/brand asset directories."
+  },
+  "font_search": {
+    "roots": [
+      "/System/Library/Fonts",
+      "/Library/Fonts",
+      "/Users/vikasshdalal/Library/Fonts",
+      "/Users/vikasshdalal/.codex/plugins/cache",
+      "/Users/vikasshdalal/.cache/codex-runtimes"
+    ],
+    "missing_roots": [
+      "/Users/vikasshdalal/Library/Fonts"
+    ],
+    "font_files_examined": 540,
+    "font_faces_examined": 957,
+    "matching_exact_fonts": [],
+    "metadata_errors": [],
+    "method": "SFNT name-table scan across every .ttf/.otf/.ttc discovered with rg --files; all family/full/PostScript/typographic-family names examined"
+  },
+  "fonts": {
+    "required": [
+      "Playfair Display",
+      "Inter"
+    ],
+    "status": "exact_runtime_fonts_now_available",
+    "fallbacks": [
+      {
+        "path": "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "sha256": "4f54eb299fccea7f103edeb0d92437359bfd4441811d53222b82b335369f6218",
+        "names": [
+          {
+            "id": 0,
+            "text": "\u00a9 2006 Microsoft Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Georgia"
+          },
+          {
+            "id": 2,
+            "text": "Regular"
+          },
+          {
+            "id": 4,
+            "text": "Georgia"
+          },
+          {
+            "id": 6,
+            "text": "Georgia"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font as permitted by the EULA for the product in which this font is included to display and print content. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 14,
+            "text": "http://www.microsoft.com/typography/fonts/"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "oby\u010dejn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "normal"
+          },
+          {
+            "id": 2,
+            "text": "Standard"
+          },
+          {
+            "id": 2,
+            "text": "\u039a\u03b1\u03bd\u03bf\u03bd\u03b9\u03ba\u03ac"
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 Microsoft Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Georgia"
+          },
+          {
+            "id": 2,
+            "text": "Regular"
+          },
+          {
+            "id": 4,
+            "text": "Georgia"
+          },
+          {
+            "id": 6,
+            "text": "Georgia"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font as permitted by the EULA for the product in which this font is included to display and print content. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 14,
+            "text": "http://www.microsoft.com/typography/fonts/"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normaali"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Norm\u00e1l"
+          },
+          {
+            "id": 2,
+            "text": "Normale"
+          },
+          {
+            "id": 2,
+            "text": "Standaard"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normalny"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "\u041e\u0431\u044b\u0447\u043d\u044b\u0439"
+          },
+          {
+            "id": 2,
+            "text": "Norm\u00e1lne"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Navadno"
+          },
+          {
+            "id": 2,
+            "text": "Arrunta"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          }
+        ],
+        "missing_corpus_glyphs": [],
+        "use": "diagnostic fallback only; final brand gate remains"
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+        "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a",
+        "names": [
+          {
+            "id": 0,
+            "text": "\u00a9 2006 Microsoft Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Georgia"
+          },
+          {
+            "id": 2,
+            "text": "Bold"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Bold"
+          },
+          {
+            "id": 6,
+            "text": "Georgia-Bold"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font as permitted by the EULA for the product in which this font is included to display and print content. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 14,
+            "text": "http://www.microsoft.com/typography/fonts/"
+          },
+          {
+            "id": 2,
+            "text": "Negreta"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negreta"
+          },
+          {
+            "id": 2,
+            "text": "tu\u010dn\u00e9"
+          },
+          {
+            "id": 4,
+            "text": "Georgia tu\u010dn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "fed"
+          },
+          {
+            "id": 4,
+            "text": "Georgia fed"
+          },
+          {
+            "id": 2,
+            "text": "Fett"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Fett"
+          },
+          {
+            "id": 2,
+            "text": "\u0388\u03bd\u03c4\u03bf\u03bd\u03b1"
+          },
+          {
+            "id": 4,
+            "text": "Georgia \u0388\u03bd\u03c4\u03bf\u03bd\u03b1"
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 Microsoft Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Georgia"
+          },
+          {
+            "id": 2,
+            "text": "Bold"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Bold"
+          },
+          {
+            "id": 6,
+            "text": "Georgia-Bold"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font as permitted by the EULA for the product in which this font is included to display and print content. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 14,
+            "text": "http://www.microsoft.com/typography/fonts/"
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Lihavoitu"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Lihavoitu"
+          },
+          {
+            "id": 2,
+            "text": "Gras"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Gras"
+          },
+          {
+            "id": 2,
+            "text": "F\u00e9lk\u00f6v\u00e9r"
+          },
+          {
+            "id": 4,
+            "text": "Georgia F\u00e9lk\u00f6v\u00e9r"
+          },
+          {
+            "id": 2,
+            "text": "Grassetto"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Grassetto"
+          },
+          {
+            "id": 2,
+            "text": "Vet"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Vet"
+          },
+          {
+            "id": 2,
+            "text": "Halvfet"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Halvfet"
+          },
+          {
+            "id": 2,
+            "text": "Pogrubiony"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Pogrubiony"
+          },
+          {
+            "id": 2,
+            "text": "Negrito"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negrito"
+          },
+          {
+            "id": 2,
+            "text": "\u041f\u043e\u043b\u0443\u0436\u0438\u0440\u043d\u044b\u0439"
+          },
+          {
+            "id": 4,
+            "text": "Georgia \u041f\u043e\u043b\u0443\u0436\u0438\u0440\u043d\u044b\u0439"
+          },
+          {
+            "id": 2,
+            "text": "Tu\u010dn\u00e9"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Tu\u010dn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "Fet"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Fet"
+          },
+          {
+            "id": 2,
+            "text": "Kal\u0131n"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Kal\u0131n"
+          },
+          {
+            "id": 2,
+            "text": "Krepko"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Krepko"
+          },
+          {
+            "id": 2,
+            "text": "Lodia"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Lodia"
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Negrito"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negrito"
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Gras"
+          },
+          {
+            "id": 4,
+            "text": "Georgia Gras"
+          }
+        ],
+        "missing_corpus_glyphs": [],
+        "use": "diagnostic fallback only; final brand gate remains"
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+        "names": [
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Regular"
+          },
+          {
+            "id": 4,
+            "text": "Arial"
+          },
+          {
+            "id": 6,
+            "text": "ArialMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Regular"
+          },
+          {
+            "id": 4,
+            "text": "Arial"
+          },
+          {
+            "id": 6,
+            "text": "ArialMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "oby\u010dejn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "normal"
+          },
+          {
+            "id": 2,
+            "text": "Standard"
+          },
+          {
+            "id": 2,
+            "text": "\u039a\u03b1\u03bd\u03bf\u03bd\u03b9\u03ba\u03ac"
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Regular"
+          },
+          {
+            "id": 4,
+            "text": "Arial"
+          },
+          {
+            "id": 6,
+            "text": "ArialMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normaali"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Norm\u00e1l"
+          },
+          {
+            "id": 2,
+            "text": "Normale"
+          },
+          {
+            "id": 2,
+            "text": "Standaard"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normalny"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "\u041e\u0431\u044b\u0447\u043d\u044b\u0439"
+          },
+          {
+            "id": 2,
+            "text": "Norm\u00e1lne"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Navadno"
+          },
+          {
+            "id": 2,
+            "text": "th\u01b0\u01a1\u0300ng"
+          },
+          {
+            "id": 2,
+            "text": "Arrunta"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          },
+          {
+            "id": 2,
+            "text": "Normal"
+          }
+        ],
+        "missing_corpus_glyphs": [],
+        "use": "diagnostic fallback only; final brand gate remains"
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "sha256": "d72db21f9242aedd6b917d8549ad5921766b24d5f8d0becfda2ff4c620b3c2e0",
+        "names": [
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Bold"
+          },
+          {
+            "id": 4,
+            "text": "Arial Bold"
+          },
+          {
+            "id": 6,
+            "text": "Arial-BoldMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Bold"
+          },
+          {
+            "id": 4,
+            "text": "Arial Bold"
+          },
+          {
+            "id": 6,
+            "text": "Arial-BoldMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 2,
+            "text": "Negreta"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negreta"
+          },
+          {
+            "id": 2,
+            "text": "tu\u010dn\u00e9"
+          },
+          {
+            "id": 4,
+            "text": "Arial tu\u010dn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "fed"
+          },
+          {
+            "id": 4,
+            "text": "Arial fed"
+          },
+          {
+            "id": 2,
+            "text": "Fett"
+          },
+          {
+            "id": 4,
+            "text": "Arial Fett"
+          },
+          {
+            "id": 2,
+            "text": "\u0388\u03bd\u03c4\u03bf\u03bd\u03b1"
+          },
+          {
+            "id": 4,
+            "text": "Arial \u0388\u03bd\u03c4\u03bf\u03bd\u03b1"
+          },
+          {
+            "id": 0,
+            "text": "\u00a9 2006 The Monotype Corporation. All Rights Reserved."
+          },
+          {
+            "id": 1,
+            "text": "Arial"
+          },
+          {
+            "id": 2,
+            "text": "Bold"
+          },
+          {
+            "id": 4,
+            "text": "Arial Bold"
+          },
+          {
+            "id": 6,
+            "text": "Arial-BoldMT"
+          },
+          {
+            "id": 13,
+            "text": "You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content."
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Lihavoitu"
+          },
+          {
+            "id": 4,
+            "text": "Arial Lihavoitu"
+          },
+          {
+            "id": 2,
+            "text": "Gras"
+          },
+          {
+            "id": 4,
+            "text": "Arial Gras"
+          },
+          {
+            "id": 2,
+            "text": "F\u00e9lk\u00f6v\u00e9r"
+          },
+          {
+            "id": 4,
+            "text": "Arial F\u00e9lk\u00f6v\u00e9r"
+          },
+          {
+            "id": 2,
+            "text": "Grassetto"
+          },
+          {
+            "id": 4,
+            "text": "Arial Grassetto"
+          },
+          {
+            "id": 2,
+            "text": "Vet"
+          },
+          {
+            "id": 4,
+            "text": "Arial Vet"
+          },
+          {
+            "id": 2,
+            "text": "Halvfet"
+          },
+          {
+            "id": 4,
+            "text": "Arial Halvfet"
+          },
+          {
+            "id": 2,
+            "text": "Pogrubiony"
+          },
+          {
+            "id": 4,
+            "text": "Arial Pogrubiony"
+          },
+          {
+            "id": 2,
+            "text": "Negrito"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negrito"
+          },
+          {
+            "id": 2,
+            "text": "\u041f\u043e\u043b\u0443\u0436\u0438\u0440\u043d\u044b\u0439"
+          },
+          {
+            "id": 4,
+            "text": "Arial \u041f\u043e\u043b\u0443\u0436\u0438\u0440\u043d\u044b\u0439"
+          },
+          {
+            "id": 2,
+            "text": "Tu\u010dn\u00e9"
+          },
+          {
+            "id": 4,
+            "text": "Arial Tu\u010dn\u00e9"
+          },
+          {
+            "id": 2,
+            "text": "Fet"
+          },
+          {
+            "id": 4,
+            "text": "Arial Fet"
+          },
+          {
+            "id": 2,
+            "text": "Kal\u0131n"
+          },
+          {
+            "id": 4,
+            "text": "Arial Kal\u0131n"
+          },
+          {
+            "id": 2,
+            "text": "Krepko"
+          },
+          {
+            "id": 4,
+            "text": "Arial Krepko"
+          },
+          {
+            "id": 2,
+            "text": "\u0111\u00e2\u0323m"
+          },
+          {
+            "id": 4,
+            "text": "Arial \u0111\u00e2\u0323m"
+          },
+          {
+            "id": 2,
+            "text": "Lodia"
+          },
+          {
+            "id": 4,
+            "text": "Arial Lodia"
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Negrito"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negrito"
+          },
+          {
+            "id": 2,
+            "text": "Negrita"
+          },
+          {
+            "id": 4,
+            "text": "Arial Negrita"
+          },
+          {
+            "id": 2,
+            "text": "Gras"
+          },
+          {
+            "id": 4,
+            "text": "Arial Gras"
+          }
+        ],
+        "missing_corpus_glyphs": [],
+        "use": "diagnostic fallback only; final brand gate remains"
+      }
+    ],
+    "font_binaries_distributed": false,
+    "initial_status": "blocked_exact_fonts_unavailable",
+    "runtime_audit": "qa/font-runtime-audit.json",
+    "runtime_sources": {
+      "commit": "ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b",
+      "files": [
+        {
+          "family": "inter",
+          "name": "Inter[opsz,wght].ttf",
+          "path": "/private/tmp/btb-font-runtime-v1/inter-Inter[opsz,wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "bytes": 876576
+        },
+        {
+          "family": "inter",
+          "name": "OFL.txt",
+          "path": "/private/tmp/btb-font-runtime-v1/inter-OFL.txt",
+          "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/OFL.txt",
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+          "bytes": 4377
+        },
+        {
+          "family": "playfairdisplay",
+          "name": "PlayfairDisplay[wght].ttf",
+          "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-PlayfairDisplay[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf",
+          "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+          "bytes": 300724
+        },
+        {
+          "family": "playfairdisplay",
+          "name": "OFL.txt",
+          "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-OFL.txt",
+          "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/OFL.txt",
+          "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+          "bytes": 4449
+        }
+      ]
+    }
+  },
+  "approval_gates": [
+    "Original approved logo asset and owner verification",
+    "All posts require owner approval; founder attestation remains separate"
+  ],
+  "recommendation": "Use verified exact Playfair Display and Inter runtime fonts. Complete review exports with provisional plain-text wordmark. Approved original-logo verification remains the only missing brand asset gate. Do not distribute font binaries."
+}

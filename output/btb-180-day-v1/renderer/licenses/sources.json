@@ -1,0 +1,37 @@
+{
+  "commit": "ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b",
+  "files": [
+    {
+      "family": "inter",
+      "name": "Inter[opsz,wght].ttf",
+      "path": "/private/tmp/btb-font-runtime-v1/inter-Inter[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "bytes": 876576
+    },
+    {
+      "family": "inter",
+      "name": "OFL.txt",
+      "path": "/private/tmp/btb-font-runtime-v1/inter-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "bytes": 4377
+    },
+    {
+      "family": "playfairdisplay",
+      "name": "PlayfairDisplay[wght].ttf",
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-PlayfairDisplay[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "bytes": 300724
+    },
+    {
+      "family": "playfairdisplay",
+      "name": "OFL.txt",
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "bytes": 4449
+    }
+  ]
+}

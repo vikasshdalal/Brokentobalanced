@@ -1,0 +1,129 @@
+{
+  "posts": 180,
+  "slides": 1080,
+  "captions": 180,
+  "unique_hooks": 180,
+  "exact_duplicate_slides": 0,
+  "duplicate_slide_texts": [],
+  "unique_captions": 180,
+  "content_word_count_excluding_metadata_hashtags": 22550,
+  "max_slide_words": 23,
+  "first_date": "2026-10-28",
+  "last_date": "2027-04-25",
+  "pillar_counts": {
+    "P1": 36,
+    "P2": 36,
+    "P3": 30,
+    "P4": 30,
+    "P5": 36,
+    "P6": 12
+  },
+  "founder_attestation_posts": [
+    "BTB-014",
+    "BTB-030",
+    "BTB-044",
+    "BTB-060",
+    "BTB-074",
+    "BTB-090",
+    "BTB-104",
+    "BTB-120",
+    "BTB-134",
+    "BTB-150",
+    "BTB-164",
+    "BTB-180"
+  ],
+  "status": "STRUCTURE PASSED; human author approval and eventual live performance validation remain required",
+  "not_tested": [
+    "Audience performance",
+    "Clinical efficacy",
+    "Legal sufficiency",
+    "Rendered 1,080 visual assets (Codex task)",
+    "Account ownership/eligibility in authenticated Instagram",
+    "Original logo binary and current licensed font availability"
+  ],
+  "private_identifier_exact_screen": "PASS: no tested private identifiers in publishable copy",
+  "placeholder_screen": "PASS",
+  "reader_text_count": "180 complete posts / 1080 slides",
+  "near_duplicate_test": {
+    "method": "TF-IDF unigram/bigram cosine on slides 1–5; excludes CTA",
+    "max_similarity": 0.1495,
+    "top_pairs": [
+      {
+        "cosine": 0.1495,
+        "a": "BTB-050",
+        "b": "BTB-080"
+      },
+      {
+        "cosine": 0.1386,
+        "a": "BTB-014",
+        "b": "BTB-180"
+      },
+      {
+        "cosine": 0.129,
+        "a": "BTB-011",
+        "b": "BTB-042"
+      },
+      {
+        "cosine": 0.1268,
+        "a": "BTB-075",
+        "b": "BTB-105"
+      },
+      {
+        "cosine": 0.1253,
+        "a": "BTB-025",
+        "b": "BTB-039"
+      },
+      {
+        "cosine": 0.1248,
+        "a": "BTB-099",
+        "b": "BTB-145"
+      },
+      {
+        "cosine": 0.1215,
+        "a": "BTB-050",
+        "b": "BTB-175"
+      },
+      {
+        "cosine": 0.1196,
+        "a": "BTB-099",
+        "b": "BTB-170"
+      },
+      {
+        "cosine": 0.1152,
+        "a": "BTB-033",
+        "b": "BTB-075"
+      },
+      {
+        "cosine": 0.1152,
+        "a": "BTB-030",
+        "b": "BTB-120"
+      }
+    ],
+    "interpretation": "Lexical similarity screen, not a guarantee of conceptual uniqueness or online originality"
+  },
+  "reader_browser_qa": {
+    "engine": "Chromium headless",
+    "posts": 180,
+    "exact_slides": 1080,
+    "exact_captions": 180,
+    "search": "PASS",
+    "pillar_filter": "PASS",
+    "expand_collapse": "PASS",
+    "mobile_horizontal_overflow": "NONE at 390px",
+    "javascript_errors": [],
+    "loading_scope": "HTML tested using browser set_content; local-file navigation is blocked by this environment. Copy button functionality not asserted."
+  },
+  "canonical_hashes_verified": 180,
+  "workbook_qa": {
+    "sheet_count": 8,
+    "exact_slide_texts_verified": 1080,
+    "exact_caption_fields_verified": 180,
+    "actual_performance_inputs": "EMPTY, not fabricated zeros",
+    "serialized_formula_errors": 0,
+    "rate_formula_test": "12 shares, 8 saves, 20 profile visits, 5 follows per 1000 reached returned 12,8,20,5 respectively; temporary inputs cleared",
+    "net_follower_test": "100 to 105 returned +5; temporary inputs cleared",
+    "preview_review": "Overview, slides and captions inspected; neutral body fill and centered dates applied"
+  },
+  "visual_delivery_status": "No final Instagram graphics rendered in this task; full Codex execution prompt supplied for 1080 PNGs.",
+  "local_html_links": "All referenced local files exist"
+}

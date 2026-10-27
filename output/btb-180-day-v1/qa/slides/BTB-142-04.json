@@ -1,0 +1,154 @@
+{
+  "id": "BTB-142",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Consider alternatives, including changing scope or stopping. Get appropriate professional advice for significant financial or contractual decisions.",
+  "rendered_text": "Consider alternatives, including changing scope or stopping. Get appropriate professional advice for significant financial or contractual decisions.",
+  "copy": {
+    "x": 92,
+    "y": 458,
+    "width": 896,
+    "height": 433.984375,
+    "right": 988,
+    "bottom": 891.984375
+  },
+  "region": {
+    "x": 92,
+    "y": 280,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1070
+  },
+  "line_count": 5,
+  "lines": [
+    {
+      "y": 463,
+      "x": 92,
+      "right": 903.5,
+      "bottom": 538
+    },
+    {
+      "y": 549.796875,
+      "x": 92,
+      "right": 940.984375,
+      "bottom": 624.796875
+    },
+    {
+      "y": 636.59375,
+      "x": 92,
+      "right": 906.203125,
+      "bottom": 711.59375
+    },
+    {
+      "y": 723.390625,
+      "x": 92,
+      "right": 736.53125,
+      "bottom": 798.390625
+    },
+    {
+      "y": 810.1875,
+      "x": 92,
+      "right": 656.703125,
+      "bottom": 885.1875
+    }
+  ],
+  "bounds": [
+    {
+      "role": "series",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 39.1875,
+      "right": 988,
+      "bottom": 127.1875,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "copy",
+      "x": 92,
+      "y": 458,
+      "width": 896,
+      "height": 433.984375,
+      "right": 988,
+      "bottom": 891.984375,
+      "font_size": 62,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "brand",
+      "x": 92,
+      "y": 1192,
+      "width": 229.640625,
+      "height": 33.796875,
+      "right": 321.640625,
+      "bottom": 1225.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "handle",
+      "x": 92,
+      "y": 1230,
+      "width": 234.890625,
+      "height": 33.796875,
+      "right": 326.890625,
+      "bottom": 1263.796875,
+      "font_size": 26,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "x": 927.484375,
+      "y": 1230,
+      "width": 60.515625,
+      "height": 33.59375,
+      "right": 988,
+      "bottom": 1263.59375,
+      "font_size": 28,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(245, 245, 245)"
+    }
+  ],
+  "font_size": 62,
+  "font_family": "Inter, sans-serif",
+  "last_line_width": 564.703125,
+  "errors": [],
+  "platform_fonts": [
+    {
+      "familyName": "Inter",
+      "postScriptName": "Inter-Regular_opsz200000_wght",
+      "isCustomFont": true,
+      "glyphCount": 148
+    }
+  ],
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "png": "posts/BTB-142/04.png",
+  "editable": "posts/BTB-142/editable/04.html",
+  "png_sha256": "5e83577c6052598979dca5d2c1921adeaf634b2b3fbfed97fb2b3e0548d3ea38",
+  "html_sha256": "84f270847b4822e8e4c8a0d98ddd6fa6c016488a8103cacdfa4486629d039921",
+  "render_key": "84f270847b4822e8e4c8a0d98ddd6fa6c016488a8103cacdfa4486629d039921:btb-html-1.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:ab26f6ecba9b1c4bb81b1ac1e98dbc76a2362a2716cfab25bf7289c2e1769614",
+  "attempts": 1
+}

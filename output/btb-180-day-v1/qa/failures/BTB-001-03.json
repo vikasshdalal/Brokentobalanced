@@ -1,0 +1,149 @@
+{
+  "id": "BTB-001",
+  "slide": 3,
+  "error": "copy_outside_region",
+  "geometry": {
+    "id": "BTB-001",
+    "slide": 3,
+    "passed": false,
+    "exact_text": true,
+    "canonical_text": "Looking functional does not mean the change has been easy. It means life has kept asking things of you.",
+    "rendered_text": "Looking functional does not mean the change has been easy. It means life has kept asking things of you.",
+    "copy": {
+      "x": 92,
+      "y": 511.34375,
+      "width": 896,
+      "height": 327.3125,
+      "right": 988,
+      "bottom": 838.65625
+    },
+    "region": {
+      "x": 92,
+      "y": 280,
+      "width": 896,
+      "height": 790,
+      "right": 988,
+      "bottom": 1070
+    },
+    "line_count": 4,
+    "lines": [
+      {
+        "y": 514.34375,
+        "x": 92,
+        "right": 990.484375,
+        "bottom": 589.34375
+      },
+      {
+        "y": 596.171875,
+        "x": 92,
+        "right": 847.84375,
+        "bottom": 671.171875
+      },
+      {
+        "y": 678,
+        "x": 92,
+        "right": 966.390625,
+        "bottom": 753
+      },
+      {
+        "y": 759.828125,
+        "x": 92,
+        "right": 266.640625,
+        "bottom": 834.828125
+      }
+    ],
+    "bounds": [
+      {
+        "role": "series",
+        "x": 92,
+        "y": 88,
+        "width": 896,
+        "height": 39.1875,
+        "right": 988,
+        "bottom": 127.1875,
+        "font_size": 28,
+        "font_family": "Inter, sans-serif",
+        "foreground": "rgb(26, 26, 26)",
+        "background": "rgb(245, 245, 245)"
+      },
+      {
+        "role": "copy",
+        "x": 92,
+        "y": 511.34375,
+        "width": 896,
+        "height": 327.3125,
+        "right": 988,
+        "bottom": 838.65625,
+        "font_size": 62,
+        "font_family": "Inter, sans-serif",
+        "foreground": "rgb(26, 26, 26)",
+        "background": "rgb(245, 245, 245)"
+      },
+      {
+        "role": "brand",
+        "x": 92,
+        "y": 1192,
+        "width": 229.640625,
+        "height": 33.796875,
+        "right": 321.640625,
+        "bottom": 1225.796875,
+        "font_size": 26,
+        "font_family": "Inter, sans-serif",
+        "foreground": "rgb(26, 26, 26)",
+        "background": "rgb(245, 245, 245)"
+      },
+      {
+        "role": "handle",
+        "x": 92,
+        "y": 1230,
+        "width": 234.890625,
+        "height": 33.796875,
+        "right": 326.890625,
+        "bottom": 1263.796875,
+        "font_size": 26,
+        "font_family": "Inter, sans-serif",
+        "foreground": "rgb(26, 26, 26)",
+        "background": "rgb(245, 245, 245)"
+      },
+      {
+        "role": "folio",
+        "x": 927.484375,
+        "y": 1230,
+        "width": 60.515625,
+        "height": 33.59375,
+        "right": 988,
+        "bottom": 1263.59375,
+        "font_size": 28,
+        "font_family": "Inter, sans-serif",
+        "foreground": "rgb(26, 26, 26)",
+        "background": "rgb(245, 245, 245)"
+      }
+    ],
+    "font_size": 62,
+    "font_family": "Inter, sans-serif",
+    "last_line_width": 174.640625,
+    "errors": [
+      "copy_outside_region"
+    ],
+    "platform_fonts": [
+      {
+        "familyName": "Inter",
+        "postScriptName": "Inter-Regular_opsz200000_wght",
+        "isCustomFont": true,
+        "glyphCount": 103
+      }
+    ],
+    "font_faces": [
+      {
+        "family": "Playfair Display",
+        "status": "loaded",
+        "weight": "400 900"
+      },
+      {
+        "family": "Inter",
+        "status": "loaded",
+        "weight": "100 900"
+      }
+    ]
+  }
+}

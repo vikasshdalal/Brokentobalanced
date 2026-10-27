@@ -1,0 +1,42 @@
+{
+  "renderer_version": "btb-html-1.0.0",
+  "completed": [
+    {
+      "id": "BTB-001",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-002",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-003",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-005",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-014",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-142",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-147",
+      "slides": 6,
+      "qa": "PASS"
+    }
+  ],
+  "post_count": 7,
+  "png_count": 42
+}
