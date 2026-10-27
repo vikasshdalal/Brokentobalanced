@@ -1,0 +1,14 @@
+{
+  "status": "PASS_WITHIN_PERMITTED_RANGE_VISUALLY_REVIEWED",
+  "exceptions": [
+    {
+      "id": "BTB-055",
+      "slide": 3,
+      "font_size": 52,
+      "role": "body",
+      "text": "Use simple, age-appropriate language. ",
+      "png": "posts/BTB-055/03.png"
+    }
+  ],
+  "review": "BTB-055/3 viewed full size and360px derivative by primary/independent reviewer; readable, no clipping."
+}

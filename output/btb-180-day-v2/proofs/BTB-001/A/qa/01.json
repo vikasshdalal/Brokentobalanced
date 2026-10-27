@@ -1,0 +1,492 @@
+{
+  "id": "BTB-001",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "The relationship ended. Your responsibilities didn't.",
+  "rendered_text": "The relationship ended. Your responsibilities didn't.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 17,
+      "text": "The relationship ",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 410.390625,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 308,
+          "words": [
+            "The",
+            "relationship"
+          ],
+          "x": 92,
+          "right": 700.828125
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 1,
+      "start": 17,
+      "end": 24,
+      "text": "ended. ",
+      "role": "cover",
+      "x": 92,
+      "y": 410.390625,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 502.78125,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 400.390625,
+          "words": [
+            "ended."
+          ],
+          "x": 92,
+          "right": 340.984375
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 2,
+      "start": 24,
+      "end": 46,
+      "text": "Your responsibilities ",
+      "role": "cover",
+      "x": 92,
+      "y": 546.78125,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 639.171875,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 44,
+      "color": "rgb(194, 165, 123)",
+      "lines": [
+        {
+          "y": 536.78125,
+          "words": [
+            "Your",
+            "responsibilities"
+          ],
+          "x": 92,
+          "right": 851.109375
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 3,
+      "start": 46,
+      "end": 53,
+      "text": "didn't.",
+      "role": "cover",
+      "x": 92,
+      "y": 639.171875,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(194, 165, 123)",
+      "lines": [
+        {
+          "y": 629.171875,
+          "words": [
+            "didn't."
+          ],
+          "x": 92,
+          "right": 324.671875
+        }
+      ],
+      "intentional_line": true
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 431.5625,
+    "right": 988,
+    "bottom": 731.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 308,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 17,
+      "text": "The relationship ",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 410.390625,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 308,
+          "words": [
+            "The",
+            "relationship"
+          ],
+          "x": 92,
+          "right": 700.828125
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 1,
+      "start": 17,
+      "end": 24,
+      "text": "ended. ",
+      "role": "cover",
+      "x": 92,
+      "y": 410.390625,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 502.78125,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 400.390625,
+          "words": [
+            "ended."
+          ],
+          "x": 92,
+          "right": 340.984375
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 2,
+      "start": 24,
+      "end": 46,
+      "text": "Your responsibilities ",
+      "role": "cover",
+      "x": 92,
+      "y": 546.78125,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 639.171875,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 44,
+      "color": "rgb(194, 165, 123)",
+      "lines": [
+        {
+          "y": 536.78125,
+          "words": [
+            "Your",
+            "responsibilities"
+          ],
+          "x": 92,
+          "right": 851.109375
+        }
+      ],
+      "intentional_line": true
+    },
+    {
+      "index": 3,
+      "start": 46,
+      "end": 53,
+      "text": "didn't.",
+      "role": "cover",
+      "x": 92,
+      "y": 639.171875,
+      "width": 896,
+      "height": 92.390625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 84,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 92.4,
+      "gap_before": 0,
+      "color": "rgb(194, 165, 123)",
+      "lines": [
+        {
+          "y": 629.171875,
+          "words": [
+            "didn't."
+          ],
+          "x": 92,
+          "right": 324.671875
+        }
+      ],
+      "intentional_line": true
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "The relationship ",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 84,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 15
+    },
+    {
+      "text": "ended. ",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 84,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 6
+    },
+    {
+      "text": "Your responsibilities ",
+      "foreground": "rgb(194, 165, 123)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 84,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 20
+    },
+    {
+      "text": "didn't.",
+      "foreground": "rgb(194, 165, 123)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 84,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 7
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 24,
+      "end": 53,
+      "method": "accent",
+      "reason": "Second complete sentence, including negation."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 7
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 7
+        }
+      ]
+    }
+  ],
+  "png": "proofs/BTB-001/A/01.png",
+  "editable": "proofs/BTB-001/A/editable/01.html",
+  "png_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+  "html_sha256": "7fe3d4baf0255887c15d8afcffcdd58dafefbe82be3bdf3908bdcbfdd203a96e",
+  "render_key": "7fe3d4baf0255887c15d8afcffcdd58dafefbe82be3bdf3908bdcbfdd203a96e:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "A",
+  "effective_treatment": "A"
+}

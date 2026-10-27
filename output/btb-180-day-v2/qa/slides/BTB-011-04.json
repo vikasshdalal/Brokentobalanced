@@ -1,0 +1,382 @@
+{
+  "id": "BTB-011",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Be specific. A quiet house, a difficult message, and a money decision may need different responses.",
+  "rendered_text": "Be specific. A quiet house, a difficult message, and a money decision may need different responses.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 13,
+      "text": "Be specific. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 417.1875,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Be",
+            "specific."
+          ],
+          "x": 92,
+          "right": 389.890625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 13,
+      "end": 99,
+      "text": "A quiet house, a difficult message, and a money decision may need different responses.",
+      "role": "body",
+      "x": 92,
+      "y": 453.1875,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 456.1875,
+          "words": [
+            "A",
+            "quiet",
+            "house,",
+            "a",
+            "difficult"
+          ],
+          "x": 92,
+          "right": 698.109375
+        },
+        {
+          "y": 535.375,
+          "words": [
+            "message,",
+            "and",
+            "a",
+            "money",
+            "decision"
+          ],
+          "x": 92,
+          "right": 907.4375
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "may",
+            "need",
+            "different",
+            "responses."
+          ],
+          "x": 92,
+          "right": 857.921875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 370.75,
+    "right": 988,
+    "bottom": 690.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 13,
+      "text": "Be specific. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 417.1875,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Be",
+            "specific."
+          ],
+          "x": 92,
+          "right": 389.890625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 13,
+      "end": 99,
+      "text": "A quiet house, a difficult message, and a money decision may need different responses.",
+      "role": "body",
+      "x": 92,
+      "y": 453.1875,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 456.1875,
+          "words": [
+            "A",
+            "quiet",
+            "house,",
+            "a",
+            "difficult"
+          ],
+          "x": 92,
+          "right": 698.109375
+        },
+        {
+          "y": 535.375,
+          "words": [
+            "message,",
+            "and",
+            "a",
+            "money",
+            "decision"
+          ],
+          "x": 92,
+          "right": 907.4375
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "may",
+            "need",
+            "different",
+            "responses."
+          ],
+          "x": 92,
+          "right": 857.921875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Be specific. ",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 11
+    },
+    {
+      "text": "A quiet house, a difficult message, and a money decision may need different responses.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 73
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 13,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 13
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 86
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-011/04.png",
+  "editable": "posts/BTB-011/editable/04.html",
+  "png_sha256": "aba2d5519afd4e720e8a532c88372082e70a320531da6785a7f5cbdb053967dc",
+  "html_sha256": "631d74e4186378429e470b87b04428d0605f760c91488505644e066bc9e3f3c4",
+  "render_key": "631d74e4186378429e470b87b04428d0605f760c91488505644e066bc9e3f3c4:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "A",
+  "effective_treatment": "A"
+}

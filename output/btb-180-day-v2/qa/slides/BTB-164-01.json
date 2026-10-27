@@ -1,0 +1,284 @@
+{
+  "id": "BTB-164",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "This page is not selling a deadline for your recovery.",
+  "rendered_text": "This page is not selling a deadline for your recovery.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 54,
+      "text": "This page is not selling a deadline for your recovery.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 310.171875,
+      "right": 988,
+      "bottom": 628.171875,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "This",
+            "page",
+            "is",
+            "not"
+          ],
+          "x": 92,
+          "right": 739.828125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "selling",
+            "a",
+            "deadline"
+          ],
+          "x": 92,
+          "right": 809.84375
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "for",
+            "your",
+            "recovery."
+          ],
+          "x": 92,
+          "right": 821.953125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 328.171875,
+    "right": 988,
+    "bottom": 628.171875
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 54,
+      "text": "This page is not selling a deadline for your recovery.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 310.171875,
+      "right": 988,
+      "bottom": 628.171875,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "This",
+            "page",
+            "is",
+            "not"
+          ],
+          "x": 92,
+          "right": 739.828125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "selling",
+            "a",
+            "deadline"
+          ],
+          "x": 92,
+          "right": 809.84375
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "for",
+            "your",
+            "recovery."
+          ],
+          "x": 92,
+          "right": 821.953125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "This page is not selling a deadline for your recovery.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 45
+    },
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 54
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-164/01.png",
+  "editable": "posts/BTB-164/editable/01.html",
+  "png_sha256": "ce3eb47ff3f17eb4288c1bcef61fe7dafbebeb2e2daa416c9c40f25210c67753",
+  "html_sha256": "dae8892cba2328f2eb91c64be49d30f2fec2f434eea06c0131498de2baf8d32d",
+  "render_key": "dae8892cba2328f2eb91c64be49d30f2fec2f434eea06c0131498de2baf8d32d:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

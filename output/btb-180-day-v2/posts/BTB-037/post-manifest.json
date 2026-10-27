@@ -1,0 +1,268 @@
+{
+  "id": "BTB-037",
+  "day": 37,
+  "planned_date": "2026-12-03",
+  "timezone": "America/Toronto",
+  "date_status": "Editorial slot only; not scheduled",
+  "input_copy_sha256": "c3de04841ecb42dae46f3028ea6d13134166999c1a5f19898b5ef056e50a58e4",
+  "semantic_layout": "checklist",
+  "layout": "checklist",
+  "visual_brief": "Use generous vertical rhythm and one compact text block per slide; do not invent numbered steps not present in copy.",
+  "requested_treatment": "B",
+  "effective_treatment": "B",
+  "fallback_reason": null,
+  "scene_provenance": null,
+  "primary_cta": "save",
+  "renderer_version": "btb-html-2.0.0",
+  "renderer_sha256": "3ca6419334935ce35d3039450f113aa1cf3fbea656c0be3db710f8da9c35f564",
+  "presentation_sha256": "de1b5f8efbee37cb1a806dc5f779ad0c2fa44b70cbc4ef875ea16f60b05dab70",
+  "measurement_sha256": "1b11842cb2320b82217d5e9ce1bda419d443a2c253a72e498db3e6cb5547f9db",
+  "config_sha256": "1c4744588ef904768723acb9f49f0f06390da1eb162ef95209b30442cde92f8c",
+  "brand_status": "provisional_wordmark",
+  "original_logo": null,
+  "font_status": "exact_runtime_fonts_loaded",
+  "approval_gates": [
+    "original_approved_logo",
+    "owner_editorial_approval"
+  ],
+  "founder_attestation_required": false,
+  "founder_attestation_status": "NOT_FLAGGED",
+  "owner_approval_status": "PENDING",
+  "design_review_status": "AUTOMATED_QA_PASSED_VISUAL_REVIEW_SEPARATE",
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "production_status": "REVIEW_RENDERED",
+  "qa_status": "PASS",
+  "caption": "posts/BTB-037/caption.txt",
+  "caption_sha256": "79befe088d3b2942ad5d0d1ba15773c52d3e03fc2e0d442368cedd562fc0e081",
+  "alt_text_source": "posts/BTB-037/alt-text-source.json",
+  "alt_text_source_sha256": "82b63f16906269de4855401583c6f6fbd0754b5f48717106cf9684228de11c92",
+  "alt_text": "posts/BTB-037/alt-text.json",
+  "alt_text_sha256": "82b63f16906269de4855401583c6f6fbd0754b5f48717106cf9684228de11c92",
+  "slides": [
+    {
+      "number": 1,
+      "png": "posts/BTB-037/01.png",
+      "editable": "posts/BTB-037/editable/01.html",
+      "png_sha256": "da52e3ab4efbb293ef497575e373204f7c58526701e66667e65ea31bdf174f68",
+      "html_sha256": "9c075d7f1c5c28ffea129add1c44323f9355f1ec63c3cdb381cd0f13bd173d74",
+      "render_key": "9c075d7f1c5c28ffea129add1c44323f9355f1ec63c3cdb381cd0f13bd173d74:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-01.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical opening starts on warm paper.",
+      "role": "cover",
+      "composition": "cover",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "cover",
+          "font_family": "Playfair Display",
+          "font_size": 94,
+          "font_weight": 500,
+          "line_height": 1.1,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 94,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 2,
+      "png": "posts/BTB-037/02.png",
+      "editable": "posts/BTB-037/editable/02.html",
+      "png_sha256": "5282c8c073b624359d3901ea249abc0b223c3f892a896fdad841cfbd3864e7ff",
+      "html_sha256": "c8cbfe3c1cf3c7d13dd72a534dbc1a16e2a1d2b418dcc8baeeb76751e089ca8d",
+      "render_key": "c8cbfe3c1cf3c7d13dd72a534dbc1a16e2a1d2b418dcc8baeeb76751e089ca8d:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-02.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 99,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 3,
+      "png": "posts/BTB-037/03.png",
+      "editable": "posts/BTB-037/editable/03.html",
+      "png_sha256": "5de3fd37ea999d373d95a658f16d0a9129d0b06320bcc20555ba7319148a3a11",
+      "html_sha256": "c7002d050d0b58a61a4a383b481df17809c5a76d3da3ab931d907cb735c53fce",
+      "render_key": "c7002d050d0b58a61a4a383b481df17809c5a76d3da3ab931d907cb735c53fce:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-03.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 4,
+      "png": "posts/BTB-037/04.png",
+      "editable": "posts/BTB-037/editable/04.html",
+      "png_sha256": "83368a0228e204b15cdb587307729fce7059f831ad686d4a721524bc39ea3144",
+      "html_sha256": "8363df32e9b51891c32e83fd63b0896257bc8c740bc73decc664839bfbb22584",
+      "render_key": "8363df32e9b51891c32e83fd63b0896257bc8c740bc73decc664839bfbb22584:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-04.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        },
+        {
+          "start": 34,
+          "end": 109,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 1
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 5,
+      "png": "posts/BTB-037/05.png",
+      "editable": "posts/BTB-037/editable/05.html",
+      "png_sha256": "ccc92e248455d31af74417c50235cff4076bd968fc05c26e2d740de02f763794",
+      "html_sha256": "5b333f8e4454ee6e095d27a34d0b15fc5d33fd016e07eba318d6a854657d1ab3",
+      "render_key": "5b333f8e4454ee6e095d27a34d0b15fc5d33fd016e07eba318d6a854657d1ab3:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-05.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 91,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 6,
+      "png": "posts/BTB-037/06.png",
+      "editable": "posts/BTB-037/editable/06.html",
+      "png_sha256": "a5a6e5dae56055ce7868f0182efb3bf2abc7ffec7bd690d0b47ccf3c90ecde6f",
+      "html_sha256": "6aa776e872885932b8377a5ad880464935293a194eb224fb9a2cafc6c380799f",
+      "render_key": "6aa776e872885932b8377a5ad880464935293a194eb224fb9a2cafc6c380799f:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-037-06.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Supportive ending and original action on warm paper.",
+      "role": "closing",
+      "composition": "closing",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 61,
+          "role": "cta",
+          "font_family": "Inter",
+          "font_size": 52,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 52,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    }
+  ]
+}

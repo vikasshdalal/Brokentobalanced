@@ -1,0 +1,297 @@
+{
+  "id": "BTB-111",
+  "day": 111,
+  "planned_date": "2027-02-15",
+  "timezone": "America/Toronto",
+  "date_status": "Editorial slot only; not scheduled",
+  "input_copy_sha256": "4a1dc6150161e0c8fb6b0ad32a5870eb719bc89797b281f2c5f81940bb18dcea",
+  "semantic_layout": "contrast",
+  "layout": "contrast",
+  "visual_brief": "Use typographic contrast between two ideas; never add words, diagnostic badges or red/green verdict symbols; single reading column.",
+  "requested_treatment": "B",
+  "effective_treatment": "B",
+  "fallback_reason": null,
+  "scene_provenance": null,
+  "primary_cta": "share",
+  "renderer_version": "btb-html-2.0.0",
+  "renderer_sha256": "3ca6419334935ce35d3039450f113aa1cf3fbea656c0be3db710f8da9c35f564",
+  "presentation_sha256": "de1b5f8efbee37cb1a806dc5f779ad0c2fa44b70cbc4ef875ea16f60b05dab70",
+  "measurement_sha256": "1b11842cb2320b82217d5e9ce1bda419d443a2c253a72e498db3e6cb5547f9db",
+  "config_sha256": "1c4744588ef904768723acb9f49f0f06390da1eb162ef95209b30442cde92f8c",
+  "brand_status": "provisional_wordmark",
+  "original_logo": null,
+  "font_status": "exact_runtime_fonts_loaded",
+  "approval_gates": [
+    "original_approved_logo",
+    "owner_editorial_approval"
+  ],
+  "founder_attestation_required": false,
+  "founder_attestation_status": "NOT_FLAGGED",
+  "owner_approval_status": "PENDING",
+  "design_review_status": "AUTOMATED_QA_PASSED_VISUAL_REVIEW_SEPARATE",
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "production_status": "REVIEW_RENDERED",
+  "qa_status": "PASS",
+  "caption": "posts/BTB-111/caption.txt",
+  "caption_sha256": "16e9362afd3dcc04b7370844ced3d5fe18f337c88523e7bbc261fa9a3c074dc1",
+  "alt_text_source": "posts/BTB-111/alt-text-source.json",
+  "alt_text_source_sha256": "be23d4fd5c5c84938a7b6d7f2d174b221f5d9722616705f81efae161a6766467",
+  "alt_text": "posts/BTB-111/alt-text.json",
+  "alt_text_sha256": "be23d4fd5c5c84938a7b6d7f2d174b221f5d9722616705f81efae161a6766467",
+  "slides": [
+    {
+      "number": 1,
+      "png": "posts/BTB-111/01.png",
+      "editable": "posts/BTB-111/editable/01.html",
+      "png_sha256": "7d96dc1ecf592c7eb9d693f36e9bd98c4b35810303122668c5d71472abc6bc66",
+      "html_sha256": "a725459dbffc9963fb260c980693ff683296cf0dccde46f055e5f171e8b30a17",
+      "render_key": "a725459dbffc9963fb260c980693ff683296cf0dccde46f055e5f171e8b30a17:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-01.json",
+      "background_token": "charcoal",
+      "background_reason": "Opening names the tension on the established charcoal surface.",
+      "role": "cover",
+      "composition": "cover",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 51,
+          "role": "cover",
+          "font_family": "Playfair Display",
+          "font_size": 94,
+          "font_weight": 500,
+          "line_height": 1.1,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 94,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 2,
+      "png": "posts/BTB-111/02.png",
+      "editable": "posts/BTB-111/editable/02.html",
+      "png_sha256": "791e7c164a6db9ff65a9bb7ccbbbb254d85ebee988cf3b532345ba5513c34adb",
+      "html_sha256": "4e876e47c8355d3386c3e4452e9d8337e0a73833c2df0039ddad6d5469ab6279",
+      "render_key": "4e876e47c8355d3386c3e4452e9d8337e0a73833c2df0039ddad6d5469ab6279:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-02.json",
+      "background_token": "charcoal",
+      "background_reason": "The supplied distinction/negation is an insight; dark emphasis is chosen from meaning, not alternating slide numbers.",
+      "role": "insight",
+      "composition": "insight",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        },
+        {
+          "start": 60,
+          "end": 124,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 1
+        }
+      ],
+      "emphasis_ranges": [
+        {
+          "start": 0,
+          "end": 60,
+          "method": "weight",
+          "reason": "First complete source sentence; no invented comparison labels."
+        }
+      ],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 3,
+      "png": "posts/BTB-111/03.png",
+      "editable": "posts/BTB-111/editable/03.html",
+      "png_sha256": "91196f3c401c0f4f7542df90e31edb3d6bde8dd38b405832204cbad20d5eb50c",
+      "html_sha256": "8ff61a42b472e0c9e1b3f735b1f5d62fe966e2b0f5d3431464f1a422e68dd788",
+      "render_key": "8ff61a42b472e0c9e1b3f735b1f5d62fe966e2b0f5d3431464f1a422e68dd788:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-03.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "recognition",
+      "composition": "recognition",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 101,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 4,
+      "png": "posts/BTB-111/04.png",
+      "editable": "posts/BTB-111/editable/04.html",
+      "png_sha256": "16cabfdec4f0dae89d87af13ab8b73e827749bf119fc3fd8b6e4c316afed5ab3",
+      "html_sha256": "8578e6e691a1771337d2250bb1babe8393323a7131b307c127ef736435eaf31e",
+      "render_key": "8578e6e691a1771337d2250bb1babe8393323a7131b307c127ef736435eaf31e:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-04.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 5,
+      "png": "posts/BTB-111/05.png",
+      "editable": "posts/BTB-111/editable/05.html",
+      "png_sha256": "9e9bb75ccbfc39eedbc302f4da3b553f51548d638ef99200c58bf41356cc6cf5",
+      "html_sha256": "17e07e86ca3dd9fec6ac888cf609369e81fd9234332b8bd725f110479aa2f92f",
+      "render_key": "17e07e86ca3dd9fec6ac888cf609369e81fd9234332b8bd725f110479aa2f92f:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-05.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Practical, contextual or reassuring copy on warm paper.",
+      "role": "recognition",
+      "composition": "recognition",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        },
+        {
+          "start": 57,
+          "end": 127,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 1
+        }
+      ],
+      "emphasis_ranges": [
+        {
+          "start": 0,
+          "end": 57,
+          "method": "weight",
+          "reason": "First complete source sentence; no invented comparison labels."
+        }
+      ],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 6,
+      "png": "posts/BTB-111/06.png",
+      "editable": "posts/BTB-111/editable/06.html",
+      "png_sha256": "f98011cca5e85e010e30f4c07ea89c0dd19788fd5ab60dbe04daf055d8d317a1",
+      "html_sha256": "42bf3bd178d473f3ed2409afc59609e300652772ef3bfe6213ed99276625fac6",
+      "render_key": "42bf3bd178d473f3ed2409afc59609e300652772ef3bfe6213ed99276625fac6:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-111-06.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Supportive ending and original action on warm paper.",
+      "role": "closing",
+      "composition": "closing",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 86,
+          "role": "cta",
+          "font_family": "Inter",
+          "font_size": 52,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 52,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    }
+  ]
+}

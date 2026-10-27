@@ -1,0 +1,386 @@
+{
+  "id": "BTB-054",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "A good moment does not invalidate the hard ones. Nor does a hard evening erase a good afternoon.",
+  "rendered_text": "A good moment does not invalidate the hard ones. Nor does a hard evening erase a good afternoon.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 49,
+      "text": "A good moment does not invalidate the hard ones. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "A",
+            "good",
+            "moment",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 751.84375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "invalidate",
+            "the",
+            "hard",
+            "ones."
+          ],
+          "x": 92,
+          "right": 720.890625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 49,
+      "end": 96,
+      "text": "Nor does a hard evening erase a good afternoon.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Nor",
+            "does",
+            "a",
+            "hard",
+            "evening"
+          ],
+          "x": 92,
+          "right": 712.78125
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "erase",
+            "a",
+            "good",
+            "afternoon."
+          ],
+          "x": 92,
+          "right": 691.859375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 370.75,
+    "right": 988,
+    "bottom": 690.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 49,
+      "text": "A good moment does not invalidate the hard ones. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "A",
+            "good",
+            "moment",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 751.84375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "invalidate",
+            "the",
+            "hard",
+            "ones."
+          ],
+          "x": 92,
+          "right": 720.890625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 49,
+      "end": 96,
+      "text": "Nor does a hard evening erase a good afternoon.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Nor",
+            "does",
+            "a",
+            "hard",
+            "evening"
+          ],
+          "x": 92,
+          "right": 712.78125
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "erase",
+            "a",
+            "good",
+            "afternoon."
+          ],
+          "x": 92,
+          "right": 691.859375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "A good moment does not invalidate the hard ones. ",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 40
+    },
+    {
+      "text": "Nor does a hard evening erase a good afternoon.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 39
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 49,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 49
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 47
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-054/02.png",
+  "editable": "posts/BTB-054/editable/02.html",
+  "png_sha256": "23eaa36e21ff4685077ca196155b0b07bf808c977ebc39fb5eb3bdda17c61b09",
+  "html_sha256": "6b623096201e722cdfb5255c20b1295d49d4ce48ddd9a6b5a2a1e31a544d59d3",
+  "render_key": "6b623096201e722cdfb5255c20b1295d49d4ce48ddd9a6b5a2a1e31a544d59d3:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

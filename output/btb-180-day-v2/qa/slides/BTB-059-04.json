@@ -1,0 +1,382 @@
+{
+  "id": "BTB-059",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Or: “Could you listen first? I am not ready to make a decision during this conversation.”",
+  "rendered_text": "Or: “Could you listen first? I am not ready to make a decision during this conversation.”",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 4,
+      "text": "Or: ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 411.90625,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 340,
+          "words": [
+            "Or:"
+          ],
+          "x": 92,
+          "right": 162.5
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 4,
+      "end": 89,
+      "text": "“Could you listen first? I am not ready to make a decision during this conversation.”",
+      "role": "script",
+      "x": 116,
+      "y": 439.90625,
+      "width": 872,
+      "height": 229.640625,
+      "right": 988,
+      "bottom": 669.546875,
+      "font_size": 58,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 442.90625,
+          "words": [
+            "“Could",
+            "you",
+            "listen",
+            "first?",
+            "I",
+            "am"
+          ],
+          "x": 116,
+          "right": 798.46875
+        },
+        {
+          "y": 519.453125,
+          "words": [
+            "not",
+            "ready",
+            "to",
+            "make",
+            "a",
+            "decision"
+          ],
+          "x": 116,
+          "right": 835.625
+        },
+        {
+          "y": 596,
+          "words": [
+            "during",
+            "this",
+            "conversation.”"
+          ],
+          "x": 116,
+          "right": 746.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 349.546875,
+    "right": 988,
+    "bottom": 669.546875
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 340,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 4,
+      "text": "Or: ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 411.90625,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 340,
+          "words": [
+            "Or:"
+          ],
+          "x": 92,
+          "right": 162.5
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 4,
+      "end": 89,
+      "text": "“Could you listen first? I am not ready to make a decision during this conversation.”",
+      "role": "script",
+      "x": 116,
+      "y": 439.90625,
+      "width": 872,
+      "height": 229.640625,
+      "right": 988,
+      "bottom": 669.546875,
+      "font_size": 58,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 442.90625,
+          "words": [
+            "“Could",
+            "you",
+            "listen",
+            "first?",
+            "I",
+            "am"
+          ],
+          "x": 116,
+          "right": 798.46875
+        },
+        {
+          "y": 519.453125,
+          "words": [
+            "not",
+            "ready",
+            "to",
+            "make",
+            "a",
+            "decision"
+          ],
+          "x": 116,
+          "right": 835.625
+        },
+        {
+          "y": 596,
+          "words": [
+            "during",
+            "this",
+            "conversation.”"
+          ],
+          "x": 116,
+          "right": 746.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Or: ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 56,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 3
+    },
+    {
+      "text": "“Could you listen first? I am not ready to make a decision during this conversation.”",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 71
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 4,
+      "end": 89,
+      "method": "weight",
+      "reason": "Exact existing example sentence; framing and safety context preserved."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 4
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 85
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-059/04.png",
+  "editable": "posts/BTB-059/editable/04.html",
+  "png_sha256": "dabb76184f74afecae87da8b6f687811f688559d4e24e47de51eead991181b9f",
+  "html_sha256": "ffb8f19541e0081de5d52ebc74703cfefd807fb18264a11f5a6c35ae1bc9ca4e",
+  "render_key": "ffb8f19541e0081de5d52ebc74703cfefd807fb18264a11f5a6c35ae1bc9ca4e:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

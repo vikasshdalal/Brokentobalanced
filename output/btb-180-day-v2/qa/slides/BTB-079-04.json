@@ -1,0 +1,296 @@
+{
+  "id": "BTB-079",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Ask what would be supportive today, rather than what inspiring meaning you should extract from it.",
+  "rendered_text": "Ask what would be supportive today, rather than what inspiring meaning you should extract from it.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 98,
+      "text": "Ask what would be supportive today, rather than what inspiring meaning you should extract from it.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Ask",
+            "what",
+            "would",
+            "be",
+            "supportive"
+          ],
+          "x": 92,
+          "right": 858.203125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "today,",
+            "rather",
+            "than",
+            "what",
+            "inspiring"
+          ],
+          "x": 92,
+          "right": 900.609375
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "meaning",
+            "you",
+            "should",
+            "extract",
+            "from",
+            "it."
+          ],
+          "x": 92,
+          "right": 985.390625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 255.5625,
+    "right": 988,
+    "bottom": 575.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 98,
+      "text": "Ask what would be supportive today, rather than what inspiring meaning you should extract from it.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Ask",
+            "what",
+            "would",
+            "be",
+            "supportive"
+          ],
+          "x": 92,
+          "right": 858.203125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "today,",
+            "rather",
+            "than",
+            "what",
+            "inspiring"
+          ],
+          "x": 92,
+          "right": 900.609375
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "meaning",
+            "you",
+            "should",
+            "extract",
+            "from",
+            "it."
+          ],
+          "x": 92,
+          "right": 985.390625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Ask what would be supportive today, rather than what inspiring meaning you should extract from it.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 83
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 98
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-079/04.png",
+  "editable": "posts/BTB-079/editable/04.html",
+  "png_sha256": "4f8839a5d0d0c6d9ed0cf46d546f1d570c870a389a6995bac585da0238d5ff2b",
+  "html_sha256": "11554ad7ad00005b5e2c19f89b2a88dd3b995b18e488a6567916d254387d2226",
+  "render_key": "11554ad7ad00005b5e2c19f89b2a88dd3b995b18e488a6567916d254387d2226:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

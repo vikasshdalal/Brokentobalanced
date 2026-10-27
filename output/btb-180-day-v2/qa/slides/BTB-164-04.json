@@ -1,0 +1,438 @@
+{
+  "id": "BTB-164",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Some may fit. Some may not. Some situations need help that social content cannot provide.",
+  "rendered_text": "Some may fit. Some may not. Some situations need help that social content cannot provide.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 14,
+      "text": "Some may fit. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 414.546875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Some",
+            "may",
+            "fit."
+          ],
+          "x": 92,
+          "right": 428.40625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 14,
+      "end": 28,
+      "text": "Some may not. ",
+      "role": "body",
+      "x": 92,
+      "y": 450.546875,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 527.09375,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 453.546875,
+          "words": [
+            "Some",
+            "may",
+            "not."
+          ],
+          "x": 92,
+          "right": 461.6875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 28,
+      "end": 89,
+      "text": "Some situations need help that social content cannot provide.",
+      "role": "body",
+      "x": 92,
+      "y": 563.09375,
+      "width": 896,
+      "height": 153.09375,
+      "right": 988,
+      "bottom": 716.1875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 566.09375,
+          "words": [
+            "Some",
+            "situations",
+            "need",
+            "help",
+            "that"
+          ],
+          "x": 92,
+          "right": 852.1875
+        },
+        {
+          "y": 642.640625,
+          "words": [
+            "social",
+            "content",
+            "cannot",
+            "provide."
+          ],
+          "x": 92,
+          "right": 827.15625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 396.1875,
+    "right": 988,
+    "bottom": 716.1875
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 14,
+      "text": "Some may fit. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 414.546875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Some",
+            "may",
+            "fit."
+          ],
+          "x": 92,
+          "right": 428.40625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 14,
+      "end": 28,
+      "text": "Some may not. ",
+      "role": "body",
+      "x": 92,
+      "y": 450.546875,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 527.09375,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 453.546875,
+          "words": [
+            "Some",
+            "may",
+            "not."
+          ],
+          "x": 92,
+          "right": 461.6875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 28,
+      "end": 89,
+      "text": "Some situations need help that social content cannot provide.",
+      "role": "body",
+      "x": 92,
+      "y": 563.09375,
+      "width": 896,
+      "height": 153.09375,
+      "right": 988,
+      "bottom": 716.1875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 566.09375,
+          "words": [
+            "Some",
+            "situations",
+            "need",
+            "help",
+            "that"
+          ],
+          "x": 92,
+          "right": 852.1875
+        },
+        {
+          "y": 642.640625,
+          "words": [
+            "social",
+            "content",
+            "cannot",
+            "provide."
+          ],
+          "x": 92,
+          "right": 827.15625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Some may fit. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 11
+    },
+    {
+      "text": "Some may not. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 11
+    },
+    {
+      "text": "Some situations need help that social content cannot provide.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 53
+    },
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 14
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 14
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 61
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-164/04.png",
+  "editable": "posts/BTB-164/editable/04.html",
+  "png_sha256": "6ca6468519c6e61f38fe8ad30016fb6b89e2caff7f3936cce9ed32fca55fe994",
+  "html_sha256": "1c2b7c7f5f076f4218be6a19b8a60d9af668d74c99d13e087692d9555e8cd13a",
+  "render_key": "1c2b7c7f5f076f4218be6a19b8a60d9af668d74c99d13e087692d9555e8cd13a:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

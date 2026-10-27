@@ -1,0 +1,336 @@
+{
+  "proof_primary_size_pngs": 48,
+  "reference_A_pngs": 6,
+  "reference_B_pngs": 6,
+  "representative_pngs": 36,
+  "completed_C_scene_pngs": 0,
+  "C_fallback_reference": "proofs/BTB-001/B/01.png",
+  "C_gate": "No approved local scene or verified no-additional-spend native generation entitlement.",
+  "v1_comparison": {
+    "path": "proofs/BTB-001-comparison.png",
+    "sha256": "b24856cb6aac26304eabc5496744a8c02f26589435dec00b000d12698b9744fe",
+    "reused_actual_cached_comparison": false
+  },
+  "comparison_derivatives": [
+    "proofs/BTB-001-comparison.png",
+    "proofs/BTB-001-phone-360.png",
+    "proofs/BTB-001-phone-390.png",
+    "proofs/representative-sequences.png"
+  ],
+  "crop_stress_tests": [
+    {
+      "name": "square",
+      "path": "proofs/BTB-001-cover-crop-square.png",
+      "crop": {
+        "left": 0,
+        "top": 135,
+        "width": 1080,
+        "height": 1080
+      },
+      "hook_text_bounds_preserved": true,
+      "scope": "Stress test only; footer/header may be excluded by a crop."
+    },
+    {
+      "name": "3x4",
+      "path": "proofs/BTB-001-cover-crop-3x4.png",
+      "crop": {
+        "left": 34,
+        "top": 0,
+        "width": 1012,
+        "height": 1350
+      },
+      "hook_text_bounds_preserved": true,
+      "scope": "Stress test only; footer/header may be excluded by a crop."
+    }
+  ],
+  "files": [
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/01.png",
+      "sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/02.png",
+      "sha256": "1931349534b5ccc0a5fb31eb376ee91bb5bcdb8d56d816448c2c4a7567e50ed6"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/03.png",
+      "sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/04.png",
+      "sha256": "7d7d92947f6639654fee784ac9973158ad91a38323717ba696791c8dbfcc8711"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/05.png",
+      "sha256": "6e7f684924c6915abf5545cf2d8be9a444853e79f1997f3fd4fd618859d93d69"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "A",
+      "path": "proofs/BTB-001/A/06.png",
+      "sha256": "caa20ca6995995332d1ec3facdda5edc19c113094a067ea5d5cb9dafc1edff93"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/01.png",
+      "sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/02.png",
+      "sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/03.png",
+      "sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/04.png",
+      "sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/05.png",
+      "sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e"
+    },
+    {
+      "id": "BTB-001",
+      "treatment": "B",
+      "path": "proofs/BTB-001/B/06.png",
+      "sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/01.png",
+      "sha256": "5e5408d2827a3ab32b380d5180158edcebfbfd6a9f2d198d1f5843b9b3e97588"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/02.png",
+      "sha256": "b264c5f9d5b283d62014a23c336d9ea6f0da58d9ce0a48c5160ddae59fd84fbc"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/03.png",
+      "sha256": "73e3845aec861edb639cbb22cb34a903ae3ef676b0ab354317b1383fa4a6835f"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/04.png",
+      "sha256": "6282a8a19bba29cede164c64535a7ead7d65cd1f5aa8ccb951ad5ac4b2b61e94"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/05.png",
+      "sha256": "b60ff3c5c39f345a3871fe625116f94cbbf1dd25a7a0af4ad0dafed171f55315"
+    },
+    {
+      "id": "BTB-002",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-002/06.png",
+      "sha256": "9a71eaeddbba348c95a3cc8b4ce05c059bff9610534bcd00dfe93f44cf3aac27"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/01.png",
+      "sha256": "090c3ae57614dddf882d50b9635fa806dbe97d8644386c79933d0d55bf1c1437"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/02.png",
+      "sha256": "608abcaa72b846489784f0d2a1604071250a68e1e94a86a924acd43bfda2a483"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/03.png",
+      "sha256": "459e3f9e0c997df329c6451cde4aaf1ad605547919ff8d88891e72ecebd4d66e"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/04.png",
+      "sha256": "b21af114d81a3d09a603bec8ed0d2d7bb4c51cb5aa85ff933f9010b4f071d323"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/05.png",
+      "sha256": "d83cdff676440d1891321c40f1e7fec45b9379324f1b190b6d8733c9ce48f89d"
+    },
+    {
+      "id": "BTB-003",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-003/06.png",
+      "sha256": "2fd0651ef842d80b833bf81e863d21749f8be194e90b46763cb6da66890e9378"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/01.png",
+      "sha256": "cb11c65a35afbb2c7b6daeb59a6a3071de409a0dffb6681fc0d260196b52d315"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/02.png",
+      "sha256": "36269bb9efbe5dc22fa66af5f29c38fbeaec3b2bc20e31bf6d4090c2635da195"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/03.png",
+      "sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/04.png",
+      "sha256": "e40dd2ccd7f49b432220426a7ad672502767d66e946440f25a4f0cd3b4c64b3a"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/05.png",
+      "sha256": "55ca30dd323b55843df2e2982c9091659102feb0e7adb9df73d2ca6482282c75"
+    },
+    {
+      "id": "BTB-005",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-005/06.png",
+      "sha256": "bb352f693687ca995fafff379fba72130b02d789794f6e082ef063a9e481817e"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/01.png",
+      "sha256": "db1c2aa6d821569e75fc63ac786322cf0bec8433cc545dc28aef38ccfa2e138e"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/02.png",
+      "sha256": "65de23e4fe72f685067d854cc2ae357937363d167650ce60426ef7ffd84bbf79"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/03.png",
+      "sha256": "d4720720b4825a7ab6a63fa2791f14995d0a664ac199ef3d479e1e8e01444ead"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/04.png",
+      "sha256": "7b4d271a07e8d5b37944535f54a72022b2c26b1433876bf739a69f747aee788e"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/05.png",
+      "sha256": "4fb8d7a60c61ba78e2d44e1d648590ab619ebaf55486f57018241936162c0217"
+    },
+    {
+      "id": "BTB-014",
+      "treatment": "A",
+      "path": "proofs/representative/BTB-014/06.png",
+      "sha256": "1acaf505fef45ce069d00fb0dce72e76c6f84c4c94199382e7185528189c2d02"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/01.png",
+      "sha256": "4898fbaa836499903cea2c4cb027b33f625518b7968ddb64e737ae671aa63393"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/02.png",
+      "sha256": "e56e853325c5b27f94736e1b2f85fad19b2a6aabb36b350fef24459395e64539"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/03.png",
+      "sha256": "0d7f00d1e434bb0f6d1974192699805ea1e455a6ca064bb765cc9786bfbda188"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/04.png",
+      "sha256": "adade14203454447986b4dc144af3148843ea795969615badab8c2d9b6bf1abe"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/05.png",
+      "sha256": "45833d5237f843c832732619f9c6a7f35326ee2ae1e14d9b1d24bb8e2d9e58f6"
+    },
+    {
+      "id": "BTB-142",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-142/06.png",
+      "sha256": "1abc687432bb1dc40ac8ea1bccf7227911273510f8afbb64dd787fc6162fc843"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/01.png",
+      "sha256": "5ba51c8855f452c5d781008cadd494344fb580a54b695a69018801a5b03c3afe"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/02.png",
+      "sha256": "b0f1214b41b6e0f630d86929a074d420a8b7885c63a2162d049ad4b6f731c7a9"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/03.png",
+      "sha256": "d06bc589eb49d7f304bb705a8cf1e5cb715b5bbc7bd9372ab752a1fe83bdcbe7"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/04.png",
+      "sha256": "686e86823599472dcb8d2adfa04c207e88de7c6ee34abbeff9de37ee9cde9412"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/05.png",
+      "sha256": "d47228a557a6cbef7c70bc1b08aadcef3abc649f0fb0d28cf99b7900aebf4b6f"
+    },
+    {
+      "id": "BTB-175",
+      "treatment": "B",
+      "path": "proofs/representative/BTB-175/06.png",
+      "sha256": "632955808832d45669cf435476338a5714e3daa989be8658443909243985ef9f"
+    }
+  ]
+}

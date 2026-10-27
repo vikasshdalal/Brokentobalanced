@@ -1,0 +1,524 @@
+{
+  "id": "BTB-067",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Write the concern without the insult. What happened? What needs attention? Who can help appropriately?",
+  "rendered_text": "Write the concern without the insult. What happened? What needs attention? Who can help appropriately?",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 38,
+      "text": "Write the concern without the insult. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Write",
+            "the",
+            "concern"
+          ],
+          "x": 92,
+          "right": 557.125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "without",
+            "the",
+            "insult."
+          ],
+          "x": 92,
+          "right": 552.390625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 38,
+      "end": 53,
+      "text": "What happened? ",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 611.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "What",
+            "happened?"
+          ],
+          "x": 92,
+          "right": 541.234375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 53,
+      "end": 75,
+      "text": "What needs attention? ",
+      "role": "body",
+      "x": 92,
+      "y": 647.5625,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 726.75,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 650.5625,
+          "words": [
+            "What",
+            "needs",
+            "attention?"
+          ],
+          "x": 92,
+          "right": 681.25
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 3,
+      "start": 75,
+      "end": 102,
+      "text": "Who can help appropriately?",
+      "role": "body",
+      "x": 92,
+      "y": 762.75,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 841.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 765.75,
+          "words": [
+            "Who",
+            "can",
+            "help",
+            "appropriately?"
+          ],
+          "x": 92,
+          "right": 822.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 521.9375,
+    "right": 988,
+    "bottom": 841.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 38,
+      "text": "Write the concern without the insult. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Write",
+            "the",
+            "concern"
+          ],
+          "x": 92,
+          "right": 557.125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "without",
+            "the",
+            "insult."
+          ],
+          "x": 92,
+          "right": 552.390625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 38,
+      "end": 53,
+      "text": "What happened? ",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 611.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "What",
+            "happened?"
+          ],
+          "x": 92,
+          "right": 541.234375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 53,
+      "end": 75,
+      "text": "What needs attention? ",
+      "role": "body",
+      "x": 92,
+      "y": 647.5625,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 726.75,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 650.5625,
+          "words": [
+            "What",
+            "needs",
+            "attention?"
+          ],
+          "x": 92,
+          "right": 681.25
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 3,
+      "start": 75,
+      "end": 102,
+      "text": "Who can help appropriately?",
+      "role": "body",
+      "x": 92,
+      "y": 762.75,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 841.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 765.75,
+          "words": [
+            "Who",
+            "can",
+            "help",
+            "appropriately?"
+          ],
+          "x": 92,
+          "right": 822.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Write the concern without the insult. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 32
+    },
+    {
+      "text": "What happened? ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 13
+    },
+    {
+      "text": "What needs attention? ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 19
+    },
+    {
+      "text": "Who can help appropriately?",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 24
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 38,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 38
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 22
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-067/03.png",
+  "editable": "posts/BTB-067/editable/03.html",
+  "png_sha256": "a6f2e64e76b623a10d8951f1e261ba30b2ecdb72427c29af860e48e852195a01",
+  "html_sha256": "8979df5b3eac3167e5ca029cb0d32d959ec56c8461925d22102b08055af75542",
+  "render_key": "8979df5b3eac3167e5ca029cb0d32d959ec56c8461925d22102b08055af75542:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

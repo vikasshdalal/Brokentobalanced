@@ -1,0 +1,312 @@
+{
+  "id": "BTB-002",
+  "day": 2,
+  "planned_date": "2026-10-29",
+  "timezone": "America/Toronto",
+  "date_status": "Editorial slot only; not scheduled",
+  "input_copy_sha256": "e183f179da7318bd7acb957f0ab8e2c7f1730e0e73d37042c07a7b72d94dd2c5",
+  "semantic_layout": "contrast",
+  "layout": "contrast",
+  "visual_brief": "Use typographic contrast between two ideas; never add words, diagnostic badges or red/green verdict symbols; single reading column.",
+  "requested_treatment": "A",
+  "effective_treatment": "A",
+  "fallback_reason": null,
+  "scene_provenance": null,
+  "primary_cta": "save",
+  "renderer_version": "btb-html-2.0.0",
+  "renderer_sha256": "3ca6419334935ce35d3039450f113aa1cf3fbea656c0be3db710f8da9c35f564",
+  "presentation_sha256": "de1b5f8efbee37cb1a806dc5f779ad0c2fa44b70cbc4ef875ea16f60b05dab70",
+  "measurement_sha256": "1b11842cb2320b82217d5e9ce1bda419d443a2c253a72e498db3e6cb5547f9db",
+  "config_sha256": "1c4744588ef904768723acb9f49f0f06390da1eb162ef95209b30442cde92f8c",
+  "brand_status": "provisional_wordmark",
+  "original_logo": null,
+  "font_status": "exact_runtime_fonts_loaded",
+  "approval_gates": [
+    "original_approved_logo",
+    "owner_editorial_approval"
+  ],
+  "founder_attestation_required": false,
+  "founder_attestation_status": "NOT_FLAGGED",
+  "owner_approval_status": "PENDING",
+  "design_review_status": "AUTOMATED_QA_PASSED_VISUAL_REVIEW_SEPARATE",
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "production_status": "REVIEW_RENDERED",
+  "qa_status": "PASS",
+  "caption": "proofs/representative/BTB-002/caption.txt",
+  "caption_sha256": "06458be01d056df7c8ed5e46a1c5cd80e894b53a4814e95409ae9c525b617a40",
+  "alt_text_source": "proofs/representative/BTB-002/alt-text-source.json",
+  "alt_text_source_sha256": "dcde4b1a514613827f1d290c2a67eceb6d5cf6db1ad78a0c9890ece07984a845",
+  "alt_text": "proofs/representative/BTB-002/alt-text.json",
+  "alt_text_sha256": "dcde4b1a514613827f1d290c2a67eceb6d5cf6db1ad78a0c9890ece07984a845",
+  "slides": [
+    {
+      "number": 1,
+      "png": "proofs/representative/BTB-002/01.png",
+      "editable": "proofs/representative/BTB-002/editable/01.html",
+      "png_sha256": "5e5408d2827a3ab32b380d5180158edcebfbfd6a9f2d198d1f5843b9b3e97588",
+      "html_sha256": "79c850d88919ac6fdc72289a2dfa114a842aee4972da54ef195d7b47171e6000",
+      "render_key": "79c850d88919ac6fdc72289a2dfa114a842aee4972da54ef195d7b47171e6000:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/01.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "cover",
+      "composition": "cover",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "role": "cover",
+          "font_family": "Playfair Display",
+          "font_size": 94,
+          "font_weight": 500,
+          "line_height": 1.1,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 94,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 2,
+      "png": "proofs/representative/BTB-002/02.png",
+      "editable": "proofs/representative/BTB-002/editable/02.html",
+      "png_sha256": "b264c5f9d5b283d62014a23c336d9ea6f0da58d9ce0a48c5160ddae59fd84fbc",
+      "html_sha256": "6a3055e4c01cbd3ec92c32e5d3356a02cb3fac1848bd8b294537e01714c9aed9",
+      "render_key": "6a3055e4c01cbd3ec92c32e5d3356a02cb3fac1848bd8b294537e01714c9aed9:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/02.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "recognition",
+      "composition": "recognition",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 3,
+      "png": "proofs/representative/BTB-002/03.png",
+      "editable": "proofs/representative/BTB-002/editable/03.html",
+      "png_sha256": "73e3845aec861edb639cbb22cb34a903ae3ef676b0ab354317b1383fa4a6835f",
+      "html_sha256": "c3bece00ab44a8fea6de7a2811b820ca88e898e098167688da7847e5d6d09b22",
+      "render_key": "c3bece00ab44a8fea6de7a2811b820ca88e898e098167688da7847e5d6d09b22:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/03.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "recognition",
+      "composition": "recognition",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 81,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 4,
+      "png": "proofs/representative/BTB-002/04.png",
+      "editable": "proofs/representative/BTB-002/editable/04.html",
+      "png_sha256": "6282a8a19bba29cede164c64535a7ead7d65cd1f5aa8ccb951ad5ac4b2b61e94",
+      "html_sha256": "2405284fe81a01cb0f02e0e5ab65be1e606d6f49749580dab06db9371838694d",
+      "render_key": "2405284fe81a01cb0f02e0e5ab65be1e606d6f49749580dab06db9371838694d:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/04.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 19,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        },
+        {
+          "start": 19,
+          "end": 44,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 1
+        },
+        {
+          "start": 44,
+          "end": 99,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 2
+        }
+      ],
+      "emphasis_ranges": [
+        {
+          "start": 0,
+          "end": 19,
+          "method": "weight",
+          "reason": "First complete source sentence; no invented comparison labels."
+        }
+      ],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 5,
+      "png": "proofs/representative/BTB-002/05.png",
+      "editable": "proofs/representative/BTB-002/editable/05.html",
+      "png_sha256": "b60ff3c5c39f345a3871fe625116f94cbbf1dd25a7a0af4ad0dafed171f55315",
+      "html_sha256": "f94a6325ea6d59ccab9bd100191b3930efc9f5d955a55443930675b32bcb2018",
+      "render_key": "f94a6325ea6d59ccab9bd100191b3930efc9f5d955a55443930675b32bcb2018:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/05.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "practical",
+      "composition": "practical",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 500,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        },
+        {
+          "start": 42,
+          "end": 78,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 60,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 36,
+          "group": 1
+        }
+      ],
+      "emphasis_ranges": [
+        {
+          "start": 0,
+          "end": 42,
+          "method": "weight",
+          "reason": "First complete source sentence; no invented comparison labels."
+        }
+      ],
+      "fitted_typography": [
+        {
+          "font_size": 60,
+          "gap_before": 0
+        },
+        {
+          "font_size": 60,
+          "gap_before": 36
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 6,
+      "png": "proofs/representative/BTB-002/06.png",
+      "editable": "proofs/representative/BTB-002/editable/06.html",
+      "png_sha256": "9a71eaeddbba348c95a3cc8b4ce05c059bff9610534bcd00dfe93f44cf3aac27",
+      "html_sha256": "115d6f8a166366d691ceff39edac91913a2dfc218c85da3dd6728c0bfe54399c",
+      "render_key": "115d6f8a166366d691ceff39edac91913a2dfc218c85da3dd6728c0bfe54399c:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "proofs/representative/BTB-002/qa/06.json",
+      "background_token": "charcoal",
+      "background_reason": "Requested dark editorial treatment; hierarchy and sentence grouping vary within the dark surface.",
+      "role": "closing",
+      "composition": "closing",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "role": "cta",
+          "font_family": "Inter",
+          "font_size": 52,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 52,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "BTB-074",
+  "day": 74,
+  "planned_date": "2027-01-09",
+  "timezone": "America/Toronto",
+  "date_status": "Editorial slot only; not scheduled",
+  "input_copy_sha256": "264a201545cb961811c602d4e0e91525701b93c59ae45b427aefdb0791379b27",
+  "semantic_layout": "letter",
+  "layout": "letter",
+  "visual_brief": "Restrained founder editorial style, text only; no signature, face, fake handwriting or implied quotation from a private record.",
+  "requested_treatment": "B",
+  "effective_treatment": "B",
+  "fallback_reason": null,
+  "scene_provenance": null,
+  "primary_cta": "follow",
+  "renderer_version": "btb-html-2.0.0",
+  "renderer_sha256": "3ca6419334935ce35d3039450f113aa1cf3fbea656c0be3db710f8da9c35f564",
+  "presentation_sha256": "de1b5f8efbee37cb1a806dc5f779ad0c2fa44b70cbc4ef875ea16f60b05dab70",
+  "measurement_sha256": "1b11842cb2320b82217d5e9ce1bda419d443a2c253a72e498db3e6cb5547f9db",
+  "config_sha256": "1c4744588ef904768723acb9f49f0f06390da1eb162ef95209b30442cde92f8c",
+  "brand_status": "provisional_wordmark",
+  "original_logo": null,
+  "font_status": "exact_runtime_fonts_loaded",
+  "approval_gates": [
+    "original_approved_logo",
+    "owner_editorial_approval",
+    "founder_attestation"
+  ],
+  "founder_attestation_required": true,
+  "founder_attestation_status": "PENDING",
+  "owner_approval_status": "PENDING",
+  "design_review_status": "AUTOMATED_QA_PASSED_VISUAL_REVIEW_SEPARATE",
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "production_status": "REVIEW_RENDERED",
+  "qa_status": "PASS",
+  "caption": "posts/BTB-074/caption.txt",
+  "caption_sha256": "6a2d1f2652af3d4b1fdfc2afd7473979fa87498d19ecfa31cbf6d5ce3f810b94",
+  "alt_text_source": "posts/BTB-074/alt-text-source.json",
+  "alt_text_source_sha256": "76a76a35926f3329cbcc65426314f40d29b0e0d9fce1207f290febaa43501b02",
+  "alt_text": "posts/BTB-074/alt-text.json",
+  "alt_text_sha256": "76a76a35926f3329cbcc65426314f40d29b0e0d9fce1207f290febaa43501b02",
+  "slides": [
+    {
+      "number": 1,
+      "png": "posts/BTB-074/01.png",
+      "editable": "posts/BTB-074/editable/01.html",
+      "png_sha256": "c7db50aa4a9eb50e73ee9cb2a35e83e19e4f9f9be7747529d6113a673e5b8d17",
+      "html_sha256": "2c51595545af7e4f1929878aa2ca7e6a0884d29c0990e35f9fdb8cf28d5a7693",
+      "render_key": "2c51595545af7e4f1929878aa2ca7e6a0884d29c0990e35f9fdb8cf28d5a7693:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-01.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "cover",
+      "composition": "cover",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "role": "cover",
+          "font_family": "Playfair Display",
+          "font_size": 94,
+          "font_weight": 500,
+          "line_height": 1.1,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 94,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 2,
+      "png": "posts/BTB-074/02.png",
+      "editable": "posts/BTB-074/editable/02.html",
+      "png_sha256": "59948305bdde94b7ea07f55541e4dd479fa5ae3eb0ead253d90fa7477aeddbde",
+      "html_sha256": "75f8bc7cc07f516be38e51247ef474936ac33cb7075100ac1eef1f1df5803ebc",
+      "render_key": "75f8bc7cc07f516be38e51247ef474936ac33cb7075100ac1eef1f1df5803ebc:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-02.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "founder-letter",
+      "composition": "founder-letter",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 124,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 58,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 58,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 3,
+      "png": "posts/BTB-074/03.png",
+      "editable": "posts/BTB-074/editable/03.html",
+      "png_sha256": "a921ff55e06a784de330f240888c4a91cde6b939eaa0ef826fb9f9adb5c26a9e",
+      "html_sha256": "5f95e7dab5b0e1883b2e5582bdf1b37e69a1995c2a1ec702e8f1fb9428905099",
+      "render_key": "5f95e7dab5b0e1883b2e5582bdf1b37e69a1995c2a1ec702e8f1fb9428905099:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-03.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "founder-letter",
+      "composition": "founder-letter",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 97,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 58,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 58,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 4,
+      "png": "posts/BTB-074/04.png",
+      "editable": "posts/BTB-074/editable/04.html",
+      "png_sha256": "276242f7a56eee55e1a53e8df7701ced8c8c12e769fcd457a630a70a2eb4eb55",
+      "html_sha256": "c8f9d1f52b56a45eaacf0c8833284329a9b3759f21edf75664d9d94b830d056a",
+      "render_key": "c8f9d1f52b56a45eaacf0c8833284329a9b3759f21edf75664d9d94b830d056a:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-04.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "founder-letter",
+      "composition": "founder-letter",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 127,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 58,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 58,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 5,
+      "png": "posts/BTB-074/05.png",
+      "editable": "posts/BTB-074/editable/05.html",
+      "png_sha256": "cde2e857f34c8bb719d19e80951154f1dc950c9a41eb61935f779ad28670602d",
+      "html_sha256": "5773e789bbf5fc5473eda50724670729467162a2c6a3f491fc0bbbc35913c7c2",
+      "render_key": "5773e789bbf5fc5473eda50724670729467162a2c6a3f491fc0bbbc35913c7c2:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-05.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "founder-letter",
+      "composition": "founder-letter",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 85,
+          "role": "body",
+          "font_family": "Inter",
+          "font_size": 58,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 58,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    },
+    {
+      "number": 6,
+      "png": "posts/BTB-074/06.png",
+      "editable": "posts/BTB-074/editable/06.html",
+      "png_sha256": "e1717a4fe4b40bcc3a11faadbeabbfe509f7618166c2168dd677c196a6b702a0",
+      "html_sha256": "17c8f875ee659ad7c307a91bf4f857a6e562f8b6ab4bfbc5f9f84b72af361e82",
+      "render_key": "17c8f875ee659ad7c307a91bf4f857a6e562f8b6ab4bfbc5f9f84b72af361e82:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+      "qa_status": "PASS",
+      "qa": "qa/slides/BTB-074-06.json",
+      "background_token": "warm_ivory_v2",
+      "background_reason": "Founder note kept on warm paper for a consistent, restrained letter voice.",
+      "role": "closing",
+      "composition": "closing",
+      "source_spans": [
+        {
+          "start": 0,
+          "end": 90,
+          "role": "cta",
+          "font_family": "Inter",
+          "font_size": 52,
+          "font_weight": 400,
+          "line_height": 1.32,
+          "gap_before": 0,
+          "group": 0
+        }
+      ],
+      "emphasis_ranges": [],
+      "fitted_typography": [
+        {
+          "font_size": 52,
+          "gap_before": 0
+        }
+      ],
+      "scene": null
+    }
+  ]
+}

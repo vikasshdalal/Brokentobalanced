@@ -1,0 +1,421 @@
+{
+  "id": "BTB-018",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Not everyone who asks “What happened?” needs the full story.",
+  "rendered_text": "Not everyone who asks “What happened?” needs the full story.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 22,
+      "text": "Not everyone who asks ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 411.90625,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 340,
+          "words": [
+            "Not",
+            "everyone",
+            "who",
+            "asks"
+          ],
+          "x": 92,
+          "right": 647.3125
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 22,
+      "end": 38,
+      "text": "“What happened?”",
+      "role": "script",
+      "x": 116,
+      "y": 439.90625,
+      "width": 872,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 516.453125,
+      "font_size": 58,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 442.90625,
+          "words": [
+            "“What",
+            "happened?”"
+          ],
+          "x": 116,
+          "right": 591.625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 38,
+      "end": 60,
+      "text": " needs the full story.",
+      "role": "body",
+      "x": 92,
+      "y": 544.453125,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 618.359375,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 546.453125,
+          "words": [
+            "needs",
+            "the",
+            "full",
+            "story."
+          ],
+          "x": 105.40625,
+          "right": 563.296875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 298.359375,
+    "right": 988,
+    "bottom": 618.359375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 340,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 22,
+      "text": "Not everyone who asks ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 411.90625,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 340,
+          "words": [
+            "Not",
+            "everyone",
+            "who",
+            "asks"
+          ],
+          "x": 92,
+          "right": 647.3125
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 22,
+      "end": 38,
+      "text": "“What happened?”",
+      "role": "script",
+      "x": 116,
+      "y": 439.90625,
+      "width": 872,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 516.453125,
+      "font_size": 58,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 442.90625,
+          "words": [
+            "“What",
+            "happened?”"
+          ],
+          "x": 116,
+          "right": 591.625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 38,
+      "end": 60,
+      "text": " needs the full story.",
+      "role": "body",
+      "x": 92,
+      "y": 544.453125,
+      "width": 896,
+      "height": 73.90625,
+      "right": 988,
+      "bottom": 618.359375,
+      "font_size": 56,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 73.92,
+      "gap_before": 28,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 546.453125,
+          "words": [
+            "needs",
+            "the",
+            "full",
+            "story."
+          ],
+          "x": 105.40625,
+          "right": 563.296875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Not everyone who asks ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 56,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 18
+    },
+    {
+      "text": "“What happened?”",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 15
+    },
+    {
+      "text": " needs the full story.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 56,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 18
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 22,
+      "end": 38,
+      "method": "weight",
+      "reason": "Exact existing example sentence; framing and safety context preserved."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 22
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 16
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 22
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-018/02.png",
+  "editable": "posts/BTB-018/editable/02.html",
+  "png_sha256": "73d35d560c0675980fc5423ae11cef96f2b36dcad5de9606e72fda267021160e",
+  "html_sha256": "ba54a80bf6c33a826e8da9173f809855de182031200ba1824c3d06f12ec4f044",
+  "render_key": "ba54a80bf6c33a826e8da9173f809855de182031200ba1824c3d06f12ec4f044:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

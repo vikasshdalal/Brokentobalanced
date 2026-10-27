@@ -1,0 +1,618 @@
+{
+  "all_carousels": 180,
+  "all_slides": 1080,
+  "sheets": [
+    {
+      "path": "review/carousel-contact-sheets/all-slides-01.png",
+      "posts": [
+        "BTB-001",
+        "BTB-002",
+        "BTB-003",
+        "BTB-004",
+        "BTB-005"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-02.png",
+      "posts": [
+        "BTB-006",
+        "BTB-007",
+        "BTB-008",
+        "BTB-009",
+        "BTB-010"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-03.png",
+      "posts": [
+        "BTB-011",
+        "BTB-012",
+        "BTB-013",
+        "BTB-014",
+        "BTB-015"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-04.png",
+      "posts": [
+        "BTB-016",
+        "BTB-017",
+        "BTB-018",
+        "BTB-019",
+        "BTB-020"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-05.png",
+      "posts": [
+        "BTB-021",
+        "BTB-022",
+        "BTB-023",
+        "BTB-024",
+        "BTB-025"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-06.png",
+      "posts": [
+        "BTB-026",
+        "BTB-027",
+        "BTB-028",
+        "BTB-029",
+        "BTB-030"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-07.png",
+      "posts": [
+        "BTB-031",
+        "BTB-032",
+        "BTB-033",
+        "BTB-034",
+        "BTB-035"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-08.png",
+      "posts": [
+        "BTB-036",
+        "BTB-037",
+        "BTB-038",
+        "BTB-039",
+        "BTB-040"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-09.png",
+      "posts": [
+        "BTB-041",
+        "BTB-042",
+        "BTB-043",
+        "BTB-044",
+        "BTB-045"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-10.png",
+      "posts": [
+        "BTB-046",
+        "BTB-047",
+        "BTB-048",
+        "BTB-049",
+        "BTB-050"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-11.png",
+      "posts": [
+        "BTB-051",
+        "BTB-052",
+        "BTB-053",
+        "BTB-054",
+        "BTB-055"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-12.png",
+      "posts": [
+        "BTB-056",
+        "BTB-057",
+        "BTB-058",
+        "BTB-059",
+        "BTB-060"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-13.png",
+      "posts": [
+        "BTB-061",
+        "BTB-062",
+        "BTB-063",
+        "BTB-064",
+        "BTB-065"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-14.png",
+      "posts": [
+        "BTB-066",
+        "BTB-067",
+        "BTB-068",
+        "BTB-069",
+        "BTB-070"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-15.png",
+      "posts": [
+        "BTB-071",
+        "BTB-072",
+        "BTB-073",
+        "BTB-074",
+        "BTB-075"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-16.png",
+      "posts": [
+        "BTB-076",
+        "BTB-077",
+        "BTB-078",
+        "BTB-079",
+        "BTB-080"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-17.png",
+      "posts": [
+        "BTB-081",
+        "BTB-082",
+        "BTB-083",
+        "BTB-084",
+        "BTB-085"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-18.png",
+      "posts": [
+        "BTB-086",
+        "BTB-087",
+        "BTB-088",
+        "BTB-089",
+        "BTB-090"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-19.png",
+      "posts": [
+        "BTB-091",
+        "BTB-092",
+        "BTB-093",
+        "BTB-094",
+        "BTB-095"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-20.png",
+      "posts": [
+        "BTB-096",
+        "BTB-097",
+        "BTB-098",
+        "BTB-099",
+        "BTB-100"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-21.png",
+      "posts": [
+        "BTB-101",
+        "BTB-102",
+        "BTB-103",
+        "BTB-104",
+        "BTB-105"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-22.png",
+      "posts": [
+        "BTB-106",
+        "BTB-107",
+        "BTB-108",
+        "BTB-109",
+        "BTB-110"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-23.png",
+      "posts": [
+        "BTB-111",
+        "BTB-112",
+        "BTB-113",
+        "BTB-114",
+        "BTB-115"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-24.png",
+      "posts": [
+        "BTB-116",
+        "BTB-117",
+        "BTB-118",
+        "BTB-119",
+        "BTB-120"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-25.png",
+      "posts": [
+        "BTB-121",
+        "BTB-122",
+        "BTB-123",
+        "BTB-124",
+        "BTB-125"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-26.png",
+      "posts": [
+        "BTB-126",
+        "BTB-127",
+        "BTB-128",
+        "BTB-129",
+        "BTB-130"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-27.png",
+      "posts": [
+        "BTB-131",
+        "BTB-132",
+        "BTB-133",
+        "BTB-134",
+        "BTB-135"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-28.png",
+      "posts": [
+        "BTB-136",
+        "BTB-137",
+        "BTB-138",
+        "BTB-139",
+        "BTB-140"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-29.png",
+      "posts": [
+        "BTB-141",
+        "BTB-142",
+        "BTB-143",
+        "BTB-144",
+        "BTB-145"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-30.png",
+      "posts": [
+        "BTB-146",
+        "BTB-147",
+        "BTB-148",
+        "BTB-149",
+        "BTB-150"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-31.png",
+      "posts": [
+        "BTB-151",
+        "BTB-152",
+        "BTB-153",
+        "BTB-154",
+        "BTB-155"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-32.png",
+      "posts": [
+        "BTB-156",
+        "BTB-157",
+        "BTB-158",
+        "BTB-159",
+        "BTB-160"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-33.png",
+      "posts": [
+        "BTB-161",
+        "BTB-162",
+        "BTB-163",
+        "BTB-164",
+        "BTB-165"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-34.png",
+      "posts": [
+        "BTB-166",
+        "BTB-167",
+        "BTB-168",
+        "BTB-169",
+        "BTB-170"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-35.png",
+      "posts": [
+        "BTB-171",
+        "BTB-172",
+        "BTB-173",
+        "BTB-174",
+        "BTB-175"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/carousel-contact-sheets/all-slides-36.png",
+      "posts": [
+        "BTB-176",
+        "BTB-177",
+        "BTB-178",
+        "BTB-179",
+        "BTB-180"
+      ],
+      "type": "all_six_slides"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-01.png",
+      "posts": [
+        "BTB-001",
+        "BTB-002",
+        "BTB-003",
+        "BTB-004",
+        "BTB-005",
+        "BTB-006",
+        "BTB-007",
+        "BTB-008",
+        "BTB-009",
+        "BTB-010",
+        "BTB-011",
+        "BTB-012",
+        "BTB-013",
+        "BTB-014",
+        "BTB-015",
+        "BTB-016",
+        "BTB-017",
+        "BTB-018",
+        "BTB-019",
+        "BTB-020",
+        "BTB-021",
+        "BTB-022",
+        "BTB-023",
+        "BTB-024",
+        "BTB-025",
+        "BTB-026",
+        "BTB-027",
+        "BTB-028",
+        "BTB-029",
+        "BTB-030"
+      ],
+      "type": "covers"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-02.png",
+      "posts": [
+        "BTB-031",
+        "BTB-032",
+        "BTB-033",
+        "BTB-034",
+        "BTB-035",
+        "BTB-036",
+        "BTB-037",
+        "BTB-038",
+        "BTB-039",
+        "BTB-040",
+        "BTB-041",
+        "BTB-042",
+        "BTB-043",
+        "BTB-044",
+        "BTB-045",
+        "BTB-046",
+        "BTB-047",
+        "BTB-048",
+        "BTB-049",
+        "BTB-050",
+        "BTB-051",
+        "BTB-052",
+        "BTB-053",
+        "BTB-054",
+        "BTB-055",
+        "BTB-056",
+        "BTB-057",
+        "BTB-058",
+        "BTB-059",
+        "BTB-060"
+      ],
+      "type": "covers"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-03.png",
+      "posts": [
+        "BTB-061",
+        "BTB-062",
+        "BTB-063",
+        "BTB-064",
+        "BTB-065",
+        "BTB-066",
+        "BTB-067",
+        "BTB-068",
+        "BTB-069",
+        "BTB-070",
+        "BTB-071",
+        "BTB-072",
+        "BTB-073",
+        "BTB-074",
+        "BTB-075",
+        "BTB-076",
+        "BTB-077",
+        "BTB-078",
+        "BTB-079",
+        "BTB-080",
+        "BTB-081",
+        "BTB-082",
+        "BTB-083",
+        "BTB-084",
+        "BTB-085",
+        "BTB-086",
+        "BTB-087",
+        "BTB-088",
+        "BTB-089",
+        "BTB-090"
+      ],
+      "type": "covers"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-04.png",
+      "posts": [
+        "BTB-091",
+        "BTB-092",
+        "BTB-093",
+        "BTB-094",
+        "BTB-095",
+        "BTB-096",
+        "BTB-097",
+        "BTB-098",
+        "BTB-099",
+        "BTB-100",
+        "BTB-101",
+        "BTB-102",
+        "BTB-103",
+        "BTB-104",
+        "BTB-105",
+        "BTB-106",
+        "BTB-107",
+        "BTB-108",
+        "BTB-109",
+        "BTB-110",
+        "BTB-111",
+        "BTB-112",
+        "BTB-113",
+        "BTB-114",
+        "BTB-115",
+        "BTB-116",
+        "BTB-117",
+        "BTB-118",
+        "BTB-119",
+        "BTB-120"
+      ],
+      "type": "covers"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-05.png",
+      "posts": [
+        "BTB-121",
+        "BTB-122",
+        "BTB-123",
+        "BTB-124",
+        "BTB-125",
+        "BTB-126",
+        "BTB-127",
+        "BTB-128",
+        "BTB-129",
+        "BTB-130",
+        "BTB-131",
+        "BTB-132",
+        "BTB-133",
+        "BTB-134",
+        "BTB-135",
+        "BTB-136",
+        "BTB-137",
+        "BTB-138",
+        "BTB-139",
+        "BTB-140",
+        "BTB-141",
+        "BTB-142",
+        "BTB-143",
+        "BTB-144",
+        "BTB-145",
+        "BTB-146",
+        "BTB-147",
+        "BTB-148",
+        "BTB-149",
+        "BTB-150"
+      ],
+      "type": "covers"
+    },
+    {
+      "path": "review/cover-contact-sheets/covers-06.png",
+      "posts": [
+        "BTB-151",
+        "BTB-152",
+        "BTB-153",
+        "BTB-154",
+        "BTB-155",
+        "BTB-156",
+        "BTB-157",
+        "BTB-158",
+        "BTB-159",
+        "BTB-160",
+        "BTB-161",
+        "BTB-162",
+        "BTB-163",
+        "BTB-164",
+        "BTB-165",
+        "BTB-166",
+        "BTB-167",
+        "BTB-168",
+        "BTB-169",
+        "BTB-170",
+        "BTB-171",
+        "BTB-172",
+        "BTB-173",
+        "BTB-174",
+        "BTB-175",
+        "BTB-176",
+        "BTB-177",
+        "BTB-178",
+        "BTB-179",
+        "BTB-180"
+      ],
+      "type": "covers"
+    }
+  ]
+}

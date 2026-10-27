@@ -1,0 +1,1233 @@
+{
+  "version": "2.0.0",
+  "status": "PASS_FOR_REVIEW",
+  "reviewer": "independent visual-review subagent",
+  "review_kind": "Actual agent visual inspection and independent mathematical contrast check; not human/owner approval",
+  "review_date_local": "2026-10-27",
+  "timezone": "America/Toronto",
+  "owner_approval_granted": false,
+  "founder_attestation_granted": false,
+  "proof_phase": {
+    "status": "PASS_FOR_BATCH_PRODUCTION",
+    "reference_A_B_pngs_individually_viewed_full_size": 12,
+    "selected_representative_pngs_individually_viewed_full_size": 7,
+    "all_36_representative_slides_seen_as_sequence_contact_sheet": true,
+    "phone_preview_widths": [
+      360,
+      390
+    ],
+    "crop_stress_tests": [
+      "square",
+      "3:4"
+    ],
+    "full_size_checks": [
+      {
+        "path": "proofs/BTB-001/A/01.png",
+        "sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/A/02.png",
+        "sha256": "1931349534b5ccc0a5fb31eb376ee91bb5bcdb8d56d816448c2c4a7567e50ed6",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/A/03.png",
+        "sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/A/04.png",
+        "sha256": "7d7d92947f6639654fee784ac9973158ad91a38323717ba696791c8dbfcc8711",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/A/05.png",
+        "sha256": "6e7f684924c6915abf5545cf2d8be9a444853e79f1997f3fd4fd618859d93d69",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/A/06.png",
+        "sha256": "caa20ca6995995332d1ec3facdda5edc19c113094a067ea5d5cb9dafc1edff93",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/01.png",
+        "sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/02.png",
+        "sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/03.png",
+        "sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/04.png",
+        "sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/05.png",
+        "sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001/B/06.png",
+        "sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-175/01.png",
+        "sha256": "5ba51c8855f452c5d781008cadd494344fb580a54b695a69018801a5b03c3afe",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-142/04.png",
+        "sha256": "adade14203454447986b4dc144af3148843ea795969615badab8c2d9b6bf1abe",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-003/05.png",
+        "sha256": "d83cdff676440d1891321c40f1e7fec45b9379324f1b190b6d8733c9ce48f89d",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-005/03.png",
+        "sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-002/05.png",
+        "sha256": "b60ff3c5c39f345a3871fe625116f94cbbf1dd25a7a0af4ad0dafed171f55315",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-014/02.png",
+        "sha256": "65de23e4fe72f685067d854cc2ae357937363d167650ce60426ef7ffd84bbf79",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative/BTB-003/04.png",
+        "sha256": "b21af114d81a3d09a603bec8ed0d2d7bb4c51cb5aa85ff933f9010b4f071d323",
+        "visual_result": "PASS"
+      }
+    ],
+    "preview_checks": [
+      {
+        "path": "proofs/BTB-001-comparison.png",
+        "sha256": "b24856cb6aac26304eabc5496744a8c02f26589435dec00b000d12698b9744fe",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001-phone-360.png",
+        "sha256": "f4d9bda32c6a635fa11efdc7a620dd8cf705ecab653dbea11afdcbf1a8dbc608",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001-phone-390.png",
+        "sha256": "836f6b413068bf009c09f20afa67f7bd4dcba20d5c1a16302468031b0ec1c323",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001-cover-crop-square.png",
+        "sha256": "4595959cd8ffab36c2d2bf678978f0c3946a306f7ce7f9c12d7247c11df3ece3",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/BTB-001-cover-crop-3x4.png",
+        "sha256": "96841d2e964bfe15b1cd9e04134dd069bc6aababf17839c47000b52afd142116",
+        "visual_result": "PASS"
+      },
+      {
+        "path": "proofs/representative-sequences.png",
+        "sha256": "0925b3e5ffed4aaab0acf57d6597521042cdde9904a37cef23f65297c81719ac",
+        "visual_result": "PASS"
+      }
+    ],
+    "observations": [
+      "BTB-001 now starts in the upper-middle region and separates its two source sentences. Your responsibilities stays together; ended. and didn't. are intentional source-clause lines, not accidental widows.",
+      "Ivory practical slides and accessible bronze emphasis add warmth while retaining the charcoal identity. The six-slide rhythm follows the supplied art direction.",
+      "The exact responsibilities, distinctions and action sentences are separated into meaningful blocks; negation and safety context remain readable.",
+      "The footer is one quiet brand line plus folio, without the former full-width rule and repeated handle line.",
+      "Both phone composites are readable at 360px and390px inspection sizes. The square crop keeps the hook; header/footer omission in this stress crop is expected and does not change primary exports. The3:4 crop keeps the full hook.",
+      "Longest-hook175/1 and longest-body142/4 are readable and clear of footer. Script examples preserve Try framing and use typography rather than private-message chrome.",
+      "No clipping, overlap, missing glyphs or broken visible copy was observed in the inspected proofs."
+    ],
+    "visual_defects": []
+  },
+  "primary_library_phase": {
+    "status": "PASS_FOR_REVIEW",
+    "carousels_inspected_as_final_sequences": 180,
+    "unique_primary_slides_inspected_at_contact_sheet_scale": 1080,
+    "covers_inspected_as_final_contact_sheets": 180,
+    "carousel_contact_sheets_actually_viewed": 36,
+    "cover_contact_sheets_actually_viewed": 6,
+    "all_primary_pngs_individually_viewed_full_size": false,
+    "full_size_primary_content_coverage": {
+      "pixel_identical_primary_versions_of_actually_viewed_proofs": 13,
+      "additional_primary_full_size_pngs_actually_viewed": 1,
+      "unique_primary_content_images_covered_full_size": 14,
+      "identity_evidence": [
+        {
+          "primary_path": "posts/BTB-001/01.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/01.png",
+          "sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-001/02.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/02.png",
+          "sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-001/03.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/03.png",
+          "sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-001/04.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/04.png",
+          "sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-001/05.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/05.png",
+          "sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-001/06.png",
+          "proof_path_actually_viewed_full_size": "proofs/BTB-001/B/06.png",
+          "sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-175/01.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-175/01.png",
+          "sha256": "5ba51c8855f452c5d781008cadd494344fb580a54b695a69018801a5b03c3afe",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-142/04.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-142/04.png",
+          "sha256": "adade14203454447986b4dc144af3148843ea795969615badab8c2d9b6bf1abe",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-003/05.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-003/05.png",
+          "sha256": "d83cdff676440d1891321c40f1e7fec45b9379324f1b190b6d8733c9ce48f89d",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-005/03.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-005/03.png",
+          "sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-002/05.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-002/05.png",
+          "sha256": "b60ff3c5c39f345a3871fe625116f94cbbf1dd25a7a0af4ad0dafed171f55315",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-014/02.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-014/02.png",
+          "sha256": "65de23e4fe72f685067d854cc2ae357937363d167650ce60426ef7ffd84bbf79",
+          "pixel_file_identical_to_viewed_proof": true
+        },
+        {
+          "primary_path": "posts/BTB-003/04.png",
+          "proof_path_actually_viewed_full_size": "proofs/representative/BTB-003/04.png",
+          "sha256": "b21af114d81a3d09a603bec8ed0d2d7bb4c51cb5aa85ff933f9010b4f071d323",
+          "pixel_file_identical_to_viewed_proof": true
+        }
+      ]
+    },
+    "sheets": [
+      {
+        "path": "review/carousel-contact-sheets/all-slides-01.png",
+        "sha256": "689951280deb0651fdba131517a0fd29e100ea7f4e2a20f6a8ce0c7d2b24b360",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-001",
+          "BTB-002",
+          "BTB-003",
+          "BTB-004",
+          "BTB-005"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-02.png",
+        "sha256": "3bf89159de0c938fb90347521d5c738c716b3237e92d56e07d1d640ff5ddb91b",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-006",
+          "BTB-007",
+          "BTB-008",
+          "BTB-009",
+          "BTB-010"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-03.png",
+        "sha256": "7f02fddf73c9389697638d344049fc0bd95ee80349a0bc2a3aa171e6b889601b",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-011",
+          "BTB-012",
+          "BTB-013",
+          "BTB-014",
+          "BTB-015"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-04.png",
+        "sha256": "1b6367cb1b99f9c13977f2b93319a29eff7d08cb5b1056d3aadb003b56aebac9",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-016",
+          "BTB-017",
+          "BTB-018",
+          "BTB-019",
+          "BTB-020"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-05.png",
+        "sha256": "05b965982c5adb27df440cb9963df053f25c3304127fdd37658a725824303258",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-021",
+          "BTB-022",
+          "BTB-023",
+          "BTB-024",
+          "BTB-025"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-06.png",
+        "sha256": "a635421e8fc92886be661f627e5f19ae1ae47cc1a4ec34b7ee3f91bee28c8ac9",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-026",
+          "BTB-027",
+          "BTB-028",
+          "BTB-029",
+          "BTB-030"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-07.png",
+        "sha256": "79245fb8e1a044939d7f7ef92bcc366ab11e872986f1a07bbbc7796404753e6f",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-031",
+          "BTB-032",
+          "BTB-033",
+          "BTB-034",
+          "BTB-035"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-08.png",
+        "sha256": "5dfb0f7773f1e902f213aa94681bf36bc0b741763f178c7c30a136bbe860769c",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-036",
+          "BTB-037",
+          "BTB-038",
+          "BTB-039",
+          "BTB-040"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-09.png",
+        "sha256": "182bc644d58dabdc37a3d6c6c0cae97e6b2589d8a3b0b0a5ab47cb125f5ba106",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-041",
+          "BTB-042",
+          "BTB-043",
+          "BTB-044",
+          "BTB-045"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-10.png",
+        "sha256": "e8a81c02efc25cc1ae7c10d0d3fa747d2bcdbcc28cd70272869801310404d20c",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-046",
+          "BTB-047",
+          "BTB-048",
+          "BTB-049",
+          "BTB-050"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-11.png",
+        "sha256": "0b4321c6b1c132ad923d70b9e405702ddcc638dbd44a5d5a5e50a26b66eda12e",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-051",
+          "BTB-052",
+          "BTB-053",
+          "BTB-054",
+          "BTB-055"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-12.png",
+        "sha256": "970e0e1f20140afa057ddaef47857da1a9fcc8f352bfa3e32be0a8a96652971d",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-056",
+          "BTB-057",
+          "BTB-058",
+          "BTB-059",
+          "BTB-060"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-13.png",
+        "sha256": "a3778f04736fe79ea157a91aa3782a3947f428a771dd06e1941d262dcb69128a",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-061",
+          "BTB-062",
+          "BTB-063",
+          "BTB-064",
+          "BTB-065"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-14.png",
+        "sha256": "be8dc6fa87fbee6d1d77a750e42bdc4269ba43a2bde5b85f71f03cf541381049",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-066",
+          "BTB-067",
+          "BTB-068",
+          "BTB-069",
+          "BTB-070"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-15.png",
+        "sha256": "c3abec5a7296830e87eb4304aace6d206eb39e9bf03edb32a6d6448bceca6b72",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-071",
+          "BTB-072",
+          "BTB-073",
+          "BTB-074",
+          "BTB-075"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-16.png",
+        "sha256": "658f25032a82e00dc6190a58b6af7c6817c0b18356b6cff3d2b503cb0845b38f",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-076",
+          "BTB-077",
+          "BTB-078",
+          "BTB-079",
+          "BTB-080"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-17.png",
+        "sha256": "cf9863f07c6c1c273e600645997e249636409716c052ca7884ef946a1c340985",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-081",
+          "BTB-082",
+          "BTB-083",
+          "BTB-084",
+          "BTB-085"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-18.png",
+        "sha256": "71f82da3e7bcf3a9ddd83e4a0f5c0706b8dc2bfcab07b2b31ef85139a2bb1029",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-086",
+          "BTB-087",
+          "BTB-088",
+          "BTB-089",
+          "BTB-090"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-19.png",
+        "sha256": "f4c197ed0f95c1987311b3ab4fccc77e3c6a95bf7a4d2234c7724bcf04f5dab0",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-091",
+          "BTB-092",
+          "BTB-093",
+          "BTB-094",
+          "BTB-095"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-20.png",
+        "sha256": "8858e21007c918efb7a4b2563c0dcb3d5e1fb2e6d01874ce3de6dd063d3a6d39",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-096",
+          "BTB-097",
+          "BTB-098",
+          "BTB-099",
+          "BTB-100"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-21.png",
+        "sha256": "73e536878c9165ced16301dd9f1cb2dc015520cd584d818f5d25ed0c9443d5c9",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-101",
+          "BTB-102",
+          "BTB-103",
+          "BTB-104",
+          "BTB-105"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-22.png",
+        "sha256": "758ff50618e42c95e1b3f216c4826f2a23279bee0f279b0bcf1a137bcedc639d",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-106",
+          "BTB-107",
+          "BTB-108",
+          "BTB-109",
+          "BTB-110"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-23.png",
+        "sha256": "3f5e64bb88ae1a2c2252e05ea204311e0809f9a6664212b737c1764e3857a83c",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-111",
+          "BTB-112",
+          "BTB-113",
+          "BTB-114",
+          "BTB-115"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-24.png",
+        "sha256": "0b27bfcb0798135d71db5e53cab011e682c91c50864fa449ff1c4dedd357d38d",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-116",
+          "BTB-117",
+          "BTB-118",
+          "BTB-119",
+          "BTB-120"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-25.png",
+        "sha256": "11c93c0e64044714769edfa5a101bacf72222c705f4100f6549deefcd8f59091",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-121",
+          "BTB-122",
+          "BTB-123",
+          "BTB-124",
+          "BTB-125"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-26.png",
+        "sha256": "d9e566c5e461462232c864cd38174d755179bf23f884209c6e38ca0998283c22",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-126",
+          "BTB-127",
+          "BTB-128",
+          "BTB-129",
+          "BTB-130"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-27.png",
+        "sha256": "df82987154a4c6fc3fc2beba7ac660a1ad4adb58211ed8d56f610caf741a3e1a",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-131",
+          "BTB-132",
+          "BTB-133",
+          "BTB-134",
+          "BTB-135"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-28.png",
+        "sha256": "ea39b1d037d9c6b43753ec9ea44ff34566f1c86204cdb50c2b38e4fa64dd5569",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-136",
+          "BTB-137",
+          "BTB-138",
+          "BTB-139",
+          "BTB-140"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-29.png",
+        "sha256": "1605d5aff051b1a8fd43e303405b6c56c766abc9a7961dd2a6767cc8f69f8990",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-141",
+          "BTB-142",
+          "BTB-143",
+          "BTB-144",
+          "BTB-145"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-30.png",
+        "sha256": "37d77872794042d724addda781f50f527442de012e4c0497c894e09542ce0631",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-146",
+          "BTB-147",
+          "BTB-148",
+          "BTB-149",
+          "BTB-150"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-31.png",
+        "sha256": "cd4435b8980aaa804322bfd67932964f7ebf89c5b56f423a9d7fe9e094435e5a",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-151",
+          "BTB-152",
+          "BTB-153",
+          "BTB-154",
+          "BTB-155"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-32.png",
+        "sha256": "bfb9a8f9f1cb9f890d88d6093d67424addc593a06ed062ee9dd307fc666f0675",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-156",
+          "BTB-157",
+          "BTB-158",
+          "BTB-159",
+          "BTB-160"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-33.png",
+        "sha256": "44e08d6b27cd35e424a1699ef9ec1044538dff1ef1e2cadf0146426c1cae7cb8",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-161",
+          "BTB-162",
+          "BTB-163",
+          "BTB-164",
+          "BTB-165"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-34.png",
+        "sha256": "d12788bfa351f9b282894a550e71e2faa6d9052632b666aa619afe75591f35c5",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-166",
+          "BTB-167",
+          "BTB-168",
+          "BTB-169",
+          "BTB-170"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-35.png",
+        "sha256": "90e0678095a1c601884c54ab03dc96f204b459d12ace03c1fa5f631e27c2f52f",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-171",
+          "BTB-172",
+          "BTB-173",
+          "BTB-174",
+          "BTB-175"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/carousel-contact-sheets/all-slides-36.png",
+        "sha256": "6e3fb12603228e7fac40d0438780cc677266833f7c2963b3e3a9da2e80cd85b3",
+        "type": "complete_carousel_sequences",
+        "post_ids": [
+          "BTB-176",
+          "BTB-177",
+          "BTB-178",
+          "BTB-179",
+          "BTB-180"
+        ],
+        "unique_slides": 30,
+        "method": "Actually viewed with view_image; 1620x1880 source shown at 1461x1696 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All six slides visible in order; coherent header/copy/footer rhythm, no apparent clipping, collision, missing glyphs or accidental isolated word endings."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-01.png",
+        "sha256": "be2661db01f5d89d28261ca1263faeddc0d09401ae376be6b51ac7f5d6210d91",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-001",
+          "BTB-002",
+          "BTB-003",
+          "BTB-004",
+          "BTB-005",
+          "BTB-006",
+          "BTB-007",
+          "BTB-008",
+          "BTB-009",
+          "BTB-010",
+          "BTB-011",
+          "BTB-012",
+          "BTB-013",
+          "BTB-014",
+          "BTB-015",
+          "BTB-016",
+          "BTB-017",
+          "BTB-018",
+          "BTB-019",
+          "BTB-020",
+          "BTB-021",
+          "BTB-022",
+          "BTB-023",
+          "BTB-024",
+          "BTB-025",
+          "BTB-026",
+          "BTB-027",
+          "BTB-028",
+          "BTB-029",
+          "BTB-030"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-02.png",
+        "sha256": "5929dd884c7e1bc9823369efa03d940882f307f9b7758c14bfb57e14bef73e82",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-031",
+          "BTB-032",
+          "BTB-033",
+          "BTB-034",
+          "BTB-035",
+          "BTB-036",
+          "BTB-037",
+          "BTB-038",
+          "BTB-039",
+          "BTB-040",
+          "BTB-041",
+          "BTB-042",
+          "BTB-043",
+          "BTB-044",
+          "BTB-045",
+          "BTB-046",
+          "BTB-047",
+          "BTB-048",
+          "BTB-049",
+          "BTB-050",
+          "BTB-051",
+          "BTB-052",
+          "BTB-053",
+          "BTB-054",
+          "BTB-055",
+          "BTB-056",
+          "BTB-057",
+          "BTB-058",
+          "BTB-059",
+          "BTB-060"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-03.png",
+        "sha256": "833a9ad9aa180508508a997940a6b0d2e4fedd15585246972006b848c7afe130",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-061",
+          "BTB-062",
+          "BTB-063",
+          "BTB-064",
+          "BTB-065",
+          "BTB-066",
+          "BTB-067",
+          "BTB-068",
+          "BTB-069",
+          "BTB-070",
+          "BTB-071",
+          "BTB-072",
+          "BTB-073",
+          "BTB-074",
+          "BTB-075",
+          "BTB-076",
+          "BTB-077",
+          "BTB-078",
+          "BTB-079",
+          "BTB-080",
+          "BTB-081",
+          "BTB-082",
+          "BTB-083",
+          "BTB-084",
+          "BTB-085",
+          "BTB-086",
+          "BTB-087",
+          "BTB-088",
+          "BTB-089",
+          "BTB-090"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-04.png",
+        "sha256": "a3c8542bc9317d6c7f5c78fc3b130f95fb0d13cc7af4642d59ffc8c2cb10d396",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-091",
+          "BTB-092",
+          "BTB-093",
+          "BTB-094",
+          "BTB-095",
+          "BTB-096",
+          "BTB-097",
+          "BTB-098",
+          "BTB-099",
+          "BTB-100",
+          "BTB-101",
+          "BTB-102",
+          "BTB-103",
+          "BTB-104",
+          "BTB-105",
+          "BTB-106",
+          "BTB-107",
+          "BTB-108",
+          "BTB-109",
+          "BTB-110",
+          "BTB-111",
+          "BTB-112",
+          "BTB-113",
+          "BTB-114",
+          "BTB-115",
+          "BTB-116",
+          "BTB-117",
+          "BTB-118",
+          "BTB-119",
+          "BTB-120"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-05.png",
+        "sha256": "f0f1f45e2c83c7eea715f284756a76bef6c64f538f0eef38f9e3aa1cce1a046a",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-121",
+          "BTB-122",
+          "BTB-123",
+          "BTB-124",
+          "BTB-125",
+          "BTB-126",
+          "BTB-127",
+          "BTB-128",
+          "BTB-129",
+          "BTB-130",
+          "BTB-131",
+          "BTB-132",
+          "BTB-133",
+          "BTB-134",
+          "BTB-135",
+          "BTB-136",
+          "BTB-137",
+          "BTB-138",
+          "BTB-139",
+          "BTB-140",
+          "BTB-141",
+          "BTB-142",
+          "BTB-143",
+          "BTB-144",
+          "BTB-145",
+          "BTB-146",
+          "BTB-147",
+          "BTB-148",
+          "BTB-149",
+          "BTB-150"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      },
+      {
+        "path": "review/cover-contact-sheets/covers-06.png",
+        "sha256": "e1aedcff21c34a385e3c8bec553578d9542cebecddcc6103a1d3b3c6dc05d9e3",
+        "type": "cover_review",
+        "post_ids": [
+          "BTB-151",
+          "BTB-152",
+          "BTB-153",
+          "BTB-154",
+          "BTB-155",
+          "BTB-156",
+          "BTB-157",
+          "BTB-158",
+          "BTB-159",
+          "BTB-160",
+          "BTB-161",
+          "BTB-162",
+          "BTB-163",
+          "BTB-164",
+          "BTB-165",
+          "BTB-166",
+          "BTB-167",
+          "BTB-168",
+          "BTB-169",
+          "BTB-170",
+          "BTB-171",
+          "BTB-172",
+          "BTB-173",
+          "BTB-174",
+          "BTB-175",
+          "BTB-176",
+          "BTB-177",
+          "BTB-178",
+          "BTB-179",
+          "BTB-180"
+        ],
+        "covers": 30,
+        "method": "Actually viewed with view_image; 1620x1850 source shown at 1472x1680 by viewing surface.",
+        "visual_result": "PASS",
+        "observations": "All 30 hooks intelligible at preview scale. Consistent serif treatment, brand palette, safe placement and quiet signature."
+      }
+    ],
+    "additional_full_size_checks": [
+      {
+        "id": "BTB-055",
+        "slide": 3,
+        "path": "posts/BTB-055/03.png",
+        "sha256": "0c9473323153422e3a90efe28cb8583c8ac7d8545e7a79a7d2c878ede88618ea",
+        "type": "permitted_font_size_exception",
+        "font_size_first_block": 52,
+        "body_target_px": [
+          54,
+          62
+        ],
+        "body_permitted_px": [
+          50,
+          66
+        ],
+        "other_body_block_px": 60,
+        "full_size_actually_viewed": true,
+        "phone_width_actually_viewed": 360,
+        "phone_preview_height": 450,
+        "phone_preview_sha256": "5e07739254ed55e5567f121f0847b1437301732cedffe1df4759d3d06cd0ffea",
+        "phone_preview_storage": "Temporary inspection derivative outside final package; no primary artwork changed.",
+        "visual_result": "PASS_WITH_RECORDED_PERMITTED_EXCEPTION",
+        "observations": "The shorter first sentence remains readable at 52px (approximately 17.3px when scaled to 360px width); the longer safety context stays at 60px. No clipping, missing glyph, awkward isolated word or footer collision seen."
+      }
+    ],
+    "natural_word_ending_flag_report": {
+      "path": "qa/flagged-layouts.json",
+      "sha256": "6972a317d53f4024d56c55c69f47eeccdefe8dce1a0d6999acacc6cfd2093cb2",
+      "count": 0,
+      "method": "Measured natural one-word final lines; deliberate source-directed reference lines exempt."
+    },
+    "actual_gallery_visual_check": {
+      "method": "Local file:// gallery opened in real headless Chromium; screenshots then actually viewed with view_image. External requests blocked.",
+      "desktop_viewport": {
+        "width": 1280,
+        "height": 1000
+      },
+      "pages_actually_viewed": [
+        "review/index.html",
+        "review/posts/BTB-001.html"
+      ],
+      "index_screenshot_sha256": "b8f1c17e935cf43a6266ff7031ee2e1d4f0646d1273700e52cec9d4fc8f99787",
+      "six_slide_gallery_screenshot_sha256": "7b22bc0d7ad139714bcd148ce932bccb19d1119ccfc2995650731178e9617770",
+      "screenshot_storage": "Temporary inspection screenshots outside final package.",
+      "observations": [
+        "The index shows real count, treatment/approval filters and clear unpublished/provisional branding status.",
+        "The actual BTB-001 page displays all six output PNGs in order with exact-text/accessibility disclosures and editable-source links.",
+        "Every other carousel sequence was visually inspected through the final image contact sheets; this does not claim manually opening all 180 gallery HTML pages."
+      ],
+      "visual_result": "PASS"
+    },
+    "observations": [
+      "The revised presentation is consistent across the complete library: earlier messages, warm-paper practical material, charcoal openings/distinctions, source-sentence grouping and quiet footer.",
+      "Every carousel contains six complete ordered slides. No blank or missing primary asset was observed on the 42 final contact sheets.",
+      "The five semantic families retain clear organisation: contrast uses vertical reading order, scripts retain their introduction and example distinction, practical actions use source boundaries, and founder notes stay restrained.",
+      "Safety caveats remain full-size body content, rather than miniature disclaimers. No private-chat chrome, portraits, invented emblem, synthetic signature, intrusive review label or visible planning date was observed in artwork.",
+      "No apparent clipped text, overlap, missing glyph boxes or accidental isolated final-word line was observed. The specified ended./didn't. reference lines are deliberate source-thought grouping.",
+      "The permitted 52px first block in BTB-055/3 was explicitly inspected at full size and 360px and is readable."
+    ],
+    "visual_defects": [],
+    "visual_defect_count": 0
+  },
+  "independent_contrast_proofs": {
+    "method": "WCAG sRGB relative-luminance formula applied independently to actual text+metadata RGB pairs in48 proof PNG QA records",
+    "text_nodes_checked": 380,
+    "minimum_ratio": 6.348531813992774,
+    "passed": true,
+    "actual_solid_pairs": {
+      "(245, 245, 245)/(26, 26, 26)": 15.963889887766753,
+      "(194, 165, 123)/(26, 26, 26)": 7.427447854094418,
+      "(189, 181, 170)/(26, 26, 26)": 8.580970549445297,
+      "(26, 26, 26)/(243, 238, 230)": 15.069981039118241,
+      "(108, 81, 52)/(243, 238, 230)": 6.348531813992774,
+      "(89, 83, 75)/(243, 238, 230)": 6.579429800931456
+    }
+  },
+  "scope_limits": [
+    "Actually inspected every final carousel as a six-slide contact-sheet sequence and every cover again on six cover sheets. Contact sheets were resized by the viewing surface; they establish preview-scale visual coverage, not full-size proof-reading of 1080 individual PNGs.",
+    "Actually viewed 19 full-size proof PNGs, two phone composites, two crop stress tests, v1/A/B comparison and representative sequences; 13 primary PNGs are byte-identical to those viewed proof images. Additionally viewed final BTB-055/3 full-size and at 360px.",
+    "Actually inspected the real gallery index and BTB-001 gallery in Chromium. All other carousel sequences were visually reviewed in final image contact sheets; separate gallery automation covers page/link/control checks.",
+    "Exact-copy, font-use, clipping and dimension conclusions across all 1080 rely on the separately identified deterministic machine evidence, in addition to visual observations.",
+    "This is agent visual/design QA, not owner editorial approval, founder attestation, clinical/legal clearance, scene capability entitlement or audience-performance validation."
+  ],
+  "approval_gates": [
+    "Original approved logo missing; provisional plain-text wordmark only.",
+    "Owner editorial approval pending for all 180 posts; founder attestation pending for 12 flagged source posts.",
+    "No approved scene asset or verified no-additional-spend native scene generation capability. Zero completed C scenes/proofs; four requested-C pilot posts use complete effective-B fallbacks. Three-way test is not fully prepared."
+  ],
+  "independent_contrast_primary": {
+    "method": "WCAG sRGB relative-luminance formula independently applied to all actual visible-copy and metadata RGB pairs in 1080 final DOM records. All surfaces are solid; no scene/texture assumptions.",
+    "text_nodes_checked": 7882,
+    "minimum_ratio": 6.348531813992774,
+    "maximum_ratio": 15.963889887766753,
+    "threshold": 4.5,
+    "passed": true,
+    "actual_solid_pairs": {
+      "(245, 245, 245)/(26, 26, 26)": 15.963889887766753,
+      "(194, 165, 123)/(26, 26, 26)": 7.427447854094418,
+      "(189, 181, 170)/(26, 26, 26)": 8.580970549445297,
+      "(26, 26, 26)/(243, 238, 230)": 15.069981039118241,
+      "(108, 81, 52)/(243, 238, 230)": 6.348531813992774,
+      "(89, 83, 75)/(243, 238, 230)": 6.579429800931456
+    }
+  },
+  "automated_evidence_reviewed": {
+    "layout-geometry.json": {
+      "status": "PASS",
+      "sha256": "5a4d35864cabbd9074991e68f9612f00c84215d854174cbfbf9fd672df0c6087",
+      "count": 1080,
+      "passed": 1080
+    },
+    "typography-report.json": {
+      "status": "PASS",
+      "sha256": "f6232da579d202340ecca3d5b7b46287508387b7ed3edb4fef10a15da5977f54",
+      "count": 1080,
+      "passed": 1080
+    },
+    "contrast-report.json": {
+      "status": "PASS",
+      "sha256": "9ea6c335fe219515134293ec319bef8cc1ca1f24875d10590efa88aee3c6ee24",
+      "count": 1080,
+      "passed": 1080
+    },
+    "image-integrity.json": {
+      "status": "PASS",
+      "sha256": "c19c4b840a85dc2023d5c07c5b7d6bab792ba64bfc2a0713607992bdd491f5b9",
+      "count": 1080,
+      "passed": 1080
+    },
+    "content-integrity.json": {
+      "status": "PASS",
+      "sha256": "811ef24719f70fd12f919c5a67d7cd22a29888c26e9340085aee0108fe53ee89",
+      "count": 1080,
+      "passed": 180
+    }
+  },
+  "pilot_status": {
+    "assignments": "pilot/visual-test-assignments.json",
+    "requested_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4
+    },
+    "effective_counts": {
+      "A": 4,
+      "B": 8,
+      "C": 0
+    },
+    "C_to_B_fallbacks": 4,
+    "three_way_test_fully_prepared": false,
+    "actual_metrics": "All null; observational proposal only, no publishing/scheduling/account access."
+  }
+}

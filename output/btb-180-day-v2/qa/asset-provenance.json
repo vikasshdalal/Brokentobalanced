@@ -1,0 +1,42 @@
+{
+  "status": "REVIEW_EXPORTS_PERMITTED_WITH_ASSET_GATES",
+  "scope": "Only selected project; excluded generated outputs, Git/dependency/config directories and all prohibited private directory names before traversal",
+  "inspected_directories": [
+    "."
+  ],
+  "source_asset_candidates": [],
+  "logo": {
+    "status": "MISSING_APPROVED_ORIGINAL",
+    "brand_status": "provisional_wordmark",
+    "permitted_review_signature": "Broken to Balanced",
+    "replacement_invented": false,
+    "owner_action": "Supply and verify original approved logo asset before final brand approval"
+  },
+  "scene_treatment_C": {
+    "status": "UNAVAILABLE",
+    "approved_local_scene_assets": [],
+    "native_cost_or_credit_entitlement_established": false,
+    "generation_performed": false,
+    "downloads_performed": false,
+    "uploads_performed": false,
+    "spend_performed": false,
+    "credentials_created": false,
+    "requested_treatment": "C",
+    "effective_fallback_treatment": "B",
+    "reason": "No approved local scene is supplied. A native scene generation capability with no additional spend, billable credits, new credentials or protected upload has not been established. Complete text-first B fallback; do not count fallback as a C proof or C observation.",
+    "C_proofs_completed": 0,
+    "C_pilot_assignments_prepared": false
+  },
+  "fonts": {
+    "status": "PASS",
+    "report": "qa/typography-runtime-audit.json",
+    "exact_runtime_fonts_available": true,
+    "binaries_in_deliverables": false
+  },
+  "separate_approval_gates": {
+    "owner_editorial_approval": "PENDING_ALL_180",
+    "founder_attestation": "PENDING_12_FLAGGED_POSTS"
+  },
+  "v1_outputs_modified": false,
+  "source_inputs_modified": false
+}

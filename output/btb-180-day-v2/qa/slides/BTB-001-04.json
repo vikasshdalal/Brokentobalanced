@@ -1,0 +1,452 @@
+{
+  "id": "BTB-001",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "For today, separate what must happen from what can wait. A difficult season does not make every task urgent.",
+  "rendered_text": "For today, separate what must happen from what can wait. A difficult season does not make every task urgent.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 57,
+      "text": "For today, separate what must happen from what can wait. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "For",
+            "today,",
+            "separate"
+          ],
+          "x": 92,
+          "right": 575.75
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "what",
+            "must",
+            "happen",
+            "from"
+          ],
+          "x": 92,
+          "right": 710.3125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "what",
+            "can",
+            "wait",
+            "."
+          ],
+          "x": 92,
+          "right": 466
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 57,
+      "end": 108,
+      "text": "A difficult season does not make every task urgent.",
+      "role": "body",
+      "x": 92,
+      "y": 617.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 775.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 42,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 620.5625,
+          "words": [
+            "A",
+            "difficult",
+            "season",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 762.265625
+        },
+        {
+          "y": 699.75,
+          "words": [
+            "make",
+            "every",
+            "task",
+            "urgent."
+          ],
+          "x": 92,
+          "right": 700.90625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 455.9375,
+    "right": 988,
+    "bottom": 775.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 57,
+      "text": "For today, separate what must happen from what can wait. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "For",
+            "today,",
+            "separate"
+          ],
+          "x": 92,
+          "right": 575.75
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "what",
+            "must",
+            "happen",
+            "from"
+          ],
+          "x": 92,
+          "right": 710.3125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "what",
+            "can",
+            "wait",
+            "."
+          ],
+          "x": 92,
+          "right": 466
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 57,
+      "end": 108,
+      "text": "A difficult season does not make every task urgent.",
+      "role": "body",
+      "x": 92,
+      "y": 617.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 775.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 42,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 620.5625,
+          "words": [
+            "A",
+            "difficult",
+            "season",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 762.265625
+        },
+        {
+          "y": 699.75,
+          "words": [
+            "make",
+            "every",
+            "task",
+            "urgent."
+          ],
+          "x": 92,
+          "right": 700.90625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "For today, separate ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 17
+    },
+    {
+      "text": "what must happen",
+      "foreground": "rgb(108, 81, 52)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 14
+    },
+    {
+      "text": " from ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 4
+    },
+    {
+      "text": "what can wait",
+      "foreground": "rgb(108, 81, 52)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 11
+    },
+    {
+      "text": ". ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 1
+    },
+    {
+      "text": "A difficult season does not make every task urgent.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 43
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 20,
+      "end": 36,
+      "method": "accent",
+      "reason": "Exact contrast phrase in the original sentence order."
+    },
+    {
+      "start": 42,
+      "end": 55,
+      "method": "accent",
+      "reason": "Exact contrast phrase in the original sentence order."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 28
+        },
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 29
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 51
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-001/04.png",
+  "editable": "posts/BTB-001/editable/04.html",
+  "png_sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+  "html_sha256": "15f8392fa5ab7d8d1b088dfffc5513f693646e143f90a71b27cef6924382dd41",
+  "render_key": "15f8392fa5ab7d8d1b088dfffc5513f693646e143f90a71b27cef6924382dd41:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

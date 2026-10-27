@@ -1,0 +1,367 @@
+{
+  "id": "BTB-152",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "The difficult email arrived. You do not have to become the email.",
+  "rendered_text": "The difficult email arrived. You do not have to become the email.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 29,
+      "text": "The difficult email arrived. ",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 524.78125,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "The",
+            "difficult"
+          ],
+          "x": 92,
+          "right": 600.859375
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "email",
+            "arrived."
+          ],
+          "x": 92,
+          "right": 667.171875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 29,
+      "end": 65,
+      "text": "You do not have to become the email.",
+      "role": "cover",
+      "x": 92,
+      "y": 566.78125,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 773.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 42,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 554.78125,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "have",
+            "to"
+          ],
+          "x": 92,
+          "right": 846.328125
+        },
+        {
+          "y": 658.171875,
+          "words": [
+            "become",
+            "the",
+            "email."
+          ],
+          "x": 92,
+          "right": 844.1875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 473.5625,
+    "right": 988,
+    "bottom": 773.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 29,
+      "text": "The difficult email arrived. ",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 524.78125,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "The",
+            "difficult"
+          ],
+          "x": 92,
+          "right": 600.859375
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "email",
+            "arrived."
+          ],
+          "x": 92,
+          "right": 667.171875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 29,
+      "end": 65,
+      "text": "You do not have to become the email.",
+      "role": "cover",
+      "x": 92,
+      "y": 566.78125,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 773.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 42,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 554.78125,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "have",
+            "to"
+          ],
+          "x": 92,
+          "right": 846.328125
+        },
+        {
+          "y": 658.171875,
+          "words": [
+            "become",
+            "the",
+            "email."
+          ],
+          "x": 92,
+          "right": 844.1875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "The difficult email arrived. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 25
+    },
+    {
+      "text": "You do not have to become the email.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 29
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 29
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 36
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-152/01.png",
+  "editable": "posts/BTB-152/editable/01.html",
+  "png_sha256": "5b2048ce280ab2fa1a45bd4ff92ad292ca7044a55f7f9f80e26c1eb7a3cd935f",
+  "html_sha256": "c5e97dcc7306b667c63d1778d912986ba4470b60782bcb31ad9e0eaabab54518",
+  "render_key": "c5e97dcc7306b667c63d1778d912986ba4470b60782bcb31ad9e0eaabab54518:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

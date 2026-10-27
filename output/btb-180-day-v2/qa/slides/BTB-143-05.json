@@ -1,0 +1,386 @@
+{
+  "id": "BTB-143",
+  "slide": 5,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "You do not need to abandon ambition. You can stop asking one outcome to repair your whole life.",
+  "rendered_text": "You do not need to abandon ambition. You can stop asking one outcome to repair your whole life.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 37,
+      "text": "You do not need to abandon ambition. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "need",
+            "to"
+          ],
+          "x": 92,
+          "right": 580.140625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "abandon",
+            "ambition."
+          ],
+          "x": 92,
+          "right": 574.859375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 37,
+      "end": 95,
+      "text": "You can stop asking one outcome to repair your whole life.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "You",
+            "can",
+            "stop",
+            "asking",
+            "one"
+          ],
+          "x": 92,
+          "right": 713.15625
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "outcome",
+            "to",
+            "repair",
+            "your",
+            "whole",
+            "life."
+          ],
+          "x": 92,
+          "right": 933.984375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 370.75,
+    "right": 988,
+    "bottom": 690.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 37,
+      "text": "You do not need to abandon ambition. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "need",
+            "to"
+          ],
+          "x": 92,
+          "right": 580.140625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "abandon",
+            "ambition."
+          ],
+          "x": 92,
+          "right": 574.859375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 37,
+      "end": 95,
+      "text": "You can stop asking one outcome to repair your whole life.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "You",
+            "can",
+            "stop",
+            "asking",
+            "one"
+          ],
+          "x": 92,
+          "right": 713.15625
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "outcome",
+            "to",
+            "repair",
+            "your",
+            "whole",
+            "life."
+          ],
+          "x": 92,
+          "right": 933.984375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "You do not need to abandon ambition. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 30
+    },
+    {
+      "text": "You can stop asking one outcome to repair your whole life.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 48
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "5 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "5 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 37,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 58
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-143/05.png",
+  "editable": "posts/BTB-143/editable/05.html",
+  "png_sha256": "5b89e6ef382788d93369372204919466f6e4a984424f1370e7ebed71310c6010",
+  "html_sha256": "285798b89f83793b835fa2b4de2a9fff971affef05e08fcdf2e1fefa037e78ed",
+  "render_key": "285798b89f83793b835fa2b4de2a9fff971affef05e08fcdf2e1fefa037e78ed:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

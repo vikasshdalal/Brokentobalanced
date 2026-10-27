@@ -1,0 +1,302 @@
+{
+  "id": "BTB-138",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Hope does not need to name the date everything will be fine.",
+  "rendered_text": "Hope does not need to name the date everything will be fine.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 60,
+      "text": "Hope does not need to name the date everything will be fine.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Hope",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 688.125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "need",
+            "to",
+            "name",
+            "the"
+          ],
+          "x": 92,
+          "right": 804.921875
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "date",
+            "everything"
+          ],
+          "x": 92,
+          "right": 735.296875
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "will",
+            "be",
+            "fine."
+          ],
+          "x": 92,
+          "right": 569.828125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 431.5625,
+    "right": 988,
+    "bottom": 731.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 60,
+      "text": "Hope does not need to name the date everything will be fine.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Hope",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 688.125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "need",
+            "to",
+            "name",
+            "the"
+          ],
+          "x": 92,
+          "right": 804.921875
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "date",
+            "everything"
+          ],
+          "x": 92,
+          "right": 735.296875
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "will",
+            "be",
+            "fine."
+          ],
+          "x": 92,
+          "right": 569.828125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Hope does not need to name the date everything will be fine.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 49
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 60
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-138/01.png",
+  "editable": "posts/BTB-138/editable/01.html",
+  "png_sha256": "0846e92588174c3d91fb66533bc1e075c4ee38b409804ef063a7967b5daca6a1",
+  "html_sha256": "8ab47aa29c3192080ae1da60f7b538f894ae0ba7f27d78483aa46cccefb9f9d6",
+  "render_key": "8ab47aa29c3192080ae1da60f7b538f894ae0ba7f27d78483aa46cccefb9f9d6:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

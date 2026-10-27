@@ -1,0 +1,398 @@
+{
+  "id": "BTB-070",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Each decision needs its own information and boundaries. Required communication and safety arrangements must still be respected.",
+  "rendered_text": "Each decision needs its own information and boundaries. Required communication and safety arrangements must still be respected.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 56,
+      "text": "Each decision needs its own information and boundaries. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Each",
+            "decision",
+            "needs",
+            "its",
+            "own"
+          ],
+          "x": 92,
+          "right": 825.578125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "information",
+            "and",
+            "boundaries."
+          ],
+          "x": 92,
+          "right": 818.25
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 56,
+      "end": 127,
+      "text": "Required communication and safety arrangements must still be respected.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Required",
+            "communication"
+          ],
+          "x": 92,
+          "right": 729.140625
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "and",
+            "safety",
+            "arrangements"
+          ],
+          "x": 92,
+          "right": 727.21875
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "must",
+            "still",
+            "be",
+            "respected."
+          ],
+          "x": 92,
+          "right": 678.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 449.9375,
+    "right": 988,
+    "bottom": 769.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 56,
+      "text": "Each decision needs its own information and boundaries. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Each",
+            "decision",
+            "needs",
+            "its",
+            "own"
+          ],
+          "x": 92,
+          "right": 825.578125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "information",
+            "and",
+            "boundaries."
+          ],
+          "x": 92,
+          "right": 818.25
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 56,
+      "end": 127,
+      "text": "Required communication and safety arrangements must still be respected.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Required",
+            "communication"
+          ],
+          "x": 92,
+          "right": 729.140625
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "and",
+            "safety",
+            "arrangements"
+          ],
+          "x": 92,
+          "right": 727.21875
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "must",
+            "still",
+            "be",
+            "respected."
+          ],
+          "x": 92,
+          "right": 678.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Each decision needs its own information and boundaries. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 48
+    },
+    {
+      "text": "Required communication and safety arrangements must still be respected.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 63
+    },
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 56,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 56
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 71
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-070/04.png",
+  "editable": "posts/BTB-070/editable/04.html",
+  "png_sha256": "04de6c9cc55d6631c27f3774a01ec29884f05cc47e5667b5f8f4f7787b85b304",
+  "html_sha256": "da1bfd778bf9e70e818fa77164051fb76389cd5858541ff9155102a1adcc4e10",
+  "render_key": "da1bfd778bf9e70e818fa77164051fb76389cd5858541ff9155102a1adcc4e10:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "BTB-046",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "“I need some space” works better with a little clarity.",
+  "rendered_text": "“I need some space” works better with a little clarity.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 55,
+      "text": "“I need some space” works better with a little clarity.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 310.171875,
+      "right": 988,
+      "bottom": 628.171875,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "“I",
+            "need",
+            "some",
+            "space”"
+          ],
+          "x": 92,
+          "right": 922.328125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "works",
+            "better",
+            "with"
+          ],
+          "x": 92,
+          "right": 818.421875
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "a",
+            "little",
+            "clarity."
+          ],
+          "x": 92,
+          "right": 649.671875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 328.171875,
+    "right": 988,
+    "bottom": 628.171875
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 55,
+      "text": "“I need some space” works better with a little clarity.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 310.171875,
+      "right": 988,
+      "bottom": 628.171875,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "“I",
+            "need",
+            "some",
+            "space”"
+          ],
+          "x": 92,
+          "right": 922.328125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "works",
+            "better",
+            "with"
+          ],
+          "x": 92,
+          "right": 818.421875
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "a",
+            "little",
+            "clarity."
+          ],
+          "x": 92,
+          "right": 649.671875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "“I need some space” works better with a little clarity.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 46
+    },
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 55
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-046/01.png",
+  "editable": "posts/BTB-046/editable/01.html",
+  "png_sha256": "4b01883941bf3043783df32a6f1a39b56f350c22e8d1561548f79f0c212549cb",
+  "html_sha256": "fa09d900801f5bfbad1fdd7197379d5c29b5d6e326a4aa53c22d0ee1372dcf40",
+  "render_key": "fa09d900801f5bfbad1fdd7197379d5c29b5d6e326a4aa53c22d0ee1372dcf40:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

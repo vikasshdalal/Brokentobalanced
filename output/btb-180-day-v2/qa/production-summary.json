@@ -1,0 +1,155 @@
+{
+  "production_status": "COMPLETE_REVIEW_PACKAGE",
+  "publishing_status": "UNPUBLISHED — OWNER APPROVAL REQUIRED",
+  "counts": {
+    "posts": 180,
+    "primary_pngs": 1080,
+    "editable_html_slides": 1080,
+    "captions": 180,
+    "alt_text_source_sets": 180,
+    "alt_text_delivery_sets": 180,
+    "supplied_alt_texts": 1080,
+    "proof_full_size_pngs": 48,
+    "completed_scene_proofs": 0,
+    "cover_contact_sheets": 6,
+    "carousel_contact_sheets": 36
+  },
+  "effective_treatments": {
+    "A": 4,
+    "B": 176,
+    "C": 0
+  },
+  "C_to_B_fallbacks": [
+    {
+      "id": "BTB-003",
+      "requested_treatment": "C",
+      "effective_treatment": "B",
+      "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+    },
+    {
+      "id": "BTB-005",
+      "requested_treatment": "C",
+      "effective_treatment": "B",
+      "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+    },
+    {
+      "id": "BTB-019",
+      "requested_treatment": "C",
+      "effective_treatment": "B",
+      "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+    },
+    {
+      "id": "BTB-027",
+      "requested_treatment": "C",
+      "effective_treatment": "B",
+      "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+    }
+  ],
+  "proofs_separate_from_primary": true,
+  "canonical_copy_hashes_matched": 180,
+  "source_sha256": "512d463c0300b15545baf11cf712896fab0380febecf1cb8e18982946876bcf0",
+  "source_original_bytes_unchanged": true,
+  "original_and_v1_baseline_files_unchanged": 4058,
+  "dimensions": "1080x1350",
+  "color_space": "sRGB",
+  "exact_fonts": [
+    "Playfair Display",
+    "Inter"
+  ],
+  "font_binaries_in_deliverables": 0,
+  "minimum_actual_text_contrast": 6.348531813992776,
+  "rendering_defect_count": 0,
+  "rendering_defects": [],
+  "independent_visible_dom_slides_checked": 1080,
+  "independent_output_hashes_checked": 2700,
+  "fresh_exact_rerenders": {
+    "matched": 30,
+    "tested": 30
+  },
+  "visual_scope": {
+    "all_primary_carousels_previewed": 180,
+    "all_primary_slides_previewed": 1080,
+    "carousel_contact_sheets": 36,
+    "cover_contact_sheets": 6,
+    "all_covers_previewed": 180,
+    "phone_widths": [
+      360,
+      390
+    ],
+    "actual_gallery_viewed": true,
+    "flagged_type_exception": "BTB-055/3 52px body block; within permitted range and viewed at full/360px size",
+    "approval_type": "Agent inspection, not owner/human approval"
+  },
+  "brand_status": "provisional_wordmark",
+  "approval_gates": [
+    {
+      "gate": "original_approved_logo",
+      "status": "MISSING",
+      "applies_to": "all180",
+      "detail": "No original approved logo binary in selected project; plain-text review signature used."
+    },
+    {
+      "gate": "owner_editorial_approval",
+      "status": "PENDING",
+      "applies_to": "all180"
+    },
+    {
+      "gate": "founder_attestation",
+      "status": "PENDING",
+      "post_ids": [
+        "BTB-014",
+        "BTB-030",
+        "BTB-044",
+        "BTB-060",
+        "BTB-074",
+        "BTB-090",
+        "BTB-104",
+        "BTB-120",
+        "BTB-134",
+        "BTB-150",
+        "BTB-164",
+        "BTB-180"
+      ]
+    }
+  ],
+  "scene_status": "No approved local scene or verified no-additional-spend generation entitlement; zero completed C outputs. Three-way pilot not fully prepared.",
+  "owner_approval": "PENDING for all180",
+  "founder_attestation_pending": [
+    "BTB-014",
+    "BTB-030",
+    "BTB-044",
+    "BTB-060",
+    "BTB-074",
+    "BTB-090",
+    "BTB-104",
+    "BTB-120",
+    "BTB-134",
+    "BTB-150",
+    "BTB-164",
+    "BTB-180"
+  ],
+  "archive_path": "../btb-180-day-v2-review.zip",
+  "review_path": "review/index.html",
+  "proof_path": "proofs/index.html",
+  "commands": [
+    "validate:content",
+    "design:prepare",
+    "render:sample",
+    "proofs:build",
+    "render:all",
+    "qa:visuals",
+    "build:review",
+    "qa:review",
+    "package:exports"
+  ],
+  "scope_confirmation": {
+    "publishing": false,
+    "scheduling": false,
+    "spending": false,
+    "messages": false,
+    "account_changes": false,
+    "external_uploads": false,
+    "private_folder_access": false,
+    "performance_fabrication": false
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "id": "BTB-095",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Confirm the next follow-up point and any action you are responsible for. Get qualified guidance where needed.",
+  "rendered_text": "Confirm the next follow-up point and any action you are responsible for. Get qualified guidance where needed.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 73,
+      "text": "Confirm the next follow-up point and any action you are responsible for. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Confirm",
+            "the",
+            "next",
+            "follow-up"
+          ],
+          "x": 92,
+          "right": 721.90625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "point",
+            "and",
+            "any",
+            "action"
+          ],
+          "x": 172.625,
+          "right": 697.46875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "you",
+            "are",
+            "responsible",
+            "for."
+          ],
+          "x": 92,
+          "right": 691.796875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 73,
+      "end": 109,
+      "text": "Get qualified guidance where needed.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Get",
+            "qualified",
+            "guidance"
+          ],
+          "x": 92,
+          "right": 663.25
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "where",
+            "needed."
+          ],
+          "x": 92,
+          "right": 470.578125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 449.9375,
+    "right": 988,
+    "bottom": 769.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 73,
+      "text": "Confirm the next follow-up point and any action you are responsible for. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Confirm",
+            "the",
+            "next",
+            "follow-up"
+          ],
+          "x": 92,
+          "right": 721.90625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "point",
+            "and",
+            "any",
+            "action"
+          ],
+          "x": 172.625,
+          "right": 697.46875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "you",
+            "are",
+            "responsible",
+            "for."
+          ],
+          "x": 92,
+          "right": 691.796875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 73,
+      "end": 109,
+      "text": "Get qualified guidance where needed.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Get",
+            "qualified",
+            "guidance"
+          ],
+          "x": 92,
+          "right": 663.25
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "where",
+            "needed."
+          ],
+          "x": 92,
+          "right": 470.578125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Confirm the next follow-up point and any action you are responsible for. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 61
+    },
+    {
+      "text": "Get qualified guidance where needed.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 32
+    },
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 73
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 36
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-095/03.png",
+  "editable": "posts/BTB-095/editable/03.html",
+  "png_sha256": "a1870a4f099859b1123fa746aa2d2ac7338a0e1dcd5be56e8bbb21655be922c7",
+  "html_sha256": "d2eb3a25edaba8c35c0d24fb9a572cb94b1407e397861f6bb332086a51152285",
+  "render_key": "d2eb3a25edaba8c35c0d24fb9a572cb94b1407e397861f6bb332086a51152285:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

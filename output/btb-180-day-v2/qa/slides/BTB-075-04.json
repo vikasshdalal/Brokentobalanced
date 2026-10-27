@@ -1,0 +1,375 @@
+{
+  "id": "BTB-075",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Confirm practical details through the appropriate channel. Do not ask your child to negotiate between adults.",
+  "rendered_text": "Confirm practical details through the appropriate channel. Do not ask your child to negotiate between adults.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 59,
+      "text": "Confirm practical details through the appropriate channel. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Confirm",
+            "practical",
+            "details"
+          ],
+          "x": 92,
+          "right": 724.15625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "through",
+            "the",
+            "appropriate",
+            "channel."
+          ],
+          "x": 92,
+          "right": 940.5625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 59,
+      "end": 109,
+      "text": "Do not ask your child to negotiate between adults.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Do",
+            "not",
+            "ask",
+            "your",
+            "child",
+            "to"
+          ],
+          "x": 92,
+          "right": 689.734375
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "negotiate",
+            "between",
+            "adults."
+          ],
+          "x": 92,
+          "right": 748.75
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 370.75,
+    "right": 988,
+    "bottom": 690.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 59,
+      "text": "Confirm practical details through the appropriate channel. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Confirm",
+            "practical",
+            "details"
+          ],
+          "x": 92,
+          "right": 724.15625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "through",
+            "the",
+            "appropriate",
+            "channel."
+          ],
+          "x": 92,
+          "right": 940.5625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 59,
+      "end": 109,
+      "text": "Do not ask your child to negotiate between adults.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "Do",
+            "not",
+            "ask",
+            "your",
+            "child",
+            "to"
+          ],
+          "x": 92,
+          "right": 689.734375
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "negotiate",
+            "between",
+            "adults."
+          ],
+          "x": 92,
+          "right": 748.75
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Confirm practical details through the appropriate channel. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 52
+    },
+    {
+      "text": "Do not ask your child to negotiate between adults.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 42
+    },
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 59
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 50
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-075/04.png",
+  "editable": "posts/BTB-075/editable/04.html",
+  "png_sha256": "76f2117034acc798d50cda3153190eb4372e281913cf0e59b8ee266224766295",
+  "html_sha256": "9e44b5d323160e3bb3f17e4361f285e6cd23517db34307e6d8a12a92b6ddb36f",
+  "render_key": "9e44b5d323160e3bb3f17e4361f285e6cd23517db34307e6d8a12a92b6ddb36f:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "btb-local-production",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Deterministic local review production; no publishing capabilities",
+  "scripts": {
+    "validate:content": "node run.cjs validate:content",
+    "render:sample": "node run.cjs render:sample",
+    "render:all": "node run.cjs render:all",
+    "qa:visuals": "node run.cjs qa:visuals",
+    "qa:review": "node run.cjs qa:review",
+    "build:review": "node run.cjs build:review",
+    "package:exports": "node run.cjs package:exports",
+    "serve": "node run.cjs serve",
+    "design:prepare": "node run.cjs design:prepare",
+    "proofs:build": "node run.cjs proofs:build"
+  },
+  "dependencies": {
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

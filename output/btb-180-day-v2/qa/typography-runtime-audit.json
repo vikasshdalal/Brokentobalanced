@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "v2_prompt_sha256": "1ad8226eca1db3f68b9ca48bbd9e392c3c453d053d00a9e0a0270a5dc41fb49b",
+  "canonical_input_sha256": "512d463c0300b15545baf11cf712896fab0380febecf1cb8e18982946876bcf0",
+  "source_commit": "ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b",
+  "fonts": [
+    {
+      "expected_family": "Inter",
+      "path": "/private/tmp/btb-font-runtime-v1/inter-Inter[opsz,wght].ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "internal_names": [
+        {
+          "name_id": 0,
+          "value": "Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)"
+        },
+        {
+          "name_id": 1,
+          "value": "Inter"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Inter Regular"
+        },
+        {
+          "name_id": 5,
+          "value": "Version 4.001;git-66647c0bb"
+        },
+        {
+          "name_id": 6,
+          "value": "Inter-Regular"
+        },
+        {
+          "name_id": 13,
+          "value": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org"
+        },
+        {
+          "name_id": 14,
+          "value": "https://openfontlicense.org"
+        }
+      ],
+      "family_verified": true,
+      "variable_axes": [
+        {
+          "tag": "opsz",
+          "min": 14.0,
+          "default": 14.0,
+          "max": 32.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 900.0
+        }
+      ],
+      "missing_glyphs": [],
+      "weight_ranges_support_required_v2_weights": true
+    },
+    {
+      "expected_family": "Playfair Display",
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-PlayfairDisplay[wght].ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "internal_names": [
+        {
+          "name_id": 0,
+          "value": "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
+        },
+        {
+          "name_id": 1,
+          "value": "Playfair Display"
+        },
+        {
+          "name_id": 2,
+          "value": "Regular"
+        },
+        {
+          "name_id": 4,
+          "value": "Playfair Display Regular"
+        },
+        {
+          "name_id": 5,
+          "value": "Version 1.203"
+        },
+        {
+          "name_id": 6,
+          "value": "PlayfairDisplay-Regular"
+        },
+        {
+          "name_id": 13,
+          "value": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+        },
+        {
+          "name_id": 14,
+          "value": "http://scripts.sil.org/OFL"
+        }
+      ],
+      "family_verified": true,
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "default": 400.0,
+          "max": 900.0
+        }
+      ],
+      "missing_glyphs": [],
+      "weight_ranges_support_required_v2_weights": true
+    }
+  ],
+  "verified_source_files": [
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/inter-Inter[opsz,wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "expected_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/inter-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/inter/OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "expected_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-PlayfairDisplay[wght].ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "expected_sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/ddf386ba1b9fbc6b2c818f1ddcd9148f54ced94b/ofl/playfairdisplay/OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "expected_sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "hash_match": true,
+      "bytes_match": true
+    }
+  ],
+  "licenses": [
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/inter-OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+      "ofl_1_1_verified": true,
+      "document_output_exception_verified": true
+    },
+    {
+      "path": "/private/tmp/btb-font-runtime-v1/playfairdisplay-OFL.txt",
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "copyright": "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"",
+      "ofl_1_1_verified": true,
+      "document_output_exception_verified": true
+    }
+  ],
+  "glyph_coverage": {
+    "unicode_non_whitespace_characters_tested": 76,
+    "scope": "Every string value in authoritative JSON plus brand/footer/decorative punctuation \u2014 \u2022 \u00b7",
+    "method": "SFNT cmap formats 4 and 12 mapping to nonzero glyph IDs"
+  },
+  "fonts_status": "exact_runtime_fonts_available",
+  "font_binaries_distributed": false,
+  "network_requests_this_audit": 0,
+  "v1_outputs_modified": false,
+  "renderer_requirements": [
+    "Wait document.fonts.ready and explicit font loads",
+    "Verify actual custom platform fonts through CDP for rendered visible nodes",
+    "Set font-synthesis:none; use only verified variable-weight ranges",
+    "Retain font binaries only in temporary runtime, outside deliverables"
+  ]
+}

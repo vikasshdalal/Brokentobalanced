@@ -1,0 +1,268 @@
+{
+  "id": "BTB-169",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "A good day does not need a warning label.",
+  "rendered_text": "A good day does not need a warning label.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 41,
+      "text": "A good day does not need a warning label.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 524.78125,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "A",
+            "good",
+            "day",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 916.6875
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "need",
+            "a",
+            "warning",
+            "label."
+          ],
+          "x": 92,
+          "right": 967.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 224.78125,
+    "right": 988,
+    "bottom": 524.78125
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 41,
+      "text": "A good day does not need a warning label.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 206.78125,
+      "right": 988,
+      "bottom": 524.78125,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "A",
+            "good",
+            "day",
+            "does",
+            "not"
+          ],
+          "x": 92,
+          "right": 916.6875
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "need",
+            "a",
+            "warning",
+            "label."
+          ],
+          "x": 92,
+          "right": 967.609375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "A good day does not need a warning label.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 33
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 41
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-169/01.png",
+  "editable": "posts/BTB-169/editable/01.html",
+  "png_sha256": "99b7e5e89af08d3c30e6ecc032a4c706dcce13f596b3555852049f9ae134b2c8",
+  "html_sha256": "5d34def00de785b4ca0e2a079b9d6619083e338bc433c8e64ffbf38d15e3abf6",
+  "render_key": "5d34def00de785b4ca0e2a079b9d6619083e338bc433c8e64ffbf38d15e3abf6:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

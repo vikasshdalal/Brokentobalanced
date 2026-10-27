@@ -1,0 +1,314 @@
+{
+  "id": "BTB-049",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Before opening the app, ask what you are hoping to find: reassurance, an explanation, or proof of something.",
+  "rendered_text": "Before opening the app, ask what you are hoping to find: reassurance, an explanation, or proof of something.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 108,
+      "text": "Before opening the app, ask what you are hoping to find: reassurance, an explanation, or proof of something.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 316.75,
+      "right": 988,
+      "bottom": 654.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Before",
+            "opening",
+            "the",
+            "app,",
+            "ask"
+          ],
+          "x": 92,
+          "right": 804.53125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "what",
+            "you",
+            "are",
+            "hoping",
+            "to",
+            "find:"
+          ],
+          "x": 92,
+          "right": 795.53125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "reassurance,",
+            "an",
+            "explanation,"
+          ],
+          "x": 92,
+          "right": 812.078125
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "or",
+            "proof",
+            "of",
+            "something."
+          ],
+          "x": 92,
+          "right": 651.9375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 334.75,
+    "right": 988,
+    "bottom": 654.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 108,
+      "text": "Before opening the app, ask what you are hoping to find: reassurance, an explanation, or proof of something.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 316.75,
+      "right": 988,
+      "bottom": 654.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Before",
+            "opening",
+            "the",
+            "app,",
+            "ask"
+          ],
+          "x": 92,
+          "right": 804.53125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "what",
+            "you",
+            "are",
+            "hoping",
+            "to",
+            "find:"
+          ],
+          "x": 92,
+          "right": 795.53125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "reassurance,",
+            "an",
+            "explanation,"
+          ],
+          "x": 92,
+          "right": 812.078125
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "or",
+            "proof",
+            "of",
+            "something."
+          ],
+          "x": 92,
+          "right": 651.9375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Before opening the app, ask what you are hoping to find: reassurance, an explanation, or proof of something.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 91
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 108
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-049/02.png",
+  "editable": "posts/BTB-049/editable/02.html",
+  "png_sha256": "365098b6deda9aede5f385787a4609d3d0d769a49b34fdd8f623ad1be38e8137",
+  "html_sha256": "258b6e9ddeba99ba353c54fdcdb62e0ab2233f347a312f9a91e0b1526494597f",
+  "render_key": "258b6e9ddeba99ba353c54fdcdb62e0ab2233f347a312f9a91e0b1526494597f:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

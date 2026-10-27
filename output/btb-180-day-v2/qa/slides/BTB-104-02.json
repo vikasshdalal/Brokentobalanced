@@ -1,0 +1,361 @@
+{
+  "id": "BTB-104",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Not a claim that everything is fixed. Not a public comparison with anyone from the past.",
+  "rendered_text": "Not a claim that everything is fixed. Not a public comparison with anyone from the past.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 38,
+      "text": "Not a claim that everything is fixed. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 414.546875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Not",
+            "a",
+            "claim",
+            "that",
+            "everything",
+            "is",
+            "fixed."
+          ],
+          "x": 92,
+          "right": 947.9375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 38,
+      "end": 88,
+      "text": "Not a public comparison with anyone from the past.",
+      "role": "body",
+      "x": 92,
+      "y": 450.546875,
+      "width": 896,
+      "height": 153.09375,
+      "right": 988,
+      "bottom": 603.640625,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 453.546875,
+          "words": [
+            "Not",
+            "a",
+            "public",
+            "comparison"
+          ],
+          "x": 92,
+          "right": 689.953125
+        },
+        {
+          "y": 530.09375,
+          "words": [
+            "with",
+            "anyone",
+            "from",
+            "the",
+            "past."
+          ],
+          "x": 92,
+          "right": 743.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 283.640625,
+    "right": 988,
+    "bottom": 603.640625
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 38,
+      "text": "Not a claim that everything is fixed. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 76.546875,
+      "right": 988,
+      "bottom": 414.546875,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Not",
+            "a",
+            "claim",
+            "that",
+            "everything",
+            "is",
+            "fixed."
+          ],
+          "x": 92,
+          "right": 947.9375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 38,
+      "end": 88,
+      "text": "Not a public comparison with anyone from the past.",
+      "role": "body",
+      "x": 92,
+      "y": 450.546875,
+      "width": 896,
+      "height": 153.09375,
+      "right": 988,
+      "bottom": 603.640625,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 453.546875,
+          "words": [
+            "Not",
+            "a",
+            "public",
+            "comparison"
+          ],
+          "x": 92,
+          "right": 689.953125
+        },
+        {
+          "y": 530.09375,
+          "words": [
+            "with",
+            "anyone",
+            "from",
+            "the",
+            "past."
+          ],
+          "x": 92,
+          "right": 743.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Not a claim that everything is fixed. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 31
+    },
+    {
+      "text": "Not a public comparison with anyone from the past.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 42
+    },
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 38
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 50
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-104/02.png",
+  "editable": "posts/BTB-104/editable/02.html",
+  "png_sha256": "9ac00b7f25f0d859ba56296287dcd5a8b052d786c4c60ebfb38d8259d09124fe",
+  "html_sha256": "95aa5270b462e9ad4f1f87347d79ec084b9d31fd3abe187de280bb9473d083de",
+  "render_key": "95aa5270b462e9ad4f1f87347d79ec084b9d31fd3abe187de280bb9473d083de:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

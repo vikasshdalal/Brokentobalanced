@@ -1,0 +1,20 @@
+{
+  "status": "RESOLVED",
+  "current_rendering_defects": 0,
+  "entries": [
+    {
+      "scope": "Initial v2 cover proofs",
+      "finding": "Font Range metrics extended above a tight Playfair line box.",
+      "repair": "Added18px ascent clearance inside the actual content region, then rerendered and remeasured allreference/representative assets.",
+      "canonical_copy_change": false,
+      "final_check": "PASS for all1080primaryslides"
+    },
+    {
+      "scope": "BTB-001 slide4",
+      "finding": "Whole practical phrases could wrap internally in the first proof.",
+      "repair": "Kept exact accent phrase spans together with nowrap; connecting text/reading order unchanged.",
+      "canonical_copy_change": false,
+      "final_check": "PASS; fullsize and phone proofs inspected"
+    }
+  ]
+}

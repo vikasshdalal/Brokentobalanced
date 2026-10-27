@@ -1,0 +1,371 @@
+{
+  "id": "BTB-163",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Check the provider's relevant qualifications, terms, and realistic limitations. Be wary of guaranteed transformation.",
+  "rendered_text": "Check the provider's relevant qualifications, terms, and realistic limitations. Be wary of guaranteed transformation.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 80,
+      "text": "Check the provider's relevant qualifications, terms, and realistic limitations. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Check",
+            "the",
+            "provider's"
+          ],
+          "x": 92,
+          "right": 629.859375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "relevant",
+            "qualifications,",
+            "terms,"
+          ],
+          "x": 92,
+          "right": 847.46875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "and",
+            "realistic",
+            "limitations."
+          ],
+          "x": 92,
+          "right": 697.5625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 80,
+      "end": 117,
+      "text": "Be wary of guaranteed transformation.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 71.265625,
+      "right": 988,
+      "bottom": 682.828125,
+      "font_size": 54,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 71.28,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Be",
+            "wary",
+            "of",
+            "guaranteed",
+            "transformation."
+          ],
+          "x": 92,
+          "right": 965.640625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 362.828125,
+    "right": 988,
+    "bottom": 682.828125
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 80,
+      "text": "Check the provider's relevant qualifications, terms, and realistic limitations. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Check",
+            "the",
+            "provider's"
+          ],
+          "x": 92,
+          "right": 629.859375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "relevant",
+            "qualifications,",
+            "terms,"
+          ],
+          "x": 92,
+          "right": 847.46875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "and",
+            "realistic",
+            "limitations."
+          ],
+          "x": 92,
+          "right": 697.5625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 80,
+      "end": 117,
+      "text": "Be wary of guaranteed transformation.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 71.265625,
+      "right": 988,
+      "bottom": 682.828125,
+      "font_size": 54,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 71.28,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Be",
+            "wary",
+            "of",
+            "guaranteed",
+            "transformation."
+          ],
+          "x": 92,
+          "right": 965.640625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Check the provider's relevant qualifications, terms, and realistic limitations. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 71
+    },
+    {
+      "text": "Be wary of guaranteed transformation.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 54,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 33
+    },
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 80
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-163/04.png",
+  "editable": "posts/BTB-163/editable/04.html",
+  "png_sha256": "5db9beb4bc904b686e96515eb8d35f326f6e6f6f453f591608ccbbd478beeb76",
+  "html_sha256": "ba11b829658babf6796584902641e1162076f8ed7a838f13221f2d0c31b683f4",
+  "render_key": "ba11b829658babf6796584902641e1162076f8ed7a838f13221f2d0c31b683f4:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

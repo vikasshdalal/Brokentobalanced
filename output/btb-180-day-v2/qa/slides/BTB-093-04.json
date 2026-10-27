@@ -1,0 +1,397 @@
+{
+  "id": "BTB-093",
+  "slide": 4,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Communicate the necessary practical details through the adult channel. Do not ask the child to judge which plan is better.",
+  "rendered_text": "Communicate the necessary practical details through the adult channel. Do not ask the child to judge which plan is better.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 71,
+      "text": "Communicate the necessary practical details through the adult channel. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Communicate",
+            "the"
+          ],
+          "x": 92,
+          "right": 559.203125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "necessary",
+            "practical",
+            "details"
+          ],
+          "x": 92,
+          "right": 781.859375
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "through",
+            "the",
+            "adult",
+            "channel."
+          ],
+          "x": 92,
+          "right": 771.109375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 71,
+      "end": 122,
+      "text": "Do not ask the child to judge which plan is better.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Do",
+            "not",
+            "ask",
+            "the",
+            "child",
+            "to"
+          ],
+          "x": 92,
+          "right": 659.375
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "judge",
+            "which",
+            "plan",
+            "is",
+            "better."
+          ],
+          "x": 92,
+          "right": 748.203125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 449.9375,
+    "right": 988,
+    "bottom": 769.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 71,
+      "text": "Communicate the necessary practical details through the adult channel. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Communicate",
+            "the"
+          ],
+          "x": 92,
+          "right": 559.203125
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "necessary",
+            "practical",
+            "details"
+          ],
+          "x": 92,
+          "right": 781.859375
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "through",
+            "the",
+            "adult",
+            "channel."
+          ],
+          "x": 92,
+          "right": 771.109375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 71,
+      "end": 122,
+      "text": "Do not ask the child to judge which plan is better.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Do",
+            "not",
+            "ask",
+            "the",
+            "child",
+            "to"
+          ],
+          "x": 92,
+          "right": 659.375
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "judge",
+            "which",
+            "plan",
+            "is",
+            "better."
+          ],
+          "x": 92,
+          "right": 748.203125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Communicate the necessary practical details through the adult channel. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 62
+    },
+    {
+      "text": "Do not ask the child to judge which plan is better.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 41
+    },
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 71
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 51
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-093/04.png",
+  "editable": "posts/BTB-093/editable/04.html",
+  "png_sha256": "4c9977dece2cd570589f8eb209f47655d6ecfad83d844674b8cb8aa7788d2d42",
+  "html_sha256": "6274dc795aea9c26e5e2be7ccc139de723d8c642dfdb2f907b2ba4f86aa599e0",
+  "render_key": "6274dc795aea9c26e5e2be7ccc139de723d8c642dfdb2f907b2ba4f86aa599e0:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

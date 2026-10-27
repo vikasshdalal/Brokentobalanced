@@ -1,0 +1,3 @@
+This is a small workflow tool for unfinished administration or work. It does not make the task disappear. It gives the next attempt a clearer starting point and lets the current stopping point be deliberate.
+
+#BrokenToBalanced #StartingAgain #PracticalSteps

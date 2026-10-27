@@ -1,0 +1,394 @@
+{
+  "id": "BTB-011",
+  "slide": 5,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "You do not have to call every difficult day a failure. You also do not have to face persistent distress without help.",
+  "rendered_text": "You do not have to call every difficult day a failure. You also do not have to face persistent distress without help.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 55,
+      "text": "You do not have to call every difficult day a failure. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "have",
+            "to",
+            "call"
+          ],
+          "x": 92,
+          "right": 675.375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "every",
+            "difficult",
+            "day",
+            "a",
+            "failure."
+          ],
+          "x": 92,
+          "right": 779.859375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 55,
+      "end": 117,
+      "text": "You also do not have to face persistent distress without help.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "You",
+            "also",
+            "do",
+            "not",
+            "have",
+            "to",
+            "face"
+          ],
+          "x": 92,
+          "right": 806.875
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "persistent",
+            "distress",
+            "without",
+            "help."
+          ],
+          "x": 92,
+          "right": 894.546875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 370.75,
+    "right": 988,
+    "bottom": 690.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 55,
+      "text": "You do not have to call every difficult day a failure. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "have",
+            "to",
+            "call"
+          ],
+          "x": 92,
+          "right": 675.375
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "every",
+            "difficult",
+            "day",
+            "a",
+            "failure."
+          ],
+          "x": 92,
+          "right": 779.859375
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 55,
+      "end": 117,
+      "text": "You also do not have to face persistent distress without help.",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 690.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "You",
+            "also",
+            "do",
+            "not",
+            "have",
+            "to",
+            "face"
+          ],
+          "x": 92,
+          "right": 806.875
+        },
+        {
+          "y": 614.5625,
+          "words": [
+            "persistent",
+            "distress",
+            "without",
+            "help."
+          ],
+          "x": 92,
+          "right": 894.546875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "You do not have to call every difficult day a failure. ",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 44
+    },
+    {
+      "text": "You also do not have to face persistent distress without help.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 52
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "5 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "5 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [
+    {
+      "start": 0,
+      "end": 55,
+      "method": "weight",
+      "reason": "First complete source sentence; no invented comparison labels."
+    }
+  ],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 55
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 62
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-011/05.png",
+  "editable": "posts/BTB-011/editable/05.html",
+  "png_sha256": "5cc9c1bc06602bc30982eee2305a2a13e87109f30385ebcccbb15fc5ceef6697",
+  "html_sha256": "9e14a3cd262d0af473f662b59c1dec4ccee7b1ca13ed4659cf95e60ba98da373",
+  "render_key": "9e14a3cd262d0af473f662b59c1dec4ccee7b1ca13ed4659cf95e60ba98da373:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "A",
+  "effective_treatment": "A"
+}

@@ -1,0 +1,298 @@
+{
+  "id": "BTB-107",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Give the weekend a realistic capacity—not an unlimited to-do list.",
+  "rendered_text": "Give the weekend a realistic capacity—not an unlimited to-do list.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 66,
+      "text": "Give the weekend a realistic capacity—not an unlimited to-do list.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Give",
+            "the",
+            "weekend"
+          ],
+          "x": 92,
+          "right": 817.703125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "a",
+            "realistic",
+            "capacity—not"
+          ],
+          "x": 92,
+          "right": 855.328125
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "an",
+            "unlimited"
+          ],
+          "x": 331.921875,
+          "right": 861.65625
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "to-do",
+            "list."
+          ],
+          "x": 92,
+          "right": 495.0625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 431.5625,
+    "right": 988,
+    "bottom": 731.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 66,
+      "text": "Give the weekend a realistic capacity—not an unlimited to-do list.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Give",
+            "the",
+            "weekend"
+          ],
+          "x": 92,
+          "right": 817.703125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "a",
+            "realistic",
+            "capacity—not"
+          ],
+          "x": 92,
+          "right": 855.328125
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "an",
+            "unlimited"
+          ],
+          "x": 331.921875,
+          "right": 861.65625
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "to-do",
+            "list."
+          ],
+          "x": 92,
+          "right": 495.0625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Give the weekend a realistic capacity—not an unlimited to-do list.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 57
+    },
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 66
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-107/01.png",
+  "editable": "posts/BTB-107/editable/01.html",
+  "png_sha256": "7829e18ab195416c67237e5b174f916fd35d83e248bac709ebb05063171a709b",
+  "html_sha256": "3cf0f36928e54c2829154b9d83ecf837b7416550a9051326031eee7db535016a",
+  "render_key": "3cf0f36928e54c2829154b9d83ecf837b7416550a9051326031eee7db535016a:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

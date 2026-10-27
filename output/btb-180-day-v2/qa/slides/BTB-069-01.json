@@ -1,0 +1,302 @@
+{
+  "id": "BTB-069",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Your child can miss the other parent while being happy with you.",
+  "rendered_text": "Your child can miss the other parent while being happy with you.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 64,
+      "text": "Your child can miss the other parent while being happy with you.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Your",
+            "child",
+            "can"
+          ],
+          "x": 92,
+          "right": 682.328125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "miss",
+            "the",
+            "other"
+          ],
+          "x": 92,
+          "right": 686.0625
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "parent",
+            "while",
+            "being"
+          ],
+          "x": 92,
+          "right": 859.28125
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "happy",
+            "with",
+            "you."
+          ],
+          "x": 92,
+          "right": 742.953125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 431.5625,
+    "right": 988,
+    "bottom": 731.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 64,
+      "text": "Your child can miss the other parent while being happy with you.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "Your",
+            "child",
+            "can"
+          ],
+          "x": 92,
+          "right": 682.328125
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "miss",
+            "the",
+            "other"
+          ],
+          "x": 92,
+          "right": 686.0625
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "parent",
+            "while",
+            "being"
+          ],
+          "x": 92,
+          "right": 859.28125
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "happy",
+            "with",
+            "you."
+          ],
+          "x": 92,
+          "right": 742.953125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Your child can miss the other parent while being happy with you.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 53
+    },
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 64
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-069/01.png",
+  "editable": "posts/BTB-069/editable/01.html",
+  "png_sha256": "ac62eaf1eb317d537b013a9816486fc9cff5287a259ed6cf6a1b29a36a9ba608",
+  "html_sha256": "b6a1f869cf9a57bddd6ba549c23c611b03ce8507f83ca4b3d762faff4dd038c0",
+  "render_key": "b6a1f869cf9a57bddd6ba549c23c611b03ce8507f83ca4b3d762faff4dd038c0:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

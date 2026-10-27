@@ -1,0 +1,69 @@
+{
+  "rendering_defect_count": 0,
+  "rendering_defects": [],
+  "brand_status": "provisional_wordmark",
+  "approval_gates": [
+    {
+      "gate": "original_approved_logo",
+      "status": "MISSING",
+      "applies_to": "all180",
+      "detail": "No original approved logo binary in selected project; plain-text review signature used."
+    },
+    {
+      "gate": "owner_editorial_approval",
+      "status": "PENDING",
+      "applies_to": "all180"
+    },
+    {
+      "gate": "founder_attestation",
+      "status": "PENDING",
+      "post_ids": [
+        "BTB-014",
+        "BTB-030",
+        "BTB-044",
+        "BTB-060",
+        "BTB-074",
+        "BTB-090",
+        "BTB-104",
+        "BTB-120",
+        "BTB-134",
+        "BTB-150",
+        "BTB-164",
+        "BTB-180"
+      ]
+    }
+  ],
+  "scene_gate": {
+    "status": "UNAVAILABLE",
+    "reason": "No approved local scene or verified no-additional-spend generation entitlement.",
+    "primary_fallbacks": [
+      {
+        "id": "BTB-003",
+        "requested_treatment": "C",
+        "effective_treatment": "B",
+        "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+      },
+      {
+        "id": "BTB-005",
+        "requested_treatment": "C",
+        "effective_treatment": "B",
+        "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+      },
+      {
+        "id": "BTB-019",
+        "requested_treatment": "C",
+        "effective_treatment": "B",
+        "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+      },
+      {
+        "id": "BTB-027",
+        "requested_treatment": "C",
+        "effective_treatment": "B",
+        "reason": "No approved local scene asset or verified no-additional-spend generation entitlement; complete text-first B fallback."
+      }
+    ],
+    "completed_C_carousels": 0,
+    "three_way_test_fully_prepared": false
+  },
+  "font_gate": "RESOLVED — exact verified runtime fonts; no binaries distributed"
+}

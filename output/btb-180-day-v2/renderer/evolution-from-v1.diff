@@ -1,0 +1,320 @@
+--- v1/renderer/run.cjs
++++ v2/renderer/run.cjs
+@@ -49,16 +49,12 @@
+  const result={status:errors.length?'FAIL':'PASS',input_file_sha256:hash(source),posts:180,slides:1080,founder_posts:data.posts.filter(p=>p.founder_attestation_required).map(p=>p.id),pillar_counts:pillars,results:posts,errors};
+  write(path.join(QA,'content-validation.json'),result);if(errors.length)throw Error('Content validation failed '+errors.join(','));return result;
+ }
+-function emphasis(p,s){
+- const t=s.text;if(s.number===1)return esc(t);
+- if(p.layout==='script'&&t.includes('“')&&t.includes('”'))return esc(t.slice(0,t.indexOf('“')))+'<span class="quote">'+esc(t.slice(t.indexOf('“'),t.indexOf('”')+1))+'</span>'+esc(t.slice(t.indexOf('”')+1));
+- if(p.layout==='contrast'){const m=t.match(/^.+?[.!?](?:\s|$)/);if(m&&m[0].length<t.length)return '<span class="emphasis">'+esc(m[0])+'</span>'+esc(t.slice(m[0].length));}
+- return esc(t);
+-}
+-function html(p,s){
+- const dark=s.number===1||s.number===6||({editorial:[2],contrast:[3],script:[4],checklist:[],letter:[]}[p.layout]).includes(s.number);
+- const quote=p.layout==='script'&&s.number!==1&&s.text.includes('“');
+- return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1080"><title>'+p.id+' slide '+s.number+' — REVIEW</title><link rel="stylesheet" href="../../../renderer/styles.css"></head><body><article class="slide '+p.layout+(dark?' dark':'')+(s.number===1?' cover':'')+(quote?' has-quote':'')+'" aria-label="'+esc(s.alt_text)+'"><p class="series">'+esc(p.series)+'</p><div class="rule" aria-hidden="true"></div><main class="content"><p class="copy">'+emphasis(p,s)+'</p></main><div class="footer-rule" aria-hidden="true"></div><p class="brand">Broken to Balanced</p><p class="handle">@brokentobalanced</p><p class="folio">'+s.number+' / 6</p></article></body></html>\n';
++const presentation=require('./presentation.cjs'),measure=require('./measure.cjs');
++function prepareDesign(){
++ const pilot=read(path.join(ROOT,'pilot','visual-test-assignments.json'));
++ const design=presentation.build(data,pilot);
++ write(path.join(ROOT,'Visual_Design_Overrides_v2.json'),design);
++ return design;
+ }
+ function startServer(port=0){
+  const server=http.createServer((req,res)=>{
+@@ -71,105 +67,62 @@
+ }
+ async function launch(){const {chromium}=dep('playwright');let executablePath=process.env.BTB_BROWSER||config.browser_path;if(!fs.existsSync(executablePath))executablePath=chromium.executablePath();return chromium.launch({executablePath,headless:true,args:['--force-color-profile=srgb','--disable-lcd-text']});}
+ function contrast(a,b){const l=h=>{const rgb=h.startsWith('rgb')?h.match(/[\d.]+/g).slice(0,3).map(Number):h.replace('#','').match(/\w\w/g).map(x=>parseInt(x,16));const c=rgb.map(x=>x/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return c[0]*.2126+c[1]*.7152+c[2]*.0722};let x=l(a),y=l(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
+-async function geometry(page,p,s){
+- return page.evaluate(({text,id,number})=>{
+-  const slide=document.querySelector('.slide'),copy=document.querySelector('.copy'),content=document.querySelector('.content');
+-  const rect=e=>{let r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom}};
+-  const r=rect(copy),region=rect(content),errors=[],chars=[];
+-  const walker=document.createTreeWalker(copy,NodeFilter.SHOW_TEXT);let n;
+-  while(n=walker.nextNode()){for(let i=0;i<n.length;i++){if(/\s/.test(n.textContent[i]))continue;const range=document.createRange();range.setStart(n,i);range.setEnd(n,i+1);for(const b of range.getClientRects())chars.push({x:b.x,y:b.y,right:b.right,bottom:b.bottom});}}
+-  const lines=[];for(const b of chars){let row=lines.find(l=>Math.abs(l.y-b.y)<2);if(!row){row={y:b.y,x:b.x,right:b.right,bottom:b.bottom};lines.push(row)}row.x=Math.min(row.x,b.x);row.right=Math.max(row.right,b.right);row.bottom=Math.max(row.bottom,b.bottom)}
+-  const cs=getComputedStyle(copy),bg=getComputedStyle(slide).backgroundColor;
+-  if(copy.textContent!==text)errors.push('text_mismatch');
+-  if(chars.some(b=>b.x<region.x-.5||b.right>region.right+.5||b.y<region.y-.5||b.bottom>region.bottom+.5))errors.push('copy_outside_region');
+-  if(chars.some(b=>b.x<88||b.right>992||b.y<240||b.bottom>1130))errors.push('copy_safe_margin');
+-  const min=number===1?64:48,max=number===1?104:64;if(+parseFloat(cs.fontSize)<min||+parseFloat(cs.fontSize)>max)errors.push('font_size');
+-  const nodes=[...slide.querySelectorAll('p')];const bounds=nodes.map(e=>({role:e.className,...rect(e),font_size:parseFloat(getComputedStyle(e).fontSize),font_family:getComputedStyle(e).fontFamily,foreground:getComputedStyle(e).color,background:bg}));
+-  for(let i=0;i<bounds.length;i++){const a=bounds[i];if(a.x<88||a.right>992||a.y<80||a.bottom>1270)errors.push('unsafe_'+a.role);for(let j=i+1;j<bounds.length;j++){const b=bounds[j];if(a.x<b.right&&a.right>b.x&&a.y<b.bottom&&a.bottom>b.y)errors.push('overlap_'+a.role+'_'+b.role)}}
+-  const expected=['copy','series','brand','handle','folio'];if(nodes.some(n=>!expected.includes(n.className)))errors.push('unexpected_artwork_text_node');
+-  if(slide.innerText.includes(id)||slide.innerText.includes('2026-')||slide.innerText.includes('2027-')||slide.innerText.includes('REVIEW'))errors.push('metadata_in_artwork');
+-  for(const e of [slide,...slide.querySelectorAll('*')])if(['hidden','clip'].includes(getComputedStyle(e).overflow))errors.push('hidden_overflow');
+-  const words=text.trim().split(/\s+/);const lastWidth=lines.length?lines.at(-1).right-lines.at(-1).x:0;
+-  const wordRows=[],wordWalker=document.createTreeWalker(copy,NodeFilter.SHOW_TEXT);let wordNode;while(wordNode=wordWalker.nextNode()){for(const m of wordNode.textContent.matchAll(/\S+/g)){const range=document.createRange();range.setStart(wordNode,m.index);range.setEnd(wordNode,m.index+m[0].length);const box=range.getBoundingClientRect();let row=wordRows.find(l=>Math.abs(l.y-box.y)<2);if(!row){row={y:box.y,words:0};wordRows.push(row)}row.words++}}wordRows.sort((a,b)=>a.y-b.y);
+-  const lastLineWords=wordRows.at(-1)?.words||0;
+-  if(wordRows.length>1&&lastLineWords===1)errors.push('isolated_final_word');
+-  const decorations=[...slide.querySelectorAll('.rule,.footer-rule')].map(rect),pseudo=getComputedStyle(content,'::before');
+-  if(pseudo.content!=='none'){const x=region.x+parseFloat(pseudo.left),y=region.y+parseFloat(pseudo.top),width=parseFloat(pseudo.width),height=parseFloat(pseudo.height);decorations.push({x,y,width,height,right:x+width,bottom:y+height})}
+-  if(decorations.some(a=>chars.some(b=>a.x<b.right&&a.right>b.x&&a.y<b.bottom&&a.bottom>b.y)))errors.push('decorative_stroke_through_copy');
+-  return {id,slide:number,passed:errors.length===0,exact_text:copy.textContent===text,canonical_text:text,rendered_text:copy.textContent,copy:r,region,line_count:lines.length,lines,bounds,decorations,font_size:parseFloat(cs.fontSize),font_family:cs.fontFamily,last_line_width:lastWidth,last_line_words:lastLineWords,errors};
+- },{text:s.text,id:p.id,number:s.number});
+-}
+-async function render(sample=false){
+- validate();for(const k of ['headings','body']){if(!fs.existsSync(fontPath(k))||hash(fs.readFileSync(fontPath(k)))!==config.fonts[k].sha256)throw Error('Exact pinned font absent/mismatched: '+k);}
+- const selected=sample?data.posts.filter(p=>config.sample_ids.includes(p.id)):data.posts;
++async function render(mode='all'){
++ validate();for(const k of ['headings','body'])if(!fs.existsSync(fontPath(k))||hash(fs.readFileSync(fontPath(k)))!==config.fonts[k].sha256)throw Error('Exact pinned font absent/mismatched: '+k);
++ const design=prepareDesign(),selected=mode==='all'?data.posts:data.posts.filter(p=>config.sample_ids.includes(p.id));
++ const jobs=selected.map(p=>({p,plan:design.posts.find(x=>x.id===p.id),dir:mode==='all'||p.id==='BTB-001'?'posts/'+p.id:'proofs/representative/'+p.id}));
++ if(mode!=='all')for(const treatment of ['A','B']){const p=data.posts[0],source=design.posts[0],plan=JSON.parse(JSON.stringify(source));plan.requested_treatment=treatment;plan.effective_treatment=treatment;plan.fallback_reason=null;for(const slide of plan.slides)if(treatment==='A'){slide.background_token='charcoal';slide.background_reason='Dark editorial comparison; same exact reference source spans.'}jobs.push({p,plan,dir:'proofs/BTB-001/'+treatment});}
+  const server=await startServer(),url='http://127.0.0.1:'+server.address().port;let browser;
+  try{
+   browser=await launch();const page=await browser.newPage({viewport:{width:1080,height:1350},deviceScaleFactor:1,colorScheme:'light',reducedMotion:'reduce'});
+   await page.route('**/*',route=>route.request().url().startsWith(url+'/')?route.continue():route.abort());
+   const cdp=await page.context().newCDPSession(page);await cdp.send('DOM.enable');await cdp.send('CSS.enable');
+-  const checkpoints=[],failures=[];
+-  for(const p of selected){
++  const completed=[],failures=[];
++  for(const {p,plan,dir:relativeDir}of jobs){
+    try{
+-   const dir=path.join(ROOT,'posts',p.id);fs.mkdirSync(path.join(dir,'editable'),{recursive:true});
+-   write(path.join(dir,'caption.txt'),p.caption_ready_to_copy);write(path.join(dir,'alt-text.json'),p.slides.map(s=>({number:s.number,alt_text:s.alt_text})));
+-   const records=[];
+-   for(const s of p.slides){
+-    const nn=String(s.number).padStart(2,'0'),rel=`posts/${p.id}/editable/${nn}.html`,hp=path.join(ROOT,rel),out=path.join(dir,nn+'.png');write(hp,html(p,s));
+-    let result;
+-    for(let attempt=1;attempt<=2;attempt++){
+-     try{
+-      await page.goto(url+'/'+rel,{waitUntil:'load'});
+-      const fontStatus=await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([document.fonts.load('500 92px "Playfair Display"'),document.fonts.load('400 62px Inter'),document.fonts.load('600 62px Inter')]);return [...document.fonts].map(f=>({family:f.family,status:f.status,weight:f.weight}));});
+-      if(fontStatus.some(f=>f.status!=='loaded'))throw Error('font_not_loaded');
+-      // Bounded typography adjustments avoid isolated final words without changing source text.
+-      await page.evaluate(cover=>{const e=document.querySelector('.copy');const candidates=cover?[92,90,88,86,84,82,80,78,76]:[62,60,58,56,54];for(const size of candidates){e.style.fontSize=size+'px';const rows=[],w=document.createTreeWalker(e,NodeFilter.SHOW_TEXT);let node;while(node=w.nextNode()){for(const m of node.textContent.matchAll(/\S+/g)){const r=document.createRange();r.setStart(node,m.index);r.setEnd(node,m.index+m[0].length);const b=r.getBoundingClientRect();let row=rows.find(x=>Math.abs(x.y-b.y)<2);if(!row){row={y:b.y,words:0};rows.push(row)}row.words++}}rows.sort((a,b)=>a.y-b.y);if(e.getBoundingClientRect().height<=760&&(rows.length<2||rows.at(-1).words>1))break;}},s.number===1);
+-      result=await geometry(page,p,s);
+-      const dom=await cdp.send('DOM.getDocument'),node=await cdp.send('DOM.querySelector',{nodeId:dom.root.nodeId,selector:'.copy'});
+-      result.platform_fonts=(await cdp.send('CSS.getPlatformFontsForNode',{nodeId:node.nodeId})).fonts;
+-      const expected=s.number===1?'Playfair Display':'Inter';if(!result.platform_fonts.length||result.platform_fonts.some(f=>f.familyName!==expected||!f.isCustomFont))result.errors.push('unexpected_platform_font');
+-      result.font_faces=fontStatus;result.passed=result.errors.length===0;if(!result.passed)throw Error(result.errors.join(','));
+-      const adjusted=await page.$eval('.copy',e=>e.getAttribute('style'));if(adjusted)write(hp,html(p,s).replace('class="copy"','class="copy" style="'+esc(adjusted)+'"'));
+-      const key=hash(fs.readFileSync(hp))+':'+config.renderer_version+':'+config.fonts.headings.sha256+':'+config.fonts.body.sha256+':'+hash(fs.readFileSync(path.join(__dirname,'styles.css')));
+-      const cached=fs.existsSync(path.join(dir,'post-manifest.json'))?read(path.join(dir,'post-manifest.json')).slides.find(x=>x.number===s.number):null;
+-      if(!fs.existsSync(out)||cached?.render_key!==key||hash(fs.readFileSync(out))!==cached.png_sha256)await page.locator('.slide').screenshot({path:out,animations:'disabled',scale:'css'});
+-      result.png=`posts/${p.id}/${nn}.png`;result.editable=rel;result.png_sha256=hash(fs.readFileSync(out));result.html_sha256=hash(fs.readFileSync(hp));result.render_key=key;result.attempts=attempt;
+-      write(path.join(QA,'slides',p.id+'-'+nn+'.json'),result);break;
+-     }catch(e){if(attempt===2){write(path.join(QA,'failures',p.id+'-'+nn+'.json'),{id:p.id,slide:s.number,error:e.message,geometry:result});throw e;}}
++    const dir=path.join(ROOT,relativeDir);fs.mkdirSync(path.join(dir,'editable'),{recursive:true});
++    write(path.join(dir,'caption.txt'),p.caption_ready_to_copy);const alts=p.slides.map(s=>({number:s.number,alt_text:s.alt_text}));write(path.join(dir,'alt-text-source.json'),alts);write(path.join(dir,'alt-text.json'),alts);
++    const records=[];
++    for(const slide of p.slides){
++     const n=String(slide.number).padStart(2,'0'),rel=relativeDir+'/editable/'+n+'.html',hp=path.join(ROOT,rel),out=path.join(dir,n+'.png'),decision=plan.slides[slide.number-1],prefix=path.relative(path.dirname(hp),ROOT).split(path.sep).join('/')+'/';
++     let result,fitted;
++     write(hp,presentation.html(p,slide,decision,prefix));
++     for(let attempt=1;attempt<=2;attempt++){
++      try{
++       await page.goto(url+'/'+rel,{waitUntil:'load'});
++       const faces=await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([document.fonts.load('500 94px "Playfair Display"'),document.fonts.load('400 60px Inter'),document.fonts.load('450 58px Inter'),document.fonts.load('500 60px Inter')]);return [...document.fonts].map(f=>({family:f.family,status:f.status,weight:f.weight}));});
++       if(faces.some(f=>f.status!=='loaded'))throw Error('font_not_loaded');
++       fitted=await measure.fit(page);result=await measure.geometry(page,p,slide,decision);result.font_faces=faces;result.platform_fonts=[];
++       const dom=await cdp.send('DOM.getDocument');
++       for(let i=0;i<decision.blocks.length;i++){
++        const node=await cdp.send('DOM.querySelector',{nodeId:dom.root.nodeId,selector:'.copy-block:nth-child('+(i+1)+')'}),fonts=(await cdp.send('CSS.getPlatformFontsForNode',{nodeId:node.nodeId})).fonts,expected=decision.blocks[i].font_family;
++        result.platform_fonts.push({block:i,expected,fonts});if(!fonts.length||fonts.some(f=>f.familyName!==expected||!f.isCustomFont))result.errors.push('unexpected_platform_font_'+i);
++       }
++       result.passed=result.errors.length===0;if(!result.passed)throw Error(result.errors.join(','));
++       write(hp,presentation.html(p,slide,decision,prefix,fitted));
++       const key=hash(fs.readFileSync(hp))+':'+config.renderer_version+':'+config.fonts.headings.sha256+':'+config.fonts.body.sha256+':'+hash(fs.readFileSync(path.join(__dirname,'styles.css')));
++       const cached=fs.existsSync(path.join(dir,'post-manifest.json'))?read(path.join(dir,'post-manifest.json')).slides.find(x=>x.number===slide.number):null;
++       if(!fs.existsSync(out)||cached?.render_key!==key||hash(fs.readFileSync(out))!==cached.png_sha256)await page.locator('.slide').screenshot({path:out,animations:'disabled',scale:'css'});
++       result.png=relativeDir+'/'+n+'.png';result.editable=rel;result.png_sha256=hash(fs.readFileSync(out));result.html_sha256=hash(fs.readFileSync(hp));result.render_key=key;result.attempts=attempt;
++       result.requested_treatment=plan.requested_treatment;result.effective_treatment=plan.effective_treatment;
++       const qaRel=relativeDir.startsWith('posts/')?'qa/slides/'+p.id+'-'+n+'.json':relativeDir+'/qa/'+n+'.json';write(path.join(ROOT,qaRel),result);
++       records.push({number:slide.number,png:result.png,editable:rel,png_sha256:result.png_sha256,html_sha256:result.html_sha256,render_key:key,qa_status:'PASS',qa:qaRel,background_token:decision.background_token,background_reason:decision.background_reason,role:decision.role,composition:decision.composition,source_spans:decision.blocks,emphasis_ranges:decision.emphasis,fitted_typography:fitted,scene:null});break;
++      }catch(e){if(attempt===2){write(path.join(QA,'failures',p.id+'-'+n+'-'+plan.requested_treatment+'.json'),{id:p.id,slide:slide.number,directory:relativeDir,error:e.message,geometry:result});throw e;}}
++     }
+     }
+-    records.push({number:s.number,png:result.png,editable:rel,png_sha256:result.png_sha256,html_sha256:result.html_sha256,render_key:result.render_key,qa_status:'PASS'});
+-   }
+-   const manifest={id:p.id,day:p.day,planned_date:p.planned_date,timezone:p.timezone,date_status:p.date_status,layout:p.layout,visual_brief:p.visual_brief,primary_cta:p.primary_cta,input_copy_sha256:p.copy_sha256,renderer_version:config.renderer_version,renderer_sha256:RENDERER_HASH,config_sha256:hash(fs.readFileSync(path.join(__dirname,'runtime-config.json'))),brand_status:'provisional_wordmark',original_logo:null,font_status:'exact_runtime_fonts_loaded',approval_gates:['original_approved_logo','owner_editorial_approval',...(p.founder_attestation_required?['founder_attestation']:[])],founder_attestation_required:p.founder_attestation_required,publish_status:p.publish_status,production_status:'REVIEW_RENDERED',qa_status:'PASS',caption:`posts/${p.id}/caption.txt`,caption_sha256:hash(fs.readFileSync(path.join(dir,'caption.txt'))),alt_text:`posts/${p.id}/alt-text.json`,alt_text_sha256:hash(fs.readFileSync(path.join(dir,'alt-text.json'))),slides:records};
+-   write(path.join(dir,'post-manifest.json'),manifest);checkpoints.push({id:p.id,slides:6,qa:'PASS'});
+-   write(path.join(QA,sample?'sample-checkpoint.json':'render-checkpoint.json'),{renderer_version:config.renderer_version,completed:checkpoints,failures,post_count:checkpoints.length,png_count:checkpoints.length*6});
+-   if(checkpoints.length%10===0||sample)console.log('Rendered',p.id,checkpoints.length+'/'+selected.length);
+-   }catch(e){failures.push({id:p.id,error:e.message});write(path.join(QA,sample?'sample-checkpoint.json':'render-checkpoint.json'),{renderer_version:config.renderer_version,completed:checkpoints,failures,post_count:checkpoints.length,png_count:checkpoints.length*6});console.error('Recorded failed post',p.id,e.message);}
++    const manifest={id:p.id,day:p.day,planned_date:p.planned_date,timezone:p.timezone,date_status:p.date_status,input_copy_sha256:p.copy_sha256,semantic_layout:p.layout,layout:p.layout,visual_brief:p.visual_brief,requested_treatment:plan.requested_treatment,effective_treatment:plan.effective_treatment,fallback_reason:plan.fallback_reason,scene_provenance:null,primary_cta:p.primary_cta,renderer_version:config.renderer_version,renderer_sha256:RENDERER_HASH,presentation_sha256:hash(fs.readFileSync(path.join(__dirname,'presentation.cjs'))),measurement_sha256:hash(fs.readFileSync(path.join(__dirname,'measure.cjs'))),config_sha256:hash(fs.readFileSync(path.join(__dirname,'runtime-config.json'))),brand_status:'provisional_wordmark',original_logo:null,font_status:'exact_runtime_fonts_loaded',approval_gates:['original_approved_logo','owner_editorial_approval',...(p.founder_attestation_required?['founder_attestation']:[])],founder_attestation_required:p.founder_attestation_required,founder_attestation_status:p.founder_attestation_required?'PENDING':'NOT_FLAGGED',owner_approval_status:'PENDING',design_review_status:'AUTOMATED_QA_PASSED_VISUAL_REVIEW_SEPARATE',publish_status:p.publish_status,production_status:'REVIEW_RENDERED',qa_status:'PASS',caption:relativeDir+'/caption.txt',caption_sha256:hash(fs.readFileSync(path.join(dir,'caption.txt'))),alt_text_source:relativeDir+'/alt-text-source.json',alt_text_source_sha256:hash(fs.readFileSync(path.join(dir,'alt-text-source.json'))),alt_text:relativeDir+'/alt-text.json',alt_text_sha256:hash(fs.readFileSync(path.join(dir,'alt-text.json'))),slides:records};
++    write(path.join(dir,'post-manifest.json'),manifest);completed.push({id:p.id,directory:relativeDir,slides:6,qa:'PASS'});
++    write(path.join(QA,mode==='all'?'render-checkpoint.json':'proof-checkpoint.json'),{renderer_version:config.renderer_version,completed,failures,post_count:completed.length,png_count:completed.length*6});
++    if(completed.length%10===0||mode!=='all')console.log('Rendered',relativeDir,completed.length+'/'+jobs.length);
++   }catch(e){failures.push({id:p.id,directory:relativeDir,error:e.message});write(path.join(QA,mode==='all'?'render-checkpoint.json':'proof-checkpoint.json'),{renderer_version:config.renderer_version,completed,failures,post_count:completed.length,png_count:completed.length*6});console.error('Recorded failed post',p.id,e.message);}
+   }
+-  write(path.join(__dirname,'runtime-lock.json'),{node:process.version,playwright:require(path.join(path.dirname(require.resolve(depPath('playwright'))),'package.json')).version,sharp:dep('sharp').versions,browser:browser.version(),browser_path:config.browser_path,renderer_sha256:hash(fs.readFileSync(__filename)),styles_sha256:hash(fs.readFileSync(path.join(__dirname,'styles.css'))),fonts:config.fonts});
++  write(path.join(__dirname,'runtime-lock.json'),{node:process.version,playwright:require(path.join(path.dirname(require.resolve(depPath('playwright'))),'package.json')).version,sharp:dep('sharp').versions,browser:browser.version(),browser_path:config.browser_path,renderer_sha256:RENDERER_HASH,styles_sha256:hash(fs.readFileSync(path.join(__dirname,'styles.css'))),presentation_sha256:hash(fs.readFileSync(path.join(__dirname,'presentation.cjs'))),measurement_sha256:hash(fs.readFileSync(path.join(__dirname,'measure.cjs'))),fonts:config.fonts});
++  if(mode!=='all')write(path.join(ROOT,'proofs','BTB-001','C-unavailable.json'),{requested_treatment:'C',effective_treatment:'B',status:'SCENE_UNAVAILABLE',reason:'No approved local scene or verified no-additional-spend native generation entitlement.',actual_scene_assets:0,fallback:'proofs/BTB-001/B/01.png'});
+   if(failures.length)throw Error('Failed posts: '+failures.map(f=>f.id).join(','));
+  }finally{if(browser)await browser.close();server.close();}
+ }
+ function depPath(n){for(const r of moduleRoots){if(fs.existsSync(path.join(r,n)))return path.join(r,n)}return n;}
+-async function qa(){
+- validate();const sharp=dep('sharp'),geometryResults=[],imageResults=[],textResults=[],contrastResults=[],fontResults=[],errors=[];
+- for(const p of data.posts){
+-  const dir=path.join(ROOT,'posts',p.id),m=read(path.join(dir,'post-manifest.json'));
+-  let cap=fs.readFileSync(path.join(dir,'caption.txt'),'utf8')===p.caption_ready_to_copy,alt=read(path.join(dir,'alt-text.json'));
+-  if(!cap||JSON.stringify(alt)!==JSON.stringify(p.slides.map(s=>({number:s.number,alt_text:s.alt_text}))))errors.push(p.id+':caption_or_alt');
+-  for(const s of p.slides){const n=String(s.number).padStart(2,'0'),g=read(path.join(QA,'slides',p.id+'-'+n+'.json')),image=path.join(dir,n+'.png');geometryResults.push(g);
+-   const img=await sharp(image).metadata();await sharp(image).raw().toBuffer();const record=m.slides[s.number-1];
+-   const ok=img.width===1080&&img.height===1350&&img.format==='png'&&img.space==='srgb'&&hash(fs.readFileSync(image))===record.png_sha256&&hash(fs.readFileSync(path.join(ROOT,record.editable)))===record.html_sha256;
+-   imageResults.push({id:p.id,slide:s.number,passed:ok,width:img.width,height:img.height,format:img.format,color_space:img.space,sha256:hash(fs.readFileSync(image)),bytes:fs.statSync(image).size});
+-   const textOk=g.exact_text&&g.rendered_text===s.text;const htmlSource=fs.readFileSync(path.join(ROOT,record.editable),'utf8');
+-   textResults.push({id:p.id,slide:s.number,passed:textOk,canonical_sha256:hash(s.text),dom_sha256:hash(g.rendered_text),caption_exact:cap,html_contains_no_remote_urls:!htmlSource.includes('https://'),primary_cta_on_slide6:p.primary_cta});
+-   const pairs=g.bounds.map(b=>({role:b.role,foreground:b.foreground,background:b.background,ratio:contrast(b.foreground,b.background)}));const contrastOk=pairs.every(b=>b.ratio>=4.5);contrastResults.push({id:p.id,slide:s.number,passed:contrastOk,pairs,decorative_accent_not_text:true});
+-   const fontsOk=g.platform_fonts.length>0&&g.platform_fonts.every(f=>f.familyName===(s.number===1?'Playfair Display':'Inter')&&f.isCustomFont);fontResults.push({id:p.id,slide:s.number,passed:fontsOk,fonts:g.platform_fonts});
+-   if(!ok||!g.passed||!textOk||!contrastOk||!fontsOk)errors.push(p.id+'/'+n);
+-  }
+- }
+- for(const [file,results] of [['layout-geometry',geometryResults],['image-integrity',imageResults],['text-integrity',textResults],['contrast-report',contrastResults],['font-report',fontResults]])write(path.join(QA,file+'.json'),{status:errors.length?'FAIL':'PASS',method:file==='layout-geometry'?'DOM Range character bounds; allotted region; pairwise text-node overlap; safe margins; no clipping parents':'deterministic machine checks',count:results.length,passed:results.filter(r=>r.passed).length,results});
+- write(path.join(QA,'blockers.json'),{rendering_defects:errors,rendering_defect_count:errors.length,brand_status:'provisional_wordmark',approval_gates:[{gate:'original_approved_logo',applies_to:'all 180',status:'MISSING',detail:'No approved binary exists in selected project; permitted plain-text review fallback used.'},{gate:'owner_editorial_approval',applies_to:'all 180',status:'PENDING'},{gate:'founder_attestation',status:'PENDING',post_ids:data.posts.filter(p=>p.founder_attestation_required).map(p=>p.id)}],font_gate:'RESOLVED: exact OFL runtime fonts loaded; binaries excluded from deliverables'});
+- if(errors.length)throw Error('QA failures: '+errors.join(','));console.log('QA PASS: 1080 images, exact text, fonts, geometry and contrast');
+-}
++async function qa(){validate();await require('./qa.cjs')({ROOT,data,config,read,write,hash,dep,contrast});}
+ async function review(){const make=require('./review.cjs');await make({ROOT,data,write,read,hash,dep});}
+ async function pack(){await qa();await review();execFileSync(process.execPath,[path.join(__dirname,'verify_review.cjs')],{stdio:'inherit'});execFileSync('python3',[path.join(__dirname,'package.py'),ROOT],{stdio:'inherit'});}
+-(async()=>{const command=process.argv[2];if(command==='validate:content'){validate();console.log('Content PASS')}else if(command==='render:sample')await render(true);else if(command==='render:all')await render(false);else if(command==='qa:visuals')await qa();else if(command==='qa:review')execFileSync(process.execPath,[path.join(__dirname,'verify_review.cjs')],{stdio:'inherit'});else if(command==='build:review')await review();else if(command==='package:exports')await pack();else if(command==='serve'){const s=await startServer(+(process.env.BTB_PORT||8000));console.log('Local review: http://127.0.0.1:'+s.address().port+'/review/index.html');}else throw Error('Use validate:content, render:sample, render:all, qa:visuals, qa:review, build:review, package:exports, serve');})().catch(e=>{console.error(e);process.exitCode=1});
++(async()=>{const command=process.argv[2];if(command==='validate:content'){validate();console.log('Content PASS')}else if(command==='design:prepare'){prepareDesign();console.log('V2 source-span decisions prepared')}else if(command==='render:sample')await render('sample');else if(command==='render:all')await render('all');else if(command==='proofs:build')await require('./proofs.cjs')({ROOT,data,write,read,hash,dep});else if(command==='qa:visuals')await qa();else if(command==='qa:review')execFileSync(process.execPath,[path.join(__dirname,'verify_review.cjs')],{stdio:'inherit'});else if(command==='build:review')await review();else if(command==='package:exports')await pack();else if(command==='serve'){const s=await startServer(+(process.env.BTB_PORT||8000));console.log('Local review: http://127.0.0.1:'+s.address().port+'/review/index.html');}else throw Error('Use validate:content, render:sample, render:all, qa:visuals, qa:review, build:review, package:exports, serve');})().catch(e=>{console.error(e);process.exitCode=1});
+--- v1/renderer/styles.css
++++ v2/renderer/styles.css
+@@ -1,25 +1,17 @@
+-@font-face{font-family:"Playfair Display";src:local("Playfair Display"),url("/__fonts/headings") format("truetype");font-style:normal;font-weight:400 900;font-display:block}
+-@font-face{font-family:Inter;src:local("Inter"),url("/__fonts/body") format("truetype");font-style:normal;font-weight:100 900;font-display:block}
+-*{box-sizing:border-box;animation:none!important;transition:none!important}
+-html,body{margin:0;padding:0;width:1080px;height:1350px;background:#F5F5F5}
+-.slide{position:relative;width:1080px;height:1350px;background:#F5F5F5;color:#1A1A1A;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;font-synthesis:none;overflow:visible}
++@font-face{font-family:"Playfair Display";src:url("/__fonts/headings") format("truetype");font-style:normal;font-weight:400 900;font-display:block}
++@font-face{font-family:Inter;src:url("/__fonts/body") format("truetype");font-style:normal;font-weight:100 900;font-display:block}
++*{box-sizing:border-box;animation:none!important;transition:none!important;hyphens:none!important}
++html,body{margin:0;padding:0;width:1080px;height:1350px;background:#F3EEE6}
++.slide{position:relative;width:1080px;height:1350px;background:#F3EEE6;color:#1A1A1A;font-family:Inter,sans-serif;font-synthesis:none;-webkit-font-smoothing:antialiased;overflow:visible}
+ .slide.dark{background:#1A1A1A;color:#F5F5F5}
+-.series{position:absolute;top:88px;left:92px;width:896px;margin:0;font-size:28px;line-height:1.4;font-weight:400;letter-spacing:.25px}
+-.rule{position:absolute;top:193px;left:92px;width:72px;height:4px;background:#2F4F6F}
+-.dark .rule{background:#C2A57B}
+-.content{position:absolute;left:92px;top:280px;width:896px;height:790px;display:flex;align-items:center}
+-.copy{margin:0;width:100%;font-family:Inter,sans-serif;font-size:62px;font-weight:400;line-height:1.32;letter-spacing:-.85px;white-space:pre-wrap;overflow-wrap:normal;word-break:normal;text-wrap:balance}
+-.cover .content{top:280px;height:780px}
+-.cover .copy{font-family:"Playfair Display",serif;font-size:92px;font-weight:500;line-height:1.14;letter-spacing:-1.6px;text-wrap:balance}
+-.contrast .copy .emphasis{font-weight:600}
+-.script.has-quote .content{left:124px;width:864px}
+-.script.has-quote .content:before{content:"";position:absolute;left:-32px;top:20%;height:60%;width:3px;background:#2F4F6F}
+-.script.has-quote.dark .content:before{background:#C2A57B}
+-.script .copy .quote{font-weight:600}
+-.checklist .copy{line-height:1.4}
+-.letter .copy{line-height:1.42}
+-.letter.cover .copy{line-height:1.16}
+-.footer-rule{position:absolute;left:92px;top:1164px;width:896px;height:1px;background:currentColor}
+-.brand{position:absolute;left:92px;top:1192px;margin:0;font-size:26px;line-height:1.3;font-weight:500}
+-.handle{position:absolute;left:92px;top:1230px;margin:0;font-size:26px;line-height:1.3}
+-.folio{position:absolute;right:92px;top:1230px;margin:0;font-size:28px;line-height:1.2;font-variant-numeric:tabular-nums}
++.series{position:absolute;top:88px;left:92px;width:896px;margin:0;font-size:28px;line-height:1.3;font-weight:400;letter-spacing:.1px;color:#59534B}
++.dark .series,.dark .brand,.dark .folio{color:#BDB5AA}
++.accent-rule{position:absolute;left:92px;top:192px;width:54px;height:3px;background:#C2A57B}
++.content{position:absolute;left:92px;width:896px;display:block}
++.copy{margin:0;padding-top:18px;width:100%;white-space:pre-wrap;text-align:left;overflow:visible}
++.copy-block{display:block;margin:0;letter-spacing:-.6px;text-wrap:balance;overflow-wrap:normal;word-break:normal}
++.copy-block.cover{letter-spacing:-1.1px}
++.copy-block.script{padding-left:0}
++.emphasis{white-space:nowrap}
++.brand{position:absolute;left:92px;top:1216px;margin:0;font-size:28px;line-height:1.3;font-weight:400;color:#59534B}
++.folio{position:absolute;right:92px;top:1216px;margin:0;font-size:28px;line-height:1.3;font-weight:400;font-variant-numeric:tabular-nums;color:#59534B}
+--- v1/renderer/review.cjs
++++ v2/renderer/review.cjs
+@@ -2,37 +2,38 @@
+ const path=require('node:path'),fs=require('node:fs');
+ const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ module.exports=async function({ROOT,data,write,read,hash,dep}){
+- const sharp=dep('sharp'),review=path.join(ROOT,'review');fs.mkdirSync(path.join(review,'contact-sheets'),{recursive:true});
++ const sharp=dep('sharp'),review=path.join(ROOT,'review');fs.mkdirSync(path.join(review,'carousel-contact-sheets'),{recursive:true});fs.mkdirSync(path.join(review,'cover-contact-sheets'),{recursive:true});
+  const css='*{box-sizing:border-box}body{margin:0;background:#fff;color:#1a1a1a;font:16px/1.5 system-ui,sans-serif}header,main{max-width:1440px;margin:auto;padding:24px}h1{font-size:30px;line-height:1.2}h2{font-size:20px}.status{padding:14px;background:#f5f5f5;border-left:4px solid #2f4f6f}a{color:#24445f}input,select,button,textarea{font:inherit;padding:10px}button{cursor:pointer}.controls{display:flex;gap:12px;flex-wrap:wrap}label{display:flex;flex-direction:column;gap:4px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:24px}.card img{width:100%;height:auto;display:block}.card{padding:12px;border:1px solid #ddd}.slides{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,350px),1fr));gap:24px}.slides img{width:100%;height:auto;display:block}.slides figure{margin:0}.slides figcaption{font-size:14px;padding-top:8px}textarea{width:100%;min-height:180px}code{overflow-wrap:anywhere;font-size:12px}summary{cursor:pointer}.hidden,[hidden]{display:none!important}.meta{font-size:14px}.copy-status{min-height:24px}nav{display:flex;gap:20px}footer{padding:24px}';
+  write(path.join(review,'review.css'),css);
+- write(path.join(review,'review.js'),`'use strict';const q=document.querySelector('#query'),pillar=document.querySelector('#pillar'),layout=document.querySelector('#layout'),founder=document.querySelector('#founder');function filter(){let n=0;for(const card of document.querySelectorAll('.card')){const show=(!q.value||card.dataset.search.includes(q.value.toLowerCase()))&&(!pillar.value||card.dataset.pillar===pillar.value)&&(!layout.value||card.dataset.layout===layout.value)&&(!founder.checked||card.dataset.founder==='true');card.hidden=!show;if(show)n++}document.querySelector('#count').textContent=n+' of 180 posts'}if(q)for(const el of [q,pillar,layout,founder])el.addEventListener('input',filter);const copy=document.querySelector('#copy');if(copy)copy.addEventListener('click',async()=>{const field=document.querySelector('#caption');try{await navigator.clipboard.writeText(field.value);document.querySelector('#copy-status').textContent='Caption copied.'}catch{field.focus();field.select();document.querySelector('#copy-status').textContent='Caption selected. Use your keyboard copy command.'}});`);
++ write(path.join(review,'review.js'),`'use strict';const q=document.querySelector('#query'),pillar=document.querySelector('#pillar'),layout=document.querySelector('#layout'),founder=document.querySelector('#founder'),treatment=document.querySelector('#treatment'),approval=document.querySelector('#approval');function filter(){let n=0;for(const card of document.querySelectorAll('.card')){const show=(!q.value||card.dataset.search.includes(q.value.toLowerCase()))&&(!pillar.value||card.dataset.pillar===pillar.value)&&(!layout.value||card.dataset.layout===layout.value)&&(!founder.checked||card.dataset.founder==='true')&&(!treatment.value||card.dataset.treatment===treatment.value)&&(!approval.value||card.dataset.approval.split(' ').includes(approval.value));card.hidden=!show;if(show)n++}document.querySelector('#count').textContent=n+' of 180 posts'}if(q)for(const el of [q,pillar,layout,founder,treatment,approval])el.addEventListener('input',filter);const copy=document.querySelector('#copy');if(copy)copy.addEventListener('click',async()=>{const field=document.querySelector('#caption');try{await navigator.clipboard.writeText(field.value);document.querySelector('#copy-status').textContent='Caption copied.'}catch{field.focus();field.select();document.querySelector('#copy-status').textContent='Caption selected. Use your keyboard copy command.'}});`);
+  const head=(title,depth='')=>'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>'+esc(title)+'</title><link rel="stylesheet" href="'+depth+'review.css"><script defer src="'+depth+'review.js"></script></head><body>';
+- const status='<div class="status"><strong>REVIEW — unpublished / owner approval required.</strong> Provisional plain-text wordmark: approved logo missing. Exact Playfair Display and Inter rendered. Dates are editorial slots. Founder attestation remains separate from automated QA.</div>';
++ const status='<div class="status"><strong>REVIEW — unpublished / owner approval required.</strong> Provisional plain-text wordmark: approved logo missing. Exact Playfair Display and Inter rendered. V2 warm editorial is the default. C scenes unavailable; requested C uses a recorded B fallback. Dates are editorial slots. Founder attestation remains separate from automated QA.</div>';
+  let cards=[];for(let i=0;i<data.posts.length;i++){
+   const p=data.posts[i],m=read(path.join(ROOT,'posts',p.id,'post-manifest.json'));
+-  const slides=p.slides.map(s=>{const nn=String(s.number).padStart(2,'0');return '<figure><a href="../../posts/'+p.id+'/'+nn+'.png"><img loading="lazy" width="1080" height="1350" src="../../posts/'+p.id+'/'+nn+'.png" alt="'+esc(s.alt_text)+'"></a><figcaption>Slide '+s.number+' · <a href="../../posts/'+p.id+'/editable/'+nn+'.html">Editable HTML</a><details><summary>Exact text and accessibility text</summary><p>'+esc(s.text)+'</p><p>'+esc(s.alt_text)+'</p></details></figcaption></figure>'}).join('');
++  const slides=p.slides.map(s=>{const nn=String(s.number).padStart(2,'0');return '<figure><a href="../../posts/'+p.id+'/'+nn+'.png"><img loading="lazy" width="1080" height="1350" src="../../posts/'+p.id+'/'+nn+'.png" alt="'+esc(s.alt_text)+'"></a><figcaption>Slide '+s.number+' · '+esc(m.slides[s.number-1].role)+' · '+m.slides[s.number-1].background_token+' · <a href="../../posts/'+p.id+'/editable/'+nn+'.html">Editable HTML</a><details><summary>Exact text and accessibility text</summary><p>'+esc(s.text)+'</p><p>'+esc(s.alt_text)+'</p></details></figcaption></figure>'}).join('');
+   const prev=i?'<a href="'+data.posts[i-1].id+'.html">Previous</a>':'',next=i<179?'<a href="'+data.posts[i+1].id+'.html">Next</a>':'';
+   const caption='<h2>Exact caption</h2><textarea id="caption" readonly aria-label="Exact caption">'+esc(p.caption_ready_to_copy)+'</textarea><button id="copy" type="button">Copy caption</button><p class="copy-status" id="copy-status" role="status">Plain-text fallback: select and copy the caption.</p>';
+-  write(path.join(review,'posts',p.id+'.html'),head(p.id+' — review','../')+'<header><nav><a href="../index.html">All posts</a>'+prev+next+'</nav><h1>'+p.id+' · '+esc(p.hook)+'</h1>'+status+'<p>'+p.planned_date+' · '+p.pillar_id+' · '+esc(p.series)+' · '+p.layout+'</p><p>Founder attestation: '+(p.founder_attestation_required?'REQUIRED / PENDING':'not flagged in supplied copy')+' · Automated QA: '+m.qa_status+'</p><p class="meta">Canonical input SHA-256: <code>'+p.copy_sha256+'</code><br>Renderer: '+m.renderer_version+' · Production: '+m.production_status+'<br>Source: <a href="../../renderer/input/BTB_180_Day_Content.json">canonical JSON snapshot</a> · <a href="../../posts/'+p.id+'/post-manifest.json">post manifest and output hashes</a> · <a href="../../posts/'+p.id+'/caption.txt">caption.txt</a> · <a href="../../posts/'+p.id+'/alt-text.json">alt-text.json</a></p></header><main><div class="slides">'+slides+'</div>'+caption+'</main></body></html>');
+-  const search=[p.id,p.planned_date,p.pillar_id,p.series,p.layout,p.hook,p.pillar].join(' ').toLowerCase();
+-  cards.push('<article class="card" data-search="'+esc(search)+'" data-pillar="'+p.pillar_id+'" data-layout="'+p.layout+'" data-founder="'+p.founder_attestation_required+'"><a href="posts/'+p.id+'.html"><img loading="lazy" width="1080" height="1350" src="../posts/'+p.id+'/01.png" alt="'+esc(p.slides[0].alt_text)+'"><h2>'+p.id+'</h2></a><p>'+esc(p.hook)+'</p><p class="meta">'+p.planned_date+' · '+p.pillar_id+' · '+p.layout+'<br>'+esc(p.series)+'<br>QA PASS'+(p.founder_attestation_required?' · Founder attestation pending':'')+'</p></article>');
++  write(path.join(review,'posts',p.id+'.html'),head(p.id+' — review','../')+'<header><nav><a href="../index.html">All posts</a>'+prev+next+'</nav><h1>'+p.id+' · '+esc(p.hook)+'</h1>'+status+'<p>'+p.planned_date+' · '+p.pillar_id+' · '+esc(p.series)+' · '+p.layout+'</p><p>Effective treatment: '+m.effective_treatment+' · Requested treatment: '+m.requested_treatment+(m.fallback_reason?' · '+esc(m.fallback_reason):'')+'</p><p>Founder attestation: '+(p.founder_attestation_required?'REQUIRED / PENDING':'not flagged in supplied copy')+' · Automated QA: '+m.qa_status+'</p><p class="meta">Canonical input SHA-256: <code>'+p.copy_sha256+'</code><br>Renderer: '+m.renderer_version+' · Production: '+m.production_status+'<br>Source: <a href="../../renderer/input/BTB_180_Day_Content.json">canonical JSON snapshot</a> · <a href="../../posts/'+p.id+'/post-manifest.json">post manifest and output hashes</a> · <a href="../../posts/'+p.id+'/caption.txt">caption.txt</a> · <a href="../../posts/'+p.id+'/alt-text.json">alt-text.json</a> · <a href="../../posts/'+p.id+'/alt-text-source.json">Original alt text</a></p></header><main><div class="slides">'+slides+'</div>'+caption+'</main></body></html>');
++  const search=[p.id,p.planned_date,p.pillar_id,p.series,p.layout,p.hook,p.pillar,m.effective_treatment,m.requested_treatment,'owner_pending logo_gate',p.founder_attestation_required?'founder_pending':''].join(' ').toLowerCase();
++  cards.push('<article class="card" data-search="'+esc(search)+'" data-pillar="'+p.pillar_id+'" data-layout="'+p.layout+'" data-founder="'+p.founder_attestation_required+'" data-treatment="'+m.effective_treatment+'" data-requested-treatment="'+m.requested_treatment+'" data-approval="owner_pending logo_gate'+(p.founder_attestation_required?' founder_pending':'')+'"><a href="posts/'+p.id+'.html"><img loading="lazy" width="1080" height="1350" src="../posts/'+p.id+'/01.png" alt="'+esc(p.slides[0].alt_text)+'"><h2>'+p.id+'</h2></a><p>'+esc(p.hook)+'</p><p class="meta">'+p.planned_date+' · '+p.pillar_id+' · '+p.layout+'<br>'+esc(p.series)+'<br>Treatment '+m.effective_treatment+(m.requested_treatment==='C'?' (C→B fallback)':'')+' · QA PASS'+(p.founder_attestation_required?' · Founder attestation pending':'')+'</p></article>');
+  }
+- write(path.join(review,'index.html'),head('Broken to Balanced — 180 carousel review')+'<header><h1>Broken to Balanced · 180 carousel review</h1>'+status+'<p>1,080 carousel PNGs · 1,080 editable HTML slides · 180 captions · 1,080 supplied accessibility texts. No publishing controls or external services.</p><p><a href="../README.md">Production notes and reproduction</a> · <a href="../manifest.json">Run manifest</a> · <a href="../qa/blockers.json">Approval gates</a> · <a href="../qa/manual-review.md">Visual review evidence</a></p><div class="controls"><label>Search ID, date, series, pillar or hook<input id="query" type="search"></label><label>Pillar<select id="pillar"><option value="">All pillars</option>'+Object.keys(data.pillars).map(p=>'<option>'+p+'</option>').join('')+'</select></label><label>Layout<select id="layout"><option value="">All layouts</option>'+['editorial','contrast','script','checklist','letter'].map(p=>'<option>'+p+'</option>').join('')+'</select></label><label>Founder attestation<input id="founder" type="checkbox"></label></div><p id="count" role="status">180 of 180 posts</p></header><main><div class="cards">'+cards.join('')+'</div></main></body></html>');
++ write(path.join(review,'index.html'),head('Broken to Balanced — 180 carousel review')+'<header><h1>Broken to Balanced · v2 carousel review</h1>'+status+'<p>1,080 carousel PNGs · 1,080 editable HTML slides · 180 captions · 1,080 supplied accessibility texts. 48 full-size proof PNGs are separate; zero completed C scenes. No publishing controls or external services.</p><p><a href="../proofs/index.html">Compare v1, A and B proofs</a> · <a href="../pilot/visual-test-assignments.json">Exploratory pilot assignments</a></p><p><a href="../README.md">Production notes and reproduction</a> · <a href="../manifest.json">Run manifest</a> · <a href="../qa/blockers.json">Approval gates</a> · <a href="../qa/visual-inspection.md">Visual review evidence</a></p><div class="controls"><label>Search ID, date, series, pillar or hook<input id="query" type="search"></label><label>Pillar<select id="pillar"><option value="">All pillars</option>'+Object.keys(data.pillars).map(p=>'<option>'+p+'</option>').join('')+'</select></label><label>Layout<select id="layout"><option value="">All layouts</option>'+['editorial','contrast','script','checklist','letter'].map(p=>'<option>'+p+'</option>').join('')+'</select></label><label>Treatment<select id="treatment"><option value="">All effective treatments</option><option>A</option><option>B</option><option>C</option></select></label><label>Approval status<select id="approval"><option value="">All approval gates</option><option value="owner_pending">Owner pending</option><option value="founder_pending">Founder attestation pending</option><option value="logo_gate">Approved logo missing</option></select></label><label>Founder attestation<input id="founder" type="checkbox"></label></div><p id="count" role="status">180 of 180 posts</p></header><main><div class="cards">'+cards.join('')+'</div></main></body></html>');
+  const label=(text,w,h)=>Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'"><rect width="100%" height="100%" fill="white"/><text x="12" y="23" font-family="Arial" font-size="17" fill="#1A1A1A">'+esc(text)+'</text></svg>');
+  const sheets=[];
+- for(let batch=0;batch<18;batch++){
+-  const posts=data.posts.slice(batch*10,batch*10+10),composite=[];
+-  for(let row=0;row<posts.length;row++){const p=posts[row],top=row*257;composite.push({input:label(p.id+' · '+p.layout+' · REVIEW',1080,32),left:0,top});for(let col=0;col<6;col++)composite.push({input:await sharp(path.join(ROOT,'posts',p.id,String(col+1).padStart(2,'0')+'.png')).resize(180,225).png().toBuffer(),left:col*180,top:top+32});}
+-  const rel='review/contact-sheets/all-slides-'+String(batch+1).padStart(2,'0')+'.png';await sharp({create:{width:1080,height:2570,channels:3,background:'#FFFFFF'}}).composite(composite).png().toFile(path.join(ROOT,rel));sheets.push({path:rel,posts:posts.map(p=>p.id),type:'all_six_slides'});
++ for(let batch=0;batch<36;batch++){
++  const posts=data.posts.slice(batch*5,batch*5+5),composite=[];
++  for(let row=0;row<posts.length;row++){const p=posts[row],top=row*376;composite.push({input:label(p.id+' · '+p.layout+' · REVIEW',1620,38),left:0,top});for(let col=0;col<6;col++)composite.push({input:await sharp(path.join(ROOT,'posts',p.id,String(col+1).padStart(2,'0')+'.png')).resize(270,338).png().toBuffer(),left:col*270,top:top+38});}
++  const rel='review/carousel-contact-sheets/all-slides-'+String(batch+1).padStart(2,'0')+'.png';await sharp({create:{width:1620,height:1880,channels:3,background:'#FFFFFF'}}).composite(composite).png().toFile(path.join(ROOT,rel));sheets.push({path:rel,posts:posts.map(p=>p.id),type:'all_six_slides'});
+  }
+  for(let batch=0;batch<6;batch++){
+   const posts=data.posts.slice(batch*30,batch*30+30),composite=[];
+   for(let i=0;i<posts.length;i++){const p=posts[i],left=(i%6)*270,top=Math.floor(i/6)*370;composite.push({input:await sharp(path.join(ROOT,'posts',p.id,'01.png')).resize(270,338).png().toBuffer(),left,top});composite.push({input:label(p.id+' · '+p.layout,270,32),left,top:top+338});}
+-  const rel='review/covers-contact-sheet-'+String(batch+1).padStart(2,'0')+'.png';await sharp({create:{width:1620,height:1850,channels:3,background:'#FFFFFF'}}).composite(composite).png().toFile(path.join(ROOT,rel));sheets.push({path:rel,posts:posts.map(p=>p.id),type:'covers'});
++  const rel='review/cover-contact-sheets/covers-'+String(batch+1).padStart(2,'0')+'.png';await sharp({create:{width:1620,height:1850,channels:3,background:'#FFFFFF'}}).composite(composite).png().toFile(path.join(ROOT,rel));sheets.push({path:rel,posts:posts.map(p=>p.id),type:'covers'});
+  }
+- await require('./sample-previews.cjs')(ROOT,sharp);
++
+  write(path.join(ROOT,'qa','contact-sheet-index.json'),{all_carousels:180,all_slides:1080,sheets});
+  const manifests=data.posts.map(p=>read(path.join(ROOT,'posts',p.id,'post-manifest.json')));
+- write(path.join(ROOT,'manifest.json'),{package:'Broken to Balanced — 180 carousel REVIEW production',production_version:'1.0.0',prepared_local_date:'2026-10-27',timezone:'America/Toronto',input_file_sha256:hash(fs.readFileSync(path.join(ROOT,'renderer','input','BTB_180_Day_Content.json'))),renderer_version:manifests[0].renderer_version,counts:{posts:180,carousel_pngs:1080,editable_html_slides:1080,captions:180,alt_text_sets:180,alt_texts:1080,post_manifests:180,review_post_pages:180,cover_contact_sheets:6,all_slide_contact_sheets:18},brand_status:'provisional_wordmark',font_status:'exact_Playfair_Display_and_Inter_loaded',production_status:'REVIEW_RENDERED',publishing_status:'UNPUBLISHED — OWNER APPROVAL REQUIRED',approval_gates:read(path.join(ROOT,'qa','blockers.json')).approval_gates,qa_reports:['qa/content-validation.json','qa/text-integrity.json','qa/layout-geometry.json','qa/contrast-report.json','qa/font-report.json','qa/image-integrity.json','qa/review-interface.json','qa/manual-review.md','qa/blockers.json'],posts:manifests.map(m=>({id:m.id,day:m.day,planned_date:m.planned_date,input_copy_sha256:m.input_copy_sha256,manifest:`posts/${m.id}/post-manifest.json`,qa_status:m.qa_status,approval_gates:m.approval_gates})),actions_performed:{publish:false,schedule:false,spend:false,messages:false,account_changes:false,external_uploads:false,deployment:false,private_folder_access:false},delegation:[{task:'content_audit',output:'qa/independent-content-audit.json'},{task:'asset_audit',output:'qa/independent-assets-audit.json'},{task:'visual_review',output:'qa/independent-visual-review.json'}]});
+- console.log('Review built: 180 post pages, 18 complete-slide sheets, 6 cover sheets');
++ const proof=read(path.join(ROOT,'proofs/proof-manifest.json')),treatments={A:0,B:0,C:0};for(const m of manifests)treatments[m.effective_treatment]++;
++ write(path.join(ROOT,'manifest.json'),{package:'Broken to Balanced — v2 presentation REVIEW',production_version:'2.0.0',timezone:'America/Toronto',input_file_sha256:hash(fs.readFileSync(path.join(ROOT,'renderer/input/BTB_180_Day_Content.json'))),renderer_version:manifests[0].renderer_version,counts:{posts:manifests.length,primary_pngs:manifests.reduce((n,m)=>n+m.slides.length,0),editable_html_slides:1080,captions:180,alt_text_source_sets:180,alt_text_delivery_sets:180,supplied_alt_texts:1080,proof_full_size_pngs:proof.proof_primary_size_pngs,completed_scene_proofs:0,cover_contact_sheets:6,carousel_contact_sheets:36},effective_treatments:treatments,C_to_B_fallbacks:manifests.filter(m=>m.requested_treatment==='C').map(m=>({id:m.id,requested_treatment:'C',effective_treatment:m.effective_treatment,reason:m.fallback_reason})),brand_status:'provisional_wordmark',font_status:'exact_Playfair_Display_and_Inter_loaded',production_status:'REVIEW_RENDERED',publishing_status:'UNPUBLISHED — OWNER APPROVAL REQUIRED',approval_gates:read(path.join(ROOT,'qa/blockers.json')).approval_gates,source_preservation:'qa/source-and-v1-preservation.json',visual_config:'Visual_Design_Overrides_v2.json',qa_reports:['qa/content-integrity.json','qa/text-integrity.json','qa/layout-geometry.json','qa/typography-report.json','qa/contrast-report.json','qa/image-integrity.json','qa/review-interface.json','qa/asset-provenance.json','qa/visual-inspection.md','qa/blockers.json'],posts:manifests.map(m=>({id:m.id,day:m.day,planned_date:m.planned_date,input_copy_sha256:m.input_copy_sha256,requested_treatment:m.requested_treatment,effective_treatment:m.effective_treatment,manifest:'posts/'+m.id+'/post-manifest.json',qa_status:m.qa_status,approval_gates:m.approval_gates})),actions_performed:{publish:false,schedule:false,spend:false,messages:false,account_changes:false,external_uploads:false,deployment:false,private_folder_access:false,performance_fabrication:false},delegation:[{task:'content_audit',output:'qa/independent-content-audit.json'},{task:'asset_audit',output:'qa/asset-provenance.json'},{task:'visual_review',output:'qa/independent-visual-review.json'}]});
++ console.log('Review built: 180 post pages, 36 complete-slide sheets, 6 cover sheets');
+ };
+--- v1/renderer/package.json
++++ v2/renderer/package.json
+@@ -1,18 +1,25 @@
+ {
+-  "name":"btb-local-production",
+-  "version":"1.0.0",
+-  "private":true,
+-  "description":"Deterministic local review production; no publishing capabilities",
+-  "scripts":{
+-    "validate:content":"node run.cjs validate:content",
+-    "render:sample":"node run.cjs render:sample",
+-    "render:all":"node run.cjs render:all",
+-    "qa:visuals":"node run.cjs qa:visuals",
+-    "qa:review":"node run.cjs qa:review",
+-    "build:review":"node run.cjs build:review",
+-    "package:exports":"node run.cjs package:exports",
+-    "serve":"node run.cjs serve"
++  "name": "btb-local-production",
++  "version": "2.0.0",
++  "private": true,
++  "description": "Deterministic local review production; no publishing capabilities",
++  "scripts": {
++    "validate:content": "node run.cjs validate:content",
++    "render:sample": "node run.cjs render:sample",
++    "render:all": "node run.cjs render:all",
++    "qa:visuals": "node run.cjs qa:visuals",
++    "qa:review": "node run.cjs qa:review",
++    "build:review": "node run.cjs build:review",
++    "package:exports": "node run.cjs package:exports",
++    "serve": "node run.cjs serve",
++    "design:prepare": "node run.cjs design:prepare",
++    "proofs:build": "node run.cjs proofs:build"
+   },
+-  "dependencies":{"playwright":"1.62.1","sharp":"0.35.5"},
+-  "engines":{"node":">=24"}
++  "dependencies": {
++    "playwright": "1.62.1",
++    "sharp": "0.35.5"
++  },
++  "engines": {
++    "node": ">=24"
++  }
+ }

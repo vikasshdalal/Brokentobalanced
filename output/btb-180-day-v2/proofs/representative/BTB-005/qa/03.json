@@ -1,0 +1,452 @@
+{
+  "id": "BTB-005",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Make three headings: responsibilities this week; people who can help; decisions that need more information.",
+  "rendered_text": "Make three headings: responsibilities this week; people who can help; decisions that need more information.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 49,
+      "text": "Make three headings: responsibilities this week; ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Make",
+            "three",
+            "headings:"
+          ],
+          "x": 92,
+          "right": 651.046875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "responsibilities",
+            "this",
+            "week;"
+          ],
+          "x": 92,
+          "right": 752.015625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 49,
+      "end": 70,
+      "text": "people who can help; ",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 611.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "people",
+            "who",
+            "can",
+            "help;"
+          ],
+          "x": 92,
+          "right": 643.1875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 70,
+      "end": 107,
+      "text": "decisions that need more information.",
+      "role": "body",
+      "x": 92,
+      "y": 647.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 805.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 650.5625,
+          "words": [
+            "decisions",
+            "that",
+            "need"
+          ],
+          "x": 92,
+          "right": 587.765625
+        },
+        {
+          "y": 729.75,
+          "words": [
+            "more",
+            "information."
+          ],
+          "x": 92,
+          "right": 537.546875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 485.9375,
+    "right": 988,
+    "bottom": 805.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 49,
+      "text": "Make three headings: responsibilities this week; ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 496.375,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Make",
+            "three",
+            "headings:"
+          ],
+          "x": 92,
+          "right": 651.046875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "responsibilities",
+            "this",
+            "week;"
+          ],
+          "x": 92,
+          "right": 752.015625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 49,
+      "end": 70,
+      "text": "people who can help; ",
+      "role": "body",
+      "x": 92,
+      "y": 532.375,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 611.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 535.375,
+          "words": [
+            "people",
+            "who",
+            "can",
+            "help;"
+          ],
+          "x": 92,
+          "right": 643.1875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 70,
+      "end": 107,
+      "text": "decisions that need more information.",
+      "role": "body",
+      "x": 92,
+      "y": 647.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 805.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 650.5625,
+          "words": [
+            "decisions",
+            "that",
+            "need"
+          ],
+          "x": 92,
+          "right": 587.765625
+        },
+        {
+          "y": 729.75,
+          "words": [
+            "more",
+            "information."
+          ],
+          "x": 92,
+          "right": 537.546875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Make three headings: responsibilities this week; ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 43
+    },
+    {
+      "text": "people who can help; ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 17
+    },
+    {
+      "text": "decisions that need more information.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 33
+    },
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 49
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 37
+        }
+      ]
+    }
+  ],
+  "png": "proofs/representative/BTB-005/03.png",
+  "editable": "proofs/representative/BTB-005/editable/03.html",
+  "png_sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262",
+  "html_sha256": "3646afc51ef6e8c4d78c4155d5611cf6e2b718d5eb4766c66970a13ba65a4fab",
+  "render_key": "3646afc51ef6e8c4d78c4155d5611cf6e2b718d5eb4766c66970a13ba65a4fab:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "C",
+  "effective_treatment": "B"
+}

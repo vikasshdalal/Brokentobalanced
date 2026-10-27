@@ -1,0 +1,26 @@
+[
+  {
+    "number": 1,
+    "alt_text": "Slide 1 of 6. “I need some space” works better with a little clarity."
+  },
+  {
+    "number": 2,
+    "alt_text": "Slide 2 of 6. Without context, it can leave the other person guessing whether the conversation is paused or abandoned."
+  },
+  {
+    "number": 3,
+    "alt_text": "Slide 3 of 6. Where safe, try: “I need a break from this discussion. I can return to it tomorrow evening.”"
+  },
+  {
+    "number": 4,
+    "alt_text": "Slide 4 of 6. Only offer a return time you can keep. If you cannot, communicate the change rather than disappearing."
+  },
+  {
+    "number": 5,
+    "alt_text": "Slide 5 of 6. This is not suitable for every situation. Safety needs and required communication take priority."
+  },
+  {
+    "number": 6,
+    "alt_text": "Slide 6 of 6. Save this for a pause that needs to be a boundary, not a punishment."
+  }
+]

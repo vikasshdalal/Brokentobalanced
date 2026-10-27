@@ -1,0 +1,62 @@
+{
+  "renderer_version": "btb-html-2.0.0",
+  "completed": [
+    {
+      "id": "BTB-001",
+      "directory": "posts/BTB-001",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-002",
+      "directory": "proofs/representative/BTB-002",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-003",
+      "directory": "proofs/representative/BTB-003",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-005",
+      "directory": "proofs/representative/BTB-005",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-014",
+      "directory": "proofs/representative/BTB-014",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-142",
+      "directory": "proofs/representative/BTB-142",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-175",
+      "directory": "proofs/representative/BTB-175",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-001",
+      "directory": "proofs/BTB-001/A",
+      "slides": 6,
+      "qa": "PASS"
+    },
+    {
+      "id": "BTB-001",
+      "directory": "proofs/BTB-001/B",
+      "slides": 6,
+      "qa": "PASS"
+    }
+  ],
+  "failures": [],
+  "post_count": 9,
+  "png_count": 54
+}

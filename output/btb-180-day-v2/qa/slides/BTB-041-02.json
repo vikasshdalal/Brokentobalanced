@@ -1,0 +1,310 @@
+{
+  "id": "BTB-041",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "It may mean an honest budget, a smaller plan, or admitting that something is not working.",
+  "rendered_text": "It may mean an honest budget, a smaller plan, or admitting that something is not working.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 89,
+      "text": "It may mean an honest budget, a smaller plan, or admitting that something is not working.",
+      "role": "insight",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 345.5625,
+      "right": 988,
+      "bottom": 683.5625,
+      "font_size": 72,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 86.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 337,
+          "words": [
+            "It",
+            "may",
+            "mean",
+            "an",
+            "honest"
+          ],
+          "x": 92,
+          "right": 802.96875
+        },
+        {
+          "y": 423.390625,
+          "words": [
+            "budget,",
+            "a",
+            "smaller"
+          ],
+          "x": 92,
+          "right": 627.65625
+        },
+        {
+          "y": 509.78125,
+          "words": [
+            "plan,",
+            "or",
+            "admitting",
+            "that"
+          ],
+          "x": 92,
+          "right": 771.625
+        },
+        {
+          "y": 596.171875,
+          "words": [
+            "something",
+            "is",
+            "not",
+            "working."
+          ],
+          "x": 92,
+          "right": 892.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 363.5625,
+    "right": 988,
+    "bottom": 683.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 337,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 89,
+      "text": "It may mean an honest budget, a smaller plan, or admitting that something is not working.",
+      "role": "insight",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 345.5625,
+      "right": 988,
+      "bottom": 683.5625,
+      "font_size": 72,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 86.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 337,
+          "words": [
+            "It",
+            "may",
+            "mean",
+            "an",
+            "honest"
+          ],
+          "x": 92,
+          "right": 802.96875
+        },
+        {
+          "y": 423.390625,
+          "words": [
+            "budget,",
+            "a",
+            "smaller"
+          ],
+          "x": 92,
+          "right": 627.65625
+        },
+        {
+          "y": 509.78125,
+          "words": [
+            "plan,",
+            "or",
+            "admitting",
+            "that"
+          ],
+          "x": 92,
+          "right": 771.625
+        },
+        {
+          "y": 596.171875,
+          "words": [
+            "something",
+            "is",
+            "not",
+            "working."
+          ],
+          "x": 92,
+          "right": 892.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "It may mean an honest budget, a smaller plan, or admitting that something is not working.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 72,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 74
+    },
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "The Part Nobody Sees",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 89
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-041/02.png",
+  "editable": "posts/BTB-041/editable/02.html",
+  "png_sha256": "5102853b4168ca4704133cbcd37b6760e95b056674bcb9c40b528331d991b7dc",
+  "html_sha256": "821248d21a70b6d309900cc611149c710ae2c7c5ba302c2d298da9c7a92163c0",
+  "render_key": "821248d21a70b6d309900cc611149c710ae2c7c5ba302c2d298da9c7a92163c0:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

@@ -1,0 +1,300 @@
+{
+  "id": "BTB-164",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "I will not promise that a certain number of posts, routines, or days will make your life balanced.",
+  "rendered_text": "I will not promise that a certain number of posts, routines, or days will make your life balanced.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 98,
+      "text": "I will not promise that a certain number of posts, routines, or days will make your life balanced.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 229.640625,
+      "right": 988,
+      "bottom": 567.640625,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "I",
+            "will",
+            "not",
+            "promise",
+            "that",
+            "a",
+            "certain"
+          ],
+          "x": 92,
+          "right": 837.171875
+        },
+        {
+          "y": 417.546875,
+          "words": [
+            "number",
+            "of",
+            "posts,",
+            "routines,",
+            "or"
+          ],
+          "x": 92,
+          "right": 792.609375
+        },
+        {
+          "y": 494.09375,
+          "words": [
+            "days",
+            "will",
+            "make",
+            "your",
+            "life",
+            "balanced."
+          ],
+          "x": 92,
+          "right": 906.234375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 247.640625,
+    "right": 988,
+    "bottom": 567.640625
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 98,
+      "text": "I will not promise that a certain number of posts, routines, or days will make your life balanced.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 229.640625,
+      "right": 988,
+      "bottom": 567.640625,
+      "font_size": 58,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 76.56,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "I",
+            "will",
+            "not",
+            "promise",
+            "that",
+            "a",
+            "certain"
+          ],
+          "x": 92,
+          "right": 837.171875
+        },
+        {
+          "y": 417.546875,
+          "words": [
+            "number",
+            "of",
+            "posts,",
+            "routines,",
+            "or"
+          ],
+          "x": 92,
+          "right": 792.609375
+        },
+        {
+          "y": 494.09375,
+          "words": [
+            "days",
+            "will",
+            "make",
+            "your",
+            "life",
+            "balanced."
+          ],
+          "x": 92,
+          "right": 906.234375
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "I will not promise that a certain number of posts, routines, or days will make your life balanced.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 58,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 81
+    },
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Notes From the Rebuild",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 98
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-164/02.png",
+  "editable": "posts/BTB-164/editable/02.html",
+  "png_sha256": "d61c33602f6c40fa1785918ed509125fcbe1eeb561253af4e541ab3f15fba632",
+  "html_sha256": "e3d882c30a65183cc40e1ead15a1be32a030ca9622b03889289249eab2ae98e8",
+  "render_key": "e3d882c30a65183cc40e1ead15a1be32a030ca9622b03889289249eab2ae98e8:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

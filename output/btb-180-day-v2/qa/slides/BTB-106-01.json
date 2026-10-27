@@ -1,0 +1,308 @@
+{
+  "id": "BTB-106",
+  "slide": 1,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "You can talk about your past without making a new person hear the entire case.",
+  "rendered_text": "You can talk about your past without making a new person hear the entire case.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 78,
+      "text": "You can talk about your past without making a new person hear the entire case.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "You",
+            "can",
+            "talk",
+            "about"
+          ],
+          "x": 92,
+          "right": 847.921875
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "your",
+            "past",
+            "without"
+          ],
+          "x": 92,
+          "right": 818.03125
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "making",
+            "a",
+            "new",
+            "person"
+          ],
+          "x": 92,
+          "right": 975.25
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "hear",
+            "the",
+            "entire",
+            "case."
+          ],
+          "x": 92,
+          "right": 925.890625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 431.5625,
+    "right": 988,
+    "bottom": 731.5625
+  },
+  "region": {
+    "x": 92,
+    "y": 300,
+    "width": 896,
+    "height": 810,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 306,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 78,
+      "text": "You can talk about your past without making a new person hear the entire case.",
+      "role": "cover",
+      "x": 92,
+      "y": 318,
+      "width": 896,
+      "height": 413.5625,
+      "right": 988,
+      "bottom": 731.5625,
+      "font_size": 94,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 103.4,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 306,
+          "words": [
+            "You",
+            "can",
+            "talk",
+            "about"
+          ],
+          "x": 92,
+          "right": 847.921875
+        },
+        {
+          "y": 409.390625,
+          "words": [
+            "your",
+            "past",
+            "without"
+          ],
+          "x": 92,
+          "right": 818.03125
+        },
+        {
+          "y": 512.78125,
+          "words": [
+            "making",
+            "a",
+            "new",
+            "person"
+          ],
+          "x": 92,
+          "right": 975.25
+        },
+        {
+          "y": 616.171875,
+          "words": [
+            "hear",
+            "the",
+            "entire",
+            "case."
+          ],
+          "x": 92,
+          "right": 925.890625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "You can talk about your past without making a new person hear the entire case.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 94,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 64
+    },
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 78
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-106/01.png",
+  "editable": "posts/BTB-106/editable/01.html",
+  "png_sha256": "91c4807bb56ee45db88d9699310262f77314afa2ae3d68b9cada3bd6304ac5c2",
+  "html_sha256": "72f37a39d0ef155b074a899a1603725cc23ee42901e2b95105b7d9fa45a3e3f4",
+  "render_key": "72f37a39d0ef155b074a899a1603725cc23ee42901e2b95105b7d9fa45a3e3f4:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

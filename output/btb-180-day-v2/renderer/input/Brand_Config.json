@@ -1,0 +1,112 @@
+{
+  "brand": "Broken to Balanced",
+  "handle": "@brokentobalanced",
+  "domain": "brokentobalanced.co",
+  "brand_authority": "Prior owner decisions, supported by retrieved website visual direction; original vector asset not recovered.",
+  "palette": {
+    "charcoal": "#1A1A1A",
+    "off_white": "#F5F5F5",
+    "deep_blue": "#2F4F6F",
+    "muted_olive": "#6E7F5F",
+    "warm_sand": "#C2A57B"
+  },
+  "fonts": {
+    "headings": "Playfair Display",
+    "body": "Inter",
+    "final_fallback_permitted": false,
+    "distribute_font_binaries": false
+  },
+  "logo": {
+    "status": "Original approved binary not supplied in this package",
+    "concept_reference_only": "Cracked first B transitioning to clean second B",
+    "stacked_wordmark": "Broken / to Balanced",
+    "may_redraw_as_approved": false,
+    "review_fallback": "Plain text: Broken to Balanced",
+    "required_final_action": "Locate and verify original approved asset in existing brand project"
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "aspect_ratio": "4:5",
+    "color_space": "sRGB",
+    "format": "PNG"
+  },
+  "margins_px": {
+    "horizontal": 92,
+    "top": 88,
+    "bottom": 88
+  },
+  "typography_px": {
+    "cover_target": [
+      76,
+      96
+    ],
+    "cover_allowed": [
+      64,
+      104
+    ],
+    "body_target": [
+      54,
+      64
+    ],
+    "body_floor": 48,
+    "footer": [
+      26,
+      30
+    ]
+  },
+  "main_text_pairs": [
+    {
+      "foreground": "#F5F5F5",
+      "background": "#1A1A1A",
+      "contrast_ratio": 15.96
+    },
+    {
+      "foreground": "#1A1A1A",
+      "background": "#F5F5F5",
+      "contrast_ratio": 15.96
+    }
+  ],
+  "accent_contrast_on_charcoal": {
+    "off_white": 15.96,
+    "deep_blue": 2.05,
+    "muted_olive": 4.03,
+    "warm_sand": 7.43
+  },
+  "accent_contrast_on_off_white": {
+    "charcoal": 15.96,
+    "deep_blue": 7.8,
+    "muted_olive": 3.96,
+    "warm_sand": 2.15
+  },
+  "minimum_normal_text_contrast": 4.5,
+  "layouts": [
+    "editorial",
+    "contrast",
+    "script",
+    "checklist",
+    "letter"
+  ],
+  "imagery": "None: text and restrained decorative geometry only",
+  "logo_footer": "Subtle approved mark/wordmark, handle, and slide index",
+  "scope": {
+    "publish": false,
+    "schedule": false,
+    "spend": false,
+    "paid_model_calls": false,
+    "private_folder_access": false,
+    "new_autobiography": false,
+    "copy_rewrite": false
+  },
+  "preserved_language": [
+    "Rebuilding without noise, shame, or performance.",
+    "Still standing. Still building."
+  ],
+  "not_claimed": [
+    "Virality",
+    "Guaranteed follower growth",
+    "Clinical efficacy",
+    "Legal advice",
+    "A completed recovery story"
+  ]
+}

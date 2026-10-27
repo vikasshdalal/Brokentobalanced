@@ -1,0 +1,316 @@
+{
+  "id": "BTB-146",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Enjoying a connection does not obligate you to make commitments before you have the information or capacity you need.",
+  "rendered_text": "Enjoying a connection does not obligate you to make commitments before you have the information or capacity you need.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 117,
+      "text": "Enjoying a connection does not obligate you to make commitments before you have the information or capacity you need.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 316.75,
+      "right": 988,
+      "bottom": 654.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Enjoying",
+            "a",
+            "connection",
+            "does"
+          ],
+          "x": 92,
+          "right": 791.71875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "not",
+            "obligate",
+            "you",
+            "to",
+            "make"
+          ],
+          "x": 92,
+          "right": 717.75
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "commitments",
+            "before",
+            "you",
+            "have",
+            "the"
+          ],
+          "x": 92,
+          "right": 962.59375
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "information",
+            "or",
+            "capacity",
+            "you",
+            "need."
+          ],
+          "x": 92,
+          "right": 940.828125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 334.75,
+    "right": 988,
+    "bottom": 654.75
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(26, 26, 26)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 117,
+      "text": "Enjoying a connection does not obligate you to make commitments before you have the information or capacity you need.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 316.75,
+      "right": 988,
+      "bottom": 654.75,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(245, 245, 245)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Enjoying",
+            "a",
+            "connection",
+            "does"
+          ],
+          "x": 92,
+          "right": 791.71875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "not",
+            "obligate",
+            "you",
+            "to",
+            "make"
+          ],
+          "x": 92,
+          "right": 717.75
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "commitments",
+            "before",
+            "you",
+            "have",
+            "the"
+          ],
+          "x": 92,
+          "right": 962.59375
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "information",
+            "or",
+            "capacity",
+            "you",
+            "need."
+          ],
+          "x": 92,
+          "right": 940.828125
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Enjoying a connection does not obligate you to make commitments before you have the information or capacity you need.",
+      "foreground": "rgb(245, 245, 245)",
+      "background": "rgb(26, 26, 26)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 99
+    },
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Trust, Without Losing Yourself",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(189, 181, 170)",
+      "background": "rgb(26, 26, 26)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 117
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-146/02.png",
+  "editable": "posts/BTB-146/editable/02.html",
+  "png_sha256": "de00ba7880502346b18b2f6b72bb2387f3736c3e717674cd68a7821475d9c34f",
+  "html_sha256": "df5b0734aa41456dcee9044eb6790dcb19c37403814fd0920793f266cdadf35b",
+  "render_key": "df5b0734aa41456dcee9044eb6790dcb19c37403814fd0920793f266cdadf35b:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

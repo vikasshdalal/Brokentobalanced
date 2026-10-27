@@ -1,0 +1,2584 @@
+{
+  "status": "PASS",
+  "method": "Independent fresh Chromium rerender from final saved v2 editable HTML; exact PNG SHA-256 and source-span/font checks",
+  "target_count": 30,
+  "exact_match_count": 30,
+  "verified_source_and_font_count": 30,
+  "primary_targets": 18,
+  "proof_targets": 12,
+  "renderer_version": "btb-html-2.0.0",
+  "verifier_sha256": "1badeb800884a49fb75c1782aa9da5ddf43f6550fd434b38e7a89ce369cb410d",
+  "renderer_sha256": "3ca6419334935ce35d3039450f113aa1cf3fbea656c0be3db710f8da9c35f564",
+  "styles_sha256": "16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "browser_flags": [
+    "--force-color-profile=srgb",
+    "--disable-lcd-text"
+  ],
+  "screenshot_options": {
+    "selector": ".slide",
+    "viewport": {
+      "width": 1080,
+      "height": 1350
+    },
+    "deviceScaleFactor": 1,
+    "colorScheme": "light",
+    "reducedMotion": "reduce",
+    "animations": "disabled",
+    "scale": "css"
+  },
+  "network_scope": "Loopback server only; all other browser requests aborted",
+  "exported_sources_or_images_modified": false,
+  "v1_outputs_modified": false,
+  "results": [
+    {
+      "dir": "posts/BTB-001",
+      "slide": 1,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/01.png",
+      "html": "posts/BTB-001/editable/01.html",
+      "original_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "rerender_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "The relationship ",
+          "start": 0,
+          "end": 17,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 17
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "ended. ",
+          "start": 17,
+          "end": 24,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Your responsibilities ",
+          "start": 24,
+          "end": 46,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 44,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "didn't.",
+          "start": 46,
+          "end": 53,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 1,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/01.png",
+      "html": "proofs/BTB-001/A/editable/01.html",
+      "original_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "rerender_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "The relationship ",
+          "start": 0,
+          "end": 17,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 17
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "ended. ",
+          "start": 17,
+          "end": 24,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Your responsibilities ",
+          "start": 24,
+          "end": 46,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 44,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "didn't.",
+          "start": 46,
+          "end": 53,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 1,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/01.png",
+      "html": "proofs/BTB-001/B/editable/01.html",
+      "original_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "rerender_sha256": "bc1bd2e004f5e35eaba7b5f5b25c9bb19de6da2442e782cc71275906bb8bea33",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "The relationship ",
+          "start": 0,
+          "end": 17,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 17
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "ended. ",
+          "start": 17,
+          "end": 24,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Your responsibilities ",
+          "start": 24,
+          "end": 46,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 44,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "didn't.",
+          "start": 46,
+          "end": 53,
+          "role": "cover",
+          "font_size": 84,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 7
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-001",
+      "slide": 2,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/02.png",
+      "html": "posts/BTB-001/editable/02.html",
+      "original_sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+      "rerender_sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You can be grieving and still have ",
+          "start": 0,
+          "end": 35,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 35
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "lunches to pack, ",
+          "start": 35,
+          "end": 52,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "work to finish, ",
+          "start": 52,
+          "end": 68,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 15
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "and bills to open.",
+          "start": 68,
+          "end": 86,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 2,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/02.png",
+      "html": "proofs/BTB-001/A/editable/02.html",
+      "original_sha256": "1931349534b5ccc0a5fb31eb376ee91bb5bcdb8d56d816448c2c4a7567e50ed6",
+      "rerender_sha256": "1931349534b5ccc0a5fb31eb376ee91bb5bcdb8d56d816448c2c4a7567e50ed6",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You can be grieving and still have ",
+          "start": 0,
+          "end": 35,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 35
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "lunches to pack, ",
+          "start": 35,
+          "end": 52,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "work to finish, ",
+          "start": 52,
+          "end": 68,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 15
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "and bills to open.",
+          "start": 68,
+          "end": 86,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 2,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/02.png",
+      "html": "proofs/BTB-001/B/editable/02.html",
+      "original_sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+      "rerender_sha256": "3677cbbad375221c426449c408ea81135781fb205ece961af3450ec8f44e5e1a",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You can be grieving and still have ",
+          "start": 0,
+          "end": 35,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 35
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "lunches to pack, ",
+          "start": 35,
+          "end": 52,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 16
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "work to finish, ",
+          "start": 52,
+          "end": 68,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 15
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "and bills to open.",
+          "start": 68,
+          "end": 86,
+          "role": "body",
+          "font_size": 62,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 10,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-001",
+      "slide": 3,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/03.png",
+      "html": "posts/BTB-001/editable/03.html",
+      "original_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "rerender_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Looking functional does not mean the change has been easy. ",
+          "start": 0,
+          "end": 59,
+          "role": "insight-serif",
+          "font_size": 70,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 59
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "It means life has kept asking things of you.",
+          "start": 59,
+          "end": 103,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 44
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 3,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/03.png",
+      "html": "proofs/BTB-001/A/editable/03.html",
+      "original_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "rerender_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Looking functional does not mean the change has been easy. ",
+          "start": 0,
+          "end": 59,
+          "role": "insight-serif",
+          "font_size": 70,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 59
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "It means life has kept asking things of you.",
+          "start": 59,
+          "end": 103,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 44
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 3,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/03.png",
+      "html": "proofs/BTB-001/B/editable/03.html",
+      "original_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "rerender_sha256": "a6488ef110f5c9d3ecbd1c4b91a793f0fbb97924bb19598c7304ea6b0351b73e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Looking functional does not mean the change has been easy. ",
+          "start": 0,
+          "end": 59,
+          "role": "insight-serif",
+          "font_size": 70,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 59
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "It means life has kept asking things of you.",
+          "start": 59,
+          "end": 103,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 44
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-001",
+      "slide": 4,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/04.png",
+      "html": "posts/BTB-001/editable/04.html",
+      "original_sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+      "rerender_sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "For today, separate what must happen from what can wait. ",
+          "start": 0,
+          "end": 57,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 28
+            },
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 29
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "A difficult season does not make every task urgent.",
+          "start": 57,
+          "end": 108,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 51
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 4,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/04.png",
+      "html": "proofs/BTB-001/A/editable/04.html",
+      "original_sha256": "7d7d92947f6639654fee784ac9973158ad91a38323717ba696791c8dbfcc8711",
+      "rerender_sha256": "7d7d92947f6639654fee784ac9973158ad91a38323717ba696791c8dbfcc8711",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "For today, separate what must happen from what can wait. ",
+          "start": 0,
+          "end": 57,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 28
+            },
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 29
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "A difficult season does not make every task urgent.",
+          "start": 57,
+          "end": 108,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 51
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 4,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/04.png",
+      "html": "proofs/BTB-001/B/editable/04.html",
+      "original_sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+      "rerender_sha256": "12fa60c1b6aa87c649dfa7875b3e07b8f82e24a6615671d15627c8d3039c4454",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "For today, separate what must happen from what can wait. ",
+          "start": 0,
+          "end": 57,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 28
+            },
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 29
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "A difficult season does not make every task urgent.",
+          "start": 57,
+          "end": 108,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 42,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 51
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-001",
+      "slide": 5,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/05.png",
+      "html": "posts/BTB-001/editable/05.html",
+      "original_sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+      "rerender_sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Choose one essential responsibility. ",
+          "start": 0,
+          "end": 37,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Choose one person you can speak honestly with. ",
+          "start": 37,
+          "end": 84,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 47
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Leave room for both.",
+          "start": 84,
+          "end": 104,
+          "role": "body",
+          "font_size": 54,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 5,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/05.png",
+      "html": "proofs/BTB-001/A/editable/05.html",
+      "original_sha256": "6e7f684924c6915abf5545cf2d8be9a444853e79f1997f3fd4fd618859d93d69",
+      "rerender_sha256": "6e7f684924c6915abf5545cf2d8be9a444853e79f1997f3fd4fd618859d93d69",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Choose one essential responsibility. ",
+          "start": 0,
+          "end": 37,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Choose one person you can speak honestly with. ",
+          "start": 37,
+          "end": 84,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 47
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Leave room for both.",
+          "start": 84,
+          "end": 104,
+          "role": "body",
+          "font_size": 54,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 5,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/05.png",
+      "html": "proofs/BTB-001/B/editable/05.html",
+      "original_sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+      "rerender_sha256": "750c208fb3d19529415f2097fb87401337b947f6b282783f8fbe8bba57c78f5e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Choose one essential responsibility. ",
+          "start": 0,
+          "end": 37,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Choose one person you can speak honestly with. ",
+          "start": 37,
+          "end": 84,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 47
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Leave room for both.",
+          "start": 84,
+          "end": 104,
+          "role": "body",
+          "font_size": 54,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 40,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 20
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-001",
+      "slide": 6,
+      "reason": "selected reference primary B",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "posts/BTB-001/06.png",
+      "html": "posts/BTB-001/editable/06.html",
+      "original_sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+      "rerender_sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You do not have to look recovered to deserve support. ",
+          "start": 0,
+          "end": 54,
+          "role": "insight-serif",
+          "font_size": 72,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Send this to someone carrying more than they show.",
+          "start": 54,
+          "end": 104,
+          "role": "cta",
+          "font_size": 52,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 52,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/A",
+      "slide": 6,
+      "reason": "complete reference A comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "A",
+      "png": "proofs/BTB-001/A/06.png",
+      "html": "proofs/BTB-001/A/editable/06.html",
+      "original_sha256": "caa20ca6995995332d1ec3facdda5edc19c113094a067ea5d5cb9dafc1edff93",
+      "rerender_sha256": "caa20ca6995995332d1ec3facdda5edc19c113094a067ea5d5cb9dafc1edff93",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You do not have to look recovered to deserve support. ",
+          "start": 0,
+          "end": 54,
+          "role": "insight-serif",
+          "font_size": 72,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Send this to someone carrying more than they show.",
+          "start": 54,
+          "end": 104,
+          "role": "cta",
+          "font_size": 52,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 52,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "proofs/BTB-001/B",
+      "slide": 6,
+      "reason": "complete reference B comparison proof",
+      "id": "BTB-001",
+      "effective_treatment": "B",
+      "png": "proofs/BTB-001/B/06.png",
+      "html": "proofs/BTB-001/B/editable/06.html",
+      "original_sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+      "rerender_sha256": "1597f5017f54af20c5a5ce34553fb06f9ede0e844c45dc3dd29f07be1bb449a6",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "You do not have to look recovered to deserve support. ",
+          "start": 0,
+          "end": 54,
+          "role": "insight-serif",
+          "font_size": 72,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 54
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Send this to someone carrying more than they show.",
+          "start": 54,
+          "end": 104,
+          "role": "cta",
+          "font_size": 52,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 52,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 50
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-175",
+      "slide": 1,
+      "reason": "longest hook",
+      "id": "BTB-175",
+      "effective_treatment": "B",
+      "png": "posts/BTB-175/01.png",
+      "html": "posts/BTB-175/editable/01.html",
+      "original_sha256": "5ba51c8855f452c5d781008cadd494344fb580a54b695a69018801a5b03c3afe",
+      "rerender_sha256": "5ba51c8855f452c5d781008cadd494344fb580a54b695a69018801a5b03c3afe",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "When another adult criticises the other parent in front of your child, interrupt the topic.",
+          "start": 0,
+          "end": 91,
+          "role": "cover",
+          "font_size": 86,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 91
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-142",
+      "slide": 4,
+      "reason": "longest body",
+      "id": "BTB-142",
+      "effective_treatment": "B",
+      "png": "posts/BTB-142/04.png",
+      "html": "posts/BTB-142/editable/04.html",
+      "original_sha256": "adade14203454447986b4dc144af3148843ea795969615badab8c2d9b6bf1abe",
+      "rerender_sha256": "adade14203454447986b4dc144af3148843ea795969615badab8c2d9b6bf1abe",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Consider alternatives, including changing scope or stopping. ",
+          "start": 0,
+          "end": 61,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 61
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Get appropriate professional advice for significant financial or contractual decisions.",
+          "start": 61,
+          "end": 148,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 36,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 87
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-003",
+      "slide": 4,
+      "reason": "script example",
+      "id": "BTB-003",
+      "effective_treatment": "B",
+      "png": "posts/BTB-003/04.png",
+      "html": "posts/BTB-003/editable/04.html",
+      "original_sha256": "b21af114d81a3d09a603bec8ed0d2d7bb4c51cb5aa85ff933f9010b4f071d323",
+      "rerender_sha256": "b21af114d81a3d09a603bec8ed0d2d7bb4c51cb5aa85ff933f9010b4f071d323",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Try: ",
+          "start": 0,
+          "end": 5,
+          "role": "body",
+          "font_size": 56,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 5
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "“I can confirm the agreed pickup time. Please let me know whether the school bag will be ready.”",
+          "start": 5,
+          "end": 101,
+          "role": "script",
+          "font_size": 58,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 28,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 96
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-003",
+      "slide": 5,
+      "reason": "safety caveat",
+      "id": "BTB-003",
+      "effective_treatment": "B",
+      "png": "posts/BTB-003/05.png",
+      "html": "posts/BTB-003/editable/05.html",
+      "original_sha256": "d83cdff676440d1891321c40f1e7fec45b9379324f1b190b6d8733c9ce48f89d",
+      "rerender_sha256": "d83cdff676440d1891321c40f1e7fec45b9379324f1b190b6d8733c9ce48f89d",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Keep the reply about that task. ",
+          "start": 0,
+          "end": 32,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 32
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "Use the communication arrangements that apply to your family; address safety concerns through appropriate support.",
+          "start": 32,
+          "end": 146,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 36,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 114
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-014",
+      "slide": 2,
+      "reason": "founder A interior",
+      "id": "BTB-014",
+      "effective_treatment": "A",
+      "png": "posts/BTB-014/02.png",
+      "html": "posts/BTB-014/editable/02.html",
+      "original_sha256": "65de23e4fe72f685067d854cc2ae357937363d167650ce60426ef7ffd84bbf79",
+      "rerender_sha256": "65de23e4fe72f685067d854cc2ae357937363d167650ce60426ef7ffd84bbf79",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Separation, parenting responsibilities, and rebuilding are part of the experience behind Broken to Balanced.",
+          "start": 0,
+          "end": 108,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 108
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-030",
+      "slide": 2,
+      "reason": "founder B interior",
+      "id": "BTB-030",
+      "effective_treatment": "B",
+      "png": "posts/BTB-030/02.png",
+      "html": "posts/BTB-030/editable/02.html",
+      "original_sha256": "f237e68e3eeeee2d9c15a332b322a48a9c2b8555cb296f284b192f39429f5999",
+      "rerender_sha256": "f237e68e3eeeee2d9c15a332b322a48a9c2b8555cb296f284b192f39429f5999",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Lived experience gives this work a starting point. ",
+          "start": 0,
+          "end": 51,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 51
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "It does not give me permission to expose everyone in the story.",
+          "start": 51,
+          "end": 114,
+          "role": "body",
+          "font_size": 58,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 36,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-005",
+      "slide": 3,
+      "reason": "practical sequence",
+      "id": "BTB-005",
+      "effective_treatment": "B",
+      "png": "posts/BTB-005/03.png",
+      "html": "posts/BTB-005/editable/03.html",
+      "original_sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262",
+      "rerender_sha256": "3ec323c32dcac7533857b6417fc062b0c5832cc33e6b290e7e54f5311786b262",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Make three headings: responsibilities this week; ",
+          "start": 0,
+          "end": 49,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 49
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "people who can help; ",
+          "start": 49,
+          "end": 70,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 500,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 36,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+              "isCustomFont": true,
+              "glyphCount": 21
+            }
+          ],
+          "passed": true
+        },
+        {
+          "text": "decisions that need more information.",
+          "start": 70,
+          "end": 107,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 36,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 37
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-002",
+      "slide": 3,
+      "reason": "contrast interior",
+      "id": "BTB-002",
+      "effective_treatment": "A",
+      "png": "posts/BTB-002/03.png",
+      "html": "posts/BTB-002/editable/03.html",
+      "original_sha256": "73e3845aec861edb639cbb22cb34a903ae3ef676b0ab354317b1383fa4a6835f",
+      "rerender_sha256": "73e3845aec861edb639cbb22cb34a903ae3ef676b0ab354317b1383fa4a6835f",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Replace it with a smaller question: what would make the next hour less difficult?",
+          "start": 0,
+          "end": 81,
+          "role": "body",
+          "font_size": 60,
+          "font_weight": 400,
+          "font_family": "Inter",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Inter",
+              "postScriptName": "Inter-Regular_opsz200000_wght",
+              "isCustomFont": true,
+              "glyphCount": 81
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-002",
+      "slide": 1,
+      "reason": "contrast cover",
+      "id": "BTB-002",
+      "effective_treatment": "A",
+      "png": "posts/BTB-002/01.png",
+      "html": "posts/BTB-002/editable/01.html",
+      "original_sha256": "5e5408d2827a3ab32b380d5180158edcebfbfd6a9f2d198d1f5843b9b3e97588",
+      "rerender_sha256": "5e5408d2827a3ab32b380d5180158edcebfbfd6a9f2d198d1f5843b9b3e97588",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "A difficult morning does not need a life-changing plan.",
+          "start": 0,
+          "end": 55,
+          "role": "cover",
+          "font_size": 94,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 55
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-003",
+      "slide": 1,
+      "reason": "script cover",
+      "id": "BTB-003",
+      "effective_treatment": "B",
+      "png": "posts/BTB-003/01.png",
+      "html": "posts/BTB-003/editable/01.html",
+      "original_sha256": "090c3ae57614dddf882d50b9635fa806dbe97d8644386c79933d0d55bf1c1437",
+      "rerender_sha256": "090c3ae57614dddf882d50b9635fa806dbe97d8644386c79933d0d55bf1c1437",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "The pickup message is not the place for the whole argument.",
+          "start": 0,
+          "end": 59,
+          "role": "cover",
+          "font_size": 94,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 59
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-005",
+      "slide": 1,
+      "reason": "checklist cover",
+      "id": "BTB-005",
+      "effective_treatment": "B",
+      "png": "posts/BTB-005/01.png",
+      "html": "posts/BTB-005/editable/01.html",
+      "original_sha256": "cb11c65a35afbb2c7b6daeb59a6a3071de409a0dffb6681fc0d260196b52d315",
+      "rerender_sha256": "cb11c65a35afbb2c7b6daeb59a6a3071de409a0dffb6681fc0d260196b52d315",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "Your first rebuilding plan can fit on one page.",
+          "start": 0,
+          "end": 47,
+          "role": "cover",
+          "font_size": 94,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 47
+            }
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "dir": "posts/BTB-014",
+      "slide": 1,
+      "reason": "letter cover",
+      "id": "BTB-014",
+      "effective_treatment": "A",
+      "png": "posts/BTB-014/01.png",
+      "html": "posts/BTB-014/editable/01.html",
+      "original_sha256": "db1c2aa6d821569e75fc63ac786322cf0bec8433cc545dc28aef38ccfa2e138e",
+      "rerender_sha256": "db1c2aa6d821569e75fc63ac786322cf0bec8433cc545dc28aef38ccfa2e138e",
+      "exact_png_match": true,
+      "saved_png_manifest_hash_match": true,
+      "actual_visible_text_exact": true,
+      "source_spans_and_fonts_verified": true,
+      "faces": [
+        {
+          "family": "Playfair Display",
+          "status": "loaded",
+          "weight": "400 900"
+        },
+        {
+          "family": "Inter",
+          "status": "loaded",
+          "weight": "100 900"
+        }
+      ],
+      "blocks": [
+        {
+          "text": "I am not building this page from a finished life.",
+          "start": 0,
+          "end": 49,
+          "role": "cover",
+          "font_size": 94,
+          "font_weight": 500,
+          "font_family": "\"Playfair Display\"",
+          "font_synthesis": "none",
+          "gap_before": 0,
+          "visible": true,
+          "exact_source_span": true,
+          "actual_fonts_match": true,
+          "fitted_typography_match": true,
+          "platform_fonts": [
+            {
+              "familyName": "Playfair Display",
+              "postScriptName": "PlayfairDisplayRoman-Medium",
+              "isCustomFont": true,
+              "glyphCount": 49
+            }
+          ],
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "input_sha256": "512d463c0300b15545baf11cf712896fab0380febecf1cb8e18982946876bcf0",
+  "browser_version": "153.0.8010.12",
+  "browser_path": "/Users/vikasshdalal/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+  "node_version": "v24.19.0",
+  "blocked_external_requests": []
+}

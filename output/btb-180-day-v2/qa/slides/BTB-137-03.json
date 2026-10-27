@@ -1,0 +1,334 @@
+{
+  "id": "BTB-137",
+  "slide": 3,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Choose one preparation task the evening before: essential items in one place, the first appointment checked, or a needed document ready.",
+  "rendered_text": "Choose one preparation task the evening before: essential items in one place, the first appointment checked, or a needed document ready.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 136,
+      "text": "Choose one preparation task the evening before: essential items in one place, the first appointment checked, or a needed document ready.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 395.9375,
+      "right": 988,
+      "bottom": 733.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Choose",
+            "one",
+            "preparation",
+            "task"
+          ],
+          "x": 92,
+          "right": 827.21875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "the",
+            "evening",
+            "before:",
+            "essential"
+          ],
+          "x": 92,
+          "right": 817.3125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "items",
+            "in",
+            "one",
+            "place,",
+            "the",
+            "first"
+          ],
+          "x": 92,
+          "right": 770.203125
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "appointment",
+            "checked,",
+            "or",
+            "a"
+          ],
+          "x": 92,
+          "right": 771.078125
+        },
+        {
+          "y": 657.75,
+          "words": [
+            "needed",
+            "document",
+            "ready."
+          ],
+          "x": 92,
+          "right": 727.5625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 413.9375,
+    "right": 988,
+    "bottom": 733.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 136,
+      "text": "Choose one preparation task the evening before: essential items in one place, the first appointment checked, or a needed document ready.",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 395.9375,
+      "right": 988,
+      "bottom": 733.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Choose",
+            "one",
+            "preparation",
+            "task"
+          ],
+          "x": 92,
+          "right": 827.21875
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "the",
+            "evening",
+            "before:",
+            "essential"
+          ],
+          "x": 92,
+          "right": 817.3125
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "items",
+            "in",
+            "one",
+            "place,",
+            "the",
+            "first"
+          ],
+          "x": 92,
+          "right": 770.203125
+        },
+        {
+          "y": 578.5625,
+          "words": [
+            "appointment",
+            "checked,",
+            "or",
+            "a"
+          ],
+          "x": 92,
+          "right": 771.078125
+        },
+        {
+          "y": 657.75,
+          "words": [
+            "needed",
+            "document",
+            "ready."
+          ],
+          "x": 92,
+          "right": 727.5625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Choose one preparation task the evening before: essential items in one place, the first appointment checked, or a needed document ready.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 116
+    },
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "One Useful Next Step",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "3 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 136
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-137/03.png",
+  "editable": "posts/BTB-137/editable/03.html",
+  "png_sha256": "744fcb66711fac26df00d9a04525e3ef9b2178fdaa8dc07e36a80cb81379a8f4",
+  "html_sha256": "fb468349e2f6f2fa6b06818810c0a1523dcd99ad5540550f83c311729bd95aef",
+  "render_key": "fb468349e2f6f2fa6b06818810c0a1523dcd99ad5540550f83c311729bd95aef:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

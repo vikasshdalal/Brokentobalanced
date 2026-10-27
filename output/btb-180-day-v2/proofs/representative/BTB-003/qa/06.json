@@ -1,0 +1,440 @@
+{
+  "id": "BTB-003",
+  "slide": 6,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "A clearer message does not solve the relationship. It can solve today's question. Save the wording.",
+  "rendered_text": "A clearer message does not solve the relationship. It can solve today's question. Save the wording.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 51,
+      "text": "A clearer message does not solve the relationship. ",
+      "role": "insight-serif",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 168,
+      "right": 988,
+      "bottom": 506,
+      "font_size": 70,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 84,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 333,
+          "words": [
+            "A",
+            "clearer",
+            "message",
+            "does"
+          ],
+          "x": 92,
+          "right": 811.109375
+        },
+        {
+          "y": 417,
+          "words": [
+            "not",
+            "solve",
+            "the",
+            "relationship."
+          ],
+          "x": 92,
+          "right": 894
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 51,
+      "end": 82,
+      "text": "It can solve today's question. ",
+      "role": "body",
+      "x": 92,
+      "y": 554,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 633.1875,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 48,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 557,
+          "words": [
+            "It",
+            "can",
+            "solve",
+            "today's",
+            "question."
+          ],
+          "x": 92,
+          "right": 823.015625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 82,
+      "end": 99,
+      "text": "Save the wording.",
+      "role": "cta",
+      "x": 92,
+      "y": 681.1875,
+      "width": 896,
+      "height": 68.625,
+      "right": 988,
+      "bottom": 749.8125,
+      "font_size": 52,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 68.64,
+      "gap_before": 48,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 683.1875,
+          "words": [
+            "Save",
+            "the",
+            "wording."
+          ],
+          "x": 92,
+          "right": 483.6875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 429.8125,
+    "right": 988,
+    "bottom": 749.8125
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 333,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 51,
+      "text": "A clearer message does not solve the relationship. ",
+      "role": "insight-serif",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 168,
+      "right": 988,
+      "bottom": 506,
+      "font_size": 70,
+      "font_weight": 500,
+      "font_family": "\"Playfair Display\"",
+      "line_height": 84,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 333,
+          "words": [
+            "A",
+            "clearer",
+            "message",
+            "does"
+          ],
+          "x": 92,
+          "right": 811.109375
+        },
+        {
+          "y": 417,
+          "words": [
+            "not",
+            "solve",
+            "the",
+            "relationship."
+          ],
+          "x": 92,
+          "right": 894
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 51,
+      "end": 82,
+      "text": "It can solve today's question. ",
+      "role": "body",
+      "x": 92,
+      "y": 554,
+      "width": 896,
+      "height": 79.1875,
+      "right": 988,
+      "bottom": 633.1875,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 48,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 557,
+          "words": [
+            "It",
+            "can",
+            "solve",
+            "today's",
+            "question."
+          ],
+          "x": 92,
+          "right": 823.015625
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 2,
+      "start": 82,
+      "end": 99,
+      "text": "Save the wording.",
+      "role": "cta",
+      "x": 92,
+      "y": 681.1875,
+      "width": 896,
+      "height": 68.625,
+      "right": 988,
+      "bottom": 749.8125,
+      "font_size": 52,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 68.64,
+      "gap_before": 48,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 683.1875,
+          "words": [
+            "Save",
+            "the",
+            "wording."
+          ],
+          "x": 92,
+          "right": 483.6875
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "A clearer message does not solve the relationship. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 70,
+      "font_weight": "500",
+      "font_family": "\"Playfair Display\"",
+      "glyph_count": 43
+    },
+    {
+      "text": "It can solve today's question. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 26
+    },
+    {
+      "text": "Save the wording.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 52,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 15
+    },
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "6 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "Keep the Child Out of the Conflict",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "6 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Playfair Display",
+      "fonts": [
+        {
+          "familyName": "Playfair Display",
+          "postScriptName": "PlayfairDisplayRoman-Medium",
+          "isCustomFont": true,
+          "glyphCount": 51
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 31
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    }
+  ],
+  "png": "proofs/representative/BTB-003/06.png",
+  "editable": "proofs/representative/BTB-003/editable/06.html",
+  "png_sha256": "2fd0651ef842d80b833bf81e863d21749f8be194e90b46763cb6da66890e9378",
+  "html_sha256": "c917875483e118c48e11d62e61121389aa282879d9a140dc3c3a5773a4f44a02",
+  "render_key": "c917875483e118c48e11d62e61121389aa282879d9a140dc3c3a5773a4f44a02:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "C",
+  "effective_treatment": "B"
+}

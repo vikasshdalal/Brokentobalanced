@@ -1,0 +1,397 @@
+{
+  "id": "BTB-174",
+  "slide": 2,
+  "passed": true,
+  "exact_text": true,
+  "canonical_text": "Reflection can produce information, a clearer feeling, or a next step. Repetition may leave you in exactly the same place.",
+  "rendered_text": "Reflection can produce information, a clearer feeling, or a next step. Repetition may leave you in exactly the same place.",
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 71,
+      "text": "Reflection can produce information, a clearer feeling, or a next step. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Reflection",
+            "can",
+            "produce"
+          ],
+          "x": 92,
+          "right": 693.265625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "information,",
+            "a",
+            "clearer"
+          ],
+          "x": 92,
+          "right": 638.046875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "feeling,",
+            "or",
+            "a",
+            "next",
+            "step."
+          ],
+          "x": 92,
+          "right": 658.796875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 71,
+      "end": 122,
+      "text": "Repetition may leave you in exactly the same place.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Repetition",
+            "may",
+            "leave",
+            "you"
+          ],
+          "x": 92,
+          "right": 728.03125
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "in",
+            "exactly",
+            "the",
+            "same",
+            "place."
+          ],
+          "x": 92,
+          "right": 746.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "copy": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 449.9375,
+    "right": 988,
+    "bottom": 769.9375
+  },
+  "region": {
+    "x": 92,
+    "y": 320,
+    "width": 896,
+    "height": 790,
+    "right": 988,
+    "bottom": 1110
+  },
+  "actual_message_top": 341,
+  "background": "rgb(243, 238, 230)",
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 71,
+      "text": "Reflection can produce information, a clearer feeling, or a next step. ",
+      "role": "body",
+      "x": 92,
+      "y": 338,
+      "width": 896,
+      "height": 237.5625,
+      "right": 988,
+      "bottom": 575.5625,
+      "font_size": 60,
+      "font_weight": 500,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 0,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 341,
+          "words": [
+            "Reflection",
+            "can",
+            "produce"
+          ],
+          "x": 92,
+          "right": 693.265625
+        },
+        {
+          "y": 420.1875,
+          "words": [
+            "information,",
+            "a",
+            "clearer"
+          ],
+          "x": 92,
+          "right": 638.046875
+        },
+        {
+          "y": 499.375,
+          "words": [
+            "feeling,",
+            "or",
+            "a",
+            "next",
+            "step."
+          ],
+          "x": 92,
+          "right": 658.796875
+        }
+      ],
+      "intentional_line": false
+    },
+    {
+      "index": 1,
+      "start": 71,
+      "end": 122,
+      "text": "Repetition may leave you in exactly the same place.",
+      "role": "body",
+      "x": 92,
+      "y": 611.5625,
+      "width": 896,
+      "height": 158.375,
+      "right": 988,
+      "bottom": 769.9375,
+      "font_size": 60,
+      "font_weight": 400,
+      "font_family": "Inter",
+      "line_height": 79.2,
+      "gap_before": 36,
+      "color": "rgb(26, 26, 26)",
+      "lines": [
+        {
+          "y": 614.5625,
+          "words": [
+            "Repetition",
+            "may",
+            "leave",
+            "you"
+          ],
+          "x": 92,
+          "right": 728.03125
+        },
+        {
+          "y": 693.75,
+          "words": [
+            "in",
+            "exactly",
+            "the",
+            "same",
+            "place."
+          ],
+          "x": 92,
+          "right": 746.015625
+        }
+      ],
+      "intentional_line": false
+    }
+  ],
+  "text_pairs": [
+    {
+      "text": "Reflection can produce information, a clearer feeling, or a next step. ",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "500",
+      "font_family": "Inter",
+      "glyph_count": 60
+    },
+    {
+      "text": "Repetition may leave you in exactly the same place.",
+      "foreground": "rgb(26, 26, 26)",
+      "background": "rgb(243, 238, 230)",
+      "font_size": 60,
+      "font_weight": "400",
+      "font_family": "Inter",
+      "glyph_count": 43
+    },
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "metadata": [
+    {
+      "role": "series",
+      "text": "When the Day Gets Heavy",
+      "x": 92,
+      "y": 88,
+      "width": 896,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 124.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "brand",
+      "text": "Broken to Balanced",
+      "x": 92,
+      "y": 1216,
+      "width": 241.484375,
+      "height": 36.390625,
+      "right": 333.484375,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 927.484375,
+      "y": 1216,
+      "width": 60.515625,
+      "height": 36.390625,
+      "right": 988,
+      "bottom": 1252.390625,
+      "font_size": 28,
+      "font_weight": 400,
+      "font_family": "Inter, sans-serif",
+      "foreground": "rgb(89, 83, 75)",
+      "background": "rgb(243, 238, 230)"
+    }
+  ],
+  "decoration": {
+    "x": 92,
+    "y": 192,
+    "width": 54,
+    "height": 3,
+    "right": 146,
+    "bottom": 195
+  },
+  "font_faces": [
+    {
+      "family": "Playfair Display",
+      "status": "loaded",
+      "weight": "400 900"
+    },
+    {
+      "family": "Inter",
+      "status": "loaded",
+      "weight": "100 900"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "emphasis_ranges": [],
+  "platform_fonts": [
+    {
+      "block": 0,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 71
+        }
+      ]
+    },
+    {
+      "block": 1,
+      "expected": "Inter",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght",
+          "isCustomFont": true,
+          "glyphCount": 51
+        }
+      ]
+    }
+  ],
+  "png": "posts/BTB-174/02.png",
+  "editable": "posts/BTB-174/editable/02.html",
+  "png_sha256": "fcb2804ffc5357941599510b6c291d6f2b30b9a2a1992a5dc9c2f6d44ead1ad9",
+  "html_sha256": "e048981084db5a803f4259243960161aebcdcc661b80573a701ca5a1879ed033",
+  "render_key": "e048981084db5a803f4259243960161aebcdcc661b80573a701ca5a1879ed033:btb-html-2.0.0:c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6:29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:16688266f9b4ead5cd0d5e91c39720b42d59c6463c43eea334ff8a34f23e3bd0",
+  "attempts": 1,
+  "requested_treatment": "B",
+  "effective_treatment": "B"
+}

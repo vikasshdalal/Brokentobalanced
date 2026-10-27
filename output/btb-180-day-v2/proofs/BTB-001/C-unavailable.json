@@ -1,0 +1,8 @@
+{
+  "requested_treatment": "C",
+  "effective_treatment": "B",
+  "status": "SCENE_UNAVAILABLE",
+  "reason": "No approved local scene or verified no-additional-spend native generation entitlement.",
+  "actual_scene_assets": 0,
+  "fallback": "proofs/BTB-001/B/01.png"
+}
