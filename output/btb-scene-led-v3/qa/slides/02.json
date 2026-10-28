@@ -1,0 +1,490 @@
+{
+  "slide": 2,
+  "passed": true,
+  "errors": [],
+  "canonical_text": "You can be grieving and still have lunches to pack, work to finish, and bills to open.",
+  "visible_text": "You can be grieving and still have lunches to pack, work to finish, and bills to open.",
+  "exact_text": true,
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 35,
+      "text": "You can be grieving and still have ",
+      "role": "main",
+      "x": 80,
+      "y": 817,
+      "right": 1000,
+      "bottom": 884.5,
+      "width": 920,
+      "height": 67.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 54,
+      "font_weight": 500,
+      "line_height": 67.5,
+      "lines": [
+        {
+          "y": 818,
+          "words": [
+            "You",
+            "can",
+            "be",
+            "grieving",
+            "and",
+            "still",
+            "have"
+          ],
+          "x": 80,
+          "right": 854.796875
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 35,
+      "end": 52,
+      "text": "lunches to pack, ",
+      "role": "main",
+      "x": 80,
+      "y": 902.5,
+      "right": 1000,
+      "bottom": 975,
+      "width": 920,
+      "height": 72.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 58,
+      "font_weight": 500,
+      "line_height": 72.5,
+      "lines": [
+        {
+          "y": 903.5,
+          "words": [
+            "lunches",
+            "to",
+            "pack,"
+          ],
+          "x": 80,
+          "right": 490.0625
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 52,
+      "end": 68,
+      "text": "work to finish, ",
+      "role": "main",
+      "x": 80,
+      "y": 981,
+      "right": 1000,
+      "bottom": 1053.5,
+      "width": 920,
+      "height": 72.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 58,
+      "font_weight": 500,
+      "line_height": 72.5,
+      "lines": [
+        {
+          "y": 982,
+          "words": [
+            "work",
+            "to",
+            "finish,"
+          ],
+          "x": 80,
+          "right": 427.546875
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 68,
+      "end": 86,
+      "text": "and bills to open.",
+      "role": "main",
+      "x": 80,
+      "y": 1059.5,
+      "right": 1000,
+      "bottom": 1132,
+      "width": 920,
+      "height": 72.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 58,
+      "font_weight": 500,
+      "line_height": 72.5,
+      "lines": [
+        {
+          "y": 1060.5,
+          "words": [
+            "and",
+            "bills",
+            "to",
+            "open."
+          ],
+          "x": 80,
+          "right": 503.1875
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    }
+  ],
+  "region": {
+    "x": 80,
+    "y": 805,
+    "right": 1000,
+    "bottom": 1202,
+    "width": 920,
+    "height": 397
+  },
+  "contrast_regions": [
+    {
+      "x": 80,
+      "y": 818,
+      "right": 854.796875,
+      "bottom": 883,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_0"
+    },
+    {
+      "x": 80,
+      "y": 903.5,
+      "right": 490.0625,
+      "bottom": 973.5,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_1"
+    },
+    {
+      "x": 80,
+      "y": 982,
+      "right": 427.546875,
+      "bottom": 1052,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_2"
+    },
+    {
+      "x": 80,
+      "y": 1060.5,
+      "right": 503.1875,
+      "bottom": 1130.5,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_3"
+    },
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "2 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    }
+  ],
+  "image": {
+    "natural_width": 1080,
+    "natural_height": 1350,
+    "complete": true
+  },
+  "actual_copy_bounds": {
+    "x": 80,
+    "y": 818,
+    "right": 854.796875,
+    "bottom": 1130.5
+  },
+  "actual_fonts": [
+    {
+      "selector": ".copy",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 86
+        }
+      ]
+    },
+    {
+      "selector": ".handle",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": ".disclosure",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1A0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": ".folio",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 5
+        }
+      ]
+    }
+  ],
+  "contrast": {
+    "passed": true,
+    "worst_ratio": 5.182536958664057,
+    "pixels_tested": 158143,
+    "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+    "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+    "regions": [
+      {
+        "role": "copy_line_0",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 817,
+          "width": 777,
+          "height": 67
+        },
+        "pixels_tested": 52059,
+        "worst_ratio": 5.182536958664057,
+        "worst_pixel": {
+          "x": 79,
+          "y": 834,
+          "RGB": [
+            103,
+            103,
+            104
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_1",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 902,
+          "width": 413,
+          "height": 73
+        },
+        "pixels_tested": 30149,
+        "worst_ratio": 6.403023406283236,
+        "worst_pixel": {
+          "x": 79,
+          "y": 914,
+          "RGB": [
+            89,
+            89,
+            92
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_2",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 981,
+          "width": 350,
+          "height": 72
+        },
+        "pixels_tested": 25200,
+        "worst_ratio": 6.952353705019424,
+        "worst_pixel": {
+          "x": 106,
+          "y": 983,
+          "RGB": [
+            87,
+            83,
+            84
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_3",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1059,
+          "width": 426,
+          "height": 73
+        },
+        "pixels_tested": 31098,
+        "worst_ratio": 7.817102410095983,
+        "worst_pixel": {
+          "x": 79,
+          "y": 1102,
+          "RGB": [
+            82,
+            75,
+            74
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "handle",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1239,
+          "width": 253,
+          "height": 37
+        },
+        "pixels_tested": 9361,
+        "worst_ratio": 8.224105582699968,
+        "worst_pixel": {
+          "x": 331,
+          "y": 1242,
+          "RGB": [
+            91,
+            69,
+            50
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "disclosure",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 534,
+          "y": 1241,
+          "width": 227,
+          "height": 35
+        },
+        "pixels_tested": 7945,
+        "worst_ratio": 10.082046557634929,
+        "worst_pixel": {
+          "x": 599,
+          "y": 1268,
+          "RGB": [
+            77,
+            56,
+            39
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "folio",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 938,
+          "y": 1239,
+          "width": 63,
+          "height": 37
+        },
+        "pixels_tested": 2331,
+        "worst_ratio": 11.827453586021502,
+        "worst_pixel": {
+          "x": 999,
+          "y": 1240,
+          "RGB": [
+            64,
+            46,
+            31
+          ]
+        },
+        "passed": true
+      }
+    ]
+  },
+  "overlay": {
+    "start": 695,
+    "full_by": 795,
+    "color": "#1A1A1A",
+    "alpha": 0.64
+  },
+  "png": "prototype/BTB-001/02.png",
+  "editable": "prototype/BTB-001/editable/02.html"
+}

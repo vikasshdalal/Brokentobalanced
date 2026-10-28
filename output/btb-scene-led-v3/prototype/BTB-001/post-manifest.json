@@ -1,0 +1,581 @@
+{
+  "id": "BTB-001",
+  "day": 1,
+  "planned_date": "2026-10-28",
+  "timezone": "America/Toronto",
+  "input_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+  "prototype_revision": "v3-phase-A-r1",
+  "renderer_version": "btb-scene-led-3.0.0-phase-A-r1",
+  "renderer_sha256": "833dd11ce94e4ce7cc8765d8438635287a6fd03d06edb87b5d2a994670e37f21",
+  "scene_layout_sha256": "43ea02d28df28b7249192ffc5d3fbca44249fb03ef42cf31ba8081dce4e06ac7",
+  "styles_sha256": "a95270d159293b0a9fa366cb16a20b5ae8081ecb5384072ddd2279dacd818531",
+  "semantic_layout": "editorial",
+  "visual_brief_override": "V3 requires meaningful generated scene on every slide; v1/v2 plain-card and optional-scene defaults superseded.",
+  "caption": "prototype/BTB-001/caption.txt",
+  "caption_sha256": "8bac2f3c0d6317d8a45cf53ea1a45565773cddd4ce5b819262a2dc10b3fff871",
+  "alt_text_source": "prototype/BTB-001/alt-text-source.json",
+  "alt_text": "prototype/BTB-001/alt-text.json",
+  "font_status": "Exact Inter used with genuine500/600/700 variable weights; Playfair verified available, not forced into the direct cover.",
+  "brand_status": "provisional_wordmark",
+  "identity_on_artwork": "@brokentobalanced plain-text fallback",
+  "original_logo": null,
+  "production_status": "PROTOTYPE_RENDERED",
+  "design_approval": "PENDING",
+  "owner_editorial_approval": "PENDING",
+  "founder_attestation_required": false,
+  "publish_status": "DRAFT — unpublished; owner editorial approval required",
+  "illustration_origin": "Six native AI-generated fictional scenes, not founder photographs or documented events.",
+  "disclosure": "Illustrative AI scene",
+  "phase_B_authorized": false,
+  "slides": [
+    {
+      "number": 1,
+      "png": "prototype/BTB-001/01.png",
+      "png_sha256": "5d2419c9f53f46148576f999f15ffaff9d6299504fc5659c81a7d75f15550a9e",
+      "editable": "prototype/BTB-001/editable/01.html",
+      "html_sha256": "683162a86555ed2fc664e8b911fe8e1444a8ea38d1a3a36c0adc33fe88d3a7c2",
+      "background": "assets/BTB-001/backgrounds/01-crop.png",
+      "background_sha256": "a1f154487b5bc583fc52e94cab209a4c1ff69cb004a3cb1416423366058353c0",
+      "raw_background": "assets/BTB-001/backgrounds/01-raw.png",
+      "raw_background_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "underlay": "assets/BTB-001/backgrounds/01-underlay.png",
+      "underlay_sha256": "76134c0ab2af22b4ab63eec1f4b3c15173249b4e9a7a108a3852a9e439ba26da",
+      "layout": {
+        "number": 1,
+        "main_top": 870,
+        "text_region": {
+          "x": 80,
+          "y": 870,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 24,
+            "font_family": "Inter",
+            "font_size": 84,
+            "font_weight": 600,
+            "line_height": 1.09,
+            "gap_before": 0,
+            "role": "cover"
+          },
+          {
+            "start": 24,
+            "end": 53,
+            "font_family": "Inter",
+            "font_size": 84,
+            "font_weight": 700,
+            "line_height": 1.09,
+            "gap_before": 24,
+            "role": "cover"
+          }
+        ],
+        "keep_ranges": [
+          {
+            "start": 24,
+            "end": 45
+          }
+        ],
+        "overlay": {
+          "start": 760,
+          "full_by": 860,
+          "color": "#1A1A1A",
+          "alpha": 0.64
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 84,
+            "gap_before": 0
+          },
+          {
+            "font_size": 84,
+            "gap_before": 24
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.5861111111111111,
+      "contrast_worst": 4.816461613135399,
+      "qa": "qa/slides/01.json",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 2,
+      "png": "prototype/BTB-001/02.png",
+      "png_sha256": "606018cb3743322c06e097bc40737f1506a6c8f9a995fce46f777e7c38a5e9b8",
+      "editable": "prototype/BTB-001/editable/02.html",
+      "html_sha256": "d52e4ac2df5e59f2c98152ecccd9368e278ab45e5b8b9b375f6575cb9ae086c5",
+      "background": "assets/BTB-001/backgrounds/02-crop.png",
+      "background_sha256": "ca1657fa0f5be5d5864974ea0b20326a59294ba7405e38cd530b2e7b07a984d1",
+      "raw_background": "assets/BTB-001/backgrounds/02-raw.png",
+      "raw_background_sha256": "d93b3ac662de979e58de462680b570c5ec0cbe16af0394d670b2e756c59f248a",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "underlay": "assets/BTB-001/backgrounds/02-underlay.png",
+      "underlay_sha256": "fced062e372e47eecf098d3d99f90708ce4d5ec5f016f560eefd69942ca1abc1",
+      "layout": {
+        "number": 2,
+        "main_top": 805,
+        "text_region": {
+          "x": 80,
+          "y": 805,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 35,
+            "font_family": "Inter",
+            "font_size": 54,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 0,
+            "role": "main"
+          },
+          {
+            "start": 35,
+            "end": 52,
+            "font_family": "Inter",
+            "font_size": 58,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 18,
+            "role": "main"
+          },
+          {
+            "start": 52,
+            "end": 68,
+            "font_family": "Inter",
+            "font_size": 58,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 6,
+            "role": "main"
+          },
+          {
+            "start": 68,
+            "end": 86,
+            "font_family": "Inter",
+            "font_size": 58,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 6,
+            "role": "main"
+          }
+        ],
+        "keep_ranges": [],
+        "overlay": {
+          "start": 695,
+          "full_by": 795,
+          "color": "#1A1A1A",
+          "alpha": 0.64
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 54,
+            "gap_before": 0
+          },
+          {
+            "font_size": 58,
+            "gap_before": 18
+          },
+          {
+            "font_size": 58,
+            "gap_before": 6
+          },
+          {
+            "font_size": 58,
+            "gap_before": 6
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.537962962962963,
+      "contrast_worst": 5.182536958664057,
+      "qa": "qa/slides/02.json",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 3,
+      "png": "prototype/BTB-001/03.png",
+      "png_sha256": "3dad0f011141cb25a75495b1667725a09cb1d3a3a0ad87f6a8851c2138dc10c7",
+      "editable": "prototype/BTB-001/editable/03.html",
+      "html_sha256": "13d0c35f3821727833b22fefffe300c82338478ac19555de7bbeb99c775585ed",
+      "background": "assets/BTB-001/backgrounds/03-crop.png",
+      "background_sha256": "2ef7cc6933e42ca6692e70982a8f788cc54fae106fe45276d1776755f575e474",
+      "raw_background": "assets/BTB-001/backgrounds/03-raw.png",
+      "raw_background_sha256": "6c2fb3ff27ce455f4b7420b453a82ba796733bdcd8584ebdf84e7ff7cb1f4687",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "underlay": "assets/BTB-001/backgrounds/03-underlay.png",
+      "underlay_sha256": "8c277bb47fe1cac948a17968919e10678ec100da6aa4fb857854e6d51b9fe086",
+      "layout": {
+        "number": 3,
+        "main_top": 750,
+        "text_region": {
+          "x": 80,
+          "y": 750,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 59,
+            "font_family": "Inter",
+            "font_size": 56,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 0,
+            "role": "main"
+          },
+          {
+            "start": 59,
+            "end": 103,
+            "font_family": "Inter",
+            "font_size": 50,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 24,
+            "role": "support"
+          }
+        ],
+        "keep_ranges": [],
+        "overlay": {
+          "start": 640,
+          "full_by": 740,
+          "color": "#1A1A1A",
+          "alpha": 0.64
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 56,
+            "gap_before": 0
+          },
+          {
+            "font_size": 50,
+            "gap_before": 24
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.49722222222222223,
+      "contrast_worst": 4.7460548693186215,
+      "qa": "qa/slides/03.json",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 4,
+      "png": "prototype/BTB-001/04.png",
+      "png_sha256": "0dca863c78d9da7ef2ca8c1acd5be0bca4acb03f2a9caef7b67eb1a92c5833ee",
+      "editable": "prototype/BTB-001/editable/04.html",
+      "html_sha256": "d4c2c4b835a9bcac4f55494bda952c56e78700c5538633dd5b9ca9f0f5f9407d",
+      "background": "assets/BTB-001/backgrounds/04-crop.png",
+      "background_sha256": "87989c6a9545a68d48c14dbbae4a6234b55ca402efe930172a06ff65187d97f8",
+      "raw_background": "assets/BTB-001/backgrounds/04-raw.png",
+      "raw_background_sha256": "1d06188811b26c1efd897f05aa52880bb879928131edf6c9f5c5c653ae60b458",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "underlay": "assets/BTB-001/backgrounds/04-underlay.png",
+      "underlay_sha256": "550a420eaa81c4366729b01eb792d0b45d0799d04d5b264734ae4d8452dd62e1",
+      "layout": {
+        "number": 4,
+        "main_top": 760,
+        "text_region": {
+          "x": 80,
+          "y": 760,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 57,
+            "font_family": "Inter",
+            "font_size": 56,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 0,
+            "role": "main"
+          },
+          {
+            "start": 57,
+            "end": 108,
+            "font_family": "Inter",
+            "font_size": 50,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 24,
+            "role": "support"
+          }
+        ],
+        "keep_ranges": [
+          {
+            "start": 20,
+            "end": 36
+          },
+          {
+            "start": 42,
+            "end": 55
+          }
+        ],
+        "overlay": {
+          "start": 650,
+          "full_by": 750,
+          "color": "#1A1A1A",
+          "alpha": 0.58
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 56,
+            "gap_before": 0
+          },
+          {
+            "font_size": 50,
+            "gap_before": 24
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.5070242656449553,
+      "contrast_worst": 4.532657570265256,
+      "qa": "qa/slides/04.json",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 5,
+      "png": "prototype/BTB-001/05.png",
+      "png_sha256": "c34ef2cf4efb15e2552fc7665b4722faba2f9a4a072451db8085b1a41413d470",
+      "editable": "prototype/BTB-001/editable/05.html",
+      "html_sha256": "bce427d931253595ce44e0c1366e4b1f4ffbd8c7154615ddebd4ea61143ecb3e",
+      "background": "assets/BTB-001/backgrounds/05-crop.png",
+      "background_sha256": "c600296b3305c2ee7eabb8a44fb7502a5c6cd6e364d21b27e128e10e95ad3cb1",
+      "raw_background": "assets/BTB-001/backgrounds/05-raw.png",
+      "raw_background_sha256": "9ab50795f84f68f5a9d4c650a3107f6f9263affe9bc4de3fdfb306167bd1d44e",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 24,
+          "top": 60,
+          "width": 1074,
+          "height": 1342
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Exclude non-identifying chin edge; preserve shoulder-down adults, mugs and bag."
+      },
+      "underlay": "assets/BTB-001/backgrounds/05-underlay.png",
+      "underlay_sha256": "da17a328465e02ad16a18ad6498e63a05fc8821e08eb89754496771cc5c8e629",
+      "layout": {
+        "number": 5,
+        "main_top": 760,
+        "text_region": {
+          "x": 80,
+          "y": 760,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 37,
+            "font_family": "Inter",
+            "font_size": 56,
+            "font_weight": 600,
+            "line_height": 1.25,
+            "gap_before": 0,
+            "role": "main"
+          },
+          {
+            "start": 37,
+            "end": 84,
+            "font_family": "Inter",
+            "font_size": 56,
+            "font_weight": 600,
+            "line_height": 1.25,
+            "gap_before": 24,
+            "role": "main"
+          },
+          {
+            "start": 84,
+            "end": 104,
+            "font_family": "Inter",
+            "font_size": 50,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 24,
+            "role": "support"
+          }
+        ],
+        "keep_ranges": [],
+        "overlay": {
+          "start": 650,
+          "full_by": 750,
+          "color": "#1A1A1A",
+          "alpha": 0.64
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 56,
+            "gap_before": 0
+          },
+          {
+            "font_size": 56,
+            "gap_before": 24
+          },
+          {
+            "font_size": 50,
+            "gap_before": 24
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.5046296296296297,
+      "contrast_worst": 5.193762903956642,
+      "qa": "qa/slides/05.json",
+      "qa_status": "PASS"
+    },
+    {
+      "number": 6,
+      "png": "prototype/BTB-001/06.png",
+      "png_sha256": "1ac7a07a042a6736757777d9889be665a809d715ea169bfd61ba26d4d83a5302",
+      "editable": "prototype/BTB-001/editable/06.html",
+      "html_sha256": "87fc054b020c0a4f6cecbf776b75a11236a3f6a260922899a50bccfb727bd1f2",
+      "background": "assets/BTB-001/backgrounds/06-crop.png",
+      "background_sha256": "4d97cbc8478d7ebb40224fe0520a48b017fb70881491bcb59937bb64dbbcc49e",
+      "raw_background": "assets/BTB-001/backgrounds/06-raw.png",
+      "raw_background_sha256": "6f6900eda993af23a81cf604ad294fcff18fde9dbf30aa34d125fe0cd5ef20a7",
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "underlay": "assets/BTB-001/backgrounds/06-underlay.png",
+      "underlay_sha256": "df92d3c3f54d56b169bcc8630642cfac92b9b2628a2a5a9983cb4d33d1fd11ee",
+      "layout": {
+        "number": 6,
+        "main_top": 830,
+        "text_region": {
+          "x": 80,
+          "y": 830,
+          "width": 920,
+          "bottom": 1202
+        },
+        "groups": [
+          {
+            "start": 0,
+            "end": 54,
+            "font_family": "Inter",
+            "font_size": 60,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 0,
+            "role": "main"
+          },
+          {
+            "start": 54,
+            "end": 104,
+            "font_family": "Inter",
+            "font_size": 50,
+            "font_weight": 500,
+            "line_height": 1.25,
+            "gap_before": 24,
+            "role": "support"
+          }
+        ],
+        "keep_ranges": [],
+        "overlay": {
+          "start": 720,
+          "full_by": 820,
+          "color": "#1A1A1A",
+          "alpha": 0.64
+        },
+        "image_region_protected": "Meaningful action and relevant props remain above the text; verified visually against each actual asset.",
+        "fitted_typography": [
+          {
+            "font_size": 60,
+            "gap_before": 0
+          },
+          {
+            "font_size": 50,
+            "gap_before": 24
+          }
+        ]
+      },
+      "image_area_with_scrim_alpha_at_most_point2": 0.5564814814814815,
+      "contrast_worst": 5.213527789395333,
+      "qa": "qa/slides/06.json",
+      "qa_status": "PASS"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "post_id": "BTB-001",
+  "slide_number": 3,
+  "asset_kind": "original_generated_background",
+  "status": "generated_and_visually_inspected",
+  "design_approval": "pending_owner",
+  "editorial_approval": "not_assigned_by_generation_worker",
+  "generation": {
+    "mode": "built_in",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "seed": null,
+    "attempt_count": 1,
+    "corrective_attempt_count": 0,
+    "intent": "new_scene_using_style_and_continuity_reference",
+    "prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. Input image: visual reference for the fictional adult silhouette, navy overshirt, modest cream-and-wood home, soft daylight, and natural photographic colour; create a genuinely new desk scene, do not copy or crop the kitchen image. An original companion image in the same modest fictional home, now at a simple desk. The same anonymous fictional midlife adult in the same navy overshirt is seen from the back or nonidentifying rear three-quarter angle at the upper-right, briefly pausing beside an open unbranded laptop. Keep the head turned away, with no identifiable face. Show ordinary concentration and stillness, not crying or a staged collapse. The screen faces away or is unreadable. Use soft window light, natural fabric texture, and a believable wood desk surface. Keep a gently shaded wall/foreground region clear for later separately composed typography. Portrait composition suitable for a 4:5 crop. Keep the meaningful scene in the upper 52 percent and a plausible quiet shaded foreground in the lower 48 percent, without any artificial caption box. Preserve natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks, branded marks, readable screens, notifications, documents, children, or private details. Fictional illustration only; no real person likeness or documentary claim.",
+    "referenced_image_paths": [
+      "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/01-raw.png"
+    ],
+    "reference_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac",
+    "transparent_background": false
+  },
+  "native_result": {
+    "original_path": "/Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad/exec-bccaef16-282c-40b4-9cc9-665c47a599fe.png",
+    "original_preserved": true,
+    "tool_receipt_path": "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/generation-briefs/03-generation.json",
+    "tool_receipt": {
+      "returned_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to /Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad as /Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad/exec-bccaef16-282c-40b4-9cc9-665c47a599fe.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "native_generation_id": null
+    }
+  },
+  "workspace_asset": {
+    "path": "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/03-raw.png",
+    "sha256": "6c2fb3ff27ce455f4b7420b453a82ba796733bdcd8584ebdf84e7ff7cb1f4687",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1990810,
+    "copied_without_transformation": true
+  },
+  "visual_inspection": {
+    "scope": "Actual native generated image displayed by image_gen tool; source pixels, no typography or final composition.",
+    "reviewer": "Codex visual_review subagent",
+    "result": "accepted_for_compositing",
+    "notes": "Directly inspected the actual native image result at 1122×1402. Anonymous adult in navy overshirt seen from behind at a wood desk, head turned away, one hand resting naturally beside an open laptop with blank dark screen. Natural cream wall, wood, plants and soft left daylight relate to the anchor. Main hand action and laptop are near the upper-middle area; quiet tabletop occupies the lower foreground. No apparent lettering, logos, identifiable face, children or private details. No concrete anatomy or object defect observed. Final crop, overlay, contrast and lettering remain separate composition QA.",
+    "limitations": [
+      "No claim of exact fictional identity across independently generated scenes.",
+      "This is an illustrative fictional scene, not the founder or an actual event.",
+      "This review is not owner approval."
+    ]
+  },
+  "constraints": {
+    "api_or_paid_fallback_used": false,
+    "credential_access": false,
+    "private_files_accessed": false,
+    "publishing_or_scheduling": false,
+    "external_upload_other_than_permitted_native_image_tool": false
+  }
+}

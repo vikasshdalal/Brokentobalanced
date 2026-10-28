@@ -1,0 +1,454 @@
+{
+  "slide": 6,
+  "passed": true,
+  "errors": [],
+  "canonical_text": "You do not have to look recovered to deserve support. Send this to someone carrying more than they show.",
+  "visible_text": "You do not have to look recovered to deserve support. Send this to someone carrying more than they show.",
+  "exact_text": true,
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 54,
+      "text": "You do not have to look recovered to deserve support. ",
+      "role": "main",
+      "x": 80,
+      "y": 842,
+      "right": 1000,
+      "bottom": 992,
+      "width": 920,
+      "height": 150,
+      "font_family": "Inter, sans-serif",
+      "font_size": 60,
+      "font_weight": 500,
+      "line_height": 75,
+      "lines": [
+        {
+          "y": 843,
+          "words": [
+            "You",
+            "do",
+            "not",
+            "have",
+            "to",
+            "look"
+          ],
+          "x": 80,
+          "right": 686.8125
+        },
+        {
+          "y": 918,
+          "words": [
+            "recovered",
+            "to",
+            "deserve",
+            "support."
+          ],
+          "x": 80,
+          "right": 862.265625
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 54,
+      "end": 104,
+      "text": "Send this to someone carrying more than they show.",
+      "role": "support",
+      "x": 80,
+      "y": 1016,
+      "right": 1000,
+      "bottom": 1141,
+      "width": 920,
+      "height": 125,
+      "font_family": "Inter, sans-serif",
+      "font_size": 50,
+      "font_weight": 500,
+      "line_height": 62.5,
+      "lines": [
+        {
+          "y": 1017,
+          "words": [
+            "Send",
+            "this",
+            "to",
+            "someone"
+          ],
+          "x": 80,
+          "right": 550.625
+        },
+        {
+          "y": 1079.5,
+          "words": [
+            "carrying",
+            "more",
+            "than",
+            "they",
+            "show."
+          ],
+          "x": 80,
+          "right": 731.65625
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "6 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    }
+  ],
+  "region": {
+    "x": 80,
+    "y": 830,
+    "right": 1000,
+    "bottom": 1202,
+    "width": 920,
+    "height": 372
+  },
+  "contrast_regions": [
+    {
+      "x": 80,
+      "y": 843,
+      "right": 686.8125,
+      "bottom": 915,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_0"
+    },
+    {
+      "x": 80,
+      "y": 918,
+      "right": 862.265625,
+      "bottom": 990,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_1"
+    },
+    {
+      "x": 80,
+      "y": 1017,
+      "right": 550.625,
+      "bottom": 1077,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_2"
+    },
+    {
+      "x": 80,
+      "y": 1079.5,
+      "right": 731.65625,
+      "bottom": 1139.5,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_3"
+    },
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "6 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    }
+  ],
+  "image": {
+    "natural_width": 1080,
+    "natural_height": 1350,
+    "complete": true
+  },
+  "actual_copy_bounds": {
+    "x": 80,
+    "y": 843,
+    "right": 862.265625,
+    "bottom": 1139.5
+  },
+  "actual_fonts": [
+    {
+      "selector": ".copy",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 104
+        }
+      ]
+    },
+    {
+      "selector": ".handle",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": ".disclosure",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1A0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": ".folio",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 5
+        }
+      ]
+    }
+  ],
+  "contrast": {
+    "passed": true,
+    "worst_ratio": 5.213527789395333,
+    "pixels_tested": 193321,
+    "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+    "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+    "regions": [
+      {
+        "role": "copy_line_0",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 842,
+          "width": 609,
+          "height": 74
+        },
+        "pixels_tested": 45066,
+        "worst_ratio": 6.0423719488184995,
+        "worst_pixel": {
+          "x": 426,
+          "y": 879,
+          "RGB": [
+            98,
+            92,
+            87
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_1",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 917,
+          "width": 785,
+          "height": 74
+        },
+        "pixels_tested": 58090,
+        "worst_ratio": 5.663741064586807,
+        "worst_pixel": {
+          "x": 111,
+          "y": 958,
+          "RGB": [
+            103,
+            96,
+            91
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_2",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1016,
+          "width": 473,
+          "height": 62
+        },
+        "pixels_tested": 29326,
+        "worst_ratio": 5.213527789395333,
+        "worst_pixel": {
+          "x": 216,
+          "y": 1019,
+          "RGB": [
+            107,
+            102,
+            96
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_3",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1078,
+          "width": 654,
+          "height": 63
+        },
+        "pixels_tested": 41202,
+        "worst_ratio": 5.851064846767001,
+        "worst_pixel": {
+          "x": 121,
+          "y": 1094,
+          "RGB": [
+            101,
+            94,
+            87
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "handle",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1239,
+          "width": 253,
+          "height": 37
+        },
+        "pixels_tested": 9361,
+        "worst_ratio": 7.0918694491746415,
+        "worst_pixel": {
+          "x": 155,
+          "y": 1254,
+          "RGB": [
+            90,
+            81,
+            76
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "disclosure",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 534,
+          "y": 1241,
+          "width": 227,
+          "height": 35
+        },
+        "pixels_tested": 7945,
+        "worst_ratio": 7.771236416888059,
+        "worst_pixel": {
+          "x": 560,
+          "y": 1241,
+          "RGB": [
+            85,
+            75,
+            69
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "folio",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 938,
+          "y": 1239,
+          "width": 63,
+          "height": 37
+        },
+        "pixels_tested": 2331,
+        "worst_ratio": 9.895224593322924,
+        "worst_pixel": {
+          "x": 975,
+          "y": 1274,
+          "RGB": [
+            64,
+            61,
+            58
+          ]
+        },
+        "passed": true
+      }
+    ]
+  },
+  "overlay": {
+    "start": 720,
+    "full_by": 820,
+    "color": "#1A1A1A",
+    "alpha": 0.64
+  },
+  "png": "prototype/BTB-001/06.png",
+  "editable": "prototype/BTB-001/editable/06.html"
+}

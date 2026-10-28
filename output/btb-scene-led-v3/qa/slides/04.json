@@ -1,0 +1,492 @@
+{
+  "slide": 4,
+  "passed": true,
+  "errors": [],
+  "canonical_text": "For today, separate what must happen from what can wait. A difficult season does not make every task urgent.",
+  "visible_text": "For today, separate what must happen from what can wait. A difficult season does not make every task urgent.",
+  "exact_text": true,
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 57,
+      "text": "For today, separate what must happen from what can wait. ",
+      "role": "main",
+      "x": 80,
+      "y": 772,
+      "right": 1000,
+      "bottom": 982,
+      "width": 920,
+      "height": 210,
+      "font_family": "Inter, sans-serif",
+      "font_size": 56,
+      "font_weight": 500,
+      "line_height": 70,
+      "lines": [
+        {
+          "y": 773,
+          "words": [
+            "For",
+            "today,",
+            "separate"
+          ],
+          "x": 80,
+          "right": 542.953125
+        },
+        {
+          "y": 843,
+          "words": [
+            "what",
+            "must",
+            "happen",
+            "from"
+          ],
+          "x": 80,
+          "right": 661.359375
+        },
+        {
+          "y": 913,
+          "words": [
+            "what",
+            "can",
+            "wait",
+            "."
+          ],
+          "x": 80,
+          "right": 430.375
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 57,
+      "end": 108,
+      "text": "A difficult season does not make every task urgent.",
+      "role": "support",
+      "x": 80,
+      "y": 1006,
+      "right": 1000,
+      "bottom": 1131,
+      "width": 920,
+      "height": 125,
+      "font_family": "Inter, sans-serif",
+      "font_size": 50,
+      "font_weight": 500,
+      "line_height": 62.5,
+      "lines": [
+        {
+          "y": 1007,
+          "words": [
+            "A",
+            "difficult",
+            "season",
+            "does",
+            "not"
+          ],
+          "x": 80,
+          "right": 651.6875
+        },
+        {
+          "y": 1069.5,
+          "words": [
+            "make",
+            "every",
+            "task",
+            "urgent."
+          ],
+          "x": 80,
+          "right": 598.84375
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    }
+  ],
+  "region": {
+    "x": 80,
+    "y": 760,
+    "right": 1000,
+    "bottom": 1202,
+    "width": 920,
+    "height": 442
+  },
+  "contrast_regions": [
+    {
+      "x": 80,
+      "y": 773,
+      "right": 542.953125,
+      "bottom": 841,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_0"
+    },
+    {
+      "x": 80,
+      "y": 843,
+      "right": 661.359375,
+      "bottom": 911,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_1"
+    },
+    {
+      "x": 80,
+      "y": 913,
+      "right": 430.375,
+      "bottom": 981,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_2"
+    },
+    {
+      "x": 80,
+      "y": 1007,
+      "right": 651.6875,
+      "bottom": 1067,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_3"
+    },
+    {
+      "x": 80,
+      "y": 1069.5,
+      "right": 598.84375,
+      "bottom": 1129.5,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_4"
+    },
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "4 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    }
+  ],
+  "image": {
+    "natural_width": 1080,
+    "natural_height": 1350,
+    "complete": true
+  },
+  "actual_copy_bounds": {
+    "x": 80,
+    "y": 773,
+    "right": 661.359375,
+    "bottom": 1129.5
+  },
+  "actual_fonts": [
+    {
+      "selector": ".copy",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght1F40000",
+          "isCustomFont": true,
+          "glyphCount": 79
+        }
+      ]
+    },
+    {
+      "selector": ".handle",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": ".disclosure",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1A0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": ".folio",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 5
+        }
+      ]
+    }
+  ],
+  "contrast": {
+    "passed": true,
+    "worst_ratio": 4.532657570265256,
+    "pixels_tested": 186188,
+    "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+    "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+    "regions": [
+      {
+        "role": "copy_line_0",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 772,
+          "width": 465,
+          "height": 70
+        },
+        "pixels_tested": 32550,
+        "worst_ratio": 4.532657570265256,
+        "worst_pixel": {
+          "x": 83,
+          "y": 772,
+          "RGB": [
+            112,
+            112,
+            114
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_1",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 842,
+          "width": 584,
+          "height": 70
+        },
+        "pixels_tested": 40880,
+        "worst_ratio": 5.509824867196509,
+        "worst_pixel": {
+          "x": 79,
+          "y": 910,
+          "RGB": [
+            98,
+            99,
+            102
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_2",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 912,
+          "width": 353,
+          "height": 70
+        },
+        "pixels_tested": 24710,
+        "worst_ratio": 5.748678863535876,
+        "worst_pixel": {
+          "x": 79,
+          "y": 912,
+          "RGB": [
+            96,
+            96,
+            99
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_3",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1006,
+          "width": 574,
+          "height": 62
+        },
+        "pixels_tested": 35588,
+        "worst_ratio": 7.061996599776351,
+        "worst_pixel": {
+          "x": 79,
+          "y": 1016,
+          "RGB": [
+            85,
+            82,
+            86
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_4",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1068,
+          "width": 521,
+          "height": 63
+        },
+        "pixels_tested": 32823,
+        "worst_ratio": 8.088785810979287,
+        "worst_pixel": {
+          "x": 79,
+          "y": 1068,
+          "RGB": [
+            78,
+            73,
+            76
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "handle",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1239,
+          "width": 253,
+          "height": 37
+        },
+        "pixels_tested": 9361,
+        "worst_ratio": 9.362063157977353,
+        "worst_pixel": {
+          "x": 79,
+          "y": 1254,
+          "RGB": [
+            73,
+            63,
+            59
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "disclosure",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 534,
+          "y": 1241,
+          "width": 227,
+          "height": 35
+        },
+        "pixels_tested": 7945,
+        "worst_ratio": 11.118783811690298,
+        "worst_pixel": {
+          "x": 757,
+          "y": 1264,
+          "RGB": [
+            69,
+            50,
+            34
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "folio",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 938,
+          "y": 1239,
+          "width": 63,
+          "height": 37
+        },
+        "pixels_tested": 2331,
+        "worst_ratio": 12.673145466764536,
+        "worst_pixel": {
+          "x": 999,
+          "y": 1240,
+          "RGB": [
+            59,
+            41,
+            28
+          ]
+        },
+        "passed": true
+      }
+    ]
+  },
+  "overlay": {
+    "start": 650,
+    "full_by": 750,
+    "color": "#1A1A1A",
+    "alpha": 0.58
+  },
+  "png": "prototype/BTB-001/04.png",
+  "editable": "prototype/BTB-001/editable/04.html"
+}

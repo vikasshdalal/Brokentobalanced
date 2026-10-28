@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "worst_ratio": 4.532657570265256,
+  "pixels_tested": 186188,
+  "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+  "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+  "regions": [
+    {
+      "role": "copy_line_0",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 772,
+        "width": 465,
+        "height": 70
+      },
+      "pixels_tested": 32550,
+      "worst_ratio": 4.532657570265256,
+      "worst_pixel": {
+        "x": 83,
+        "y": 772,
+        "RGB": [
+          112,
+          112,
+          114
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_1",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 842,
+        "width": 584,
+        "height": 70
+      },
+      "pixels_tested": 40880,
+      "worst_ratio": 5.509824867196509,
+      "worst_pixel": {
+        "x": 79,
+        "y": 910,
+        "RGB": [
+          98,
+          99,
+          102
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_2",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 912,
+        "width": 353,
+        "height": 70
+      },
+      "pixels_tested": 24710,
+      "worst_ratio": 5.748678863535876,
+      "worst_pixel": {
+        "x": 79,
+        "y": 912,
+        "RGB": [
+          96,
+          96,
+          99
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_3",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 1006,
+        "width": 574,
+        "height": 62
+      },
+      "pixels_tested": 35588,
+      "worst_ratio": 7.061996599776351,
+      "worst_pixel": {
+        "x": 79,
+        "y": 1016,
+        "RGB": [
+          85,
+          82,
+          86
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_4",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 1068,
+        "width": 521,
+        "height": 63
+      },
+      "pixels_tested": 32823,
+      "worst_ratio": 8.088785810979287,
+      "worst_pixel": {
+        "x": 79,
+        "y": 1068,
+        "RGB": [
+          78,
+          73,
+          76
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "handle",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 1239,
+        "width": 253,
+        "height": 37
+      },
+      "pixels_tested": 9361,
+      "worst_ratio": 9.362063157977353,
+      "worst_pixel": {
+        "x": 79,
+        "y": 1254,
+        "RGB": [
+          73,
+          63,
+          59
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "disclosure",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 534,
+        "y": 1241,
+        "width": 227,
+        "height": 35
+      },
+      "pixels_tested": 7945,
+      "worst_ratio": 11.118783811690298,
+      "worst_pixel": {
+        "x": 757,
+        "y": 1264,
+        "RGB": [
+          69,
+          50,
+          34
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "folio",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 938,
+        "y": 1239,
+        "width": 63,
+        "height": 37
+      },
+      "pixels_tested": 2331,
+      "worst_ratio": 12.673145466764536,
+      "worst_pixel": {
+        "x": 999,
+        "y": 1240,
+        "RGB": [
+          59,
+          41,
+          28
+        ]
+      },
+      "passed": true
+    }
+  ]
+}

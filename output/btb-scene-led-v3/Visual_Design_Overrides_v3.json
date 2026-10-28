@@ -1,0 +1,27 @@
+{
+  "revision": "v3-phase-A-r1",
+  "supersedes": "All v1/v2 presentation defaults; only renderer infrastructure reused.",
+  "scene_required_on_every_slide": true,
+  "text_only_fallback_permitted": false,
+  "scene_generation": "native built-in only; one initial +one targeted correction max per scene",
+  "typography": {
+    "direct_cover": "Inter600/700",
+    "body": "Inter500",
+    "support": "Inter400/500",
+    "reflective_optional": "Playfair Display500/600"
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "color_space": "sRGB"
+  },
+  "margins": {
+    "horizontal": 80,
+    "bottom": 70
+  },
+  "overlay": "Local bottom tonal control only; actual raster footprint contrast tested before lettering. No full-slide dark filter.",
+  "scene_region_target": "At least upper half remains clearly visible and meaningful",
+  "identity": "@brokentobalanced plain-text review fallback; no invented logo",
+  "disclosure": "Illustrative AI scene",
+  "status": "ASSET_GENERATION_PENDING"
+}

@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "worst_ratio": 4.7460548693186215,
+  "pixels_tested": 179485,
+  "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+  "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+  "regions": [
+    {
+      "role": "copy_line_0",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 762,
+        "width": 676,
+        "height": 70
+      },
+      "pixels_tested": 47320,
+      "worst_ratio": 4.7460548693186215,
+      "worst_pixel": {
+        "x": 83,
+        "y": 771,
+        "RGB": [
+          109,
+          109,
+          109
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_1",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 832,
+        "width": 798,
+        "height": 70
+      },
+      "pixels_tested": 55860,
+      "worst_ratio": 5.002952645001756,
+      "worst_pixel": {
+        "x": 95,
+        "y": 840,
+        "RGB": [
+          108,
+          105,
+          102
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "copy_line_2",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 926,
+        "width": 914,
+        "height": 62
+      },
+      "pixels_tested": 56668,
+      "worst_ratio": 5.002952645001756,
+      "worst_pixel": {
+        "x": 137,
+        "y": 936,
+        "RGB": [
+          108,
+          105,
+          102
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "handle",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 79,
+        "y": 1239,
+        "width": 253,
+        "height": 37
+      },
+      "pixels_tested": 9361,
+      "worst_ratio": 9.472384146452837,
+      "worst_pixel": {
+        "x": 172,
+        "y": 1239,
+        "RGB": [
+          74,
+          62,
+          54
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "disclosure",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 534,
+        "y": 1241,
+        "width": 227,
+        "height": 35
+      },
+      "pixels_tested": 7945,
+      "worst_ratio": 11.27095263177097,
+      "worst_pixel": {
+        "x": 546,
+        "y": 1251,
+        "RGB": [
+          65,
+          50,
+          38
+        ]
+      },
+      "passed": true
+    },
+    {
+      "role": "folio",
+      "foreground": "rgb(245, 245, 245)",
+      "rectangle": {
+        "x": 938,
+        "y": 1239,
+        "width": 63,
+        "height": 37
+      },
+      "pixels_tested": 2331,
+      "worst_ratio": 11.89948479448382,
+      "worst_pixel": {
+        "x": 938,
+        "y": 1239,
+        "RGB": [
+          62,
+          46,
+          34
+        ]
+      },
+      "passed": true
+    }
+  ]
+}

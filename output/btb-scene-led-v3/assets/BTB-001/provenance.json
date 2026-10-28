@@ -1,0 +1,228 @@
+{
+  "unique_generated_backgrounds": 6,
+  "origin": "Six distinct native generated fictional illustrative scenes; no founder/documentary photographs.",
+  "assets": [
+    {
+      "slide": 1,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/01-raw.png",
+      "raw_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac",
+      "raw_bytes": 1938149,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/01-crop.png",
+      "cropped_sha256": "a1f154487b5bc583fc52e94cab209a4c1ff69cb004a3cb1416423366058353c0",
+      "continuity_reference": null,
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/01-tool-receipt.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    },
+    {
+      "slide": 2,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/02-raw.png",
+      "raw_sha256": "d93b3ac662de979e58de462680b570c5ec0cbe16af0394d670b2e756c59f248a",
+      "raw_bytes": 1934949,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/02-crop.png",
+      "cropped_sha256": "ca1657fa0f5be5d5864974ea0b20326a59294ba7405e38cd530b2e7b07a984d1",
+      "continuity_reference": "assets/BTB-001/backgrounds/01-raw.png",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/02-generation.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    },
+    {
+      "slide": 3,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/03-raw.png",
+      "raw_sha256": "6c2fb3ff27ce455f4b7420b453a82ba796733bdcd8584ebdf84e7ff7cb1f4687",
+      "raw_bytes": 1990810,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/03-crop.png",
+      "cropped_sha256": "2ef7cc6933e42ca6692e70982a8f788cc54fae106fe45276d1776755f575e474",
+      "continuity_reference": "assets/BTB-001/backgrounds/01-raw.png",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/03-generation.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    },
+    {
+      "slide": 4,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/04-raw.png",
+      "raw_sha256": "1d06188811b26c1efd897f05aa52880bb879928131edf6c9f5c5c653ae60b458",
+      "raw_bytes": 1984600,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/04-crop.png",
+      "cropped_sha256": "87989c6a9545a68d48c14dbbae4a6234b55ca402efe930172a06ff65187d97f8",
+      "continuity_reference": "assets/BTB-001/backgrounds/01-raw.png",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/04-generation.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    },
+    {
+      "slide": 5,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/05-raw.png",
+      "raw_sha256": "9ab50795f84f68f5a9d4c650a3107f6f9263affe9bc4de3fdfb306167bd1d44e",
+      "raw_bytes": 1960298,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 24,
+          "top": 60,
+          "width": 1074,
+          "height": 1342
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Exclude non-identifying chin edge; preserve shoulder-down adults, mugs and bag."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/05-crop.png",
+      "cropped_sha256": "c600296b3305c2ee7eabb8a44fb7502a5c6cd6e364d21b27e128e10e95ad3cb1",
+      "continuity_reference": "assets/BTB-001/backgrounds/01-raw.png",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/05-generation.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    },
+    {
+      "slide": 6,
+      "origin": "native AI-generated illustration",
+      "raw_path": "assets/BTB-001/backgrounds/06-raw.png",
+      "raw_sha256": "6f6900eda993af23a81cf604ad294fcff18fde9dbf30aa34d125fe0cd5ef20a7",
+      "raw_bytes": 2607511,
+      "raw_dimensions": {
+        "width": 1122,
+        "height": 1402
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "cropped_path": "assets/BTB-001/backgrounds/06-crop.png",
+      "cropped_sha256": "4d97cbc8478d7ebb40224fe0520a48b017fb70881491bcb59937bb64dbbcc49e",
+      "continuity_reference": "assets/BTB-001/backgrounds/01-raw.png",
+      "tool": "image_gen__imagegen",
+      "model": null,
+      "seed": null,
+      "receipt_path": "assets/BTB-001/generation-briefs/06-tool-receipt.json",
+      "attempts": 1,
+      "paid_API_or_fallback": false,
+      "source_file_preserved": true,
+      "credentials_note": "Raw native file preserved byte-for-byte. Content credentials not exposed/verified; derived export credential survival is not claimed."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "native_image_tool_discovered": "image_gen__imagegen",
+  "skill": "imagegen builtin mode",
+  "API_key_required": false,
+  "paid_API_fallback_authorized": false,
+  "new_provider_or_credits_authorized": false,
+  "allowance": "Use existing permitted included allowance only; tool exposes no remaining allowance/entitlement meter. Stop and preserve assets on limits; no overage/paid fallback.",
+  "actual_attempts": 6,
+  "actual_successes": 6,
+  "model_exposed": null,
+  "seed_exposed": null,
+  "status": "SIX_REAL_NATIVE_BACKGROUNDS_GENERATED",
+  "paid_API_used": false,
+  "extra_credits_or_overage_enabled": false,
+  "limitations": "Tool result exposes no model, seed, or remaining allowance; these are not invented. No external paid fallback authorized.",
+  "corrections": 0
+}

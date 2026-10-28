@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "post_id": "BTB-001",
+  "slide_number": 5,
+  "asset_kind": "original_generated_background",
+  "status": "generated_and_visually_inspected",
+  "design_approval": "pending_owner",
+  "editorial_approval": "not_assigned_by_generation_worker",
+  "generation": {
+    "mode": "built_in",
+    "tool": "image_gen.imagegen",
+    "model": null,
+    "seed": null,
+    "attempt_count": 1,
+    "corrective_attempt_count": 0,
+    "intent": "new_scene_using_style_and_continuity_reference",
+    "prompt": "Use case: photorealistic-natural. Asset type: background only for one editorial carousel slide. Input image: style and continuity reference for a modest cream-and-wood kitchen, muted navy overshirt, dark blue lunch bag, natural daylight, and photographic colour; generate a genuinely new companion scene, do not crop or reuse the kitchen image. In the same modest fictional kitchen, two anonymous fictional adult friends sit together at the far side of the wooden table, partly visible from the shoulders down, with no faces in the frame. One wears the navy overshirt; the other wears an ordinary muted light-grey or stone casual layer. Their calm natural posture suggests ordinary companionship, not a counselling session, romance, or celebration. The dark blue lunch bag is closed and set aside; two simple unbranded ceramic mugs sit near them. Keep the mugs, their natural hands, and the companionship in the upper half. Leave a quiet, softly shaded natural wood tabletop foreground in the lower 48 percent for later typography, with no artificial caption box. Portrait image suitable for a 4:5 crop. Soft neutral window daylight from the left with a little warmth, natural wood, cream walls, restrained blue-grey and muted green accents, believable proportions and fabric texture, realistic unobtrusive hands. Absolutely no lettering, numbers, captions, logos, watermarks, branded marks, identifiable faces, children, writing, readable screens, or private details. Fictional illustration only; no real-person likeness or documentary claim.",
+    "referenced_image_paths": [
+      "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/01-raw.png"
+    ],
+    "reference_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac",
+    "transparent_background": false
+  },
+  "native_result": {
+    "original_path": "/Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad/exec-3bcdc00e-785e-4cde-9c15-80a400fa2064.png",
+    "original_preserved": true,
+    "tool_receipt_path": "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/generation-briefs/05-generation.json",
+    "tool_receipt": {
+      "returned_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to /Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad as /Users/vikasshdalal/.codex/generated_images/01a17f36-731c-72c2-b053-31ed684081ad/exec-3bcdc00e-785e-4cde-9c15-80a400fa2064.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "native_generation_id": null
+    }
+  },
+  "workspace_asset": {
+    "path": "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/05-raw.png",
+    "sha256": "9ab50795f84f68f5a9d4c650a3107f6f9263affe9bc4de3fdfb306167bd1d44e",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 1960298,
+    "copied_without_transformation": true
+  },
+  "visual_inspection": {
+    "scope": "Actual native generated image displayed by image_gen tool; source pixels, no typography or final composition.",
+    "reviewer": "Codex visual_review subagent",
+    "result": "accepted_for_compositing",
+    "notes": "Directly inspected the actual native image result at 1122×1402. Two anonymous fictional adults partly visible from shoulders/chin down, navy overshirt at left and stone/light-grey layer at right; two mugs held with plausible hands and the closed navy lunch bag behind them. Modest cream kitchen, wood tabletop, soft left daylight and natural colour are compatible with the anchor. Important objects and connection occupy the upper half, with ample naturally quiet tabletop below. No identifiable face, lettering, logos, children or private details observed. No concrete anatomy or object defect observed. Final crop, overlay, contrast and lettering remain separate composition QA.",
+    "limitations": [
+      "No claim of exact fictional identity across independently generated scenes.",
+      "This is an illustrative fictional scene, not the founder or an actual event.",
+      "This review is not owner approval."
+    ]
+  },
+  "constraints": {
+    "api_or_paid_fallback_used": false,
+    "credential_access": false,
+    "private_files_accessed": false,
+    "publishing_or_scheduling": false,
+    "external_upload_other_than_permitted_native_image_tool": false
+  }
+}

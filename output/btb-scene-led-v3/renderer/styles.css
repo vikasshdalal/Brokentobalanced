@@ -1,0 +1,16 @@
+@font-face{font-family:Inter;src:url('/__fonts/body') format('truetype');font-weight:100 900;font-style:normal;font-display:block}
+@font-face{font-family:'Playfair Display';src:url('/__fonts/headings') format('truetype');font-weight:400 900;font-style:normal;font-display:block}
+*{box-sizing:border-box;animation:none!important;transition:none!important;hyphens:none!important}
+html,body{padding:0;margin:0;width:1080px;height:1350px;background:#1A1A1A}
+.slide{position:relative;width:1080px;height:1350px;overflow:visible;color:#F5F5F5;font-family:Inter,sans-serif;font-synthesis:none;-webkit-font-smoothing:antialiased}
+.scene{position:absolute;inset:0;width:1080px;height:1350px;object-fit:cover;opacity:1}
+.local-scrim{position:absolute;left:0;right:0;bottom:0;pointer-events:none}
+.content{position:absolute;left:80px;width:920px;bottom:148px;padding-top:12px}
+.copy{margin:0;padding:0;width:100%;white-space:pre-wrap;text-align:left}
+.message-group{display:block;margin:0;text-wrap:balance;letter-spacing:-.5px;word-break:normal;overflow-wrap:normal}
+.cover .message-group{letter-spacing:-1.4px}
+.keep-phrase{white-space:nowrap}
+.handle,.disclosure,.folio{position:absolute;top:1240px;margin:0;color:#F5F5F5;font-family:Inter,sans-serif;font-weight:400;line-height:1.25;white-space:nowrap}
+.handle{left:80px;font-size:28px}
+.disclosure{left:535px;top:1242px;font-size:26px}
+.folio{right:80px;font-size:28px;font-variant-numeric:tabular-nums}

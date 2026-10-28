@@ -1,0 +1,15 @@
+{
+  "prototype_revision": "v3-phase-A-r1",
+  "completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "missing": [],
+  "failures": [],
+  "unique_generated_backgrounds": 6,
+  "phase_B_started": false
+}

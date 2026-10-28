@@ -1,0 +1,51 @@
+{
+  "post_id": "BTB-001",
+  "slide": 2,
+  "status": "GENERATED_VISUALLY_INSPECTED",
+  "method": "built-in image_gen.imagegen",
+  "model": null,
+  "seed": null,
+  "receipt_id": null,
+  "attempts": 1,
+  "targeted_corrections": 0,
+  "prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. A closer oblique view of the same fictional kitchen table and morning light. Show an ordinary lunch container beside the same muted lunch bag, the closed unbranded laptop, and one blank unopened envelope, arranged naturally rather than as advertising product placement. Keep these three objects clearly recognizable in the upper half. Let the lower table area remain simple and softly shaded for typesetting. Maintain the first image's wood, palette, lighting direction, and photographic realism through a real supplied reference where supported. No visible writing, numbers, addresses, screens, company marks, or children. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.\nInput image 1 is a continuity and photographic-style reference only. Generate a NEW DISTINCT camera view and scene, not a crop, reuse, or alteration of that existing frame. Match its natural worn warm-brown wooden table, cream kitchen walls, left-side blue-grey window daylight, the plain dark navy lunch bag and closed plain silver laptop. No person is needed in this detail scene. Use a believable close oblique tabletop camera angle; the lunch container, lunch bag, laptop and blank envelope explain ordinary demands, clustered naturally across the upper half while leaving an actual shaded wooden tabletop as the lower foreground. Do not add graphic panels, caption boxes, lettering, labels or marks.",
+  "tool_arguments": {
+    "prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. A closer oblique view of the same fictional kitchen table and morning light. Show an ordinary lunch container beside the same muted lunch bag, the closed unbranded laptop, and one blank unopened envelope, arranged naturally rather than as advertising product placement. Keep these three objects clearly recognizable in the upper half. Let the lower table area remain simple and softly shaded for typesetting. Maintain the first image's wood, palette, lighting direction, and photographic realism through a real supplied reference where supported. No visible writing, numbers, addresses, screens, company marks, or children. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.\nInput image 1 is a continuity and photographic-style reference only. Generate a NEW DISTINCT camera view and scene, not a crop, reuse, or alteration of that existing frame. Match its natural worn warm-brown wooden table, cream kitchen walls, left-side blue-grey window daylight, the plain dark navy lunch bag and closed plain silver laptop. No person is needed in this detail scene. Use a believable close oblique tabletop camera angle; the lunch container, lunch bag, laptop and blank envelope explain ordinary demands, clustered naturally across the upper half while leaving an actual shaded wooden tabletop as the lower foreground. Do not add graphic panels, caption boxes, lettering, labels or marks.",
+    "referenced_image_paths": [
+      "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/01-raw.png"
+    ],
+    "transparent_background": false
+  },
+  "tool_receipt": {
+    "output_hint": "Generated images are saved to /Users/vikasshdalal/.codex/generated_images/01a17f30-0eac-7003-b0d8-7a263315dfc2 as /Users/vikasshdalal/.codex/generated_images/01a17f30-0eac-7003-b0d8-7a263315dfc2/exec-0b412be5-5653-4126-8d4d-68e10e8e3072.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "exposed_result_fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "source_output_path": "/Users/vikasshdalal/.codex/generated_images/01a17f30-0eac-7003-b0d8-7a263315dfc2/exec-0b412be5-5653-4126-8d4d-68e10e8e3072.png",
+  "project_raw_path": "/Users/vikasshdalal/Developer/CodexApps/repos/Brokentobalanced/output/btb-scene-led-v3/assets/BTB-001/backgrounds/02-raw.png",
+  "continuity_reference_role": "generated anchor as style, setting, prop and lighting reference only; not a reused crop or edit target",
+  "visual_inspection": {
+    "performed": true,
+    "method": "Actual native output displayed at original aspect ratio and inspected directly",
+    "findings": [
+      "New close oblique tabletop view with lunch container, muted blue/navy lunchbag, closed plain laptop and blank envelope visible.",
+      "Wood, cream room surfaces, left window daylight and soft natural colour remain coherent with anchor.",
+      "Plausible low-detail tabletop foreground remains below objects for separate typography.",
+      "No readable words, numbers, labels, logos, children or faces visible."
+    ],
+    "concrete_defects_requiring_correction": [],
+    "limits": "Scene relevance/visual inspection only; compositor must still verify crop and contrast against final text."
+  },
+  "spend_or_paid_fallback": false,
+  "external_api_or_cli": false,
+  "credentials_created": false,
+  "approval_status": "AWAITING_OWNER_DESIGN_APPROVAL",
+  "source_preservation": "copy2 preserves original generated file; no metadata intentionally stripped",
+  "sha256": "d93b3ac662de979e58de462680b570c5ec0cbe16af0394d670b2e756c59f248a",
+  "bytes": 1934949,
+  "width": 1122,
+  "height": 1402,
+  "reference_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac"
+}

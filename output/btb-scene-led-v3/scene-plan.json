@@ -1,0 +1,333 @@
+{
+  "revision": "v3-phase-A-r1",
+  "scope": "BTB-001 six connected fictional photographic scenes",
+  "phase_B_authorized": false,
+  "scenes": [
+    {
+      "post_id": "BTB-001",
+      "slide": 1,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/0/text",
+      "canonical_text_sha256": "b7d802395ff0b8dede983c9dc4729239c0bc20df78d0a14ed530efa871ce0581",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "Continuing practical responsibility after a relationship ends.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. An original portrait photographic-style scene in a modest contemporary home kitchen in soft early daylight. An anonymous fictional adult man in a muted navy overshirt, seen from behind, quietly prepares an unbranded lunch bag at the far side of a wooden table. A closed plain laptop and an unoccupied chair provide ordinary context. Keep the adult and important props in the upper-middle/right area; leave a softly shaded, uncluttered foreground in the lower portion for later typography. Natural wood, cream walls, restrained blue-grey daylight, believable proportions, thoughtful framing, not a luxury home. No children, tears, partner confrontation, rings emphasized as symbols, readable documents, text, or logos. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/01.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "continuity_reference": null,
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/01-raw.png",
+      "result_sha256": "6804832e8f07862a10aea4ab34d9a99fe0be8375d3f8da0a97b13e048be68bac",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "actual_native_source_path": "/Users/vikasshdalal/.codex/generated_images/01a17f2f-7852-7c53-a479-4c56dd161112/exec-133aa8f2-453d-480f-b8a8-5ea221f9e01a.png",
+      "anchor_visual_inspection": "Viewed actual image: realistic navy-shirted anonymous adult preparing lunch bag; table/chair/laptop visible; no apparent lettering or logos; natural colour and quiet foreground. No founder/documentary implication.",
+      "actual_prompt_path": "assets/BTB-001/generation-briefs/01-actual.txt",
+      "generation_model": null,
+      "generation_seed": null,
+      "cropped_background": "assets/BTB-001/backgrounds/01-crop.png",
+      "cropped_sha256": "a1f154487b5bc583fc52e94cab209a4c1ff69cb004a3cb1416423366058353c0",
+      "composite_path": "prototype/BTB-001/01.png"
+    },
+    {
+      "post_id": "BTB-001",
+      "slide": 2,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/1/text",
+      "canonical_text_sha256": "7929e7b3944bb0589cb3356c328a218cab9c24a563f673fc4d065d011786b94c",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "Lunch, work and administration compete for attention.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. A closer oblique view of the same fictional kitchen table and morning light. Show an ordinary lunch container beside the same muted lunch bag, the closed unbranded laptop, and one blank unopened envelope, arranged naturally rather than as advertising product placement. Keep these three objects clearly recognizable in the upper half. Let the lower table area remain simple and softly shaded for typesetting. Maintain the first image's wood, palette, lighting direction, and photographic realism through a real supplied reference where supported. No visible writing, numbers, addresses, screens, company marks, or children. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/02.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "continuity_reference": {
+        "path": "assets/BTB-001/backgrounds/01-raw.png",
+        "role": "Generated visual continuity reference only; no real identity claim."
+      },
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/02-raw.png",
+      "result_sha256": "d93b3ac662de979e58de462680b570c5ec0cbe16af0394d670b2e756c59f248a",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "generation_model": null,
+      "generation_seed": null,
+      "cropped_background": "assets/BTB-001/backgrounds/02-crop.png",
+      "cropped_sha256": "ca1657fa0f5be5d5864974ea0b20326a59294ba7405e38cd530b2e7b07a984d1",
+      "composite_path": "prototype/BTB-001/02.png"
+    },
+    {
+      "post_id": "BTB-001",
+      "slide": 3,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/2/text",
+      "canonical_text_sha256": "aa7722651662ac3918913077b1741edb496c7415c994834d378c756b1ce8cbf4",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "Functioning through ordinary work does not establish that a change is easy.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. An original companion image in the same modest fictional home, now at a simple desk. The same anonymous adult in the same navy overshirt is seen from the back/side at the upper-right, briefly pausing beside an open unbranded laptop. Show ordinary concentration and stillness, not crying or a staged collapse. The screen faces away or is unreadable. Use soft window light, natural fabric texture, and a believable desk surface. Keep a gently shaded wall/foreground region clear for typography. Preserve the supplied visual reference's character silhouette, wardrobe, and colour treatment; no identifiable face, notifications, documents, or lettering. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/03.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "continuity_reference": {
+        "path": "assets/BTB-001/backgrounds/01-raw.png",
+        "role": "Generated visual continuity reference only; no real identity claim."
+      },
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/03-raw.png",
+      "result_sha256": "6c2fb3ff27ce455f4b7420b453a82ba796733bdcd8584ebdf84e7ff7cb1f4687",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "generation_model": null,
+      "generation_seed": null,
+      "cropped_background": "assets/BTB-001/backgrounds/03-crop.png",
+      "cropped_sha256": "2ef7cc6933e42ca6692e70982a8f788cc54fae106fe45276d1776755f575e474",
+      "composite_path": "prototype/BTB-001/03.png"
+    },
+    {
+      "post_id": "BTB-001",
+      "slide": 4,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/3/text",
+      "canonical_text_sha256": "0d535c643a7839f72fa89c86af53c2626226e0b85a8e0c75d9e12d901940f705",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "An active task and papers set aside illustrate prioritization.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. A thoughtful close environmental still life in the same fictional home: one plain open notebook and pen in the active part of a wooden work surface, with a modest stack of papers set aside in a tray farther away. The notebook contains no readable writing or invented checklist. Side daylight and restrained natural colours make the difference between the active work area and the waiting papers clear. Arrange the important objects in the upper portion and keep a simple lower tabletop region for typography. Ordinary scale, no busy collage, no floating objects, no labels, no logos, no dramatic symbolism. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/04.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "continuity_reference": {
+        "path": "assets/BTB-001/backgrounds/01-raw.png",
+        "role": "Generated visual continuity reference only; no real identity claim."
+      },
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/04-raw.png",
+      "result_sha256": "1d06188811b26c1efd897f05aa52880bb879928131edf6c9f5c5c653ae60b458",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "generation_model": null,
+      "generation_seed": null,
+      "cropped_background": "assets/BTB-001/backgrounds/04-crop.png",
+      "cropped_sha256": "87989c6a9545a68d48c14dbbae4a6234b55ca402efe930172a06ff65187d97f8",
+      "composite_path": "prototype/BTB-001/04.png"
+    },
+    {
+      "post_id": "BTB-001",
+      "slide": 5,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/4/text",
+      "canonical_text_sha256": "7e608f86e6a55ddf81d644673379e43029c150309b523aa37787917aac589a99",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "Ordinary adult companionship alongside practical responsibility.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. An original companion scene in the same modest fictional kitchen. The lunch bag is closed and set aside, and two simple mugs sit on the wooden table. The anonymous navy-shirted adult and a second fictional adult friend are partly visible from the shoulders down, sitting together with calm, natural posture. Suggest ordinary companionship, not a counselling session, romance, or celebration. Keep the mugs and connection in the upper half; leave a quiet, shaded foreground for text. Soft neutral daylight with a little warmth, natural proportions and believable hands, no identifiable faces, children, writing, screens, or logos. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/05.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 24,
+          "top": 60,
+          "width": 1074,
+          "height": 1342
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Exclude non-identifying chin edge; preserve shoulder-down adults, mugs and bag."
+      },
+      "continuity_reference": {
+        "path": "assets/BTB-001/backgrounds/01-raw.png",
+        "role": "Generated visual continuity reference only; no real identity claim."
+      },
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/05-raw.png",
+      "result_sha256": "9ab50795f84f68f5a9d4c650a3107f6f9263affe9bc4de3fdfb306167bd1d44e",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "generation_model": null,
+      "generation_seed": null,
+      "cropped_background": "assets/BTB-001/backgrounds/05-crop.png",
+      "cropped_sha256": "c600296b3305c2ee7eabb8a44fb7502a5c6cd6e364d21b27e128e10e95ad3cb1",
+      "composite_path": "prototype/BTB-001/05.png"
+    },
+    {
+      "post_id": "BTB-001",
+      "slide": 6,
+      "canonical_text_ref": "renderer/input/BTB_180_Day_Content.json#/posts/0/slides/5/text",
+      "canonical_text_sha256": "83cfb8f5c6b4c3cbb658aa35c1bae9da48f837911d7c7ca9710954a864424c6d",
+      "source_copy_sha256": "b9740c273fbc9c07fc94b1995bc6bce1206eb697150191ecb6e7a966e93bab4d",
+      "visual_meaning": "Companionship without a triumphant recovery claim.",
+      "original_background_prompt": "Use case: photorealistic-natural. Asset: background only for one editorial carousel slide. An original portrait photographic-style scene of two anonymous fictional adult friends walking side by side along an ordinary neighbourhood park path, seen from behind at a comfortable distance. Preserve compatible wardrobe cues and natural photographic treatment from the previous images where supported. Use gentle afternoon daylight, muted greens, natural ground colours, and relaxed ordinary posture. Keep the walkers visible in the upper-middle portion with quiet foreground space for typesetting. No triumphant pose, sunrise spectacle, mountain summit, recognizable landmark, children, signs, lettering, or implication of a completed recovery. Output one original portrait image, composed for a4:5crop. Keep the meaningful scene in the upper52percent and a plausible quiet shaded foreground in the lower48percent, without a caption box. Retain natural photographic colour and texture. Absolutely no lettering, numbers, captions, logos, watermarks or branded marks anywhere. Fictional illustration only; no real person likeness or documentary claim.",
+      "prompt_path": "assets/BTB-001/generation-briefs/06.txt",
+      "text_region": {
+        "x": 80,
+        "y": 700,
+        "width": 920,
+        "bottom": 1190
+      },
+      "focal_region_to_protect": {
+        "x": 80,
+        "y": 100,
+        "width": 920,
+        "bottom": 670
+      },
+      "crop": {
+        "source_width": 1122,
+        "source_height": 1402,
+        "extract": {
+          "left": 0,
+          "top": 0,
+          "width": 1122,
+          "height": 1402
+        },
+        "output_width": 1080,
+        "output_height": 1350,
+        "fit": "cover",
+        "stretch": false,
+        "reason": "Minimal centred4:5crop from actual supported portrait output."
+      },
+      "continuity_reference": {
+        "path": "assets/BTB-001/backgrounds/01-raw.png",
+        "role": "Generated visual continuity reference only; no real identity claim."
+      },
+      "asset_creation_status": "GENERATED_PENDING_COMPOSITION",
+      "result_path": "assets/BTB-001/backgrounds/06-raw.png",
+      "result_sha256": "6f6900eda993af23a81cf604ad294fcff18fde9dbf30aa34d125fe0cd5ef20a7",
+      "composition_qa": "PASS",
+      "design_approval": "PENDING",
+      "editorial_approval": "PENDING",
+      "generation_method": "native image_gen tool; included allowance only; no API or paid fallback",
+      "generation_attempts": 1,
+      "actual_prompt_path": "assets/BTB-001/generation-briefs/06-actual.txt",
+      "generation_model": null,
+      "generation_seed": null,
+      "actual_native_source_path": "/Users/vikasshdalal/.codex/generated_images/01a17f2f-7852-7c53-a479-4c56dd161112/exec-03e084ce-8689-4eb6-bc29-5df24947f06d.png",
+      "cropped_background": "assets/BTB-001/backgrounds/06-crop.png",
+      "cropped_sha256": "4d97cbc8478d7ebb40224fe0520a48b017fb70881491bcb59937bb64dbbcc49e",
+      "composite_path": "prototype/BTB-001/06.png"
+    }
+  ]
+}

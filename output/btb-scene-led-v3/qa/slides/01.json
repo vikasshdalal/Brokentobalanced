@@ -1,0 +1,410 @@
+{
+  "slide": 1,
+  "passed": true,
+  "errors": [],
+  "canonical_text": "The relationship ended. Your responsibilities didn't.",
+  "visible_text": "The relationship ended. Your responsibilities didn't.",
+  "exact_text": true,
+  "source_spans": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 24,
+      "text": "The relationship ended. ",
+      "role": "cover",
+      "x": 80,
+      "y": 882,
+      "right": 1000,
+      "bottom": 973.546875,
+      "width": 920,
+      "height": 91.546875,
+      "font_family": "Inter, sans-serif",
+      "font_size": 84,
+      "font_weight": 600,
+      "line_height": 91.56,
+      "lines": [
+        {
+          "y": 877,
+          "words": [
+            "The",
+            "relationship",
+            "ended."
+          ],
+          "x": 80,
+          "right": 935.703125
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start": 24,
+      "end": 53,
+      "text": "Your responsibilities didn't.",
+      "role": "cover",
+      "x": 80,
+      "y": 997.546875,
+      "right": 1000,
+      "bottom": 1180.640625,
+      "width": 920,
+      "height": 183.09375,
+      "font_family": "Inter, sans-serif",
+      "font_size": 84,
+      "font_weight": 700,
+      "line_height": 91.56,
+      "lines": [
+        {
+          "y": 992.546875,
+          "words": [
+            "Your",
+            "responsibilities"
+          ],
+          "x": 80,
+          "right": 835.1875
+        },
+        {
+          "y": 1084.09375,
+          "words": [
+            "didn't."
+          ],
+          "x": 80,
+          "right": 311.5
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)"
+    }
+  ],
+  "region": {
+    "x": 80,
+    "y": 870,
+    "right": 1000,
+    "bottom": 1202,
+    "width": 920,
+    "height": 332
+  },
+  "contrast_regions": [
+    {
+      "x": 80,
+      "y": 877,
+      "right": 935.703125,
+      "bottom": 978,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_0"
+    },
+    {
+      "x": 80,
+      "y": 992.546875,
+      "right": 835.1875,
+      "bottom": 1093.546875,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_1"
+    },
+    {
+      "x": 80,
+      "y": 1084.09375,
+      "right": 311.5,
+      "bottom": 1185.09375,
+      "foreground": "rgb(245, 245, 245)",
+      "role": "copy_line_2"
+    },
+    {
+      "role": "handle",
+      "text": "@brokentobalanced",
+      "x": 80,
+      "y": 1240,
+      "right": 330.78125,
+      "bottom": 1275,
+      "width": 250.78125,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "disclosure",
+      "text": "Illustrative AI scene",
+      "x": 535,
+      "y": 1242,
+      "right": 759.703125,
+      "bottom": 1274.5,
+      "width": 224.703125,
+      "height": 32.5,
+      "font_family": "Inter, sans-serif",
+      "font_size": 26,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    },
+    {
+      "role": "folio",
+      "text": "1 / 6",
+      "x": 939.484375,
+      "y": 1240,
+      "right": 1000,
+      "bottom": 1275,
+      "width": 60.515625,
+      "height": 35,
+      "font_family": "Inter, sans-serif",
+      "font_size": 28,
+      "font_weight": 400,
+      "color": "rgb(245, 245, 245)",
+      "foreground": "rgb(245, 245, 245)"
+    }
+  ],
+  "image": {
+    "natural_width": 1080,
+    "natural_height": 1350,
+    "complete": true
+  },
+  "actual_copy_bounds": {
+    "x": 80,
+    "y": 877,
+    "right": 935.703125,
+    "bottom": 1185.09375
+  },
+  "actual_fonts": [
+    {
+      "selector": ".copy",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght2580000",
+          "isCustomFont": true,
+          "glyphCount": 24
+        },
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz200000_wght2BC0000",
+          "isCustomFont": true,
+          "glyphCount": 8
+        }
+      ]
+    },
+    {
+      "selector": ".handle",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": ".disclosure",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1A0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": ".folio",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "postScriptName": "Inter-Regular_opsz1C0000_wght",
+          "isCustomFont": true,
+          "glyphCount": 5
+        }
+      ]
+    }
+  ],
+  "contrast": {
+    "passed": true,
+    "worst_ratio": 4.816461613135399,
+    "pixels_tested": 211179,
+    "method": "Exhaustive every-pixel scan of conservative actual visible-copy line rectangles and metadata rectangles (expanded1px) in final cropped photo+local-scrim raster before lettering. No global colour average or arbitrary sample points.",
+    "limitations": "Nominal opaque foreground colour versus underlying raster; conservative rectangles include whitespace. Not a formal accessibility certification; antialiased edge-pixel contrast is not separately asserted.",
+    "regions": [
+      {
+        "role": "copy_line_0",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 876,
+          "width": 858,
+          "height": 103
+        },
+        "pixels_tested": 88374,
+        "worst_ratio": 4.816461613135399,
+        "worst_pixel": {
+          "x": 95,
+          "y": 894,
+          "RGB": [
+            108,
+            108,
+            108
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_1",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 991,
+          "width": 758,
+          "height": 104
+        },
+        "pixels_tested": 78832,
+        "worst_ratio": 5.045884754727559,
+        "worst_pixel": {
+          "x": 85,
+          "y": 1034,
+          "RGB": [
+            104,
+            105,
+            106
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "copy_line_2",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1083,
+          "width": 234,
+          "height": 104
+        },
+        "pixels_tested": 24336,
+        "worst_ratio": 6.125425639550014,
+        "worst_pixel": {
+          "x": 85,
+          "y": 1098,
+          "RGB": [
+            91,
+            92,
+            96
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "handle",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 79,
+          "y": 1239,
+          "width": 253,
+          "height": 37
+        },
+        "pixels_tested": 9361,
+        "worst_ratio": 9.463547663900838,
+        "worst_pixel": {
+          "x": 184,
+          "y": 1239,
+          "RGB": [
+            74,
+            62,
+            55
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "disclosure",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 534,
+          "y": 1241,
+          "width": 227,
+          "height": 35
+        },
+        "pixels_tested": 7945,
+        "worst_ratio": 10.35049500269895,
+        "worst_pixel": {
+          "x": 536,
+          "y": 1275,
+          "RGB": [
+            70,
+            56,
+            43
+          ]
+        },
+        "passed": true
+      },
+      {
+        "role": "folio",
+        "foreground": "rgb(245, 245, 245)",
+        "rectangle": {
+          "x": 938,
+          "y": 1239,
+          "width": 63,
+          "height": 37
+        },
+        "pixels_tested": 2331,
+        "worst_ratio": 11.11373140812213,
+        "worst_pixel": {
+          "x": 1000,
+          "y": 1239,
+          "RGB": [
+            66,
+            51,
+            38
+          ]
+        },
+        "passed": true
+      }
+    ]
+  },
+  "overlay": {
+    "start": 760,
+    "full_by": 860,
+    "color": "#1A1A1A",
+    "alpha": 0.64
+  },
+  "png": "prototype/BTB-001/01.png",
+  "editable": "prototype/BTB-001/editable/01.html"
+}
